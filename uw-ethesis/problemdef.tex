@@ -1,0 +1,86 @@
+
+%----------------------------------------------------------------------
+\section{Preliminaries}
+%----------------------------------------------------------------------
+\subsection{Notation of Query}
+
+
+In this thesis, we use 
+
+\textit{Structure : Dimension, Measure, Slicing Condition}
+
+to represent an OLAP query. 
+
+For instance Query \#3 
+
+Get average user age grouped by users’ 2017 posts’ tags. 
+
+is written as
+
+User-Post, Post-Tag: Tag.Tagname, AVG(User.Age), Post.Year=2017
+
+For a query q, we use q.properties to refer to a set of all properties in Dimension, Measure, and Slicing Condition of q. Suppose q is Query \#3, then
+
+ q.properties=\{Tag.Tagname, User.Age, Post.Year\}.
+ 
+ Similarly,
+ 
+ q.structure= User-Post, Post-Tag.
+
+
+\subsection{Cuboid vs Substructures}
+Suppose we have the following 7 queries in previous workload:
+
+User-Post, Post-Tag: (AVG)User.Age, Tag.TagName
+
+User-Post, Post-Tag: User.CreationDate\_Year, Tag.TagName
+
+User-Post, Post-Tag: User.CreationDate\_Year, (AVG)Post.Score,Tag.TagName=database
+
+User-Post, Post-Tag: User.Age, (AVG)Post.Score,Tag.TagName=java
+
+User-Post, Post-Tag: User.UpVotes, (AVG)Post.Score,Tag.TagName=algorithm
+
+Badge-User, User-Post, Post-Tag: Tag.TagName, Badge.Name=Student, Post.CreationDate\_Year
+
+Badge-User, User-Post, Post-Tag: Tag.TagName, Badge.Name=Teacher
+
+We can tell that the user is interested in “User-Post, Post-Tag” structure. Suppose we build a cube as in Graph Cube [4] on “User-Post, Post-Tag” over all queried attributes and precompute some most beneficial cuboids. 
+
+For instance we precompute cuboids like
+
+User-Post, Post-Tag: User.Age, User.UpVotes, Tag.TagName, User.CreationDate\_Year, Post.Score
+Cuboids only contain attributes. 
+
+They do not contain IDs of nodes. Cuboids can only be used in queries with exactly the same structure. They can be be scanned for more aggregated dimension combinations(drill-down operations). Notice that cuboids are not useful for queries with different structures.
+
+We cannot process
+
+Badge-User, User-Post, Post-Tag: Tag.TagName, Badge.Name=Teacher
+
+by simply  joining cuiboid
+
+User-Post, Post-Tag: User.Age, User.UpVotes, Tag.TagName, User.CreationDate\_Year, Post.Score
+
+because IDs of User are not provided in the cuboid.
+
+If besides properties, we also keep IDs of User, then the materilization is joinable on User. The drawback is that result would be much more space-costly than cuboids, as ID of User is unique key. 
+
+We call materializations that only aggregates on properties without storing IDs “cuboids”, and we call those with IDs as “substructures”. The trade-off between “cuboids” and “substructures” is space vs usage potential.
+
+Cuboids are generally ligher in terms of space cost, but they can help with queries with exactly same structure.
+
+Substructures generally heavier in terms of space cost, but it can be widely used to join with other substructures.
+
+
+
+
+%----------------------------------------------------------------------
+\section{Problem Definition}
+%----------------------------------------------------------------------
+Given previous queires P, space limit $\sigma$, which cuboids C and substructures S shall we materialize so that future queries F could be faster processed using C and S? 
+
+Given P, space limit $\sigma$, select C and S wisely.
+
+Given F, C and S, process F fast.
+
