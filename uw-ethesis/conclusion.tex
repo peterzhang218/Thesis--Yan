@@ -1,22 +1,25 @@
 %----------------------------------------------------------------------
 \section{Future Work}
 %----------------------------------------------------------------------
-Online adaptive
+We summarize future work as follows:
+
+\begin{itemize}
+\item Online adaptive
 
 The system we have implemented is offline. It can be turned into online adaptive one by keeping a sliding window of previous workloads. 
 
-Schema graph to data graph
+\item Schema graph to data graph
 
 Our system currently supports SPARQL like queries over schema graph instead of data graph. It could be further improved to support queries over data graph without changing the high-level solution framework. The key part that needs to be modified is to label each unique node and take isomorphism into consideration during query decomposition.  
 
-Better Cube-Planner and Structure-Planner
+\item Better Cube-Planner and Structure-Planner
 
 We used greedy approach for ranking cuboids and substructures. Although it worked well in our experiment. But greedy approach is not holistic enough. For instance???
 
-Multi-Thread
+\item Multi-Thread implementation
 
 The system can be made multi-thread so that joining work of queries could be done when the system is waiting for graph database’s query execution. 
-
+\begin{itemize}
 %----------------------------------------------------------------------
 \section{Reflection on Neo4j}
 %----------------------------------------------------------------------

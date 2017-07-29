@@ -74,11 +74,13 @@ I understand that my thesis may be made electronically available to the public.
 
 \begin{center}\textbf{Abstract}\end{center}
 
-Property graph model is a widely used model for real life systems of graph structure like social networks, financial transaction networks ect. On-Line Analytical Processing(OLAP) provides an important tool for data analyses by allowing users to perform data aggregation through different combinations of dimentions. Current graph databases support OLAP queries on property graphs.
- 
-However when it comes to large property graphs, current graph databases' efficiency is far from satisfaction. It is unacceptable for users to wait for hours for results of a single query. 
+Property graph model is a widely used model for real life systems of graph structure like social networks, financial transaction networks ect. On-Line Analytical Processing(OLAP) provides an important tool for data analyses by allowing users to perform data aggregation through different combinations of dimentions. For instance, with a Q\&A forum dataset, we may process queries like what is the average user's age group by post score to study if there is a correlation between age and post quality. With a music industry dataset, we may process queries like what is total sales of records group by music company and year to study market activities.
 
-We propose a system that greatly improves efficiency of OLAP over large property graphs. Our system is able to smartly select cuboids and substructures based on finished previous and materialize them. Future workload could be processed faster using the materializated cuboids and substructures. 
+State-of-art graph databases like neo4j do not have efficient support for OLAP aggregation queries. For instance, Neo4j processes each OLAP query in two steps. First expand nodes and edges to the query structure, and then perform aggregation. Even if a query is repeatedly executed for multiple times, in each round Neo4j still processes the query from scratch, without gaining any "knowledge" from previous workload. When it comes to large property graphs, current graph databases' efficiency is far from satisfaction. It is unacceptable for users to wait for hours for results of a single query. 
+
+We propose a system that greatly improves efficiency of OLAP over large property graphs. The idea is to smartly materialize some views(in main memory or hard disk) that a client was interested in based on a client's previous workload. Hopefully such materialization can be used to accelerate future query processing.  
+
+We implemented our system on top of Neo4j and compared our system with orginal Neo4j system. We wrote some practical OLAP queries and randomly partition them into previous workload and future workload, and them executed future workload using both our system and Neo4j. Result shows that with an acceptable cost of memory or disk usage, we are able to improve OLAP processing efficiency by 10-30 times.  
 
 \cleardoublepage
 
@@ -87,7 +89,7 @@ We propose a system that greatly improves efficiency of OLAP over large property
 
 \begin{center}\textbf{Acknowledgements}\end{center}
 
-I would like to thank Professor Tamer Ozsu and Xiaofei Zhang who made this thesis possible.
+I would like to thank Professor Tamer Ozsu and Dr. Xiaofei Zhang who made this thesis possible.
 \cleardoublepage
 
 % D E D I C A T I O N

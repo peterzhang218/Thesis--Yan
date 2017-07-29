@@ -16,6 +16,90 @@ to represent unique ID of a node or edge.
 %----------------------------------------------------------------------
 \section{Graph OLAP}
 %----------------------------------------------------------------------
+
+We will use the following four queries to illustrate OLAP operations.
+
+Query \#1
+
+Question: 	Does high upvotes of a user indicate a high-quality post?
+
+Query: 		Get average post score grouped by user’s upvotes. 
+
+Result:
+\begin {center}
+\begin{tabular}{ l l }  
+	User.UpVotes&AVG(Post.Score)\\0&1.33\\1&2.23\\2&2.34\\3&2.77\\4&3.43\\
+\end{tabular}
+\end {center}
+
+
+
+What we learned:	From the query result we can see that upvotes can be used as a good indicator of a user’s post quality. Suppose we would like to propose suggested posts based on scores. When a post is freshly posted and score of the post has not been well voted been yet, we may use the author’s upvotes as a factor to estimate the quality of his or her post.
+
+Query \#2:
+
+Question: 	Following  Query \#1. But this time we want to take a closer look at Query \#1 for different types of questions. If we take upvotes as quality of a user, perhaps quality of a user is shown only in his or her answers, instead of questions. Or is it true that high quality user also asks much better questions?
+
+Query: 		Get average post score grouped by user’s upvotes and post’s post types. 
+
+Result:
+
+\begin {center}
+\begin{tabular}{ l l l }
+	User.Upvotes&Post.PostTypeId&AVG(Post.Score)\\0&1&2.14\\1&1&2.26\\2&1&2.83\\3&1&3.04\\4&1&3.46\\0&2&1.54\\1&2&2.21\\2&2&2.18\\3&2&2.72\\4&2&3.58\\
+\end{tabular}
+\end {center}
+
+
+
+What we learned:	From the query result we are suggested that high-quality users not only provide good questions but ask valuable questions as well. However, there is a subtle difference on how upvotes correlate with questions and answers. For instance, a really low upvote level indicates a low-quality answer more than a low-quality question. This is probably because people tend to be more tolerate with a naive question rather than a wrong answer. 
+
+Query \#1 and Query \#2 simply focus on relationship between User and Post. We may switch our attention to a slightly more complicated structure by adding Tag.
+
+Query \#3:
+
+Question: 	In year 2017, which is the weighted average age of users? For instance is ‘python’ more trendy than ‘c’ among young users? 
+
+Query: 		Get average user age grouped by users’ 2017 posts’ tags. 
+
+Selected Result:
+
+\begin {center}
+\begin{tabular}{ l l  }
+	
+	TagName&AVG(Age)\\router&19.6\\python&24.1\\internet&26.8\\c&30.2\\programmer&31.4\\software&29.8\\
+	
+\end{tabular}
+\end {center}
+
+
+
+What we learned:	We can see the average user age of each tag clearly and easily compare them. For instance, python is generally more popular among younger users. "Router" is a relatively "younger" topic than "internet". 
+
+Query \#4:
+
+Question: 	Follwing Query \#4, let’s look at tendency of topic’s "average popular user age" by years. Is there a tendency of younger age?
+
+Query: 		Get average user age grouped by users’ posts’ tags and years. 
+
+Selected Result:
+
+\begin {center}
+\begin{tabular}{ l l  l}
+	
+	TagName&Year&AVG(Age)\\router&2012&22.1\\router&2017&19.6\\python&2012&27.3\\python&2017&24.1\\internet&2012&27.5\\internet&2017&26.8\\c&2012&30.4\\c&2017&30.2\\programmer&2012&34.2\\programmer&2017&31.4\\software&2012&31.6\\software&2017&29.8\\
+	
+\end{tabular}
+\end {center}
+
+What we learned:	Tendency of younger age on IT topics is seen. 
+Python is getting faster embraced by younger people compared with C. Similarly we can compare two commercial products’ customer targeting strategy, advitising performance etc. 
+
+From the above OLAP query examples we can see that OLAP over property graphs provides an interactive and informative way to analyze property graphs from multiple dimensions and thus helps people find the hidden correlations, aggregated effects, regularities, tendencies and so on.  
+
+
+
+
 Three key elements of a graph OLAP are structure, dimension, and measure. Taking Query \#1 as an example: 
  
 Question: 	Does high upvotes of a user indicates a high-quality post? 
@@ -26,9 +110,10 @@ This query is on all the following structures:
 \begin {figure}[H]
 \centering
 \includegraphics[scale=1]{pic/21.png}
+\caption{Structure of OLAP query.}
 \end{figure}
 
-We say that (User)-[User\_owns\_post]->(Post) is the structure of Query \#1.
+We say that (User)-[User\_owns\_post]-$>$(Post) is the structure of Query \#1.
 The query is aggregated by (grouped by) user’s upvotes. We say that {User.Upvotes} is the dimension of Query \#1.
 The query is aggregated on avarage of post’s score.  We say that {AVG(Post.Score)} is the meansure of Query \#1. 
  
@@ -49,6 +134,7 @@ Notice that Query \#2 adds Post.PostTypeId to Query \#1’s dimensions. That is 
 \begin {figure}[H]
 \centering
 \includegraphics[scale=1]{pic/22.png}
+\caption{Lattice(Cube) of attributes \{A,B,C\}.}
 \end{figure}
 
 Query \#3:
@@ -75,8 +161,6 @@ To summarize, graph OLAP allows clients to aggregate different structures, over 
 %----------------------------------------------------------------------
 
 
-We have discussed about property graphs and OLAP over property graphs on a high level. This leads us to a question. How are property graphs actually stored and managed in database systems? 
- 
 There are two major types of databases that store and process graph data: traditional relational databases and graph databases. 
  
 Relational databases adopt traditional ways of modeling data in form of entity and relationship tables. For instance, for the following property graph, which consists 1 user and his or her 3 posts. A relational database stores the property graph as 3 tables:
@@ -84,6 +168,7 @@ Relational databases adopt traditional ways of modeling data in form of entity a
 \begin {figure}[H]
 \centering
 \includegraphics[scale=0.9]{pic/4.png}
+\caption{A simple property graph.}
 \end{figure}
 
 Table-User
@@ -121,6 +206,7 @@ Graph databases solve the above two issues by directly adopting property graph s
  
 Relational databases and graph databases both have their own strengths in term of query processing. However it is generally accepted that graph databases perform better at property graph data processing as it conforms more with the actual graph structure. 
 
+Many graph database applications have been implemented and commercialized. One of the popular ones is Neo4j. 
 %----------------------------------------------------------------------
 \section{Neo4j}
 %----------------------------------------------------------------------
@@ -132,7 +218,7 @@ Cypher is Neo4j’s query language, which is expressive and simple. Here are som
 
 Aggregation query: For answers(Post.PostTypeId=2), what is the average score group by different user upvotes?
  
-match (u:User)-[r:User\_owns\_Post]->(p:Post) where p.PostTypeId="2" return u.Upvotes, AVG(p.Score)
+match (u:User)-[r:User\_owns\_Post]-$>$(p:Post) where p.PostTypeId="2" return u.Upvotes, AVG(p.Score)
  
 Here “User” and “Post” are labels, PostTypeId and Score are properties of “Post” node, “Upvotes” is property of “User” node.
  
@@ -141,6 +227,7 @@ Neo4j is written in Java. While applications in various languages could interact
 \begin {figure}[H]
 \centering
 \includegraphics[scale=0.4]{pic/23.png}
+\caption{Neo4j BOLT transport protocol.}
 \end{figure}
 
 
@@ -170,6 +257,7 @@ We summarize some of the most related ones as follows:
  	\begin{tabular}{ | c | c | c | c | c |  } 
  		\hline 
  		 & Input graph & Query pattern & Layer structure & Highlight\\ \hline Cube-based [1] & property graph & simple relation & yes & cubes on edges and nodes\\ \hline Gagg [2] & property graph & all exact-match patterns & no & structural patterns\\ \hline Pagrol [3] & property graph & edge and node attributes & yes & Map-Reduce distributed computing\\ \hline Graph Cube [4] & homogenous nodes and edges & node attributes & yes & partial materialization algorithm\\ \hline Snapshot [5] & property graph & edge and node attributes & yes & distributive and holistic measures\\ \hline 
+ 		 
  	\end{tabular}
  	\end {center}
 
@@ -189,7 +277,7 @@ Therefore it is very meaningful to explore faster structure-aware OLAP processin
 \section{Graph Cube}
 %----------------------------------------------------------------------
 
-In Graph Cube [4], concepts of graph cube is introduced. Given a particular structure S, a property set P, and measure set M. We can aggregate over S on 2\^{}|P| different combinations of dimensions. These 2\^{}|P| queries can be mapped as a lattice structure, where each combination of dimensions corresponds to a cuboid in the lattice. We call the lattice structure of these 2\^{}|P| queries a graph cube.
+In Graph Cube [4], concepts of graph cube is introduced. Given a particular structure S, a property set P, and measure set M. We can aggregate over S on $2^{|P|}$ different combinations of dimensions. These $2^{|P|}$ queries can be mapped as a lattice structure, where each combination of dimensions corresponds to a cuboid in the lattice. We call the lattice structure of these $2^{|P|}$ queries a graph cube.
 
 \begin {figure}[H]
 \centering
