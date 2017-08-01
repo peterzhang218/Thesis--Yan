@@ -1,15 +1,16 @@
+In this section, we first illustrate the terminology and notations adopted in this work. Then we formally define the problem of efficient OLAP query processing. 
 
 %----------------------------------------------------------------------
-\section{Preliminaries}
+\section{Terminologies}
 %----------------------------------------------------------------------
-\subsection{Notation of Query}
+
+\subsection{Query Notations}
 
 
-In this thesis, we use 
+In this thesis, we use the following way to represent an OLAP query.
 
 \textit{Structure : Dimension, Measure, Slicing Condition}
-
-to represent an OLAP query. 
+ 
 
 For instance Query \#3 
 
@@ -78,6 +79,11 @@ Substructures generally heavier in terms of space cost, but it can be widely use
 %----------------------------------------------------------------------
 \section{Problem Definition}
 %----------------------------------------------------------------------
+
+Using materialization is good for query efficiency, but comes with a storage cost. So we want to study the problem of how to best utilize materialization within a space budget limit. 
+
+We define our problem as
+
 Given previous queires P, space limit $\sigma$, which cuboids C and substructures S shall we materialize so that future queries F could be faster processed using C and S? 
 
 Given P, space limit $\sigma$, select C and S wisely.
