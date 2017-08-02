@@ -3,65 +3,99 @@ In this section, we first illustrate the terminology and notations adopted in th
 %----------------------------------------------------------------------
 \section{Terminologies}
 %----------------------------------------------------------------------
+\subsection{Property Graph}
+We define a property graph as $G(V, E, A, L, f)$ where
+\begin{itemize} 
+\item $V$ is a set of nodes. 
+\item $E$ is a set of edges. $E \subseteq V * V$.
+\item $A$ is a set of properties.
+\item $L$ is a set of labels.
+\item $f$ is mapping function that maps $V$ and $E$ to $A$ and $L$. 
 
-\subsection{Query Notations}
+$f_{VA}: \{V_{i} \rightarrow A_{i}\}, V_{i}\in V, A_{i} \subseteq A$ 
 
+$f_{VL}: \{V_{i} \rightarrow L_{i}\}, V_{i}\in V, L_{i} \subseteq L$ 
 
-In this thesis, we use the following way to represent an OLAP query.
+$f_{EA}: \{E_{i} \rightarrow A_{i}\}, E_{i}\in E, L_{i} \subseteq A$ 
 
-\textit{Structure : Dimension, Measure, Slicing Condition}
- 
+$f_{EA}: \{E_{i} \rightarrow L_{i}\}, E_{i}\in E, L_{i} \subseteq L$ 
+
+\end{itemize} 
+
+\subsection{Notations for Query and Materiailization}
+
+As discussed before, Four elements of a graph OLAP query are \textit{Structure}, \textit{Dimension}, \textit{Measure}, and \textit{Slicing Condition}(optional). In this thesis, we use the following form to represent an OLAP query.
+
+\textbf{\textit{Structure : Dimension, Measure, Slicing Condition}}
+
+A \textit{strucuture} is written by listing all its \textit{edges} seperated by comma.
+
+An \textit{edge} is represented by 
+
+$Label of Starting Node - Label of Edge - Label of Ending Node$. For instance, ``\textit{User-owns-Post}'' represents edge with label \textit{owns} starting from node with label \textit{User} to node with label \textit{Post}.
+
 
 For instance Query \#3 
 
-Get average user age grouped by users’ 2017 posts’ tags. 
+``Get average user age grouped by users’ 2017 posts’ tags''
 
 is written as
 
-User-Post, Post-Tag: Tag.Tagname, AVG(User.Age), Post.Year=2017
+\textit{User-owns-Post, Post-has-Tag: Tag.Tagname, AVG(User.Age), Post.Year=2017}
 
-For a query q, we use q.properties to refer to a set of all properties in Dimension, Measure, and Slicing Condition of q. Suppose q is Query \#3, then
+where \textit{User-owns-Post, Post-has-Tag} referring to  \textit{structure}, \textit{Tag.Tagname} referring to \textit{dimension},\textit{ AVG(User.Age) } referring to \textit{measure}, {Post.Year=2017} referring to \textit{slicing condition}.
+
+For a query q, we use q.properties to refer to a set of \textbf{all properties} in Dimension, Measure, and Slicing Condition of q. Suppose q is Query \#3, then
 
  q.properties=\{Tag.Tagname, User.Age, Post.Year\}.
  
  Similarly,
  
- q.structure= User-Post, Post-Tag.
+ q.structure= User-owns-Post, Post-has-Tag.
+
+We want to accerlerate OLAP by materializations from previous workload. We use
+
+\textbf{\textit{\$Query}} 
+
+to refer to materializaiton of a $Query$.
+
 
 
 \subsection{Cuboid vs Substructures}
-Suppose we have the following 7 queries in previous workload:
 
-User-Post, Post-Tag: (AVG)User.Age, Tag.TagName
 
-User-Post, Post-Tag: User.CreationDate\_Year, Tag.TagName
+Suppose we have the following 3 queries in previous workload:
+\begin{enumerate}
+	\item User-owns-Post: User.Age
+	\item User-owns-Post: User.Age, (AVG)Post.Score
+	\item User-owns-Post, Post-has-Tag: User.Age, Tag.TagName
+\end{enumerate}
+%User-owns-Post: User.Age
+%
+%User-owns-Post: User.Age, (AVG)Post.Score
+%
+%User-owns-Post, Post-has-Tag: User.Age, Tag.TagName
 
-User-Post, Post-Tag: User.CreationDate\_Year, (AVG)Post.Score,Tag.TagName=database
+We can tell that the user is most interested in  \textit{User-owns-Post} structure. \{User.Age, Post.Score\} is the set of properties that are involved in queries over \textit{User-owns-Post} . We can build a cuboid lattice of all combinations over  \{User.Age, Post.Score\}. 
 
-User-Post, Post-Tag: User.Age, (AVG)Post.Score,Tag.TagName=java
+Intuitively,  \$User-owns-Post: User.Age, Post.Score serves as a good materailization for future workload.
 
-User-Post, Post-Tag: User.UpVotes, (AVG)Post.Score,Tag.TagName=algorithm
-
-Badge-User, User-Post, Post-Tag: Tag.TagName, Badge.Name=Student, Post.CreationDate\_Year
-
-Badge-User, User-Post, Post-Tag: Tag.TagName, Badge.Name=Teacher
-
-We can tell that the user is interested in “User-Post, Post-Tag” structure. Suppose we build a cube as in Graph Cube [4] on “User-Post, Post-Tag” over all queried attributes and precompute some most beneficial cuboids. 
+Suppose we build a cube as in Graph Cube [4] on “User-owns-Post, Post-has-Tag” over all queried attributes and precompute some most beneficial cuboids. 
 
 For instance we precompute cuboids like
 
-User-Post, Post-Tag: User.Age, User.UpVotes, Tag.TagName, User.CreationDate\_Year, Post.Score
+User-owns-Post, Post-has-Tag: User.Age, User.UpVotes, Tag.TagName, User.CreationDate.Year, Post.Score
 Cuboids only contain attributes. 
 
 They do not contain IDs of nodes. Cuboids can only be used in queries with exactly the same structure. They can be be scanned for more aggregated dimension combinations(drill-down operations). Notice that cuboids are not useful for queries with different structures.
 
 We cannot process
 
-Badge-User, User-Post, Post-Tag: Tag.TagName, Badge.Name=Teacher
+Badge-grantedTo-User, User-owns-Post, Post-has-Tag: Tag.TagName, Badge.Name=Teacher
 
 by simply  joining cuiboid
 
-User-Post, Post-Tag: User.Age, User.UpVotes, Tag.TagName, User.CreationDate\_Year, Post.Score
+User-owns-Post, Post-has-Tag: User.Age, User.UpVotes, Tag.TagName, User.CreationDate.Year, Post.Score
 
 because IDs of User are not provided in the cuboid.
 
@@ -80,7 +114,8 @@ Substructures generally heavier in terms of space cost, but it can be widely use
 \section{Problem Definition}
 %----------------------------------------------------------------------
 
-Using materialization is good for query efficiency, but comes with a storage cost. So we want to study the problem of how to best utilize materialization within a space budget limit. 
+Using materialization is good for query efficiency, but comes with a storage cost. So we want to study the problem of how to best utilize materialization within a space budget limit $\sigma$. 
+
 
 We define our problem as
 

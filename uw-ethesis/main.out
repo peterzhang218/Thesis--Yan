@@ -12,41 +12,42 @@
 \BOOKMARK [1][-]{section.2.4}{Graph Cube}{chapter.2}% 12
 \BOOKMARK [0][-]{chapter.3}{Problem Definition}{}% 13
 \BOOKMARK [1][-]{section.3.1}{Terminologies}{chapter.3}% 14
-\BOOKMARK [2][-]{subsection.3.1.1}{Query Notations}{section.3.1}% 15
-\BOOKMARK [2][-]{subsection.3.1.2}{Cuboid vs Substructures}{section.3.1}% 16
-\BOOKMARK [1][-]{section.3.2}{Problem Definition}{chapter.3}% 17
-\BOOKMARK [0][-]{chapter.4}{Solution}{}% 18
-\BOOKMARK [1][-]{section.4.1}{Solution Framework}{chapter.4}% 19
-\BOOKMARK [1][-]{section.4.2}{Partial Materialization}{chapter.4}% 20
-\BOOKMARK [2][-]{subsection.4.2.1}{Greedy Selection Framework}{section.4.2}% 21
-\BOOKMARK [2][-]{subsection.4.2.2}{Cuboid Planner}{section.4.2}% 22
-\BOOKMARK [2][-]{subsection.4.2.3}{Structure Planner}{section.4.2}% 23
-\BOOKMARK [2][-]{subsection.4.2.4}{ID and Property Selection}{section.4.2}% 24
-\BOOKMARK [1][-]{section.4.3}{Query Processing}{chapter.4}% 25
-\BOOKMARK [2][-]{subsection.4.3.1}{Substructure Selection}{section.4.3}% 26
-\BOOKMARK [2][-]{subsection.4.3.2}{Query Decomposition}{section.4.3}% 27
-\BOOKMARK [0][-]{chapter.5}{Experiments}{}% 28
-\BOOKMARK [1][-]{section.5.1}{Experiment Setup}{chapter.5}% 29
-\BOOKMARK [2][-]{subsection.5.1.1}{Datasets}{section.5.1}% 30
-\BOOKMARK [2][-]{subsection.5.1.2}{Query Workloads}{section.5.1}% 31
-\BOOKMARK [2][-]{subsection.5.1.3}{System Setting}{section.5.1}% 32
-\BOOKMARK [2][-]{subsection.5.1.4}{Neo4j Configuration}{section.5.1}% 33
-\BOOKMARK [1][-]{section.5.2}{Aspects of Interest}{chapter.5}% 34
-\BOOKMARK [1][-]{section.5.3}{Efficiency Test}{chapter.5}% 35
-\BOOKMARK [2][-]{subsection.5.3.1}{Neo4j BaseLine}{section.5.3}% 36
-\BOOKMARK [2][-]{subsection.5.3.2}{My System}{section.5.3}% 37
-\BOOKMARK [2][-]{subsection.5.3.3}{Frequency Threshold}{section.5.3}% 38
-\BOOKMARK [2][-]{subsection.5.3.4}{Memory Limit}{section.5.3}% 39
-\BOOKMARK [2][-]{subsection.5.3.5}{Selection Algorithms}{section.5.3}% 40
-\BOOKMARK [2][-]{subsection.5.3.6}{View Selection}{section.5.3}% 41
-\BOOKMARK [2][-]{subsection.5.3.7}{Decompose\137Join}{section.5.3}% 42
-\BOOKMARK [1][-]{section.5.4}{Discussion}{chapter.5}% 43
-\BOOKMARK [0][-]{chapter.6}{Conclusion}{}% 44
-\BOOKMARK [1][-]{section.6.1}{Future Work}{chapter.6}% 45
-\BOOKMARK [1][-]{section.6.2}{Reflection on Neo4j}{chapter.6}% 46
-\BOOKMARK [2][-]{subsection.6.2.1}{Aggregation Size Estimation}{section.6.2}% 47
-\BOOKMARK [0][-]{section*.13}{References}{}% 48
-\BOOKMARK [0][-]{appendix*.15}{APPENDICES}{}% 49
-\BOOKMARK [0][-]{appendix.A}{PDF Plots From Matlab}{}% 50
-\BOOKMARK [1][-]{section.A.1}{Using the GUI}{appendix.A}% 51
-\BOOKMARK [1][-]{section.A.2}{From the Command Line}{appendix.A}% 52
+\BOOKMARK [2][-]{subsection.3.1.1}{Property Graph}{section.3.1}% 15
+\BOOKMARK [2][-]{subsection.3.1.2}{Notations for Query and Materiailization}{section.3.1}% 16
+\BOOKMARK [2][-]{subsection.3.1.3}{Cuboid vs Substructures}{section.3.1}% 17
+\BOOKMARK [1][-]{section.3.2}{Problem Definition}{chapter.3}% 18
+\BOOKMARK [0][-]{chapter.4}{Solution}{}% 19
+\BOOKMARK [1][-]{section.4.1}{Solution Framework}{chapter.4}% 20
+\BOOKMARK [1][-]{section.4.2}{Partial Materialization}{chapter.4}% 21
+\BOOKMARK [2][-]{subsection.4.2.1}{Greedy Selection Framework}{section.4.2}% 22
+\BOOKMARK [2][-]{subsection.4.2.2}{Cuboid Planner}{section.4.2}% 23
+\BOOKMARK [2][-]{subsection.4.2.3}{Structure Planner}{section.4.2}% 24
+\BOOKMARK [2][-]{subsection.4.2.4}{ID and Property Selection}{section.4.2}% 25
+\BOOKMARK [1][-]{section.4.3}{Query Processing}{chapter.4}% 26
+\BOOKMARK [2][-]{subsection.4.3.1}{Substructure Selection}{section.4.3}% 27
+\BOOKMARK [2][-]{subsection.4.3.2}{Query Decomposition}{section.4.3}% 28
+\BOOKMARK [0][-]{chapter.5}{Experiments}{}% 29
+\BOOKMARK [1][-]{section.5.1}{Experiment Setup}{chapter.5}% 30
+\BOOKMARK [2][-]{subsection.5.1.1}{Datasets}{section.5.1}% 31
+\BOOKMARK [2][-]{subsection.5.1.2}{Query Workloads}{section.5.1}% 32
+\BOOKMARK [2][-]{subsection.5.1.3}{System Setting}{section.5.1}% 33
+\BOOKMARK [2][-]{subsection.5.1.4}{Neo4j Configuration}{section.5.1}% 34
+\BOOKMARK [1][-]{section.5.2}{Aspects of Interest}{chapter.5}% 35
+\BOOKMARK [1][-]{section.5.3}{Efficiency Test}{chapter.5}% 36
+\BOOKMARK [2][-]{subsection.5.3.1}{Neo4j BaseLine}{section.5.3}% 37
+\BOOKMARK [2][-]{subsection.5.3.2}{My System}{section.5.3}% 38
+\BOOKMARK [2][-]{subsection.5.3.3}{Frequency Threshold}{section.5.3}% 39
+\BOOKMARK [2][-]{subsection.5.3.4}{Memory Limit}{section.5.3}% 40
+\BOOKMARK [2][-]{subsection.5.3.5}{Selection Algorithms}{section.5.3}% 41
+\BOOKMARK [2][-]{subsection.5.3.6}{View Selection}{section.5.3}% 42
+\BOOKMARK [2][-]{subsection.5.3.7}{Decompose\137Join}{section.5.3}% 43
+\BOOKMARK [1][-]{section.5.4}{Discussion}{chapter.5}% 44
+\BOOKMARK [0][-]{chapter.6}{Conclusion}{}% 45
+\BOOKMARK [1][-]{section.6.1}{Future Work}{chapter.6}% 46
+\BOOKMARK [1][-]{section.6.2}{Reflection on Neo4j}{chapter.6}% 47
+\BOOKMARK [2][-]{subsection.6.2.1}{Aggregation Size Estimation}{section.6.2}% 48
+\BOOKMARK [0][-]{section*.13}{References}{}% 49
+\BOOKMARK [0][-]{appendix*.15}{APPENDICES}{}% 50
+\BOOKMARK [0][-]{appendix.A}{PDF Plots From Matlab}{}% 51
+\BOOKMARK [1][-]{section.A.1}{Using the GUI}{appendix.A}% 52
+\BOOKMARK [1][-]{section.A.2}{From the Command Line}{appendix.A}% 53
