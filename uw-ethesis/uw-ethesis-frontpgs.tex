@@ -74,13 +74,16 @@ I understand that my thesis may be made electronically available to the public.
 
 \begin{center}\textbf{Abstract}\end{center}
 
-Property graph model is a popular semantic rich model for real-world applications concerning graph structure data, like social networks, financial transaction networks and ect. On-Line Analytical Processing(OLAP) provides an important tool for data analyses by allowing users to perform data aggregation through different combinations of dimentions. For instance, over a Q\&A forum dataset, in order to study if there is a correlation between age and post quality,one may ask what is the average user's age group by post score. In the field of music industry, we may process a query like what is total sales of records with respect to music company and year to study market activities.
 
-State-of-art graph databases like neo4j do not have efficient support for OLAP aggregation queries. Neo4j processes each OLAP query in two steps. First expands nodes and edges to the query structure, and then perform aggregation. Even if a query is repeatedly executed for multiple times, in each round Neo4j still processes the query from scratch, without caching any structure-wise ``knowledge'' from previous workload. When it comes to large property graphs, current graph databases' efficiency is far from satisfaction. It is unacceptable for users to wait for hours for a single query to return. 
+Property graph model is a popular semantic rich model for real-world applications concerning graph structure data, e.g.,communication networks, social networks, financial transaction networks and etc. On-Line Analytical Processing (OLAP) provides an important tool for data analysis by allowing users to perform data aggregation through different combinations of dimentions. For example, given a Q\&A forum dataset, in order to study if there is a correlation between user's age and his or her post quality, one may ask what is the average user's age grouped by the post score. Another example is that, in the field of music industry, we may process a query asking what is total sales of records with respect to different music companies and years so as to conduct a market activity analysis.
 
-We implement a prototype system upon Neo4j that greatly improves efficiency of OLAP over large property graphs. The idea is to smartly materialize some views computed based on previous workload. Such materialization can be used to accelerate future query processing.  
 
-We implemented our system on top of Neo4j and compared our system with orginal Neo4j system. Based on an empirical study over real-world property graph dataset, result shows that, with an acceptable cost of memory or disk usage, our solution achieves 10-30x improvement in time efficiency for OLAP queries.  
+Surprisingly, current graph databases do not efficiently support OLAP aggregation queries. On the contrary, in most cases they transfer such queries into a sequence of operations and compute everything from scratch. For example, Neo4j, a state-of-art graph database system, processes each OLAP query in two steps. First, it expands the nodes and edges that satisfy the given query constraint. Then it performs the aggregation over all the valid substrctures returned from the first step. However, in warehousing data analysis workloads, it is common to have repeating queries from time to time. Computing everyting from scratch would be highly inefficient. Moreover, since most graph database systems are disk based due to the large size of real-world property graphs, it is infeasible to directly employ a graph database system like Neo4j for such OLAP workloads. %It is unacceptable for users to wait for hours for a single query to return. 
+
+Materialization and view mainteance techniques developed in traditional RDBMS are proved to be efficient and critical for processing OLAP workloads. Following the generic materialization methodology, in this thesis we develop a structure aware cuboid caching solution to efficiently support OLAP aggregation queries over property graphs. Different from the table based materialization, graph queries consists of both topology structure and attribute combination. The essential idea is to precompute and materialize some views wisely using the query statistics from history workload, such that future workload processing can be accelerated. %We implement a prototype system upon Neo4j that greatly improves efficiency of OLAP over large property graphs.   
+
+We implemented a prototype system on top of Neo4j. Comparing to Neo4j's native support for OLAP queries, an empirical studies over real-world property graph in different size scales show that, with a reasonable space cost constraint, our solution usually achieves 10-30x speedup in time efficiency.
+
 
 \cleardoublepage
 
@@ -89,7 +92,7 @@ We implemented our system on top of Neo4j and compared our system with orginal N
 
 \begin{center}\textbf{Acknowledgements}\end{center}
 
-I would like to thank Professor Tamer Ozsu and Dr. Xiaofei Zhang who made this thesis possible.
+I would like to thank Professor M. Tamer {$\ddot{\mbox{O}}$}zsu and Dr. Xiaofei Zhang who made this thesis possible.
 \cleardoublepage
 
 % D E D I C A T I O N

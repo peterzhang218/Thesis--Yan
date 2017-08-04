@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.7.5)  2 AUG 2017 00:15
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.7.5)  3 AUG 2017 23:47
 entering extended mode
 **./main.tex
 (main.tex
@@ -199,9 +199,313 @@ subscribe by emailing sympa@lirmm.fr with 'subscribe <list> <firstname name>'
 \c@algocf=\count96
 \algocf@algoframe=\box34
 \algocf@algobox=\box35
-) ("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsmath.sty"
+) ("C:\Program Files\MiKTeX 2.9\tex\latex\xargs\xargs.sty"
+Package: xargs 2008/03/22 v1.1  extended macro definitions  (mpg)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\xkeyval\xkeyval.sty"
+Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\xkeyval\xkeyval.tex"
+("C:\Program Files\MiKTeX 2.9\tex\generic\xkeyval\xkvutils.tex"
+\XKV@toks=\toks19
+\XKV@tempa@toks=\toks20
+)
+\XKV@depth=\count97
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+))
+\xargs@max=\count98
+\xargs@toksa=\toks21
+\xargs@toksb=\toks22
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\etoolbox\etoolbox.sty"
+Package: etoolbox 2017/01/02 v2.4 e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count99
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\todonotes\todonotes.sty"
+Package: todonotes 2015/07/09 .dtx Todonotes source and documentation.
+Package: todonotes 2012/07/25
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\pgf\frontendlayer\tikz.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\pgf\basiclayer\pgf.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\pgf\utilities\pgfrcs.sty"
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\utilities\pgfutil-common.tex"
+\pgfutil@everybye=\toks23
+\pgfutil@tempdima=\dimen118
+\pgfutil@tempdimb=\dimen119
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\utilities\pgfutil-common-lists.te
+x")) ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\utilities\pgfutil-latex.def"
+\pgfutil@abb=\box36
+("C:\Program Files\MiKTeX 2.9\tex\latex\ms\everyshi.sty"
+Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
+))
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\utilities\pgfrcs.code.tex"
+Package: pgfrcs 2015/08/07 v3.0.1a (rcs-revision 1.31)
+))
+Package: pgf 2015/08/07 v3.0.1a (rcs-revision 1.15)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\pgf\basiclayer\pgfcore.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\pgf\systemlayer\pgfsys.sty"
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\systemlayer\pgfsys.code.tex"
+Package: pgfsys 2014/07/09 v3.0.1a (rcs-revision 1.48)
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\utilities\pgfkeys.code.tex"
+\pgfkeys@pathtoks=\toks24
+\pgfkeys@temptoks=\toks25
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\utilities\pgfkeysfiltered.code.te
+x"
+\pgfkeys@tmptoks=\toks26
+))
+\pgf@x=\dimen120
+\pgf@y=\dimen121
+\pgf@xa=\dimen122
+\pgf@ya=\dimen123
+\pgf@xb=\dimen124
+\pgf@yb=\dimen125
+\pgf@xc=\dimen126
+\pgf@yc=\dimen127
+\w@pgf@writea=\write3
+\r@pgf@reada=\read1
+\c@pgf@counta=\count100
+\c@pgf@countb=\count101
+\c@pgf@countc=\count102
+\c@pgf@countd=\count103
+\t@pgf@toka=\toks27
+\t@pgf@tokb=\toks28
+\t@pgf@tokc=\toks29
+ ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\systemlayer\pgf.cfg"
+File: pgf.cfg 2008/05/14  (rcs-revision 1.7)
+)
+Driver file for pgf: pgfsys-pdftex.def
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\systemlayer\pgfsys-pdftex.def"
+File: pgfsys-pdftex.def 2014/10/11  (rcs-revision 1.35)
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\systemlayer\pgfsys-common-pdf.def
+"
+File: pgfsys-common-pdf.def 2013/10/10  (rcs-revision 1.13)
+)))
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\systemlayer\pgfsyssoftpath.code.t
+ex"
+File: pgfsyssoftpath.code.tex 2013/09/09  (rcs-revision 1.9)
+\pgfsyssoftpath@smallbuffer@items=\count104
+\pgfsyssoftpath@bigbuffer@items=\count105
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\systemlayer\pgfsysprotocol.code.t
+ex"
+File: pgfsysprotocol.code.tex 2006/10/16  (rcs-revision 1.4)
+)) ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcore.code.tex"
+Package: pgfcore 2010/04/11 v3.0.1a (rcs-revision 1.7)
+ ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\math\pgfmath.code.tex"
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\math\pgfmathcalc.code.tex"
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\math\pgfmathutil.code.tex")
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\math\pgfmathparser.code.tex"
+\pgfmath@dimen=\dimen128
+\pgfmath@count=\count106
+\pgfmath@box=\box37
+\pgfmath@toks=\toks30
+\pgfmath@stack@operand=\toks31
+\pgfmath@stack@operation=\toks32
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.code.tex"
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.basic.code.
+tex")
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.trigonometr
+ic.code.tex")
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.random.code
+.tex")
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.comparison.
+code.tex")
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.base.code.t
+ex")
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.round.code.
+tex")
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.misc.code.t
+ex")
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.integerarit
+hmetics.code.tex")))
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfloat.code.tex"
+\c@pgfmathroundto@lastzeros=\count107
+))
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorepoints.code.tex
+"
+File: pgfcorepoints.code.tex 2013/10/07  (rcs-revision 1.27)
+\pgf@picminx=\dimen129
+\pgf@picmaxx=\dimen130
+\pgf@picminy=\dimen131
+\pgf@picmaxy=\dimen132
+\pgf@pathminx=\dimen133
+\pgf@pathmaxx=\dimen134
+\pgf@pathminy=\dimen135
+\pgf@pathmaxy=\dimen136
+\pgf@xx=\dimen137
+\pgf@xy=\dimen138
+\pgf@yx=\dimen139
+\pgf@yy=\dimen140
+\pgf@zx=\dimen141
+\pgf@zy=\dimen142
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorepathconstruct.c
+ode.tex"
+File: pgfcorepathconstruct.code.tex 2013/10/07  (rcs-revision 1.29)
+\pgf@path@lastx=\dimen143
+\pgf@path@lasty=\dimen144
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorepathusage.code.
+tex"
+File: pgfcorepathusage.code.tex 2014/11/02  (rcs-revision 1.24)
+\pgf@shorten@end@additional=\dimen145
+\pgf@shorten@start@additional=\dimen146
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorescopes.code.tex
+"
+File: pgfcorescopes.code.tex 2015/05/08  (rcs-revision 1.46)
+\pgfpic=\box38
+\pgf@hbox=\box39
+\pgf@layerbox@main=\box40
+\pgf@picture@serial@count=\count108
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcoregraphicstate.co
+de.tex"
+File: pgfcoregraphicstate.code.tex 2014/11/02  (rcs-revision 1.12)
+\pgflinewidth=\dimen147
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcoretransformations
+.code.tex"
+File: pgfcoretransformations.code.tex 2015/08/07  (rcs-revision 1.20)
+\pgf@pt@x=\dimen148
+\pgf@pt@y=\dimen149
+\pgf@pt@temp=\dimen150
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorequick.code.tex"
+File: pgfcorequick.code.tex 2008/10/09  (rcs-revision 1.3)
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcoreobjects.code.te
+x"
+File: pgfcoreobjects.code.tex 2006/10/11  (rcs-revision 1.2)
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorepathprocessing.
+code.tex"
+File: pgfcorepathprocessing.code.tex 2013/09/09  (rcs-revision 1.9)
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorearrows.code.tex
+"
+File: pgfcorearrows.code.tex 2015/05/14  (rcs-revision 1.43)
+\pgfarrowsep=\dimen151
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcoreshade.code.tex"
+File: pgfcoreshade.code.tex 2013/07/15  (rcs-revision 1.15)
+\pgf@max=\dimen152
+\pgf@sys@shading@range@num=\count109
+) ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcoreimage.code.te
+x"
+File: pgfcoreimage.code.tex 2013/07/15  (rcs-revision 1.18)
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcoreexternal.code.t
+ex"
+File: pgfcoreexternal.code.tex 2014/07/09  (rcs-revision 1.21)
+\pgfexternal@startupbox=\box41
+))
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorelayers.code.tex
+"
+File: pgfcorelayers.code.tex 2013/07/18  (rcs-revision 1.7)
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcoretransparency.co
+de.tex"
+File: pgfcoretransparency.code.tex 2013/09/30  (rcs-revision 1.5)
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorepatterns.code.t
+ex"
+File: pgfcorepatterns.code.tex 2013/11/07  (rcs-revision 1.5)
+)))
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\modules\pgfmoduleshapes.code.tex"
+File: pgfmoduleshapes.code.tex 2014/03/21  (rcs-revision 1.35)
+\pgfnodeparttextbox=\box42
+) ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\modules\pgfmoduleplot.code.tex"
+File: pgfmoduleplot.code.tex 2015/08/03  (rcs-revision 1.13)
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\pgf\compatibility\pgfcomp-version-0-65.
+sty"
+Package: pgfcomp-version-0-65 2007/07/03 v3.0.1a (rcs-revision 1.7)
+\pgf@nodesepstart=\dimen153
+\pgf@nodesepend=\dimen154
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\pgf\compatibility\pgfcomp-version-1-18.
+sty"
+Package: pgfcomp-version-1-18 2007/07/23 v3.0.1a (rcs-revision 1.1)
+)) ("C:\Program Files\MiKTeX 2.9\tex\latex\pgf\utilities\pgffor.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\pgf\utilities\pgfkeys.sty"
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\utilities\pgfkeys.code.tex"))
+("C:\Program Files\MiKTeX 2.9\tex\latex\pgf\math\pgfmath.sty"
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\math\pgfmath.code.tex"))
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\utilities\pgffor.code.tex"
+Package: pgffor 2013/12/13 v3.0.1a (rcs-revision 1.25)
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\math\pgfmath.code.tex")
+\pgffor@iter=\dimen155
+\pgffor@skip=\dimen156
+\pgffor@stack=\toks33
+\pgffor@toks=\toks34
+))
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\frontendlayer\tikz\tikz.code.tex"
+Package: tikz 2015/08/07 v3.0.1a (rcs-revision 1.151)
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\libraries\pgflibraryplothandlers.
+code.tex"
+File: pgflibraryplothandlers.code.tex 2013/08/31 v3.0.1a (rcs-revision 1.20)
+\pgf@plot@mark@count=\count110
+\pgfplotmarksize=\dimen157
+)
+\tikz@lastx=\dimen158
+\tikz@lasty=\dimen159
+\tikz@lastxsaved=\dimen160
+\tikz@lastysaved=\dimen161
+\tikzleveldistance=\dimen162
+\tikzsiblingdistance=\dimen163
+\tikz@figbox=\box43
+\tikz@figbox@bg=\box44
+\tikz@tempbox=\box45
+\tikz@tempbox@bg=\box46
+\tikztreelevel=\count111
+\tikznumberofchildren=\count112
+\tikznumberofcurrentchild=\count113
+\tikz@fig@count=\count114
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\modules\pgfmodulematrix.code.tex"
+File: pgfmodulematrix.code.tex 2013/09/17  (rcs-revision 1.8)
+\pgfmatrixcurrentrow=\count115
+\pgfmatrixcurrentcolumn=\count116
+\pgf@matrix@numberofcolumns=\count117
+)
+\tikz@expandcount=\count118
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\frontendlayer\tikz\libraries\tikz
+librarytopaths.code.tex"
+File: tikzlibrarytopaths.code.tex 2008/06/17 v3.0.1a (rcs-revision 1.2)
+)))
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\frontendlayer\tikz\libraries\tikz
+librarypositioning.code.tex"
+File: tikzlibrarypositioning.code.tex 2008/10/06 v3.0.1a (rcs-revision 1.7)
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\tools\calc.sty"
+Package: calc 2014/10/28 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count119
+\calc@Bcount=\count120
+\calc@Adimen=\dimen164
+\calc@Bdimen=\dimen165
+\calc@Askip=\skip63
+\calc@Bskip=\skip64
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count121
+\calc@Cskip=\skip65
+)
+\c@@todonotes@numberoftodonotes=\count122
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsmath.sty"
 Package: amsmath 2016/11/05 v2.16a AMS math features
-\@mathmargin=\skip63
+\@mathmargin=\skip66
 
 For additional information on amsmath, use the `?' option.
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amstext.sty"
@@ -209,51 +513,51 @@ Package: amstext 2000/06/29 v2.01 AMS text
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsgen.sty"
 File: amsgen.sty 1999/11/30 v2.0 generic functions
-\@emptytoks=\toks19
-\ex@=\dimen118
+\@emptytoks=\toks35
+\ex@=\dimen166
 ))
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsbsy.sty"
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
-\pmbraise@=\dimen119
+\pmbraise@=\dimen167
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsopn.sty"
 Package: amsopn 2016/03/08 v2.02 operator names
 )
-\inf@bad=\count97
+\inf@bad=\count123
 LaTeX Info: Redefining \frac on input line 213.
-\uproot@=\count98
-\leftroot@=\count99
+\uproot@=\count124
+\leftroot@=\count125
 LaTeX Info: Redefining \overline on input line 375.
-\classnum@=\count100
-\DOTSCASE@=\count101
+\classnum@=\count126
+\DOTSCASE@=\count127
 LaTeX Info: Redefining \ldots on input line 472.
 LaTeX Info: Redefining \dots on input line 475.
 LaTeX Info: Redefining \cdots on input line 596.
-\Mathstrutbox@=\box36
-\strutbox@=\box37
-\big@size=\dimen120
+\Mathstrutbox@=\box47
+\strutbox@=\box48
+\big@size=\dimen168
 LaTeX Font Info:    Redeclaring font encoding OML on input line 712.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
-\macc@depth=\count102
-\c@MaxMatrixCols=\count103
+\macc@depth=\count128
+\c@MaxMatrixCols=\count129
 \dotsspace@=\muskip10
-\c@parentequation=\count104
-\dspbrk@lvl=\count105
-\tag@help=\toks20
-\row@=\count106
-\column@=\count107
-\maxfields@=\count108
-\andhelp@=\toks21
-\eqnshift@=\dimen121
-\alignsep@=\dimen122
-\tagshift@=\dimen123
-\tagwidth@=\dimen124
-\totwidth@=\dimen125
-\lineht@=\dimen126
-\@envbody=\toks22
-\multlinegap=\skip64
-\multlinetaggap=\skip65
-\mathdisplay@stack=\toks23
+\c@parentequation=\count130
+\dspbrk@lvl=\count131
+\tag@help=\toks36
+\row@=\count132
+\column@=\count133
+\maxfields@=\count134
+\andhelp@=\toks37
+\eqnshift@=\dimen169
+\alignsep@=\dimen170
+\tagshift@=\dimen171
+\tagwidth@=\dimen172
+\totwidth@=\dimen173
+\lineht@=\dimen174
+\@envbody=\toks38
+\multlinegap=\skip67
+\multlinetaggap=\skip68
+\mathdisplay@stack=\toks39
 LaTeX Info: Redefining \[ on input line 2817.
 LaTeX Info: Redefining \] on input line 2818.
 )
@@ -274,7 +578,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.100 
+l.124 
       
 The package graphicx has already been loaded with options:
   []
@@ -321,7 +625,6 @@ Package: letltxmacro 2016/05/16 v1.5 Let assignment for LaTeX macros (HO)
 Package: hopatch 2016/05/16 v1.3 Wrapper for package hooks (HO)
 Package: xcolor-patch 2016/05/16 xcolor patch
 Package: atveryend 2016/05/16 v1.9 Hooks at the very end of document (HO)
-Package atveryend Info: \enddocument detected (standard20110627).
 Package: atbegshi 2016/06/09 v1.18 At begin shipout hook (HO)
 Package: refcount 2016/05/16 v3.5 Data extraction from label references (HO)
 Package: hycolor 2016/05/16 v1.8 Color options for hyperref/bookmark (HO)
@@ -329,14 +632,14 @@ Package: hycolor 2016/05/16 v1.8 Color options for hyperref/bookmark (HO)
 ("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\kvoptions.sty"
 Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
 )
-\@linkdim=\dimen127
-\Hy@linkcounter=\count109
-\Hy@pagecounter=\count110
+\@linkdim=\dimen175
+\Hy@linkcounter=\count135
+\Hy@pagecounter=\count136
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\pd1enc.def"
 File: pd1enc.def 2017/03/14 v6.85a Hyperref: PDFDocEncoding definition (HO)
 )
-\Hy@SavedSpaceFactor=\count111
+\Hy@SavedSpaceFactor=\count137
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\hyperref.cfg"
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
@@ -350,17 +653,17 @@ Package hyperref Info: Backreferencing OFF on input line 4518.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4751.
 LaTeX Info: Redefining \href on input line 5015.
-\c@Hy@tempcnt=\count112
+\c@Hy@tempcnt=\count138
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\url\url.sty"
 \Urlmuskip=\muskip11
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 LaTeX Info: Redefining \url on input line 5104.
-\XeTeXLinkMargin=\dimen128
-\Fld@menulength=\count113
-\Field@Width=\dimen129
-\Fld@charsize=\dimen130
+\XeTeXLinkMargin=\dimen176
+\Fld@menulength=\count139
+\Field@Width=\dimen177
+\Fld@charsize=\dimen178
 Package hyperref Info: Hyper figures OFF on input line 6358.
 Package hyperref Info: Link nesting OFF on input line 6363.
 Package hyperref Info: Hyper index ON on input line 6366.
@@ -370,60 +673,44 @@ Package hyperref Info: Link coloring with OCG OFF on input line 6383.
 Package hyperref Info: PDF/A mode OFF on input line 6388.
 LaTeX Info: Redefining \ref on input line 6428.
 LaTeX Info: Redefining \pageref on input line 6432.
-\Hy@abspage=\count114
-\c@Item=\count115
-\c@Hfootnote=\count116
+\Hy@abspage=\count140
+\c@Item=\count141
+\c@Hfootnote=\count142
 )
 
 Package hyperref Message: Driver: hpdftex.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\hpdftex.def"
 File: hpdftex.def 2017/03/14 v6.85a Hyperref driver for pdfTeX
-\Fld@listcount=\count117
-\c@bookmark@seq@number=\count118
+\Fld@listcount=\count143
+\c@bookmark@seq@number=\count144
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\rerunfilecheck.sty"
 Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 82.
 )
-\Hy@SectionHShift=\skip66
+\Hy@SectionHShift=\skip69
 )
-Package hyperref Info: Option `plainpages' set `false' on input line 125.
-Package hyperref Info: Option `unicode' set `false' on input line 125.
-Package hyperref Info: Option `pdftoolbar' set `true' on input line 125.
-Package hyperref Info: Option `pdfmenubar' set `true' on input line 125.
-Package hyperref Info: Option `pdffitwindow' set `false' on input line 125.
-Package hyperref Info: Option `pdfnewwindow' set `true' on input line 125.
-Package hyperref Info: Option `colorlinks' set `true' on input line 125.
+Package hyperref Info: Option `plainpages' set `false' on input line 149.
+Package hyperref Info: Option `unicode' set `false' on input line 149.
+Package hyperref Info: Option `pdftoolbar' set `true' on input line 149.
+Package hyperref Info: Option `pdfmenubar' set `true' on input line 149.
+Package hyperref Info: Option `pdffitwindow' set `false' on input line 149.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 149.
+Package hyperref Info: Option `colorlinks' set `true' on input line 149.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\glossaries-extra\glossaries-extra.sty"
 Package: glossaries-extra 2017/06/15 v1.16 (NLCT)
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\xkeyval\xkeyval.sty"
-Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
-
-("C:\Program Files\MiKTeX 2.9\tex\generic\xkeyval\xkeyval.tex"
-("C:\Program Files\MiKTeX 2.9\tex\generic\xkeyval\xkvutils.tex"
-\XKV@toks=\toks24
-\XKV@tempa@toks=\toks25
-)
-\XKV@depth=\count119
-File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
-))
-("C:\Program Files\MiKTeX 2.9\tex\latex\etoolbox\etoolbox.sty"
-Package: etoolbox 2017/01/02 v2.4 e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count120
-)
-\@glsxtr@docdefval=\count121
+\@glsxtr@docdefval=\count145
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\glossaries\base\glossaries.sty"
 Package: glossaries 2017/06/11 v4.30 (NLCT)
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\mfirstuc\mfirstuc.sty"
 Package: mfirstuc 2016/07/31 v2.04 (NLCT)
-\@glsmfirst=\toks26
-\@glsmrest=\toks27
+\@glsmfirst=\toks40
+\@glsmrest=\toks41
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\textcase\textcase.sty"
 Package: textcase 2004/10/07 v0.07 Text only upper/lower case changing (DPC)
@@ -436,7 +723,7 @@ Package: datatool-base 2016/07/28 v2.27 (NLCT)
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\substr\substr.sty"
 Package: substr 2009/10/20 v1.2 Handle substrings
-\c@su@anzahl=\count122
+\c@su@anzahl=\count146
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\datatool\datatool-fp.sty"
 Package: datatool-fp 2016/07/28 v2.27 (NLCT)
@@ -447,19 +734,19 @@ Package: fp 1995/04/02
 `Fixed Point Package', Version 0.8, April 2, 1995 (C) Michael Mehlich
 ("C:\Program Files\MiKTeX 2.9\tex\latex\fp\defpattern.sty"
 Package: defpattern 1994/10/12
-\actioncount=\count123
+\actioncount=\count147
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\fp\fp-basic.sty"
 Package: fp-basic 1996/05/13
-\FP@xs=\count124
-\FP@xia=\count125
-\FP@xib=\count126
-\FP@xfa=\count127
-\FP@xfb=\count128
-\FP@rega=\count129
-\FP@regb=\count130
-\FP@regs=\count131
-\FP@times=\count132
+\FP@xs=\count148
+\FP@xia=\count149
+\FP@xib=\count150
+\FP@xfa=\count151
+\FP@xfb=\count152
+\FP@rega=\count153
+\FP@regb=\count154
+\FP@regs=\count155
+\FP@times=\count156
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\fp\fp-addons.sty"
 Package: fp-addons 1995/03/15
@@ -478,7 +765,7 @@ Package: fp-pas 1994/08/29
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\fp\fp-random.sty"
 Package: fp-random 1995/02/23
-\FPseed=\count133
+\FPseed=\count157
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\fp\fp-eqn.sty"
 Package: fp-eqn 1995/04/03
@@ -489,137 +776,137 @@ Package: fp-upn 1996/10/21
 ("C:\Program Files\MiKTeX 2.9\tex\latex\fp\fp-eval.sty"
 Package: fp-eval 1995/04/03
 )))
-\@dtl@toks=\toks28
-\@dtl@tmpcount=\count134
-\dtl@tmplength=\skip67
-\dtl@sortresult=\count135
-\@dtl@numgrpsepcount=\count136
-\@dtl@datatype=\count137
-\dtl@codeA=\count138
-\dtl@codeB=\count139
-\@dtl@foreach@level=\count140
+\@dtl@toks=\toks42
+\@dtl@tmpcount=\count158
+\dtl@tmplength=\skip70
+\dtl@sortresult=\count159
+\@dtl@numgrpsepcount=\count160
+\@dtl@datatype=\count161
+\dtl@codeA=\count162
+\dtl@codeB=\count163
+\@dtl@foreach@level=\count164
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\glossaries\base\glossaries-compatible-3
 07.sty"
 Package: glossaries-compatible-307 2017/06/11 v4.30 (NLCT)
 )
-\gls@level=\count141
-\@gls@tmpb=\toks29
-\gls@tmplen=\skip68
-\glskeylisttok=\toks30
-\glslabeltok=\toks31
-\glsshorttok=\toks32
-\glslongtok=\toks33
+\gls@level=\count165
+\@gls@tmpb=\toks43
+\gls@tmplen=\skip71
+\glskeylisttok=\toks44
+\glslabeltok=\toks45
+\glsshorttok=\toks46
+\glslongtok=\toks47
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\glossaries\styles\glossary-hypernav.sty
 "
 Package: glossary-hypernav 2017/06/11 v4.30 (NLCT)
 ) ("C:\Program Files\MiKTeX 2.9\tex\latex\glossaries\styles\glossary-list.sty"
 Package: glossary-list 2017/06/11 v4.30 (NLCT)
-\glslistdottedwidth=\skip69
+\glslistdottedwidth=\skip72
 ) ("C:\Program Files\MiKTeX 2.9\tex\latex\glossaries\styles\glossary-long.sty"
 Package: glossary-long 2017/06/11 v4.30 (NLCT)
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\tools\longtable.sty"
 Package: longtable 2014/10/28 v4.11 Multi-page Table package (DPC)
-\LTleft=\skip70
-\LTright=\skip71
-\LTpre=\skip72
-\LTpost=\skip73
-\LTchunksize=\count142
-\LTcapwidth=\dimen131
-\LT@head=\box38
-\LT@firsthead=\box39
-\LT@foot=\box40
-\LT@lastfoot=\box41
-\LT@cols=\count143
-\LT@rows=\count144
-\c@LT@tables=\count145
-\c@LT@chunks=\count146
-\LT@p@ftn=\toks34
+\LTleft=\skip73
+\LTright=\skip74
+\LTpre=\skip75
+\LTpost=\skip76
+\LTchunksize=\count166
+\LTcapwidth=\dimen179
+\LT@head=\box49
+\LT@firsthead=\box50
+\LT@foot=\box51
+\LT@lastfoot=\box52
+\LT@cols=\count167
+\LT@rows=\count168
+\c@LT@tables=\count169
+\c@LT@chunks=\count170
+\LT@p@ftn=\toks48
 )
-\glsdescwidth=\skip74
-\glspagelistwidth=\skip75
+\glsdescwidth=\skip77
+\glspagelistwidth=\skip78
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\glossaries\styles\glossary-super.sty"
 Package: glossary-super 2017/06/11 v4.30 (NLCT)
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\supertabular\supertabular.sty"
 Package: supertabular 2004/02/20 v4.1e the supertabular environment
-\c@tracingst=\count147
-\ST@wd=\dimen132
-\ST@rightskip=\skip76
-\ST@leftskip=\skip77
-\ST@parfillskip=\skip78
-\ST@pageleft=\dimen133
-\ST@headht=\dimen134
-\ST@tailht=\dimen135
-\ST@pagesofar=\dimen136
-\ST@pboxht=\dimen137
-\ST@lineht=\dimen138
-\ST@stretchht=\dimen139
-\ST@prevht=\dimen140
-\ST@toadd=\dimen141
-\ST@dimen=\dimen142
-\ST@pbox=\box42
+\c@tracingst=\count171
+\ST@wd=\dimen180
+\ST@rightskip=\skip79
+\ST@leftskip=\skip80
+\ST@parfillskip=\skip81
+\ST@pageleft=\dimen181
+\ST@headht=\dimen182
+\ST@tailht=\dimen183
+\ST@pagesofar=\dimen184
+\ST@pboxht=\dimen185
+\ST@lineht=\dimen186
+\ST@stretchht=\dimen187
+\ST@prevht=\dimen188
+\ST@toadd=\dimen189
+\ST@dimen=\dimen190
+\ST@pbox=\box53
 ))
 ("C:\Program Files\MiKTeX 2.9\tex\latex\glossaries\styles\glossary-tree.sty"
 Package: glossary-tree 2017/06/11 v4.30 (NLCT)
-\glstreeindent=\skip79
+\glstreeindent=\skip82
 ))
-\glsxtrresourcecount=\count148
-\glsshortpltok=\toks35
-\glslongpltok=\toks36
+\glsxtrresourcecount=\count172
+\glsshortpltok=\toks49
+\glslongpltok=\toks50
 )
-\glswrite=\write3
-\glo@main@file=\write4
-\openout4 = `main.glo'.
+\glswrite=\write4
+\glo@main@file=\write5
+\openout5 = `main.glo'.
 
-Package glossaries Info: Writing glossary file main.glo on input line 212.
-\glo@abbreviations@file=\write5
-\openout5 = `main.glo-abr'.
+Package glossaries Info: Writing glossary file main.glo on input line 236.
+\glo@abbreviations@file=\write6
+\openout6 = `main.glo-abr'.
 
-Package glossaries Info: Writing glossary file main.glo-abr on input line 212.
-\glo@nomenclature@file=\write6
-\openout6 = `main.nomenclature-glo'.
+Package glossaries Info: Writing glossary file main.glo-abr on input line 236.
+\glo@nomenclature@file=\write7
+\openout7 = `main.nomenclature-glo'.
 
 Package glossaries Info: Writing glossary file main.nomenclature-glo on input l
-ine 212.
-\glo@symbols@file=\write7
-\openout7 = `main.symbols-glo'.
+ine 236.
+\glo@symbols@file=\write8
+\openout8 = `main.symbols-glo'.
 
 Package glossaries Info: Writing glossary file main.symbols-glo on input line 2
-12.
+36.
 (main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 216.
-LaTeX Font Info:    ... okay on input line 216.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 216.
-LaTeX Font Info:    ... okay on input line 216.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 216.
-LaTeX Font Info:    ... okay on input line 216.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 216.
-LaTeX Font Info:    ... okay on input line 216.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 216.
-LaTeX Font Info:    ... okay on input line 216.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 216.
-LaTeX Font Info:    ... okay on input line 216.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 216.
-LaTeX Font Info:    ... okay on input line 216.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 240.
+LaTeX Font Info:    ... okay on input line 240.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 240.
+LaTeX Font Info:    ... okay on input line 240.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 240.
+LaTeX Font Info:    ... okay on input line 240.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 240.
+LaTeX Font Info:    ... okay on input line 240.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 240.
+LaTeX Font Info:    ... okay on input line 240.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 240.
+LaTeX Font Info:    ... okay on input line 240.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 240.
+LaTeX Font Info:    ... okay on input line 240.
  ("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count149
-\scratchdimen=\dimen143
-\scratchbox=\box43
-\nofMPsegments=\count150
-\nofMParguments=\count151
-\everyMPshowfont=\toks37
-\MPscratchCnt=\count152
-\MPscratchDim=\dimen144
-\MPnumerator=\count153
-\makeMPintoPDFobject=\count154
-\everyMPtoPDFconversion=\toks38
+\scratchcounter=\count173
+\scratchdimen=\dimen191
+\scratchbox=\box54
+\nofMPsegments=\count174
+\nofMParguments=\count175
+\everyMPshowfont=\toks51
+\MPscratchCnt=\count176
+\MPscratchDim=\dimen192
+\MPnumerator=\count177
+\makeMPintoPDFobject=\count178
+\everyMPtoPDFconversion=\toks52
 ) ("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\epstopdf-base.sty"
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
@@ -633,8 +920,9 @@ Package grfext Info: Graphics extension search list:
 G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 456.
 )
-\AtBeginShipoutBox=\box44
-Package hyperref Info: Link coloring ON on input line 216.
+ABD: EveryShipout initializing macros
+\AtBeginShipoutBox=\box55
+Package hyperref Info: Link coloring ON on input line 240.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
@@ -642,15 +930,15 @@ Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 ("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\gettitlestring.sty"
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count155
+\c@section@level=\count179
 )
-LaTeX Info: Redefining \ref on input line 216.
-LaTeX Info: Redefining \pageref on input line 216.
-LaTeX Info: Redefining \nameref on input line 216.
+LaTeX Info: Redefining \ref on input line 240.
+LaTeX Info: Redefining \pageref on input line 240.
+LaTeX Info: Redefining \nameref on input line 240.
 
 (main.out) (main.out)
-\@outlinefile=\write8
-\openout8 = `main.out'.
+\@outlinefile=\write9
+\openout9 = `main.out'.
 
  (uw-ethesis-frontpgs.tex
 LaTeX Font Info:    Try loading font information for OMS+cmr on input line 45.
@@ -662,7 +950,7 @@ LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 45.
  [1
 
-\openout3 = `main.ist'.
+\openout4 = `main.ist'.
 
 
 
@@ -672,35 +960,35 @@ LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
 ] [3
 
 
-] [4
+]
+LaTeX Font Info:    Try loading font information for U+msa on input line 95.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 95.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+) [4
 
 
 ] [5
 
 
 ] (main.toc
-LaTeX Font Info:    Try loading font information for U+msa on input line 4.
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-)
-LaTeX Font Info:    Try loading font information for U+msb on input line 4.
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-) [6
+[6
 
 
 
 
 ] [7])
-\tf@toc=\write9
-\openout9 = `main.toc'.
+\tf@toc=\write10
+\openout10 = `main.toc'.
 
- [8]
-(main.lot)
-\tf@lot=\write10
-\openout10 = `main.lot'.
+ [8] (main.lot)
+\tf@lot=\write11
+\openout11 = `main.lot'.
 
  [9
 
@@ -708,15 +996,16 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
 
 ] (main.lof)
-\tf@lof=\write11
-\openout11 = `main.lof'.
+\tf@lof=\write12
+\openout12 = `main.lof'.
 
  [10
 
 
 
 
-] (main.gls) (main.gls-abr) (main.nomenclature-gls) (main.symbols-gls))
+] (main.gls) (main.gls-abr)
+(main.nomenclature-gls) (main.symbols-gls))
 Chapter 1.
 (introduction.tex
 
@@ -727,6 +1016,44 @@ t line 4.
 LaTeX Warning: Citation `DBLP:conf/sc/HongDMLVC15' on page 1 undefined on input
  line 4.
 
+
+LaTeX Warning: Citation `Petermann:2014:GDI:2733004.2733034' on page 1 undefine
+d on input line 4.
+
+
+LaTeX Warning: Citation `' on page 1 undefined on input line 4.
+
+
+LaTeX Warning: Citation `DBLP:journals/corr/LamSG16' on page 1 undefined on inp
+ut line 4.
+
+
+LaTeX Warning: Citation `' on page 1 undefined on input line 4.
+
+
+LaTeX Warning: Citation `DBLP:journals/tii/FangXZAPYL14' on page 1 undefined on
+ input line 4.
+
+
+LaTeX Warning: Citation `' on page 1 undefined on input line 4.
+
+
+LaTeX Warning: Citation `DBLP:journals/tcyb/ChoiCY17' on page 1 undefined on in
+put line 4.
+
+
+LaTeX Warning: Citation `' on page 1 undefined on input line 4.
+
+
+LaTeX Warning: Citation `DBLP:journals/cacm/X17f' on page 1 undefined on input 
+line 11.
+
+
+LaTeX Warning: Citation `' on page 1 undefined on input line 11.
+
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
 [1
 
 
@@ -734,88 +1061,122 @@ LaTeX Warning: Citation `DBLP:conf/sc/HongDMLVC15' on page 1 undefined on input
 
 
 
-] <pic/11.png, id=348, 625.33624pt x 342.27875pt>
-File: pic/11.png Graphic file (type png)
- <use pic/11.png>
-Package pdftex.def Info: pic/11.png used on input line 20.
-(pdftex.def)             Requested size: 250.13007pt x 136.90906pt.
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ô in font cmr12!
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ô in font cmr12!
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ô in font cmr12!
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ô in font cmr12!
+] <pic/11.jpg, id=347, 650.43pt x 279.0425pt>
+File: pic/11.jpg Graphic file (type jpg)
+ <use pic/11.jpg>
+Package pdftex.def Info: pic/11.jpg used on input line 20.
+(pdftex.def)             Requested size: 260.16739pt x 111.615pt.
 
-<pic/12.jpg, id=350, 412.54124pt x 212.795pt>
+
+LaTeX Warning: Reference `fig:2' on page 2 undefined on input line 33.
+
+
+LaTeX Warning: Reference `fig:3' on page 2 undefined on input line 33.
+
+
+LaTeX Warning: Reference `fig:2' on page 2 undefined on input line 33.
+
+<pic/12.jpg, id=348, 412.54124pt x 212.795pt>
 File: pic/12.jpg Graphic file (type jpg)
  <use pic/12.jpg>
-Package pdftex.def Info: pic/12.jpg used on input line 45.
+Package pdftex.def Info: pic/12.jpg used on input line 38.
 (pdftex.def)             Requested size: 206.27011pt x 106.39723pt.
- [2 <./pic/11.png>] <pic/3.png, id=356, 2514.39375pt x 2625.81pt>
+
+<pic/3.png, id=349, 2514.39375pt x 2625.81pt>
 File: pic/3.png Graphic file (type png)
  <use pic/3.png>
-Package pdftex.def Info: pic/3.png used on input line 51.
+Package pdftex.def Info: pic/3.png used on input line 44.
 (pdftex.def)             Requested size: 251.4541pt x 262.59637pt.
- [3 <./pic/12.jpg> <./pic/3.png>]
+Package hyperref Info: bookmark level for unknown todo defaults to 0 on input l
+ine 52.
+ [2 <./pic/11.jpg>]
+Missing character: There is no ‚ in font cmti12!
+Missing character: There is no Ä in font cmti12!
+Missing character: There is no ô in font cmti12!
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ô in font cmr12!
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ô in font cmr12!
- [4] <pic/5.png, id=367, 200.75pt x 770.88pt>
-File: pic/5.png Graphic file (type png)
+ [3]
 
-<use pic/5.png>
-Package pdftex.def Info: pic/5.png used on input line 93.
+LaTeX Warning: Citation `DBLP:conf/ismis/CuzzocreaL12' on page 4 undefined on i
+nput line 83.
+
+
+LaTeX Warning: Citation `' on page 4 undefined on input line 83.
+
+
+LaTeX Warning: Citation `DBLP:books/igi/Taniar10/LawrenceR10' on page 4 undefin
+ed on input line 83.
+
+
+LaTeX Warning: Citation `' on page 4 undefined on input line 83.
+
+
+LaTeX Warning: Citation `DBLP:journals/kais/DrzadzewskiT16' on page 4 undefined
+ on input line 83.
+
+
+LaTeX Warning: Citation `' on page 4 undefined on input line 83.
+
+
+LaTeX Warning: Citation `DBLP:conf/sigmod/ZhaoLXH11' on page 4 undefined on inp
+ut line 83.
+
+
+LaTeX Warning: Citation `DBLP:conf/esws/MaaliCD15' on page 4 undefined on input
+ line 83.
+
+
+LaTeX Warning: Citation `DBLP:conf/icdm/ChenYZHY08' on page 4 undefined on inpu
+t line 83.
+
+<pic/5.png, id=362, 200.75pt x 770.88pt>
+File: pic/5.png Graphic file (type png)
+ <use pic/5.png>
+Package pdftex.def Info: pic/5.png used on input line 92.
 (pdftex.def)             Requested size: 80.29857pt x 308.34654pt.
 File: pic/5.png Graphic file (type png)
  <use pic/5.png>
-Package pdftex.def Info: pic/5.png used on input line 94.
+Package pdftex.def Info: pic/5.png used on input line 93.
 (pdftex.def)             Requested size: 80.29857pt x 308.34654pt.
- [5 <./pic/5.png>]
+
+[4] [5]
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
-Missing character: There is no ô in font cmr12!
- [6]) [7]
+Missing character: There is no ì in font cmr12!
+) [6]
 Chapter 2.
 (relatedwork.tex
 
-LaTeX Warning: Citation `DBLP:conf/sigmod/BeyerR99' on page 8 undefined on inpu
+LaTeX Warning: Citation `DBLP:conf/sigmod/BeyerR99' on page 7 undefined on inpu
 t line 16.
 
 
-LaTeX Warning: Citation `DBLP:journals/datamine/GrayCBLRVPP97' on page 8 undefi
+LaTeX Warning: Citation `DBLP:journals/datamine/GrayCBLRVPP97' on page 7 undefi
 ned on input line 16.
 
 
-LaTeX Warning: Citation `DBLP:conf/sigmod/ZhaoDN97' on page 8 undefined on inpu
+LaTeX Warning: Citation `DBLP:conf/sigmod/ZhaoDN97' on page 7 undefined on inpu
 t line 16.
 
 
-LaTeX Warning: Citation `DBLP:conf/sigmod/ZhaoLXH11' on page 8 undefined on inp
+LaTeX Warning: Citation `DBLP:conf/sigmod/ZhaoLXH11' on page 7 undefined on inp
 ut line 22.
 
 
-LaTeX Warning: Citation `DBLP:conf/sigmod/ZhaoLXH11' on page 8 undefined on inp
+LaTeX Warning: Citation `DBLP:conf/sigmod/ZhaoLXH11' on page 7 undefined on inp
 ut line 22.
 
-[8
+[7
 
 
 ]
 
-LaTeX Warning: Citation `DBLP:conf/sigmod/ZhaoLXH11' on page 9 undefined on inp
+LaTeX Warning: Citation `DBLP:conf/sigmod/ZhaoLXH11' on page 8 undefined on inp
 ut line 24.
 
 
-LaTeX Warning: Citation `DBLP:conf/sigmod/ZhaoLXH11' on page 9 undefined on inp
+LaTeX Warning: Citation `DBLP:conf/sigmod/ZhaoLXH11' on page 8 undefined on inp
 ut line 24.
 
 Missing character: There is no ‚ in font cmr12!
@@ -833,7 +1194,7 @@ Missing character: There is no ô in font cmr12!
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ô in font cmr12!
-[9]
+[8]
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ò in font cmr12!
@@ -852,7 +1213,7 @@ Missing character: There is no ô in font cmr12!
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ô in font cmr12!
- [10]
+ [9]
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ô in font cmr12!
@@ -871,13 +1232,13 @@ Missing character: There is no ô in font cmr12!
 Missing character: There is no ‚ in font cmbx12!
 Missing character: There is no Ä in font cmbx12!
 Missing character: There is no ô in font cmbx12!
- <pic/meta1.png, id=395, 416.55624pt x 218.8175pt>
+ <pic/meta1.png, id=392, 416.55624pt x 218.8175pt>
 File: pic/meta1.png Graphic file (type png)
  <use pic/meta1.png>
 Package pdftex.def Info: pic/meta1.png used on input line 121.
 (pdftex.def)             Requested size: 208.2776pt x 109.40848pt.
 
-[11]
+[10]
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ô in font cmr12!
@@ -897,8 +1258,8 @@ Package pdftex.def Info: pic/meta1.png used on input line 139.
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ô in font cmr12!
- [12 <./pic/meta1.png>]
-<pic/22.png, id=405, 132.495pt x 131.49126pt>
+ [11 <./pic/meta1.png>]
+<pic/22.png, id=403, 132.495pt x 131.49126pt>
 File: pic/22.png Graphic file (type png)
  <use pic/22.png>
 Package pdftex.def Info: pic/22.png used on input line 152.
@@ -910,19 +1271,19 @@ Missing character: There is no ‚ in font cmbx12!
 Missing character: There is no Ä in font cmbx12!
 Missing character: There is no ô in font cmbx12!
 
-<pic/meta2.jpg, id=406, 419.5675pt x 219.82124pt>
+<pic/meta2.jpg, id=404, 419.5675pt x 219.82124pt>
 File: pic/meta2.jpg Graphic file (type jpg)
  <use pic/meta2.jpg>
 Package pdftex.def Info: pic/meta2.jpg used on input line 161.
 (pdftex.def)             Requested size: 209.78323pt x 109.91034pt.
- [13 <./pic/22.png> <./pic/meta2.jpg>] <pic/4.png, id=412, 258.9675pt x 167.626
+ [12 <./pic/22.png> <./pic/meta2.jpg>] <pic/4.png, id=410, 258.9675pt x 167.626
 25pt>
 File: pic/4.png Graphic file (type png)
 
 <use pic/4.png>
 Package pdftex.def Info: pic/4.png used on input line 188.
 (pdftex.def)             Requested size: 233.06857pt x 150.86221pt.
- [14 <./pic/4.png>]
+ [13 <./pic/4.png>]
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ô in font cmr12!
@@ -947,7 +1308,7 @@ Overfull \hbox (3.97006pt too wide) in paragraph at lines 235--236
 cmr/m/n/12 (p:Post) where p.PostTypeId=`2' re-turn u.Upvotes,
  []
 
-[15]
+[14]
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ú in font cmr12!
@@ -980,19 +1341,19 @@ Missing character: There is no Ä in font cmr12!
 Missing character: There is no ù in font cmr12!
 
 
-LaTeX Warning: Citation `DBLP:conf/sofsem/JakawatFL16' on page 16 undefined on 
+LaTeX Warning: Citation `DBLP:conf/sofsem/JakawatFL16' on page 15 undefined on 
 input line 256.
 
 
-LaTeX Warning: Citation `DBLP:conf/esws/MaaliCD15' on page 16 undefined on inpu
+LaTeX Warning: Citation `DBLP:conf/esws/MaaliCD15' on page 15 undefined on inpu
 t line 259.
 
 
-LaTeX Warning: Citation `DBLP:conf/icde/WangFWTAA14' on page 16 undefined on in
+LaTeX Warning: Citation `DBLP:conf/icde/WangFWTAA14' on page 15 undefined on in
 put line 261.
 
 
-LaTeX Warning: Citation `DBLP:conf/sigmod/ZhaoLXH11' on page 16 undefined on in
+LaTeX Warning: Citation `DBLP:conf/sigmod/ZhaoLXH11' on page 15 undefined on in
 put line 265.
 
 Missing character: There is no ‚ in font cmr12!
@@ -1002,28 +1363,28 @@ Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ù in font cmr12!
 
-LaTeX Warning: Citation `DBLP:conf/icdm/ChenYZHY08' on page 16 undefined on inp
+LaTeX Warning: Citation `DBLP:conf/icdm/ChenYZHY08' on page 15 undefined on inp
 ut line 267.
 
-[16]
+[15]
 
-LaTeX Warning: Citation `DBLP:conf/sofsem/JakawatFL16' on page 17 undefined on 
+LaTeX Warning: Citation `DBLP:conf/sofsem/JakawatFL16' on page 16 undefined on 
 input line 277.
 
 
-LaTeX Warning: Citation `DBLP:conf/esws/MaaliCD15' on page 17 undefined on inpu
+LaTeX Warning: Citation `DBLP:conf/esws/MaaliCD15' on page 16 undefined on inpu
 t line 278.
 
 
-LaTeX Warning: Citation `DBLP:conf/icde/WangFWTAA14' on page 17 undefined on in
+LaTeX Warning: Citation `DBLP:conf/icde/WangFWTAA14' on page 16 undefined on in
 put line 279.
 
 
-LaTeX Warning: Citation `DBLP:conf/sigmod/ZhaoLXH11' on page 17 undefined on in
+LaTeX Warning: Citation `DBLP:conf/sigmod/ZhaoLXH11' on page 16 undefined on in
 put line 280.
 
 
-LaTeX Warning: Citation `DBLP:conf/icdm/ChenYZHY08' on page 17 undefined on inp
+LaTeX Warning: Citation `DBLP:conf/icdm/ChenYZHY08' on page 16 undefined on inp
 ut line 281.
 
 
@@ -1032,29 +1393,29 @@ Overfull \hbox (118.24557pt too wide) in paragraph at lines 274--284
  []
 
 
-LaTeX Warning: Citation `DBLP:conf/sigmod/ZhaoLXH11' on page 17 undefined on in
+LaTeX Warning: Citation `DBLP:conf/sigmod/ZhaoLXH11' on page 16 undefined on in
 put line 291.
 
 
-LaTeX Warning: Citation `DBLP:conf/esws/MaaliCD15' on page 17 undefined on inpu
+LaTeX Warning: Citation `DBLP:conf/esws/MaaliCD15' on page 16 undefined on inpu
 t line 293.
 
 
-LaTeX Warning: Citation `DBLP:conf/sigmod/ZhaoLXH11' on page 17 undefined on in
+LaTeX Warning: Citation `DBLP:conf/sigmod/ZhaoLXH11' on page 16 undefined on in
 put line 303.
 
 
-LaTeX Warning: Citation `DBLP:conf/icdm/ChenYZHY08' on page 17 undefined on inp
+LaTeX Warning: Citation `DBLP:conf/icdm/ChenYZHY08' on page 16 undefined on inp
 ut line 306.
 
-[17]
+[16]
 
-LaTeX Warning: Citation `DBLP:conf/sigmod/ZhaoLXH11' on page 18 undefined on in
+LaTeX Warning: Citation `DBLP:conf/sigmod/ZhaoLXH11' on page 17 undefined on in
 put line 312.
 
-) [18]
+) [17]
 Chapter 3.
-(problemdef.tex [19
+(problemdef.tex [18
 
 
 ]
@@ -1064,7 +1425,7 @@ Missing character: There is no ô in font cmr12!
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ô in font cmr12!
- [20]
+ [19]
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ú in font cmr12!
@@ -1113,9 +1474,9 @@ Missing character: There is no ú in font cmr12!
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ù in font cmr12!
-[21]) [22]
+[20]) [21]
 Chapter 4.
-(solution.tex <pic/41.png, id=461, 812.03375pt x 277.035pt>
+(solution.tex <pic/41.png, id=459, 812.03375pt x 277.035pt>
 File: pic/41.png Graphic file (type png)
  <use pic/41.png>
 Package pdftex.def Info: pic/41.png used on input line 12.
@@ -1125,7 +1486,7 @@ Overfull \hbox (26.50278pt too wide) in paragraph at lines 12--13
  [][] 
  []
 
-[23
+[22
 
 
  <./pic/41.png>]
@@ -1194,7 +1555,7 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-[24]
+[23]
 Overfull \hbox (9.94336pt too wide) in paragraph at lines 62--63
 []\OT1/cmr/m/n/12 User-Comment, Comment-Post: User-UpVotes, Comment-Score, (AVG
 )Post-Score, Post-
@@ -1266,7 +1627,7 @@ Overfull \hbox (1.13095pt too wide) in paragraph at lines 102--103
 t-PostTypeId=2 
  []
 
-[25
+[24
 
 ]
 ! Missing $ inserted.
@@ -1350,7 +1711,7 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-[26]
+[25]
 ! Missing $ inserted.
 <inserted text> 
                 $
@@ -1476,15 +1837,15 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-[27] [28] <pic/61.png, id=543, 444.66125pt x 634.37pt>
+[26] [27] <pic/61.png, id=541, 444.66125pt x 634.37pt>
 File: pic/61.png Graphic file (type png)
  <use pic/61.png>
 Package pdftex.def Info: pic/61.png used on input line 227.
 (pdftex.def)             Requested size: 266.7988pt x 380.62492pt.
 
-[29
+[28
 
-] [30 <./pic/61.png>]
+] [29 <./pic/61.png>]
 ! Missing $ inserted.
 <inserted text> 
                 $
@@ -1550,7 +1911,7 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-[31]
+[30]
 ! Missing $ inserted.
 <inserted text> 
                 $
@@ -1676,9 +2037,9 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-[32
+[31
 
-] [33] <pic/42.png, id=606, 1416.29124pt x 681.54625pt>
+] [32] <pic/42.png, id=603, 1416.29124pt x 681.54625pt>
 File: pic/42.png Graphic file (type png)
  <use pic/42.png>
 Package pdftex.def Info: pic/42.png used on input line 317.
@@ -1697,7 +2058,7 @@ Overfull \hbox (16.70528pt too wide) in paragraph at lines 336--337
 im-prove-ment of adding $\OML/cmm/m/it/12 substructure$
  []
 
-[34
+[33
 
  <./pic/42.png>]
 Missing character: There is no ‚ in font cmr12!
@@ -1844,7 +2205,7 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-[35] [36]
+[34] [35]
 ! Missing $ inserted.
 <inserted text> 
                 $
@@ -1877,9 +2238,9 @@ I'll just pretend that you didn't ask for it.
 If you're in the wrong mode, you might be able to
 return to the right one by typing `I}' or `I$' or `I\par'.
 
-[37
+[36
 
-] [38]
+] [37]
 ! Missing $ inserted.
 <inserted text> 
                 $
@@ -1974,7 +2335,7 @@ o-rithm. $\OML/cmm/m/it/12 uncoveredStruc$\OT1/cmr/m/n/12 , $\OML/cmm/m/it/12 u
 ncoveredProp$
  []
 
-[39
+[38
 
 ]
 ! Missing $ inserted.
@@ -2064,7 +2425,7 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-[40]
+[39]
 ! Missing $ inserted.
 <inserted text> 
                 $
@@ -2152,16 +2513,16 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-[41
+[40
 
 ])
-Overfull \hbox (62.81645pt too wide) in paragraph at lines 565--260
+Overfull \hbox (62.81645pt too wide) in paragraph at lines 565--284
 \OT1/cmr/m/n/12 not. In our im-ple-men-ta-tion we cac-u-lates ra-tio of es-ti-m
 ated re-ducted re-sult size by $\OML/cmm/m/it/12 materialize[]$\OT1/cmr/m/n/12 
 ,
  []
 
-[42
+[41
 
 ]
 Chapter 5.
@@ -2216,7 +2577,7 @@ Overfull \hbox (1.13095pt too wide) in paragraph at lines 26--27
 t-PostTypeId=2 
  []
 
-[43
+[42
 
 
 ]
@@ -2225,7 +2586,7 @@ Overfull \hbox (60.35701pt too wide) in paragraph at lines 32--33
 r=2016, Post-CreationDate[]Year 
  []
 
-[44]
+[43]
 
 ! LaTeX Error: There's no line here to end.
 
@@ -2251,7 +2612,7 @@ Overfull \hbox (15.1483pt too wide) in paragraph at lines 133--134
 ionDate[]Year=2015 
  []
 
-[45]
+[44]
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ú in font cmr12!
@@ -2302,7 +2663,7 @@ Missing character: There is no ú in font cmr12!
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ù in font cmr12!
-[46]
+[45]
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ú in font cmr12!
@@ -2324,7 +2685,7 @@ Missing character: There is no ú in font cmr12!
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ù in font cmr12!
-) [47]
+) [46]
 Chapter 6.
 (conclusion.tex
 Missing character: There is no ‚ in font cmr12!
@@ -2350,7 +2711,7 @@ l.38 \end{figure}
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-[48
+[47
 
 
 ]
@@ -2371,7 +2732,7 @@ l.45 \end{figure}
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-[49]
+[48]
 ! Missing $ inserted.
 <inserted text> 
                 $
@@ -2384,7 +2745,7 @@ you left one out. Proceed, with fingers crossed.
 ! Improper \prevdepth.
 \newpage ...everypar {}\fi \par \ifdim \prevdepth 
                                                   >\z@ \vskip -\ifdim \prevd...
-l.285 \cleardoublepage
+l.309 \cleardoublepage
                        % This is needed if the book class is used, to place ...
 You can refer to \spacefactor only in horizontal mode;
 you can refer to \prevdepth only in vertical mode; and
@@ -2394,7 +2755,7 @@ I'm forgetting what you said and using zero instead.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.285 \cleardoublepage
+l.309 \cleardoublepage
                        % This is needed if the book class is used, to place ...
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -2409,13 +2770,13 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.285 \cleardoublepage
+l.309 \cleardoublepage
                        % This is needed if the book class is used, to place ...
 
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-[50]
+[49]
 
 ! LaTeX Error: Something's wrong--perhaps a missing \item.
 
@@ -2423,7 +2784,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.285 \cleardoublepage
+l.309 \cleardoublepage
                        % This is needed if the book class is used, to place ...
 
 Try typing  <return>  to proceed.
@@ -2436,7 +2797,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.291 
+l.315 
       
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -2448,7 +2809,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.294 
+l.318 
       
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -2502,46 +2863,32 @@ l.1 \begin{thebibliography}{1}
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-) [51
+) [50
 
 
 
 
-] [52
+] [51
 
 
 ]
 Appendix A.
-[53
+[52
 
 
 ]
-Overfull \hbox (20.57835pt too wide) in paragraph at lines 334--334
+Overfull \hbox (20.57835pt too wide) in paragraph at lines 358--358
  []\OT1/cmtt/m/n/12 set(gcf,'Units','inches') % Set figure size units of "curre
 nt figure"[] 
  []
 
 
-Overfull \hbox (57.62837pt too wide) in paragraph at lines 334--334
+Overfull \hbox (57.62837pt too wide) in paragraph at lines 358--358
  []\OT1/cmtt/m/n/12 set(gcf,'Position',[0,0,6,4]) % Set figure width (6 in.) an
 d height (4 in.)[] 
  []
 
-
-! LaTeX Error: \begin{itemize} on input line 22 ended by \end{document}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.336 \end{document}
-                    
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 336.
-[54
+[53
 runsystem(makeindex -s main.ist -t main.glg -o main.gls main.glo)...executed (a
 llowed).
 
@@ -2555,17 +2902,30 @@ runsystem(makeindex -s main.ist -t main.symbols-glg -o main.symbols-gls main.sy
 mbols-glo)...executed (allowed).
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 336.
- (main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 336.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 336.
+
+! LaTeX Error: \begin{itemize} on input line 22 ended by \end{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.360 \end{document}
+                    
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 360.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 360.
+(main.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 360.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 360.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 52667C4E578C10E106F45176DB01DCA1;3493.
+(rerunfilecheck)             Checksum: CF0A90B770CCC3CD336944F93C142938;3502.
 
 
 LaTeX Warning: There were undefined references.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 336.
  )
 (\end occurred inside a group at level 3)
 
@@ -2574,13 +2934,13 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 336.
 ### simple group (level 1) entered at line 1061 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 14015 strings out of 493323
- 218192 string characters out of 3138968
- 419540 words of memory out of 3000000
- 16961 multiletter control sequences out of 15000+200000
+ 23969 strings out of 493323
+ 435552 string characters out of 3138968
+ 607494 words of memory out of 3000000
+ 26698 multiletter control sequences out of 15000+200000
  14821 words of font info for 54 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 65i,18n,51p,1939b,10760s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 73i,18n,80p,1939b,19500s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmb
 x10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
 <C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx8.pfb><C:/Progr
@@ -2597,9 +2957,9 @@ Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files/MiK
 TeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Program Files/MiKTeX 2.9/
 fonts/type1/public/amsfonts/cm/cmti8.pfb><C:/Program Files/MiKTeX 2.9/fonts/typ
 e1/public/amsfonts/cm/cmtt12.pfb>
-Output written on main.pdf (64 pages, 1376598 bytes).
+Output written on main.pdf (63 pages, 713660 bytes).
 PDF statistics:
- 892 PDF objects out of 1000 (max. 8388607)
- 305 named destinations out of 1000 (max. 500000)
- 480 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 889 PDF objects out of 1000 (max. 8388607)
+ 306 named destinations out of 1000 (max. 500000)
+ 492 words of extra memory for PDF output out of 10000 (max. 10000000)
 
