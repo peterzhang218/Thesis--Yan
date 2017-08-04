@@ -8,53 +8,54 @@
 \contentsline {section}{\numberline {1.4}Our Solution and Contributions}{5}{section.1.4}
 \contentsline {chapter}{\numberline {2}Background and Related Work}{7}{chapter.2}
 \contentsline {section}{\numberline {2.1}OLAP over Property Graph Model}{7}{section.2.1}
+\contentsline {subsection}{\numberline {2.1.1}OLAP Examples}{8}{subsection.2.1.1}
+\contentsline {subsection}{\numberline {2.1.2}Structure, Dimension, and Measure}{11}{subsection.2.1.2}
 \contentsline {section}{\numberline {2.2}Graph Databases and Neo4j}{13}{section.2.2}
-\contentsline {section}{\numberline {2.3}Related Work}{15}{section.2.3}
-\contentsline {section}{\numberline {2.4}Graph Cube}{16}{section.2.4}
-\contentsline {chapter}{\numberline {3}Problem Definition}{18}{chapter.3}
-\contentsline {section}{\numberline {3.1}Terminologies}{18}{section.3.1}
-\contentsline {subsection}{\numberline {3.1.1}Property Graph}{18}{subsection.3.1.1}
-\contentsline {subsection}{\numberline {3.1.2}Notations for Query and Materiailization}{19}{subsection.3.1.2}
-\contentsline {subsection}{\numberline {3.1.3}Cuboid vs Substructures}{19}{subsection.3.1.3}
-\contentsline {section}{\numberline {3.2}Problem Definition}{21}{section.3.2}
-\contentsline {chapter}{\numberline {4}Solution}{22}{chapter.4}
-\contentsline {section}{\numberline {4.1}Solution Framework}{22}{section.4.1}
-\contentsline {section}{\numberline {4.2}Partial Materialization}{23}{section.4.2}
-\contentsline {subsection}{\numberline {4.2.1}Greedy Selection Framework}{25}{subsection.4.2.1}
-\contentsline {subsection}{\numberline {4.2.2}Cuboid Planner}{27}{subsection.4.2.2}
-\contentsline {subsubsection}{Single Cube}{27}{section*.13}
-\contentsline {subsubsection}{Holistic Cube}{30}{section*.14}
-\contentsline {subsection}{\numberline {4.2.3}Structure Planner}{32}{subsection.4.2.3}
-\contentsline {subsection}{\numberline {4.2.4}ID and Property Selection}{34}{subsection.4.2.4}
-\contentsline {section}{\numberline {4.3}Query Processing}{34}{section.4.3}
-\contentsline {subsection}{\numberline {4.3.1}Substructure Selection}{36}{subsection.4.3.1}
-\contentsline {subsection}{\numberline {4.3.2}Query Decomposition}{38}{subsection.4.3.2}
-\contentsline {subsubsection}{Decompose\_Join}{38}{section*.15}
-\contentsline {subsubsection}{$Decompose\_Join_{informative}$}{39}{section*.16}
-\contentsline {subsubsection}{$Decompose\_Join_{decisive}$}{40}{section*.17}
-\contentsline {chapter}{\numberline {5}Experiments}{42}{chapter.5}
-\contentsline {section}{\numberline {5.1}Experiment Setup}{42}{section.5.1}
-\contentsline {subsection}{\numberline {5.1.1}Datasets}{42}{subsection.5.1.1}
-\contentsline {subsection}{\numberline {5.1.2}Query Workloads}{42}{subsection.5.1.2}
-\contentsline {subsection}{\numberline {5.1.3}System Setting}{45}{subsection.5.1.3}
-\contentsline {subsection}{\numberline {5.1.4}Neo4j Configuration}{45}{subsection.5.1.4}
-\contentsline {section}{\numberline {5.2}Aspects of Interest}{45}{section.5.2}
-\contentsline {section}{\numberline {5.3}Efficiency Test}{46}{section.5.3}
-\contentsline {subsection}{\numberline {5.3.1}Neo4j BaseLine}{46}{subsection.5.3.1}
-\contentsline {subsection}{\numberline {5.3.2}My System}{46}{subsection.5.3.2}
-\contentsline {subsection}{\numberline {5.3.3}Frequency Threshold}{46}{subsection.5.3.3}
-\contentsline {subsection}{\numberline {5.3.4}Memory Limit}{46}{subsection.5.3.4}
-\contentsline {subsection}{\numberline {5.3.5}Selection Algorithms}{46}{subsection.5.3.5}
-\contentsline {subsection}{\numberline {5.3.6}View Selection}{46}{subsection.5.3.6}
-\contentsline {subsection}{\numberline {5.3.7}Decompose\_Join}{46}{subsection.5.3.7}
-\contentsline {section}{\numberline {5.4}Discussion}{46}{section.5.4}
-\contentsline {chapter}{\numberline {6}Conclusion}{47}{chapter.6}
-\contentsline {section}{\numberline {6.1}Future Work}{47}{section.6.1}
-\contentsline {section}{\numberline {6.2}Reflection on Neo4j}{48}{section.6.2}
-\contentsline {subsection}{\numberline {6.2.1}Aggregation Size Estimation}{48}{subsection.6.2.1}
-\contentsline {chapter}{\textbf {References}}{50}{section*.18}
-\contentsline {chapter}{APPENDICES}{51}{appendix*.20}
-\contentsline {chapter}{\numberline {A}PDF Plots From Matlab}{52}{appendix.A}
-\contentsline {section}{\numberline {A.1}Using the GUI}{52}{section.A.1}
-\contentsline {section}{\numberline {A.2}From the Command Line}{52}{section.A.2}
+\contentsline {section}{\numberline {2.3}Related Work}{14}{section.2.3}
+\contentsline {chapter}{\numberline {3}Problem Definition}{17}{chapter.3}
+\contentsline {section}{\numberline {3.1}Terminologies}{17}{section.3.1}
+\contentsline {subsection}{\numberline {3.1.1}Property Graph}{17}{subsection.3.1.1}
+\contentsline {subsection}{\numberline {3.1.2}Notations for Query and Materiailization}{18}{subsection.3.1.2}
+\contentsline {subsection}{\numberline {3.1.3}Cuboid vs Substructures}{18}{subsection.3.1.3}
+\contentsline {section}{\numberline {3.2}Problem Definition}{20}{section.3.2}
+\contentsline {chapter}{\numberline {4}Solution}{21}{chapter.4}
+\contentsline {section}{\numberline {4.1}Solution Framework}{21}{section.4.1}
+\contentsline {section}{\numberline {4.2}Partial Materialization}{22}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}Greedy Selection Framework}{24}{subsection.4.2.1}
+\contentsline {subsection}{\numberline {4.2.2}Cuboid Planner}{26}{subsection.4.2.2}
+\contentsline {subsubsection}{Single Cube}{26}{section*.13}
+\contentsline {subsubsection}{Holistic Cube}{29}{section*.14}
+\contentsline {subsection}{\numberline {4.2.3}Structure Planner}{31}{subsection.4.2.3}
+\contentsline {subsection}{\numberline {4.2.4}ID and Property Selection}{33}{subsection.4.2.4}
+\contentsline {section}{\numberline {4.3}Query Processing}{33}{section.4.3}
+\contentsline {subsection}{\numberline {4.3.1}Substructure Selection}{35}{subsection.4.3.1}
+\contentsline {subsection}{\numberline {4.3.2}Query Decomposition}{37}{subsection.4.3.2}
+\contentsline {subsubsection}{Decompose\_Join}{37}{section*.15}
+\contentsline {subsubsection}{$Decompose\_Join_{informative}$}{38}{section*.16}
+\contentsline {subsubsection}{$Decompose\_Join_{decisive}$}{39}{section*.17}
+\contentsline {chapter}{\numberline {5}Experiments}{41}{chapter.5}
+\contentsline {section}{\numberline {5.1}Experiment Setup}{41}{section.5.1}
+\contentsline {subsection}{\numberline {5.1.1}Datasets}{41}{subsection.5.1.1}
+\contentsline {subsection}{\numberline {5.1.2}Query Workloads}{41}{subsection.5.1.2}
+\contentsline {subsection}{\numberline {5.1.3}System Setting}{44}{subsection.5.1.3}
+\contentsline {subsection}{\numberline {5.1.4}Neo4j Configuration}{44}{subsection.5.1.4}
+\contentsline {section}{\numberline {5.2}Aspects of Interest}{44}{section.5.2}
+\contentsline {section}{\numberline {5.3}Efficiency Test}{45}{section.5.3}
+\contentsline {subsection}{\numberline {5.3.1}Neo4j BaseLine}{45}{subsection.5.3.1}
+\contentsline {subsection}{\numberline {5.3.2}My System}{45}{subsection.5.3.2}
+\contentsline {subsection}{\numberline {5.3.3}Frequency Threshold}{45}{subsection.5.3.3}
+\contentsline {subsection}{\numberline {5.3.4}Memory Limit}{45}{subsection.5.3.4}
+\contentsline {subsection}{\numberline {5.3.5}Selection Algorithms}{45}{subsection.5.3.5}
+\contentsline {subsection}{\numberline {5.3.6}View Selection}{45}{subsection.5.3.6}
+\contentsline {subsection}{\numberline {5.3.7}Decompose\_Join}{45}{subsection.5.3.7}
+\contentsline {section}{\numberline {5.4}Discussion}{45}{section.5.4}
+\contentsline {chapter}{\numberline {6}Conclusion}{46}{chapter.6}
+\contentsline {section}{\numberline {6.1}Future Work}{46}{section.6.1}
+\contentsline {section}{\numberline {6.2}Reflection on Neo4j}{47}{section.6.2}
+\contentsline {subsection}{\numberline {6.2.1}Aggregation Size Estimation}{47}{subsection.6.2.1}
+\contentsline {chapter}{\textbf {References}}{49}{section*.18}
+\contentsline {chapter}{APPENDICES}{50}{appendix*.20}
+\contentsline {chapter}{\numberline {A}PDF Plots From Matlab}{51}{appendix.A}
+\contentsline {section}{\numberline {A.1}Using the GUI}{51}{section.A.1}
+\contentsline {section}{\numberline {A.2}From the Command Line}{51}{section.A.2}
 \endgroup 

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.7.5)  3 AUG 2017 23:47
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.7.5)  3 AUG 2017 23:57
 entering extended mode
 **./main.tex
 (main.tex
@@ -1061,7 +1061,7 @@ Missing character: There is no ô in font cmr12!
 
 
 
-] <pic/11.jpg, id=347, 650.43pt x 279.0425pt>
+] <pic/11.jpg, id=350, 650.43pt x 279.0425pt>
 File: pic/11.jpg Graphic file (type jpg)
  <use pic/11.jpg>
 Package pdftex.def Info: pic/11.jpg used on input line 20.
@@ -1076,13 +1076,13 @@ LaTeX Warning: Reference `fig:3' on page 2 undefined on input line 33.
 
 LaTeX Warning: Reference `fig:2' on page 2 undefined on input line 33.
 
-<pic/12.jpg, id=348, 412.54124pt x 212.795pt>
+<pic/12.jpg, id=351, 412.54124pt x 212.795pt>
 File: pic/12.jpg Graphic file (type jpg)
  <use pic/12.jpg>
 Package pdftex.def Info: pic/12.jpg used on input line 38.
 (pdftex.def)             Requested size: 206.27011pt x 106.39723pt.
 
-<pic/3.png, id=349, 2514.39375pt x 2625.81pt>
+<pic/3.png, id=352, 2514.39375pt x 2625.81pt>
 File: pic/3.png Graphic file (type png)
  <use pic/3.png>
 Package pdftex.def Info: pic/3.png used on input line 44.
@@ -1130,7 +1130,7 @@ LaTeX Warning: Citation `DBLP:conf/esws/MaaliCD15' on page 4 undefined on input
 LaTeX Warning: Citation `DBLP:conf/icdm/ChenYZHY08' on page 4 undefined on inpu
 t line 83.
 
-<pic/5.png, id=362, 200.75pt x 770.88pt>
+<pic/5.png, id=365, 200.75pt x 770.88pt>
 File: pic/5.png Graphic file (type png)
  <use pic/5.png>
 Package pdftex.def Info: pic/5.png used on input line 92.
@@ -1149,23 +1149,15 @@ Chapter 2.
 (relatedwork.tex
 
 LaTeX Warning: Citation `DBLP:conf/sigmod/BeyerR99' on page 7 undefined on inpu
-t line 16.
+t line 19.
 
 
 LaTeX Warning: Citation `DBLP:journals/datamine/GrayCBLRVPP97' on page 7 undefi
-ned on input line 16.
+ned on input line 19.
 
 
 LaTeX Warning: Citation `DBLP:conf/sigmod/ZhaoDN97' on page 7 undefined on inpu
-t line 16.
-
-
-LaTeX Warning: Citation `DBLP:conf/sigmod/ZhaoLXH11' on page 7 undefined on inp
-ut line 22.
-
-
-LaTeX Warning: Citation `DBLP:conf/sigmod/ZhaoLXH11' on page 7 undefined on inp
-ut line 22.
+t line 19.
 
 [7
 
@@ -1173,18 +1165,24 @@ ut line 22.
 ]
 
 LaTeX Warning: Citation `DBLP:conf/sigmod/ZhaoLXH11' on page 8 undefined on inp
-ut line 24.
+ut line 21.
 
 
 LaTeX Warning: Citation `DBLP:conf/sigmod/ZhaoLXH11' on page 8 undefined on inp
-ut line 24.
+ut line 21.
 
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ô in font cmr12!
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ô in font cmr12!
+
+LaTeX Warning: Citation `DBLP:conf/sigmod/ZhaoLXH11' on page 8 undefined on inp
+ut line 21.
+
+
+LaTeX Warning: Citation `DBLP:conf/sigmod/ZhaoLXH11' on page 8 undefined on inp
+ut line 23.
+
+
+LaTeX Warning: Citation `DBLP:conf/sigmod/ZhaoLXH11' on page 8 undefined on inp
+ut line 23.
+
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ô in font cmr12!
@@ -1195,6 +1193,12 @@ Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ô in font cmr12!
 [8]
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ò in font cmr12!
@@ -1226,44 +1230,28 @@ Missing character: There is no ô in font cmr12!
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ô in font cmr12!
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ô in font cmr12!
-Missing character: There is no ‚ in font cmbx12!
-Missing character: There is no Ä in font cmbx12!
-Missing character: There is no ô in font cmbx12!
- <pic/meta1.png, id=392, 416.55624pt x 218.8175pt>
+ [10] <pic/meta1.png, id=400, 416.55624pt x 218.8175pt>
 File: pic/meta1.png Graphic file (type png)
- <use pic/meta1.png>
-Package pdftex.def Info: pic/meta1.png used on input line 121.
-(pdftex.def)             Requested size: 208.2776pt x 109.40848pt.
 
-[10]
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ô in font cmr12!
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ô in font cmr12!
-Missing character: There is no ‚ in font cmbx12!
-Missing character: There is no Ä in font cmbx12!
-Missing character: There is no ô in font cmbx12!
-Missing character: There is no ‚ in font cmbx12!
-Missing character: There is no Ä in font cmbx12!
-Missing character: There is no ô in font cmbx12!
-File: pic/meta1.png Graphic file (type png)
- <use pic/meta1.png>
-Package pdftex.def Info: pic/meta1.png used on input line 139.
+<use pic/meta1.png>
+Package pdftex.def Info: pic/meta1.png used on input line 145.
 (pdftex.def)             Requested size: 208.2776pt x 109.40848pt.
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ô in font cmr12!
- [11 <./pic/meta1.png>]
-<pic/22.png, id=403, 132.495pt x 131.49126pt>
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+ <pic/22.png, id=403, 132.495pt x 131.49126pt>
 File: pic/22.png Graphic file (type png)
- <use pic/22.png>
-Package pdftex.def Info: pic/22.png used on input line 152.
+
+<use pic/22.png>
+Package pdftex.def Info: pic/22.png used on input line 157.
 (pdftex.def)             Requested size: 132.49466pt x 131.49092pt.
+ [11 <./pic/meta1.png>]
 Missing character: There is no ‚ in font cmbx12!
 Missing character: There is no Ä in font cmbx12!
 Missing character: There is no ô in font cmbx12!
@@ -1271,17 +1259,17 @@ Missing character: There is no ‚ in font cmbx12!
 Missing character: There is no Ä in font cmbx12!
 Missing character: There is no ô in font cmbx12!
 
-<pic/meta2.jpg, id=404, 419.5675pt x 219.82124pt>
+<pic/meta2.jpg, id=409, 419.5675pt x 219.82124pt>
 File: pic/meta2.jpg Graphic file (type jpg)
  <use pic/meta2.jpg>
-Package pdftex.def Info: pic/meta2.jpg used on input line 161.
+Package pdftex.def Info: pic/meta2.jpg used on input line 167.
 (pdftex.def)             Requested size: 209.78323pt x 109.91034pt.
- [12 <./pic/22.png> <./pic/meta2.jpg>] <pic/4.png, id=410, 258.9675pt x 167.626
+ [12 <./pic/22.png> <./pic/meta2.jpg>] <pic/4.png, id=417, 258.9675pt x 167.626
 25pt>
 File: pic/4.png Graphic file (type png)
 
 <use pic/4.png>
-Package pdftex.def Info: pic/4.png used on input line 188.
+Package pdftex.def Info: pic/4.png used on input line 193.
 (pdftex.def)             Requested size: 233.06857pt x 150.86221pt.
  [13 <./pic/4.png>]
 Missing character: There is no ‚ in font cmr12!
@@ -1303,119 +1291,72 @@ Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ô in font cmr12!
 
-Overfull \hbox (3.97006pt too wide) in paragraph at lines 235--236
-[]\OT1/cmr/m/n/12 match (u:User)-[r:User[]owns[]Post]-$\OML/cmm/m/it/12 >$\OT1/
-cmr/m/n/12 (p:Post) where p.PostTypeId=`2' re-turn u.Upvotes,
- []
+
+LaTeX Warning: Citation `DBLP:conf/sofsem/JakawatFL16' on page 14 undefined on 
+input line 265.
 
 [14]
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ú in font cmr12!
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ù in font cmr12!
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ú in font cmr12!
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ù in font cmr12!
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ú in font cmr12!
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ù in font cmr12!
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ú in font cmr12!
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ù in font cmr12!
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ú in font cmr12!
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ù in font cmr12!
-
-
-LaTeX Warning: Citation `DBLP:conf/sofsem/JakawatFL16' on page 15 undefined on 
-input line 256.
-
 
 LaTeX Warning: Citation `DBLP:conf/esws/MaaliCD15' on page 15 undefined on inpu
-t line 259.
+t line 267.
 
 
 LaTeX Warning: Citation `DBLP:conf/icde/WangFWTAA14' on page 15 undefined on in
-put line 261.
+put line 269.
+
+
+LaTeX Warning: Citation `DBLP:conf/icdm/ChenYZHY08' on page 15 undefined on inp
+ut line 273.
 
 
 LaTeX Warning: Citation `DBLP:conf/sigmod/ZhaoLXH11' on page 15 undefined on in
-put line 265.
+put line 275.
 
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ú in font cmr12!
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ù in font cmr12!
 
 LaTeX Warning: Citation `DBLP:conf/icdm/ChenYZHY08' on page 15 undefined on inp
-ut line 267.
-
-[15]
-
-LaTeX Warning: Citation `DBLP:conf/sofsem/JakawatFL16' on page 16 undefined on 
-input line 277.
+ut line 278.
 
 
-LaTeX Warning: Citation `DBLP:conf/esws/MaaliCD15' on page 16 undefined on inpu
-t line 278.
+LaTeX Warning: Citation `DBLP:conf/sigmod/ZhaoLXH11' on page 15 undefined on in
+put line 281.
 
 
-LaTeX Warning: Citation `DBLP:conf/icde/WangFWTAA14' on page 16 undefined on in
-put line 279.
+LaTeX Warning: Citation `DBLP:conf/sofsem/JakawatFL16' on page 15 undefined on 
+input line 290.
 
 
-LaTeX Warning: Citation `DBLP:conf/sigmod/ZhaoLXH11' on page 16 undefined on in
-put line 280.
+LaTeX Warning: Citation `DBLP:conf/esws/MaaliCD15' on page 15 undefined on inpu
+t line 291.
 
 
-LaTeX Warning: Citation `DBLP:conf/icdm/ChenYZHY08' on page 16 undefined on inp
-ut line 281.
+LaTeX Warning: Citation `DBLP:conf/icde/WangFWTAA14' on page 15 undefined on in
+put line 292.
 
 
-Overfull \hbox (118.24557pt too wide) in paragraph at lines 274--284
+LaTeX Warning: Citation `DBLP:conf/sigmod/ZhaoLXH11' on page 15 undefined on in
+put line 293.
+
+
+LaTeX Warning: Citation `DBLP:conf/icdm/ChenYZHY08' on page 15 undefined on inp
+ut line 294.
+
+
+Overfull \hbox (15.1517pt too wide) in paragraph at lines 287--297
  [] 
  []
 
+[15]
 
 LaTeX Warning: Citation `DBLP:conf/sigmod/ZhaoLXH11' on page 16 undefined on in
-put line 291.
+put line 302.
 
 
 LaTeX Warning: Citation `DBLP:conf/esws/MaaliCD15' on page 16 undefined on inpu
-t line 293.
+t line 302.
 
-
-LaTeX Warning: Citation `DBLP:conf/sigmod/ZhaoLXH11' on page 16 undefined on in
-put line 303.
-
-
-LaTeX Warning: Citation `DBLP:conf/icdm/ChenYZHY08' on page 16 undefined on inp
-ut line 306.
-
-[16]
-
-LaTeX Warning: Citation `DBLP:conf/sigmod/ZhaoLXH11' on page 17 undefined on in
-put line 312.
-
-) [17]
+) [16]
 Chapter 3.
-(problemdef.tex [18
+(problemdef.tex [17
 
 
 ]
@@ -1425,7 +1366,7 @@ Missing character: There is no ô in font cmr12!
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ô in font cmr12!
- [19]
+ [18]
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ú in font cmr12!
@@ -1474,9 +1415,9 @@ Missing character: There is no ú in font cmr12!
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ù in font cmr12!
-[20]) [21]
+[19]) [20]
 Chapter 4.
-(solution.tex <pic/41.png, id=459, 812.03375pt x 277.035pt>
+(solution.tex <pic/41.png, id=462, 812.03375pt x 277.035pt>
 File: pic/41.png Graphic file (type png)
  <use pic/41.png>
 Package pdftex.def Info: pic/41.png used on input line 12.
@@ -1486,7 +1427,7 @@ Overfull \hbox (26.50278pt too wide) in paragraph at lines 12--13
  [][] 
  []
 
-[22
+[21
 
 
  <./pic/41.png>]
@@ -1555,7 +1496,7 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-[23]
+[22]
 Overfull \hbox (9.94336pt too wide) in paragraph at lines 62--63
 []\OT1/cmr/m/n/12 User-Comment, Comment-Post: User-UpVotes, Comment-Score, (AVG
 )Post-Score, Post-
@@ -1627,7 +1568,7 @@ Overfull \hbox (1.13095pt too wide) in paragraph at lines 102--103
 t-PostTypeId=2 
  []
 
-[24
+[23
 
 ]
 ! Missing $ inserted.
@@ -1711,7 +1652,7 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-[25]
+[24]
 ! Missing $ inserted.
 <inserted text> 
                 $
@@ -1837,15 +1778,15 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-[26] [27] <pic/61.png, id=541, 444.66125pt x 634.37pt>
+[25] [26] <pic/61.png, id=544, 444.66125pt x 634.37pt>
 File: pic/61.png Graphic file (type png)
  <use pic/61.png>
 Package pdftex.def Info: pic/61.png used on input line 227.
 (pdftex.def)             Requested size: 266.7988pt x 380.62492pt.
 
-[28
+[27
 
-] [29 <./pic/61.png>]
+] [28 <./pic/61.png>]
 ! Missing $ inserted.
 <inserted text> 
                 $
@@ -1911,7 +1852,7 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-[30]
+[29]
 ! Missing $ inserted.
 <inserted text> 
                 $
@@ -2037,9 +1978,9 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-[31
+[30
 
-] [32] <pic/42.png, id=603, 1416.29124pt x 681.54625pt>
+] [31] <pic/42.png, id=606, 1416.29124pt x 681.54625pt>
 File: pic/42.png Graphic file (type png)
  <use pic/42.png>
 Package pdftex.def Info: pic/42.png used on input line 317.
@@ -2058,7 +1999,7 @@ Overfull \hbox (16.70528pt too wide) in paragraph at lines 336--337
 im-prove-ment of adding $\OML/cmm/m/it/12 substructure$
  []
 
-[33
+[32
 
  <./pic/42.png>]
 Missing character: There is no ‚ in font cmr12!
@@ -2205,7 +2146,7 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-[34] [35]
+[33] [34]
 ! Missing $ inserted.
 <inserted text> 
                 $
@@ -2238,9 +2179,9 @@ I'll just pretend that you didn't ask for it.
 If you're in the wrong mode, you might be able to
 return to the right one by typing `I}' or `I$' or `I\par'.
 
-[36
+[35
 
-] [37]
+] [36]
 ! Missing $ inserted.
 <inserted text> 
                 $
@@ -2335,7 +2276,7 @@ o-rithm. $\OML/cmm/m/it/12 uncoveredStruc$\OT1/cmr/m/n/12 , $\OML/cmm/m/it/12 u
 ncoveredProp$
  []
 
-[38
+[37
 
 ]
 ! Missing $ inserted.
@@ -2425,7 +2366,7 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-[39]
+[38]
 ! Missing $ inserted.
 <inserted text> 
                 $
@@ -2513,7 +2454,7 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-[40
+[39
 
 ])
 Overfull \hbox (62.81645pt too wide) in paragraph at lines 565--284
@@ -2522,7 +2463,7 @@ ated re-ducted re-sult size by $\OML/cmm/m/it/12 materialize[]$\OT1/cmr/m/n/12
 ,
  []
 
-[41
+[40
 
 ]
 Chapter 5.
@@ -2577,7 +2518,7 @@ Overfull \hbox (1.13095pt too wide) in paragraph at lines 26--27
 t-PostTypeId=2 
  []
 
-[42
+[41
 
 
 ]
@@ -2586,7 +2527,7 @@ Overfull \hbox (60.35701pt too wide) in paragraph at lines 32--33
 r=2016, Post-CreationDate[]Year 
  []
 
-[43]
+[42]
 
 ! LaTeX Error: There's no line here to end.
 
@@ -2612,7 +2553,7 @@ Overfull \hbox (15.1483pt too wide) in paragraph at lines 133--134
 ionDate[]Year=2015 
  []
 
-[44]
+[43]
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ú in font cmr12!
@@ -2663,7 +2604,7 @@ Missing character: There is no ú in font cmr12!
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ù in font cmr12!
-[45]
+[44]
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ú in font cmr12!
@@ -2685,7 +2626,7 @@ Missing character: There is no ú in font cmr12!
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ù in font cmr12!
-) [46]
+) [45]
 Chapter 6.
 (conclusion.tex
 Missing character: There is no ‚ in font cmr12!
@@ -2711,7 +2652,7 @@ l.38 \end{figure}
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-[47
+[46
 
 
 ]
@@ -2732,7 +2673,7 @@ l.45 \end{figure}
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-[48]
+[47]
 ! Missing $ inserted.
 <inserted text> 
                 $
@@ -2776,7 +2717,7 @@ l.309 \cleardoublepage
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-[49]
+[48]
 
 ! LaTeX Error: Something's wrong--perhaps a missing \item.
 
@@ -2863,17 +2804,17 @@ l.1 \begin{thebibliography}{1}
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-) [50
+) [49
 
 
 
 
-] [51
+] [50
 
 
 ]
 Appendix A.
-[52
+[51
 
 
 ]
@@ -2888,7 +2829,7 @@ Overfull \hbox (57.62837pt too wide) in paragraph at lines 358--358
 d height (4 in.)[] 
  []
 
-[53
+[52
 runsystem(makeindex -s main.ist -t main.glg -o main.gls main.glo)...executed (a
 llowed).
 
@@ -2921,7 +2862,7 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 360.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 360.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 360.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: CF0A90B770CCC3CD336944F93C142938;3502.
+(rerunfilecheck)             Checksum: 313952F3BE2BD5D2947336BB93C04AF7;3600.
 
 
 LaTeX Warning: There were undefined references.
@@ -2934,11 +2875,11 @@ LaTeX Warning: There were undefined references.
 ### simple group (level 1) entered at line 1061 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 23969 strings out of 493323
- 435552 string characters out of 3138968
- 607494 words of memory out of 3000000
- 26698 multiletter control sequences out of 15000+200000
- 14821 words of font info for 54 fonts, out of 3000000 for 9000
+ 23977 strings out of 493323
+ 435617 string characters out of 3138968
+ 607699 words of memory out of 3000000
+ 26705 multiletter control sequences out of 15000+200000
+ 14972 words of font info for 56 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  73i,18n,80p,1939b,19500s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmb
@@ -2957,9 +2898,9 @@ Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files/MiK
 TeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Program Files/MiKTeX 2.9/
 fonts/type1/public/amsfonts/cm/cmti8.pfb><C:/Program Files/MiKTeX 2.9/fonts/typ
 e1/public/amsfonts/cm/cmtt12.pfb>
-Output written on main.pdf (63 pages, 713660 bytes).
+Output written on main.pdf (62 pages, 717359 bytes).
 PDF statistics:
- 889 PDF objects out of 1000 (max. 8388607)
- 306 named destinations out of 1000 (max. 500000)
- 492 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 892 PDF objects out of 1000 (max. 8388607)
+ 305 named destinations out of 1000 (max. 500000)
+ 500 words of extra memory for PDF output out of 10000 (max. 10000000)
 
