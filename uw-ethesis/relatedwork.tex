@@ -13,7 +13,7 @@ Following the introduction of the property graph model given in the previous cha
 [NodeType].[PropertyType]
 \end{displaymath}
 
-For example, User.Age denotes an ``Age'' attribute associated with a node of type ``User''. In order to identify a node or edge, a unique ID is assigned to each node and edge.  For simplicity, in this thesis we represent a node or an edge with its ID, denoted as ID(node) or ID(edge).
+For example, User.Age denotes an ``Age'' attribute associated with a node of type ``User''. In order to identify a node or edge, a unique ID is assigned to each node and edge.  For simplicity, in this thesis we represent a node or an edge with its ID, denoted as ID(node) or ID(edge). Note that unique ID is sometimes treated as a special type of property.
 
 
 OLAP (On-Line Analytical Processing) \cite{DBLP:conf/sigmod/BeyerR99, DBLP:journals/datamine/GrayCBLRVPP97, DBLP:conf/sigmod/ZhaoDN97} usually employs a cube concept, which is constructed over multiple attributes, in order to provide users a multi-dimensional and multi-level view for effective data analysis from different perspectives and with multiple granularities. The key operations in an OLAP framework are slice/dice and roll-up/drill-down, with slice/dice focusing on a particular aspect of the data, roll-up performing generalization if users only want to see a concise overview, and drill-down performing specialization if more details are needed. We shall detail the cube technique from the graph data perspective later this chapter.
