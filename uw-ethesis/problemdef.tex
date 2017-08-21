@@ -7,27 +7,28 @@ In this section, we first illustrate the terminology and notations adopted in th
 This section gives definations and notations of property graph, queries, materializations. Besides, we introduce concepts of ``cuboid'' and ``subsubstrcutre'', which are two types of materializaitons we will use in our solution. 
 
 \subsection{Defination of Property Graph}
-We define a property graph as $G(V, Vid, E, Eid, A, L, f)$ where
-\begin{itemize} 
-\item $V$ is a set of nodes. $Vid$ is set of unique IDs of $V$.
-\item $E$ is a set of edges. $E \subseteq V * V$. $Eid$ is set of unique IDs of $E$.
-\item $A$ is a set of properties.
-\item $L$ is a set of labels.
-\item $f$ is mapping function that maps $V$ and $E$ to $A$, $L$, $Vid$ and $Eid$. 
+We define a property graph as $G(V, Vid, E, Eid, A, L, f)$ where  $V$ is a set of nodes. $Vid$ is set of unique IDs of $V$. $E$ is a set of edges. $E \subseteq V * V$. $Eid$ is set of unique IDs of $E$. $A$ is a set of properties. $L$ is a set of labels. $f$ is mapping function that maps $V$ and $E$ to $A$, $L$, $Vid$ and $Eid$: $f_{VA}: \{V_{i} \rightarrow A_{i}\}, V_{i}\in V, A_{i} \subseteq A$ , maps each node to its properties; $f_{VL}: \{V_{i} \rightarrow L_{i}\}, V_{i}\in V, L_{i} \subseteq L$ , maps each node to its labels; $f_{EA}: \{E_{i} \rightarrow A_{i}\}, E_{i}\in E, L_{i} \subseteq A$ , maps each edge to its properties; $f_{EA}: \{E_{i} \rightarrow L_{i}\}, E_{i}\in E, L_{i} \subseteq L$ , maps each edge to its labels; $f_{VID}: \{V_{i} \rightarrow Vid_{i}\}, V_{i}\in V, Vid_{i} \subseteq N$ , maps each node to its unique ID; $f_{EID}: \{E_{i} \rightarrow Eid_{i}\}, V_{i}\in V, Eid_{i} \subseteq N$ , maps each edge to its unique ID.
 
-$f_{VA}: \{V_{i} \rightarrow A_{i}\}, V_{i}\in V, A_{i} \subseteq A$ , maps each node to its properties.
-
-$f_{VL}: \{V_{i} \rightarrow L_{i}\}, V_{i}\in V, L_{i} \subseteq L$ , maps each node to its labels.
-
-$f_{EA}: \{E_{i} \rightarrow A_{i}\}, E_{i}\in E, L_{i} \subseteq A$ , maps each edge to its properties.
-
-$f_{EA}: \{E_{i} \rightarrow L_{i}\}, E_{i}\in E, L_{i} \subseteq L$ , maps each edge to its labels.
-
-$f_{VID}: \{V_{i} \rightarrow Vid_{i}\}, V_{i}\in V, Vid_{i} \subseteq N$ , maps each node to its unique ID.
-
-$f_{EID}: \{E_{i} \rightarrow Eid_{i}\}, V_{i}\in V, Eid_{i} \subseteq N$ , maps each edge to its unique ID.
-
-\end{itemize} 
+%\begin{itemize} 
+%\item $V$ is a set of nodes. $Vid$ is set of unique IDs of $V$.
+%\item $E$ is a set of edges. $E \subseteq V * V$. $Eid$ is set of unique IDs of $E$.
+%\item $A$ is a set of properties.
+%\item $L$ is a set of labels.
+%\item $f$ is mapping function that maps $V$ and $E$ to $A$, $L$, $Vid$ and $Eid$. 
+%
+%$f_{VA}: \{V_{i} \rightarrow A_{i}\}, V_{i}\in V, A_{i} \subseteq A$ , maps each node to its properties.
+%
+%$f_{VL}: \{V_{i} \rightarrow L_{i}\}, V_{i}\in V, L_{i} \subseteq L$ , maps each node to its labels.
+%
+%$f_{EA}: \{E_{i} \rightarrow A_{i}\}, E_{i}\in E, L_{i} \subseteq A$ , maps each edge to its properties.
+%
+%$f_{EA}: \{E_{i} \rightarrow L_{i}\}, E_{i}\in E, L_{i} \subseteq L$ , maps each edge to its labels.
+%
+%$f_{VID}: \{V_{i} \rightarrow Vid_{i}\}, V_{i}\in V, Vid_{i} \subseteq N$ , maps each node to its unique ID.
+%
+%$f_{EID}: \{E_{i} \rightarrow Eid_{i}\}, V_{i}\in V, Eid_{i} \subseteq N$ , maps each edge to its unique ID.
+%
+%\end{itemize} 
 
 \subsection{Notations on OLAP Query}
 
@@ -88,11 +89,12 @@ where \textit{User-owns-Post, Post-has-Tag} referring to  \textit{structure}, \t
 
  \textit{Query \#3.properties=\{Tag.Tagname, User.Age, Post.Year\}}
  
- \textit{q.structure= User-owns-Post, Post-has-Tag}
+ \textit{Query \#3.structure= User-owns-Post, Post-has-Tag}
 
 
 
 \subsection{Materialization: Cuboid vs Substructures}
+\label{Materialization: Cuboid vs Substructures}
 
 We want to accerlerate OLAP by materializations from previous workload. We use
 
@@ -167,6 +169,7 @@ The drawback is that structures are generally more space-costly than cuboids, as
 
 %----------------------------------------------------------------------
 \section{Problem Definition}
+\label{sec:Problem Definition}
 %----------------------------------------------------------------------
 
 Our target is to faster process future OLAP workload using materializations computed based on previous workload. We can divide our goal in two steps. 
@@ -185,12 +188,14 @@ Using materialization is good for query efficiency, but comes with a storage cos
 \\
 We define ``Materialization Selection Problem'' as
 
-Given a property graph dataset G, a set of previous queires P on G, space limit $\sigma$, find cuboids C and substructures S, $\displaystyle{\sum_{c_{i}\in C}c_{i}.space} + 
-\displaystyle{\sum_{s_{i}\in S}s_{i}.space} 
+Given a property graph dataset G, a set of previous queires P on G, space limit $\sigma$, find cuboids C and substructures S, $\displaystyle{\sum_{c_{i}\in C}c_{i}.estimatedSpace} + 
+\displaystyle{\sum_{s_{i}\in S}s_{i}.estimatedSpace} 
 \leq \sigma
-$, so that $\displaystyle{\sum_{p_{i}\in P}estimatedProcessingTime(G, p_{i}, C, S)}$  is minimized.
+$, so that 
 
-Here $estimatedProcessingTime(p_{i}, C, S)}$ is a function for estimation of query processing time of $p_{i}$ on G using materializations of C and S.
+$\displaystyle{\sum_{p_{i}\in P}estimatedProcessingTime(G, p_{i}, C, S)}$  is minimized.
+
+Here $estimatedProcessingTime(p_{i}, C, S)}$ is a function for estimation of query processing time of $p_{i}$ on G using materializations of C and S, and ``estimatedSpace'' refers to estimation of space cost of a cuboid or substructure. Note that we need estimation of time and space cost because it is hard to know the exact actual costs without actually running queries.
 
 %Is ``Processing Plan Problem'' even considered as a problem?
  
@@ -199,4 +204,10 @@ Here $estimatedProcessingTime(p_{i}, C, S)}$ is a function for estimation of que
 We define ``Processing Plan Problem'' as
 
 
-Given a property graph dataset G, a future query q, materialized cuboids C and substructures S, find a processing plan $process(G, q, C, S)$, so that $process(G, q, C, S).executionTime$ is minimized.
+Given a property graph dataset G, a future query q, materialized cuboids C and substructures S, find a processing plan $process(G, q, C, S)$, so that $process(G, q, C, S).executionTime$ is minimized. 
+
+We further divide ``Processing Plan Problem'' into two sub-problems. ``View Decomposition Problem'' decompose q into views from C and S (which have been materialized) and remaining views (which will be fetched from database server). ``View Operation Problem'' performs basic table operations such as joining, projection, selection over views in order to generate result of q.
+
+``View Decomposition Problem'':
+Given a property graph dataset G, a future query q, materialized cuboids C and substructures S, select $C' \subseteq C, S'\subseteq S$, and $R$  a processing plan $process(G, q, C, S)$, so that $process(G, q, C, S).executionTime$ is minimized.
+ 
