@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.7.5)  24 AUG 2017 16:50
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.7.5)  25 AUG 2017 14:59
 entering extended mode
 **./main.tex
 (main.tex
@@ -1168,11 +1168,7 @@ ine 236.
 
 Package glossaries Info: Writing glossary file main.symbols-glo on input line 2
 36.
-(main.aux
-
-LaTeX Warning: Label `sec:Problem Definition' multiply defined.
-
-)
+(main.aux)
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 240.
@@ -1347,7 +1343,7 @@ Missing character: There is no ô in font cmr12!
 
 
 
-] <pic/11.jpg, id=359, 650.43pt x 279.0425pt>
+] <pic/11.jpg, id=361, 650.43pt x 279.0425pt>
 File: pic/11.jpg Graphic file (type jpg)
  <use pic/11.jpg>
 Package pdftex.def Info: pic/11.jpg used on input line 20.
@@ -1362,13 +1358,13 @@ LaTeX Warning: Reference `fig:3' on page 2 undefined on input line 33.
 
 LaTeX Warning: Reference `fig:2' on page 2 undefined on input line 33.
 
-<pic/12.jpg, id=360, 412.54124pt x 212.795pt>
+<pic/12.jpg, id=362, 412.54124pt x 212.795pt>
 File: pic/12.jpg Graphic file (type jpg)
  <use pic/12.jpg>
 Package pdftex.def Info: pic/12.jpg used on input line 38.
 (pdftex.def)             Requested size: 206.27011pt x 106.39723pt.
 
-<pic/3.png, id=361, 2514.39375pt x 2625.81pt>
+<pic/3.png, id=363, 2514.39375pt x 2625.81pt>
 File: pic/3.png Graphic file (type png)
  <use pic/3.png>
 Package pdftex.def Info: pic/3.png used on input line 44.
@@ -1405,7 +1401,7 @@ LaTeX Warning: Citation `DBLP:conf/esws/MaaliCD15' on page 3 undefined on input
 LaTeX Warning: Citation `DBLP:conf/icdm/ChenYZHY08' on page 3 undefined on inpu
 t line 83.
 
-[3] <pic/5.png, id=373, 200.75pt x 770.88pt>
+[3] <pic/5.png, id=375, 200.75pt x 770.88pt>
 File: pic/5.png Graphic file (type png)
  <use pic/5.png>
 Package pdftex.def Info: pic/5.png used on input line 92.
@@ -1505,11 +1501,11 @@ Missing character: There is no ô in font cmr12!
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ô in font cmr12!
- [10] <pic/meta1.png, id=404, 416.55624pt x 218.8175pt>
+ [10] <pic/meta1.png, id=406, 416.55624pt x 218.8175pt>
 File: pic/meta1.png Graphic file (type png)
 
 <use pic/meta1.png>
-Package pdftex.def Info: pic/meta1.png used on input line 145.
+Package pdftex.def Info: pic/meta1.png used on input line 146.
 (pdftex.def)             Requested size: 208.2776pt x 109.40848pt.
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
@@ -1520,11 +1516,11 @@ Missing character: There is no ô in font cmr12!
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ô in font cmr12!
- <pic/22.png, id=407, 132.495pt x 131.49126pt>
+ <pic/22.png, id=409, 132.495pt x 131.49126pt>
 File: pic/22.png Graphic file (type png)
 
 <use pic/22.png>
-Package pdftex.def Info: pic/22.png used on input line 157.
+Package pdftex.def Info: pic/22.png used on input line 158.
 (pdftex.def)             Requested size: 132.49466pt x 131.49092pt.
  [11 <./pic/meta1.png>]
 Missing character: There is no ‚ in font cmbx12!
@@ -1534,17 +1530,17 @@ Missing character: There is no ‚ in font cmbx12!
 Missing character: There is no Ä in font cmbx12!
 Missing character: There is no ô in font cmbx12!
 
-<pic/meta2.jpg, id=413, 419.5675pt x 219.82124pt>
+<pic/meta2.jpg, id=415, 419.5675pt x 219.82124pt>
 File: pic/meta2.jpg Graphic file (type jpg)
  <use pic/meta2.jpg>
-Package pdftex.def Info: pic/meta2.jpg used on input line 167.
+Package pdftex.def Info: pic/meta2.jpg used on input line 168.
 (pdftex.def)             Requested size: 209.78323pt x 109.91034pt.
- [12 <./pic/22.png> <./pic/meta2.jpg>] <pic/4.png, id=421, 258.9675pt x 167.626
+ [12 <./pic/22.png> <./pic/meta2.jpg>] <pic/4.png, id=423, 258.9675pt x 167.626
 25pt>
 File: pic/4.png Graphic file (type png)
 
 <use pic/4.png>
-Package pdftex.def Info: pic/4.png used on input line 193.
+Package pdftex.def Info: pic/4.png used on input line 194.
 (pdftex.def)             Requested size: 233.06857pt x 150.86221pt.
  [13 <./pic/4.png>]
 Missing character: There is no ‚ in font cmr12!
@@ -1568,66 +1564,66 @@ Missing character: There is no ô in font cmr12!
 
 
 LaTeX Warning: Citation `DBLP:conf/sofsem/JakawatFL16' on page 14 undefined on 
-input line 265.
+input line 266.
 
 [14]
 
 LaTeX Warning: Citation `DBLP:conf/esws/MaaliCD15' on page 15 undefined on inpu
-t line 267.
+t line 268.
 
 
 LaTeX Warning: Citation `DBLP:conf/icde/WangFWTAA14' on page 15 undefined on in
-put line 269.
+put line 270.
 
 
 LaTeX Warning: Citation `DBLP:conf/icdm/ChenYZHY08' on page 15 undefined on inp
-ut line 273.
+ut line 274.
 
 
 LaTeX Warning: Citation `DBLP:conf/sigmod/ZhaoLXH11' on page 15 undefined on in
-put line 275.
+put line 276.
 
 
 LaTeX Warning: Citation `DBLP:conf/icdm/ChenYZHY08' on page 15 undefined on inp
-ut line 278.
+ut line 279.
 
 
 LaTeX Warning: Citation `DBLP:conf/sigmod/ZhaoLXH11' on page 15 undefined on in
-put line 281.
+put line 282.
 
 
 LaTeX Warning: Citation `DBLP:conf/sofsem/JakawatFL16' on page 15 undefined on 
-input line 290.
+input line 291.
 
 
 LaTeX Warning: Citation `DBLP:conf/esws/MaaliCD15' on page 15 undefined on inpu
-t line 291.
+t line 292.
 
 
 LaTeX Warning: Citation `DBLP:conf/icde/WangFWTAA14' on page 15 undefined on in
-put line 292.
-
-
-LaTeX Warning: Citation `DBLP:conf/sigmod/ZhaoLXH11' on page 15 undefined on in
 put line 293.
 
 
+LaTeX Warning: Citation `DBLP:conf/sigmod/ZhaoLXH11' on page 15 undefined on in
+put line 294.
+
+
 LaTeX Warning: Citation `DBLP:conf/icdm/ChenYZHY08' on page 15 undefined on inp
-ut line 294.
+ut line 295.
 
 
-Overfull \hbox (15.1517pt too wide) in paragraph at lines 287--297
+Overfull \hbox (15.1517pt too wide) in paragraph at lines 288--298
  [] 
  []
 
 [15]
 
 LaTeX Warning: Citation `DBLP:conf/sigmod/ZhaoLXH11' on page 16 undefined on in
-put line 302.
+put line 303.
 
 
 LaTeX Warning: Citation `DBLP:conf/esws/MaaliCD15' on page 16 undefined on inpu
-t line 302.
+t line 303.
 
 ) [16]
 Chapter 3.
@@ -1636,9 +1632,9 @@ Chapter 3.
 
 ]
 LaTeX Font Info:    Font shape `OMS/cmr/m/it' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 87.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 88.
  [18]
-Overfull \hbox (16.76016pt too wide) in paragraph at lines 133--134
+Overfull \hbox (16.76016pt too wide) in paragraph at lines 134--135
 []\OT1/cmr/m/n/12 If we add \OT1/cmr/m/it/12 ID(Post) \OT1/cmr/m/n/12 into \OT1
 /cmr/m/it/12 di-men-sion \OT1/cmr/m/n/12 and ma-te-ri-al-ize \OT1/cmr/m/sl/12 $
 \OT1/cmr/m/it/12 User-owns-Post: User.Age, Post.Score,
@@ -1652,23 +1648,23 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.184 W
+l.186 W
        e define ``Materialization Selection Problem'' as
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 [20]
-Overfull \hbox (57.74686pt too wide) in paragraph at lines 202--203
-\OT1/cmr/m/n/12 struc-tures S, find a pro-cess-ing plan $\OML/cmm/m/it/12 proce
-ss\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 G; q; C; S\OT1/cmr/m/n/12 )$, so that pro-c
-ess-ing time $\OML/cmm/m/it/12 process\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 G; q; C
-; S\OT1/cmr/m/n/12 )\OML/cmm/m/it/12 :time$
+Overfull \hbox (59.40518pt too wide) in paragraph at lines 204--205
+\OT1/cmr/m/n/12 struc-tures $\OML/cmm/m/it/12 S$\OT1/cmr/m/n/12 , find a pro-ce
+ss-ing plan $\OML/cmm/m/it/12 process\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 G; q; C;
+ S\OT1/cmr/m/n/12 )$, so that pro-cess-ing time $\OML/cmm/m/it/12 process\OT1/c
+mr/m/n/12 (\OML/cmm/m/it/12 G; q; C; S\OT1/cmr/m/n/12 )\OML/cmm/m/it/12 :time$
  []
 
 ) [21] [22]
 Chapter 4.
-(solution.tex <pic/41.pdf, id=480, 722.7pt x 542.025pt>
+(solution.tex <pic/41.pdf, id=484, 722.7pt x 542.025pt>
 File: pic/41.pdf Graphic file (type pdf)
  <use pic/41.pdf>
 Package pdftex.def Info: pic/41.pdf used on input line 16.
@@ -1685,16 +1681,16 @@ Overfull \hbox (117.43954pt too wide) in paragraph at lines 16--17
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.52 	$
-       C:=materialize(CubePlanner(CInput))$ \;
+l.52 $
+      C:=materialize(CubePlanner(CInput))$\;
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 ! Extra }, or forgotten $.
 <recently read> \egroup 
                         
-l.52 	$
-       C:=materialize(CubePlanner(CInput))$ \;
+l.52 $
+      C:=materialize(CubePlanner(CInput))$\;
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
 you forgot something else, as in `\hbox{$x}'. In such cases
@@ -1704,8 +1700,8 @@ deleted material, e.g., by typing `I$}'.
 ! Extra }, or forgotten $.
 <recently read> \egroup 
                         
-l.52 	$
-       C:=materialize(CubePlanner(CInput))$ \;
+l.52 $
+      C:=materialize(CubePlanner(CInput))$\;
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
 you forgot something else, as in `\hbox{$x}'. In such cases
@@ -1715,10 +1711,70 @@ deleted material, e.g., by typing `I$}'.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.52 	$
-       C:=materialize(CubePlanner(CInput))$ \;
+l.52 $
+      C:=materialize(CubePlanner(CInput))$\;
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.52 $
+      C:=materialize(CubePlanner(CInput))$\;
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Extra }, or forgotten $.
+<recently read> \egroup 
+                        
+l.52 $
+      C:=materialize(CubePlanner(CInput))$\;
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Extra }, or forgotten $.
+<recently read> \egroup 
+                        
+l.52 $
+      C:=materialize(CubePlanner(CInput))$\;
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.52 $
+      C:=materialize(CubePlanner(CInput))$\;
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.55 \end{algorithm}
+                    
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.55 \end{algorithm}
+                    
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
 
 ! Missing } inserted.
 <inserted text> 
@@ -1748,9 +1804,21 @@ really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
 [25]
-Overfull \hbox (10.92252pt too wide) in paragraph at lines 73--74
-[]\OT1/cmr/m/n/12 User-Comment, Comment-Post: User.Age, (AVG)Comment.Score, Pos
-t.PostTypeId=2 
+Overfull \hbox (8.4767pt too wide) in paragraph at lines 67--68
+[]\OT1/cmr/m/n/12 #2 User-Comment, Comment-Post: User.UpVotes, Com-ment.Score, 
+(AVG)Post.Score,
+ []
+
+
+Overfull \hbox (9.52751pt too wide) in paragraph at lines 73--74
+[]\OT1/cmr/m/n/12 #5 User-Comment, Comment-Post: User.ActiveMonth, Post.Creatio
+nDate[]Year=2016 
+ []
+
+
+Overfull \hbox (29.2001pt too wide) in paragraph at lines 75--76
+[]\OT1/cmr/m/n/12 #6 User-Comment, Comment-Post: User.Age, (AVG)Comment.Score, 
+Post.PostTypeId=2 
  []
 
 
@@ -1760,25 +1828,29 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.78 \textbf
+l.80 \textbf
             {Future Workload:}
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Overfull \hbox (10.92252pt too wide) in paragraph at lines 109--110
-[]\OT1/cmr/m/n/12 User-Comment, Comment-Post: User.Age, (AVG)Comment.Score, Pos
-t.PostTypeId=2 
+Overfull \hbox (10.55725pt too wide) in paragraph at lines 83--84
+[]\OT1/cmr/m/n/12 #1 User-Comment, Comment-Post: User.UpVotes, (AVG)Post.Score,
+ Post.PostTypeId 
  []
 
 [26
 
-] [27]
+]
+
+LaTeX Warning: Citation `DBLP:journals/kais/LinK04' on page 27 undefined on inp
+ut line 112.
+
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.152 
+l.128 
       
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -1786,7 +1858,7 @@ you left one out. Proceed, with fingers crossed.
 ! Extra }, or forgotten $.
 <recently read> \egroup 
                         
-l.152 
+l.128 
       
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -1797,7 +1869,7 @@ deleted material, e.g., by typing `I$}'.
 ! Extra }, or forgotten $.
 <recently read> \egroup 
                         
-l.152 
+l.128 
       
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -1808,7 +1880,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.152 
+l.128 
       
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -1816,7 +1888,7 @@ you left one out. Proceed, with fingers crossed.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.158 \end{algorithm}
+l.134 \end{algorithm}
                      
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1825,14 +1897,14 @@ really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
 
-Underfull \hbox (badness 10000) detected at line 158
+Underfull \hbox (badness 10000) detected at line 134
 [][]
  []
 
 ! Missing } inserted.
 <inserted text> 
                 }
-l.158 \end{algorithm}
+l.134 \end{algorithm}
                      
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1840,20 +1912,20 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-[28]
+[27] [28]
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.187 	\ForEach
-               {cuboid \in Lattice}{
+l.164 
+      
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 ! Extra }, or forgotten $.
 <recently read> \egroup 
                         
-l.187 	\ForEach
-               {cuboid \in Lattice}{
+l.164 
+      
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
 you forgot something else, as in `\hbox{$x}'. In such cases
@@ -1863,8 +1935,8 @@ deleted material, e.g., by typing `I$}'.
 ! Extra }, or forgotten $.
 <recently read> \egroup 
                         
-l.187 	\ForEach
-               {cuboid \in Lattice}{
+l.164 
+      
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
 you forgot something else, as in `\hbox{$x}'. In such cases
@@ -1874,75 +1946,15 @@ deleted material, e.g., by typing `I$}'.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.187 	\ForEach
-               {cuboid \in Lattice}{
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.195 	\For
-           {i=1 \emph{\KwTo} n}{
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Extra }, or forgotten $.
-<recently read> \egroup 
-                        
-l.195 	\For
-           {i=1 \emph{\KwTo} n}{
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-! Extra }, or forgotten $.
-<recently read> \egroup 
-                        
-l.195 	\For
-           {i=1 \emph{\KwTo} n}{
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.195 	\For
-           {i=1 \emph{\KwTo} n}{
+l.164 
+      
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 ! Missing } inserted.
 <inserted text> 
                 }
-l.207 \end{algorithm}
-                     
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.207 \end{algorithm}
-                     
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.207 \end{algorithm}
+l.170 \end{algorithm}
                      
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1951,14 +1963,14 @@ really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
 
-Underfull \hbox (badness 10000) detected at line 207
+Underfull \hbox (badness 10000) detected at line 170
 [][]
  []
 
 ! Missing } inserted.
 <inserted text> 
                 }
-l.207 \end{algorithm}
+l.170 \end{algorithm}
                      
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1966,42 +1978,175 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-[29] [30] <pic/61.png, id=590, 444.66125pt x 634.37pt>
+[29]
+! Missing $ inserted.
+<inserted text> 
+                $
+l.194 	\ForEach
+               {cuboid \in Lattice}{
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Extra }, or forgotten $.
+<recently read> \egroup 
+                        
+l.194 	\ForEach
+               {cuboid \in Lattice}{
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Extra }, or forgotten $.
+<recently read> \egroup 
+                        
+l.194 	\ForEach
+               {cuboid \in Lattice}{
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.194 	\ForEach
+               {cuboid \in Lattice}{
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.202 	\For
+           {i=1 \emph{\KwTo} n}{
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Extra }, or forgotten $.
+<recently read> \egroup 
+                        
+l.202 	\For
+           {i=1 \emph{\KwTo} n}{
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Extra }, or forgotten $.
+<recently read> \egroup 
+                        
+l.202 	\For
+           {i=1 \emph{\KwTo} n}{
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.202 	\For
+           {i=1 \emph{\KwTo} n}{
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.214 \end{algorithm}
+                     
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.214 \end{algorithm}
+                     
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.214 \end{algorithm}
+                     
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+Underfull \hbox (badness 10000) detected at line 214
+[][]
+ []
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.214 \end{algorithm}
+                     
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+[30
+
+] [31]
+
+LaTeX Warning: Citation `DBLP:journals/ipl/NourineR99' on page 32 undefined on 
+input line 217.
+
+<pic/61.png, id=614, 444.66125pt x 634.37pt>
 File: pic/61.png Graphic file (type png)
  <use pic/61.png>
-Package pdftex.def Info: pic/61.png used on input line 225.
+Package pdftex.def Info: pic/61.png used on input line 223.
 (pdftex.def)             Requested size: 266.7988pt x 380.62492pt.
 
-Underfull \hbox (badness 2012) in paragraph at lines 226--226
+Underfull \hbox (badness 2012) in paragraph at lines 224--224
 []\OT1/cmr/m/n/12 Figure 4.2: []Neo4j's ex-e-cu-tion plan for query \OT1/cmr/m/
 it/12 User-Badge, User-Post, Post-Tag:
  []
 
-[31
+[32
 
 ]
 
-LaTeX Warning: Citation `DBLP:conf/pods/Chaudhuri98' on page 32 undefined on in
-put line 230.
+LaTeX Warning: Citation `DBLP:conf/pods/Chaudhuri98' on page 33 undefined on in
+put line 228.
 
 
-LaTeX Warning: Citation `DBLP:conf/edbt/SwamiS94' on page 32 undefined on input
- line 230.
+LaTeX Warning: Citation `DBLP:conf/edbt/SwamiS94' on page 33 undefined on input
+ line 228.
 
-[32 <./pic/61.png>]
+[33 <./pic/61.png>]
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.259 
-      
+l.258 \ForEach
+              {substructure \in Lattice}{
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 ! Extra }, or forgotten $.
 <recently read> \egroup 
                         
-l.259 
-      
+l.258 \ForEach
+              {substructure \in Lattice}{
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
 you forgot something else, as in `\hbox{$x}'. In such cases
@@ -2011,8 +2156,8 @@ deleted material, e.g., by typing `I$}'.
 ! Extra }, or forgotten $.
 <recently read> \egroup 
                         
-l.259 
-      
+l.258 \ForEach
+              {substructure \in Lattice}{
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
 you forgot something else, as in `\hbox{$x}'. In such cases
@@ -2022,15 +2167,75 @@ deleted material, e.g., by typing `I$}'.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.259 
-      
+l.258 \ForEach
+              {substructure \in Lattice}{
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.266 \For
+          {i=1 \emph{\KwTo} n}{
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Extra }, or forgotten $.
+<recently read> \egroup 
+                        
+l.266 \For
+          {i=1 \emph{\KwTo} n}{
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Extra }, or forgotten $.
+<recently read> \egroup 
+                        
+l.266 \For
+          {i=1 \emph{\KwTo} n}{
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.266 \For
+          {i=1 \emph{\KwTo} n}{
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 ! Missing } inserted.
 <inserted text> 
                 }
-l.265 \end{algorithm}
+l.278 \end{algorithm}
+                     
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.278 \end{algorithm}
+                     
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.278 \end{algorithm}
                      
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -2039,14 +2244,14 @@ really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
 
-Underfull \hbox (badness 10000) detected at line 265
+Underfull \hbox (badness 10000) detected at line 278
 [][]
  []
 
 ! Missing } inserted.
 <inserted text> 
                 }
-l.265 \end{algorithm}
+l.278 \end{algorithm}
                      
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -2054,20 +2259,35 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-[33]
+[34] [35] <pic/Structurelattice.jpg, id=660, 702.625pt x 409.53pt>
+File: pic/Structurelattice.jpg Graphic file (type jpg)
+
+<use pic/Structurelattice.jpg>
+Package pdftex.def Info: pic/Structurelattice.jpg used on input line 285.
+(pdftex.def)             Requested size: 421.57825pt x 245.7199pt.
+ [36
+
+ <./pic/Structurelattice.jpg>]
+<pic/bordernode.jpg, id=666, 424.58624pt x 216.81pt>
+File: pic/bordernode.jpg Graphic file (type jpg)
+ <use pic/bordernode.jpg>
+Package pdftex.def Info: pic/bordernode.jpg used on input line 313.
+(pdftex.def)             Requested size: 297.20834pt x 151.76596pt.
+
+[37]
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.290 	\ForEach
-               {substructure \in Lattice}{
+l.361 \end
+          {algorithm}
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 ! Extra }, or forgotten $.
 <recently read> \egroup 
                         
-l.290 	\ForEach
-               {substructure \in Lattice}{
+l.361 \end
+          {algorithm}
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
 you forgot something else, as in `\hbox{$x}'. In such cases
@@ -2077,8 +2297,8 @@ deleted material, e.g., by typing `I$}'.
 ! Extra }, or forgotten $.
 <recently read> \egroup 
                         
-l.290 	\ForEach
-               {substructure \in Lattice}{
+l.361 \end
+          {algorithm}
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
 you forgot something else, as in `\hbox{$x}'. In such cases
@@ -2088,75 +2308,15 @@ deleted material, e.g., by typing `I$}'.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.290 	\ForEach
-               {substructure \in Lattice}{
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.298 	\For
-           {i=1 \emph{\KwTo} n}{
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Extra }, or forgotten $.
-<recently read> \egroup 
-                        
-l.298 	\For
-           {i=1 \emph{\KwTo} n}{
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-! Extra }, or forgotten $.
-<recently read> \egroup 
-                        
-l.298 	\For
-           {i=1 \emph{\KwTo} n}{
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.298 	\For
-           {i=1 \emph{\KwTo} n}{
+l.361 \end
+          {algorithm}
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 ! Missing } inserted.
 <inserted text> 
                 }
-l.310 \end{algorithm}
-                     
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.310 \end{algorithm}
-                     
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.310 \end{algorithm}
+l.361 \end{algorithm}
                      
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -2165,14 +2325,14 @@ really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
 
-Underfull \hbox (badness 10000) detected at line 310
+Underfull \hbox (badness 10000) detected at line 361
 [][]
  []
 
 ! Missing } inserted.
 <inserted text> 
                 }
-l.310 \end{algorithm}
+l.361 \end{algorithm}
                      
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -2180,157 +2340,27 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-[34
-
-] [35] <pic/42.png, id=652, 1416.29124pt x 681.54625pt>
-File: pic/42.png Graphic file (type png)
- <use pic/42.png>
-Package pdftex.def Info: pic/42.png used on input line 317.
-(pdftex.def)             Requested size: 424.89066pt x 204.46545pt.
-
-[36
-
- <./pic/42.png>] [37]
-! Missing $ inserted.
-<inserted text> 
-                $
-l.403 \end
-          {algorithm}
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Extra }, or forgotten $.
-<recently read> \egroup 
-                        
-l.403 \end
-          {algorithm}
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-! Extra }, or forgotten $.
-<recently read> \egroup 
-                        
-l.403 \end
-          {algorithm}
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.403 \end
-          {algorithm}
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.403 \end
-          {algorithm}
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Extra }, or forgotten $.
-<recently read> \egroup 
-                        
-l.403 \end
-          {algorithm}
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-! Extra }, or forgotten $.
-<recently read> \egroup 
-                        
-l.403 \end
-          {algorithm}
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.403 \end
-          {algorithm}
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.403 \end{algorithm}
-                     
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.403 \end{algorithm}
-                     
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.403 \end{algorithm}
-                     
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-
-Underfull \hbox (badness 10000) detected at line 403
-[][]
- []
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.403 \end{algorithm}
-                     
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-[38] [39] [40
+[38 <./pic/bordernode.jpg>] [39] [40
 
 ] [41]
+Overfull \hbox (46.81177pt too wide) in paragraph at lines 417--418
+\OT1/cmr/m/n/12 cuss two other vari-a-tions of im-ple-men-ta-tion: $\OML/cmm/m/
+it/12 Decompose[]Join[]$ \OT1/cmr/m/n/12 and $\OML/cmm/m/it/12 Decompose[]Join[
+]$\OT1/cmr/m/n/12 . 
+ []
+
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.487 	r := join\_aggregate(\Sigma
-                                  , q)\;
+l.437 r := join\_aggregate(\Sigma
+                                 , q)\;
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 ! Extra }, or forgotten $.
 \@algocf@finish ->\@algoinsideskip \egroup 
                                            \hfill \egroup \ifthenelse {\bool...
-l.488 \end{algorithm}
+l.438 \end{algorithm}
                      
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -2341,7 +2371,7 @@ deleted material, e.g., by typing `I$}'.
 ! Extra }, or forgotten $.
 \@algocf@finish ...ideskip \egroup \hfill \egroup 
                                                   \ifthenelse {\boolean {alg...
-l.488 \end{algorithm}
+l.438 \end{algorithm}
                      
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -2352,7 +2382,7 @@ deleted material, e.g., by typing `I$}'.
 ! Extra }, or forgotten $.
 \@algocf@finish ... {\skipalgocfslide }}{}\egroup 
                                                   \end {lrbox}\algocf@maketh...
-l.488 \end{algorithm}
+l.438 \end{algorithm}
                      
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -2363,7 +2393,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.488 \end{algorithm}
+l.438 \end{algorithm}
                      
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -2371,7 +2401,7 @@ you left one out. Proceed, with fingers crossed.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.488 \end{algorithm}
+l.438 \end{algorithm}
                      
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -2382,7 +2412,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.488 \end{algorithm}
+l.438 \end{algorithm}
                      
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -2391,14 +2421,14 @@ really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
 
-Underfull \hbox (badness 10000) detected at line 488
+Underfull \hbox (badness 10000) detected at line 438
 [][]
  []
 
 ! Missing } inserted.
 <inserted text> 
                 }
-l.488 \end{algorithm}
+l.438 \end{algorithm}
                      
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -2411,36 +2441,37 @@ my insertion and my current dilemma will both disappear.
 ]
 
 LaTeX Warning: Citation `DBLP:journals/dr/Ozsoyoglu99' on page 43 undefined on 
-input line 507.
+input line 447.
 
+[43]
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.517 	V^
-         {*}:=join(V)\;
+l.457 V^
+        {*}:=join(V)\;
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.518 	$\Sigma
-               \gets \Sigma \cup V $\;
+l.458 $\Sigma
+              \gets \Sigma \cup V $\;
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.523 	r := join\_aggregate(\Sigma
-                                  , q)\;
+l.463 r := join\_aggregate(\Sigma
+                                 , q)\;
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 ! Extra }, or forgotten $.
 \@algocf@finish ->\@algoinsideskip \egroup 
                                            \hfill \egroup \ifthenelse {\bool...
-l.524 \end{algorithm}
+l.464 \end{algorithm}
                      
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -2451,7 +2482,7 @@ deleted material, e.g., by typing `I$}'.
 ! Extra }, or forgotten $.
 \@algocf@finish ...ideskip \egroup \hfill \egroup 
                                                   \ifthenelse {\boolean {alg...
-l.524 \end{algorithm}
+l.464 \end{algorithm}
                      
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -2462,7 +2493,7 @@ deleted material, e.g., by typing `I$}'.
 ! Extra }, or forgotten $.
 \@algocf@finish ... {\skipalgocfslide }}{}\egroup 
                                                   \end {lrbox}\algocf@maketh...
-l.524 \end{algorithm}
+l.464 \end{algorithm}
                      
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -2473,7 +2504,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.524 \end{algorithm}
+l.464 \end{algorithm}
                      
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -2481,7 +2512,7 @@ you left one out. Proceed, with fingers crossed.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.524 \end{algorithm}
+l.464 \end{algorithm}
                      
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -2492,7 +2523,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.524 \end{algorithm}
+l.464 \end{algorithm}
                      
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -2501,14 +2532,14 @@ really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
 
-Underfull \hbox (badness 10000) detected at line 524
+Underfull \hbox (badness 10000) detected at line 464
 [][]
  []
 
 ! Missing } inserted.
 <inserted text> 
                 }
-l.524 \end{algorithm}
+l.464 \end{algorithm}
                      
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -2516,8 +2547,14 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-[43] [44]
-Overfull \hbox (19.37376pt too wide) in paragraph at lines 534--535
+[44]
+Overfull \hbox (62.79019pt too wide) in paragraph at lines 476--477
+\OML/cmm/m/it/12 Decompose[]Join$ \OT1/cmr/m/n/12 per-forms one round of joins 
+af-ter all com-po-nents are ready. $\OML/cmm/m/it/12 Decompose[]Join[]$
+ []
+
+
+Overfull \hbox (19.37376pt too wide) in paragraph at lines 481--482
 \OML/cmm/m/it/12 retrieve[][]\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 s; V[]\OT1/cmr/m
 /n/12 )$ and choose be-tween $\OML/cmm/m/it/12 retrieve[][]\OT1/cmr/m/n/12 (\OM
 L/cmm/m/it/12 s; V[]\OT1/cmr/m/n/12 )$ and $\OML/cmm/m/it/12 retrieve\OT1/cmr/m
@@ -2527,32 +2564,32 @@ L/cmm/m/it/12 s; V[]\OT1/cmr/m/n/12 )$ and $\OML/cmm/m/it/12 retrieve\OT1/cmr/m
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.544 	V^
-         {*}:=join(V)\;
+l.491 V^
+        {*}:=join(V)\;
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.545 	$\Sigma
-               \gets \Sigma \cup V $\;
+l.492 $\Sigma
+              \gets \Sigma \cup V $\;
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.554 	r
-         := join\_aggregate(\Sigma, q)\;
+l.501 r
+        := join\_aggregate(\Sigma, q)\;
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 ! Extra }, or forgotten $.
 <recently read> \egroup 
                         
-l.554 	r
-         := join\_aggregate(\Sigma, q)\;
+l.501 r
+        := join\_aggregate(\Sigma, q)\;
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
 you forgot something else, as in `\hbox{$x}'. In such cases
@@ -2562,8 +2599,8 @@ deleted material, e.g., by typing `I$}'.
 ! Extra }, or forgotten $.
 <recently read> \egroup 
                         
-l.554 	r
-         := join\_aggregate(\Sigma, q)\;
+l.501 r
+        := join\_aggregate(\Sigma, q)\;
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
 you forgot something else, as in `\hbox{$x}'. In such cases
@@ -2573,23 +2610,23 @@ deleted material, e.g., by typing `I$}'.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.554 	r
-         := join\_aggregate(\Sigma, q)\;
+l.501 r
+        := join\_aggregate(\Sigma, q)\;
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.554 	r := join\_aggregate(\Sigma
-                                  , q)\;
+l.501 r := join\_aggregate(\Sigma
+                                 , q)\;
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 ! Extra }, or forgotten $.
 \@algocf@finish ->\@algoinsideskip \egroup 
                                            \hfill \egroup \ifthenelse {\bool...
-l.555 \end{algorithm}
+l.502 \end{algorithm}
                      
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -2600,7 +2637,7 @@ deleted material, e.g., by typing `I$}'.
 ! Extra }, or forgotten $.
 \@algocf@finish ...ideskip \egroup \hfill \egroup 
                                                   \ifthenelse {\boolean {alg...
-l.555 \end{algorithm}
+l.502 \end{algorithm}
                      
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -2611,7 +2648,7 @@ deleted material, e.g., by typing `I$}'.
 ! Extra }, or forgotten $.
 \@algocf@finish ... {\skipalgocfslide }}{}\egroup 
                                                   \end {lrbox}\algocf@maketh...
-l.555 \end{algorithm}
+l.502 \end{algorithm}
                      
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -2622,7 +2659,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.555 \end{algorithm}
+l.502 \end{algorithm}
                      
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -2630,7 +2667,7 @@ you left one out. Proceed, with fingers crossed.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.555 \end{algorithm}
+l.502 \end{algorithm}
                      
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -2641,7 +2678,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.555 \end{algorithm}
+l.502 \end{algorithm}
                      
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -2652,7 +2689,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.555 \end{algorithm}
+l.502 \end{algorithm}
                      
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -2663,7 +2700,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.555 \end{algorithm}
+l.502 \end{algorithm}
                      
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -2672,14 +2709,14 @@ really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
 
-Underfull \hbox (badness 10000) detected at line 555
+Underfull \hbox (badness 10000) detected at line 502
 [][]
  []
 
 ! Missing } inserted.
 <inserted text> 
                 }
-l.555 \end{algorithm}
+l.502 \end{algorithm}
                      
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -2689,31 +2726,16 @@ my insertion and my current dilemma will both disappear.
 
 [45
 
-]
-! Missing $ inserted.
-<inserted text> 
-                $
-l.558 In Line 7, Function decide\_informative(s,V^
-                                                  {*}) makes decision betwee...
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.558 ...on between $retrieve\_{informative}(s, V^
-                                                  {*})$ and $retrieve(s)$. I...
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-
-Overfull \hbox (12.01476pt too wide) in paragraph at lines 558--559
-[]\OT1/cmr/m/n/12 In Line 7, Func-tion de-cide[]informative(s,V$[])\OML/cmm/m/i
-t/12 makesdecisionbetween$\OT1/cmr/m/n/12 retrieve[]informative(s,
+] [46]
+Overfull \hbox (61.00789pt too wide) in paragraph at lines 505--506
+[]\OT1/cmr/m/n/12 In Line 7, Func-tion $\OML/cmm/m/it/12 decide[]informative\OT
+1/cmr/m/n/12 (\OML/cmm/m/it/12 s; V[]\OT1/cmr/m/n/12 )$ makes de-ci-sion be-twe
+en $\OML/cmm/m/it/12 retrieve[][]\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 s; V[]\OT1/c
+mr/m/n/12 )$
  []
 
 
-Overfull \hbox (64.97809pt too wide) in paragraph at lines 558--559
+Overfull \hbox (64.97809pt too wide) in paragraph at lines 505--506
 \OML/cmm/m/it/12 retrieve[][]\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 s; V[]\OT1/cmr/m
 /n/12 )\OML/cmm/m/it/12 :estimatedSize$ \OT1/cmr/m/n/12 and $\OML/cmm/m/it/12 r
 etrieve\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 s\OT1/cmr/m/n/12 )\OML/cmm/m/it/12 :es
@@ -2722,21 +2744,21 @@ mm/m/it/12 s\OT1/cmr/m/n/12 )\OML/cmm/m/it/12 :estimatedSize$
  []
 
 
-Overfull \hbox (77.61707pt too wide) in paragraph at lines 562--563
+Overfull \hbox (77.61707pt too wide) in paragraph at lines 509--510
 \OT1/cmr/m/n/12 ``trial query''. We want to use ``trial query'' to es-ti-mate r
 e-sult length of ac-tual $\OML/cmm/m/it/12 retrieve[][]\OT1/cmr/m/n/12 (\OML/cm
 m/m/it/12 s; V[]\OT1/cmr/m/n/12 )$.
  []
 
 
-Overfull \hbox (23.0818pt too wide) in paragraph at lines 564--565
+Overfull \hbox (23.0818pt too wide) in paragraph at lines 511--512
 []\OT1/cmr/m/n/12 3. Us-ing re-sult length of ``trial query'', cal-cu-late $\OM
 L/cmm/m/it/12 retrieve[][]\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 s; V[]\OT1/cmr/m/n/
 12 )\OML/cmm/m/it/12 :estimatedSize$
  []
 
 
-Overfull \hbox (49.44066pt too wide) in paragraph at lines 568--569
+Overfull \hbox (49.44066pt too wide) in paragraph at lines 515--516
 []$\OML/cmm/m/it/12 retrieve\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 s\OT1/cmr/m/n/12 
 )\OML/cmm/m/it/12 :estimatedSize \OMS/cmsy/m/n/12   \OML/cmm/m/it/12 retrieve[]
 []\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 s; V[]\OT1/cmr/m/n/12 )\OML/cmm/m/it/12 :es
@@ -2744,7 +2766,14 @@ timatedSize=sizeOf\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 candidateIDs\OT1/cmr/m/n/12
  )$
  []
 
-) [46
+
+Overfull \hbox (23.33069pt too wide) in paragraph at lines 517--518
+[]$\OML/cmm/m/it/12 Decompose[]Join[]$ \OT1/cmr/bx/n/12 vs. $\OML/cmm/m/it/12 D
+ecompose[]Join[]$\OT1/cmr/m/n/12 : We see that $\OML/cmm/m/it/12 Decompose[]Joi
+n[]$
+ []
+
+) [47
 
 ]
 Chapter 5.
@@ -2799,7 +2828,7 @@ Overfull \hbox (1.13095pt too wide) in paragraph at lines 26--27
 t-PostTypeId=2 
  []
 
-[47
+[48
 
 
 ]
@@ -2808,7 +2837,7 @@ Overfull \hbox (60.35701pt too wide) in paragraph at lines 32--33
 r=2016, Post-CreationDate[]Year 
  []
 
-[48]
+[49]
 
 ! LaTeX Error: There's no line here to end.
 
@@ -2834,7 +2863,7 @@ Overfull \hbox (15.1483pt too wide) in paragraph at lines 133--134
 ionDate[]Year=2015 
  []
 
-[49]
+[50]
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ú in font cmr12!
@@ -2885,7 +2914,7 @@ Missing character: There is no ú in font cmr12!
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ù in font cmr12!
-[50]
+[51]
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ú in font cmr12!
@@ -2907,7 +2936,7 @@ Missing character: There is no ú in font cmr12!
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ù in font cmr12!
-) [51]
+) [52]
 Chapter 6.
 (conclusion.tex
 Missing character: There is no ‚ in font cmr12!
@@ -2933,7 +2962,7 @@ l.38 \end{figure}
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-[52
+[53
 
 
 ]
@@ -2954,7 +2983,7 @@ l.45 \end{figure}
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-[53]
+[54]
 ! Missing $ inserted.
 <inserted text> 
                 $
@@ -2998,7 +3027,7 @@ l.309 \cleardoublepage
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-[54]
+[55]
 
 ! LaTeX Error: Something's wrong--perhaps a missing \item.
 
@@ -3085,17 +3114,17 @@ l.1 \begin{thebibliography}{1}
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-) [55
+) [56
 
 
 
 
-] [56
+] [57
 
 
 ]
 Appendix A.
-[57
+[58
 
 
 ]
@@ -3110,7 +3139,7 @@ Overfull \hbox (57.62837pt too wide) in paragraph at lines 358--358
 d height (4 in.)[] 
  []
 
-[58
+[59
 runsystem(makeindex -s main.ist -t main.glg -o main.gls main.glo)...executed (a
 llowed).
 
@@ -3143,13 +3172,10 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 360.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 360.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 360.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 230D0B7700FA06F27DF7704B3287E7F7;3711.
+(rerunfilecheck)             Checksum: FB2FAB7F30EA5A88B1236499F8F53281;3712.
 
 
 LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: There were multiply-defined labels.
 
  )
 (\end occurred inside a group at level 3)
@@ -3159,13 +3185,13 @@ LaTeX Warning: There were multiply-defined labels.
 ### simple group (level 1) entered at line 1061 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 32757 strings out of 493323
- 618584 string characters out of 3138968
- 779505 words of memory out of 3000000
- 35437 multiletter control sequences out of 15000+200000
+ 32767 strings out of 493323
+ 618845 string characters out of 3138968
+ 779679 words of memory out of 3000000
+ 35446 multiletter control sequences out of 15000+200000
  541956 words of font info for 65 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 73i,18n,66p,10491b,22773s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 73i,18n,66p,10491b,22769s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmb
 x10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
 <C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx8.pfb><C:/Progr
@@ -3184,9 +3210,9 @@ fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files/MiKTeX 2.9/fonts/typ
 e1/public/amsfonts/cm/cmti12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publi
 c/amsfonts/cm/cmti8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfont
 s/cm/cmtt12.pfb>
-Output written on main.pdf (68 pages, 794277 bytes).
+Output written on main.pdf (69 pages, 654979 bytes).
 PDF statistics:
- 953 PDF objects out of 1000 (max. 8388607)
+ 965 PDF objects out of 1000 (max. 8388607)
  304 named destinations out of 1000 (max. 500000)
- 508 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 513 words of extra memory for PDF output out of 10000 (max. 10000000)
 

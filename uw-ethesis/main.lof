@@ -8,8 +8,9 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {4.1}{\ignorespaces Solution framework.}}{24}{figure.4.1}
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Neo4j's execution plan for query \textit {User-Badge, User-Post, Post-Tag: Tag.TagName}.}}{32}{figure.4.2}
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Substructure lattice.}}{36}{figure.4.3}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Neo4j's execution plan for query \textit {User-Badge, User-Post, Post-Tag: Tag.TagName}.}}{33}{figure.4.2}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces A substructure lattice with \textit {Badge-User, User-Post, Post-Tag} as its root node.}}{36}{figure.4.3}
+\contentsline {figure}{\numberline {4.4}{\ignorespaces ``Border nodes'' of structure \textit {User-Post, Post-Tag}.}}{38}{figure.4.4}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
