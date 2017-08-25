@@ -1,18 +1,170 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{10}
+
+\bibitem{DBLP:journals/cacm/X17f}
+The internet of things.
+\newblock {\em Commun. {ACM}}, 60(5):18--19, 2017.
+
+\bibitem{DBLP:conf/sigmod/BeyerR99}
+Kevin~S. Beyer and Raghu Ramakrishnan.
+\newblock Bottom-up computation of sparse and iceberg cubes.
+\newblock In {\em {SIGMOD} 1999, Proceedings {ACM} {SIGMOD} International
+  Conference on Management of Data, June 1-3, 1999, Philadelphia, Pennsylvania,
+  {USA.}}, pages 359--370, 1999.
+
+\bibitem{DBLP:conf/pods/Chaudhuri98}
+Surajit Chaudhuri.
+\newblock An overview of query optimization in relational systems.
+\newblock In {\em Proceedings of the Seventeenth {ACM} {SIGACT-SIGMOD-SIGART}
+  Symposium on Principles of Database Systems, June 1-3, 1998, Seattle,
+  Washington, {USA}}, pages 34--43, 1998.
+
+\bibitem{DBLP:conf/icdm/ChenYZHY08}
+Chen Chen, Xifeng Yan, Feida Zhu, Jiawei Han, and Philip~S. Yu.
+\newblock Graph {OLAP:} towards online analytical processing on graphs.
+\newblock In {\em Proceedings of the 8th {IEEE} International Conference on
+  Data Mining {(ICDM} 2008), December 15-19, 2008, Pisa, Italy}, pages
+  103--112, 2008.
+
+\bibitem{DBLP:journals/tcyb/ChoiCY17}
+Tsan{-}Ming Choi, Hing~Kai Chan, and Xiaohang Yue.
+\newblock Recent development in big data analytics for business operations and
+  risk management.
+\newblock {\em {IEEE} Trans. Cybernetics}, 47(1):81--92, 2017.
+
+\bibitem{DBLP:conf/ismis/CuzzocreaL12}
+Alfredo Cuzzocrea and Carson~Kai{-}Sang Leung.
+\newblock Efficiently compressing {OLAP} data cubes via r-tree based recursive
+  partitions.
+\newblock In {\em Foundations of Intelligent Systems - 20th International
+  Symposium, {ISMIS} 2012, Macau, China, December 4-7, 2012. Proceedings},
+  pages 455--465, 2012.
+
+\bibitem{DBLP:journals/kais/DrzadzewskiT16}
+Grzegorz Drzadzewski and Frank~Wm. Tompa.
+\newblock Partial materialization for online analytical processing over
+  multi-tagged document collections.
+\newblock {\em Knowl. Inf. Syst.}, 47(3):697--732, 2016.
+
+\bibitem{DBLP:journals/tii/FangXZAPYL14}
+Shifeng Fang, Li~Da Xu, Yunqiang Zhu, Jiaerheng Ahati, Huan Pei, Jianwu Yan,
+  and Zhihui Liu.
+\newblock An integrated system for regional environmental monitoring and
+  management based on internet of things.
+\newblock {\em {IEEE} Trans. Industrial Informatics}, 10(2):1596--1605, 2014.
 
 \bibitem{goossens.book}
 Michel Goossens, Frank Mittelbach, and Alexander Samarin.
 \newblock {\em The \LaTeX\ Companion}.
 \newblock Addison-Wesley, Reading, Massachusetts, 1994.
 
+\bibitem{DBLP:journals/datamine/GrayCBLRVPP97}
+Jim Gray, Surajit Chaudhuri, Adam Bosworth, Andrew Layman, Don Reichart, Murali
+  Venkatrao, Frank Pellow, and Hamid Pirahesh.
+\newblock Data cube: {A} relational aggregation operator generalizing group-by,
+  cross-tab, and sub totals.
+\newblock {\em Data Min. Knowl. Discov.}, 1(1):29--53, 1997.
+
+\bibitem{DBLP:conf/sc/HongDMLVC15}
+Sungpack Hong, Siegfried Depner, Thomas Manhardt, Jan Van~Der Lugt, Merijn
+  Verstraaten, and Hassan Chafi.
+\newblock {PGX.D:} a fast distributed graph processing engine.
+\newblock In {\em Proceedings of the International Conference for High
+  Performance Computing, Networking, Storage and Analysis, {SC} 2015, Austin,
+  TX, USA, November 15-20, 2015}, pages 58:1--58:12, 2015.
+
+\bibitem{DBLP:conf/sofsem/JakawatFL16}
+Wararat Jakawat, C{\'{e}}cile Favre, and Sabine Loudcher.
+\newblock {OLAP} cube-based graph approach for bibliographic data.
+\newblock In {\em Proceedings of Student Research Forum Papers and Posters at
+  {SOFSEM} 2016 co-located with 42nd International Conference on Current Trends
+  in Theory and Practice of Computer Science {(SOFSEM} 2016), Harrachov, Czech
+  Republic, January 23-28, 2016.}, pages 87--99, 2016.
+
 \bibitem{knuth.book}
 Donald Knuth.
 \newblock {\em The \TeX book}.
 \newblock Addison-Wesley, Reading, Massachusetts, 1986.
 
+\bibitem{DBLP:journals/corr/LamSG16}
+Wing{-}Kit~Sunny Lam, Tony~R. Sahama, and Randike Gajanayake.
+\newblock Constructing a traditional chinese medicine data warehouse
+  application.
+\newblock {\em CoRR}, abs/1606.02507, 2016.
+
 \bibitem{lamport.book}
 Leslie Lamport.
 \newblock {\em \LaTeX\ --- A Document Preparation System}.
 \newblock Addison-Wesley, Reading, Massachusetts, second edition, 1994.
+
+\bibitem{DBLP:books/igi/Taniar10/LawrenceR10}
+Michael Lawrence and Andrew Rau{-}Chaplin.
+\newblock Dynamic view selection for {OLAP}.
+\newblock In {\em Strategic Advancements in Utilizing Data Mining and
+  Warehousing Technologies: New Concepts and Developments}, pages 91--106.
+  2010.
+
+\bibitem{DBLP:journals/kais/LinK04}
+Wen{-}Yang Lin and I{-}Chung Kuo.
+\newblock A genetic selection algorithm for {OLAP} data cubes.
+\newblock {\em Knowl. Inf. Syst.}, 6(1):83--102, 2004.
+
+\bibitem{DBLP:conf/esws/MaaliCD15}
+Fadi Maali, St{\'{e}}phane Campinas, and Stefan Decker.
+\newblock Gagg: {A} graph aggregation operator.
+\newblock In {\em The Semantic Web. Latest Advances and New Domains - 12th
+  European Semantic Web Conference, {ESWC} 2015, Portoroz, Slovenia, May 31 -
+  June 4, 2015. Proceedings}, pages 491--504, 2015.
+
+\bibitem{DBLP:journals/ipl/NourineR99}
+Lhouari Nourine and Olivier Raynaud.
+\newblock A fast algorithm for building lattices.
+\newblock {\em Inf. Process. Lett.}, 71(5-6):199--204, 1999.
+
+\bibitem{DBLP:journals/dr/Ozsoyoglu99}
+Z.~Meral {\"{O}}zsoyoglu.
+\newblock Review - using semi-joins to solve relational queries.
+\newblock {\em {ACM} {SIGMOD} Digital Review}, 1, 1999.
+
+\bibitem{Petermann:2014:GDI:2733004.2733034}
+Andr{\'e} Petermann, Martin Junghanns, Robert M\"{u}ller, and Erhard Rahm.
+\newblock Graph-based data integration and business intelligence with biiig.
+\newblock {\em Proc. VLDB Endow.}, 7(13):1577--1580, August 2014.
+
+\bibitem{DBLP:conf/edbt/SwamiS94}
+Arun~N. Swami and K.~Bernhard Schiefer.
+\newblock On the estimation of join result sizes.
+\newblock In {\em Advances in Database Technology - EDBT'94. 4th International
+  Conference on Extending Database Technology, Cambridge, United Kingdom, March
+  28-31, 1994, Proceedings}, pages 287--300, 1994.
+
+\bibitem{DBLP:conf/icde/WangFWTAA14}
+Zhengkui Wang, Qi~Fan, Huiju Wang, Kian{-}Lee Tan, Divyakant Agrawal, and Amr
+  {El Abbadi}.
+\newblock Pagrol: Parallel graph olap over large-scale attributed graphs.
+\newblock In {\em {IEEE} 30th International Conference on Data Engineering,
+  Chicago, {ICDE} 2014, IL, USA, March 31 - April 4, 2014}, pages 496--507,
+  2014.
+
+\bibitem{DBLP:conf/oopsla/Webber12}
+Jim Webber.
+\newblock A programmatic introduction to neo4j.
+\newblock In {\em Conference on Systems, Programming, and Applications:
+  Software for Humanity, {SPLASH} '12, Tucson, AZ, USA, October 21-25, 2012},
+  pages 217--218, 2012.
+
+\bibitem{DBLP:conf/sigmod/ZhaoLXH11}
+Peixiang Zhao, Xiaolei Li, Dong Xin, and Jiawei Han.
+\newblock Graph cube: on warehousing and {OLAP} multidimensional networks.
+\newblock In {\em Proceedings of the {ACM} {SIGMOD} International Conference on
+  Management of Data, {SIGMOD} 2011, Athens, Greece, June 12-16, 2011}, pages
+  853--864, 2011.
+
+\bibitem{DBLP:conf/sigmod/ZhaoDN97}
+Yihong Zhao, Prasad Deshpande, and Jeffrey~F. Naughton.
+\newblock An array-based algorithm for simultaneous multidimensional
+  aggregates.
+\newblock In {\em {SIGMOD} 1997, Proceedings {ACM} {SIGMOD} International
+  Conference on Management of Data, May 13-15, 1997, Tucson, Arizona, {USA.}},
+  pages 159--170, 1997.
 
 \end{thebibliography}
