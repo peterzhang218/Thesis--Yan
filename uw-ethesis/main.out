@@ -30,12 +30,28 @@
 \BOOKMARK [2][-]{subsection.4.3.1}{Substructure Selection}{section.4.3}% 30
 \BOOKMARK [2][-]{subsection.4.3.2}{Decomposition and Join}{section.4.3}% 31
 \BOOKMARK [0][-]{chapter.5}{Experiments}{}% 32
-\BOOKMARK [0][-]{chapter.6}{Conclusion}{}% 33
-\BOOKMARK [1][-]{section.6.1}{Future Work}{chapter.6}% 34
-\BOOKMARK [1][-]{section.6.2}{Reflection on Neo4j}{chapter.6}% 35
-\BOOKMARK [2][-]{subsection.6.2.1}{Aggregation Size Estimation}{section.6.2}% 36
-\BOOKMARK [0][-]{section*.13}{References}{}% 37
-\BOOKMARK [0][-]{appendix*.15}{APPENDICES}{}% 38
-\BOOKMARK [0][-]{appendix.A}{PDF Plots From Matlab}{}% 39
-\BOOKMARK [1][-]{section.A.1}{Using the GUI}{appendix.A}% 40
-\BOOKMARK [1][-]{section.A.2}{From the Command Line}{appendix.A}% 41
+\BOOKMARK [1][-]{section.5.1}{Experiment Setup}{chapter.5}% 33
+\BOOKMARK [2][-]{subsection.5.1.1}{Datasets}{section.5.1}% 34
+\BOOKMARK [2][-]{subsection.5.1.2}{Query Workloads}{section.5.1}% 35
+\BOOKMARK [2][-]{subsection.5.1.3}{System Setting}{section.5.1}% 36
+\BOOKMARK [2][-]{subsection.5.1.4}{Neo4j Configuration}{section.5.1}% 37
+\BOOKMARK [1][-]{section.5.2}{Aspects of Interest}{chapter.5}% 38
+\BOOKMARK [1][-]{section.5.3}{Results and Discussion}{chapter.5}% 39
+\BOOKMARK [2][-]{subsection.5.3.1}{Our System vs. Neo4j Baseline}{section.5.3}% 40
+\BOOKMARK [2][-]{subsection.5.3.2}{Frequency Threshold}{section.5.3}% 41
+\BOOKMARK [2][-]{subsection.5.3.3}{Space Cost Limit}{section.5.3}% 42
+\BOOKMARK [2][-]{subsection.5.3.4}{Storage for Merialized Views}{section.5.3}% 43
+\BOOKMARK [2][-]{subsection.5.3.5}{CubePlanner v.s. PMA}{section.5.3}% 44
+\BOOKMARK [2][-]{subsection.5.3.6}{StructurePlanner v.s. FPM}{section.5.3}% 45
+\BOOKMARK [2][-]{subsection.5.3.7}{Substructure Selection}{section.5.3}% 46
+\BOOKMARK [2][-]{subsection.5.3.8}{Decompose\137Join}{section.5.3}% 47
+\BOOKMARK [2][-]{subsection.5.3.9}{Large DataSet v.s. Small DataSet}{section.5.3}% 48
+\BOOKMARK [0][-]{chapter.6}{Conclusion}{}% 49
+\BOOKMARK [1][-]{section.6.1}{Future Work}{chapter.6}% 50
+\BOOKMARK [1][-]{section.6.2}{Reflection on Neo4j ?? Where shall I put this part?}{chapter.6}% 51
+\BOOKMARK [2][-]{subsection.6.2.1}{Aggregation Size Estimation}{section.6.2}% 52
+\BOOKMARK [0][-]{section*.13}{References}{}% 53
+\BOOKMARK [0][-]{appendix*.15}{APPENDICES}{}% 54
+\BOOKMARK [0][-]{appendix.A}{PDF Plots From Matlab}{}% 55
+\BOOKMARK [1][-]{section.A.1}{Using the GUI}{appendix.A}% 56
+\BOOKMARK [1][-]{section.A.2}{From the Command Line}{appendix.A}% 57

@@ -40,21 +40,21 @@ when we are confident that the same structure is likely to be ``hit'' by future 
 
 Considering the different features of cuboids and substructures, we take the following strategy for materialized view selection. 
 %We make our materialization policy based on such different features of cuboids and substructures. 
-We first perform a frequency count of previous queries. If more than $\sigma$ queries sharing the same structure, where $\sigma$ is a predefined frequency threshold, this structure is considered as a \emph{hot structure} and would be passed on to the \emph{CubePlanner} module for cuboid selection. Queries do not have \emph{hot structures} are passed to \emph{StructurePlanner} for the substructure selection. Algorithm \ref{alg:1} describes the overall framework of the materialized view selection process. 
+We first perform a frequency count of previous queries. If more than $\omega$ queries sharing the same structure, where $\omega$ is a predefined frequency threshold, this structure is considered as a \emph{hot structure} and would be passed on to the \emph{CubePlanner} module for cuboid selection. Queries do not have \emph{hot structures} are passed to \emph{StructurePlanner} for the substructure selection. Algorithm \ref{alg:1} describes the overall framework of the materialized view selection process. 
 %For queries of structure frequency over a threshold $\sigma$, consider these queries have ``hot structure'' and pass them to CubePlanner for cuboid selection. For the rest queries with "less hot structure", pass them to StructurePlanner for substructure selection. 
 
 \begin{algorithm}[H]
 	\label{alg:1}
 	\caption{Materialization Overview}
 	\LinesNumbered
-	\textbf{System setting:} $\sigma$: frequency threshold for hot structures\\ 
+	\textbf{System setting:} $\omega$: frequency threshold for hot structures\\ 
 	\KwIn{Q: a set of previous queries\\}
 	\KwOut{C: a set of materialized cuboids\\ S: a set of materialized substructures}
 	
 	$CInput \gets \emptyset$\;
 	$SInput \gets \emptyset$\;
 	\ForEach{q \in Q}{
-		\eIf{structureFreq(Q, q) $>$ \sigma}{
+		\eIf{structureFreq(Q, q) $>$ $\omega$}{
 			$CInput \gets CInput \cup \{q\} $\;
 		}{	
 			$SInput \gets SInput \cup \{q\} $\;
@@ -146,6 +146,7 @@ As shown in Algorithm \ref{alg:1}, function $structureFreq(Q, q)$ returns the fr
 	
 	%----------------------------------------------------------------------
 	\subsection{CubePlanner}
+	\label{sec:CubePlanner}
 	%----------------------------------------------------------------------  
 	
 	%We will discuss CubePlanner in this subsection. 
@@ -275,13 +276,13 @@ As mentioned above, \emph{StructurePlanner} also adopts the same greedy selectio
 
 
 Then, we initializes the covered substructures for each previous query as an empty set (line 2-4). For a previous query, $coveredSubstructure$ keeps the information on what substructures have been selected so far. %, which are useful for processing this query. 
-It is updated every time a new substructure is selected. Line 5-12 perform score calculation. For each substructure, Line 6 estimates its space. Line 8-10 iterate over all ``favored'' previous queries (favored by current substructure) and add on the marginal benefit (if any). Here marginal benefit refers to the time saved after adding current substructure to selected substructures (Line 9). Line 13-23 perform the pick-and-update, where line 15-17 terminate the selection when there is no more marginal benefit, and line 19-22 updates the covered substructures for previous queries as a result of current round of selection.
+It is updated every time a new substructure is selected. Line 5-12 perform score calculation. For each substructure, Line 6 estimates its space. Line 8-10 iterate over all ``favored'' previous queries (favored by current substructure) and add on the marginal benefit (if any). Here marginal benefit refers to the time saved after adding current substructure to selected substructures (Line 9). Line 13-23 perform the pick-and-update, and line 19-22 updates the covered substructures for previous queries as a result of current round of selection. Such iteration will be terminated when space limit is exceeded (line 13) or when there is no more marginal benefit (line 15). 
 
 \begin{algorithm}%[H]
 \label{alg:StructurePlanner}
 \caption{StructurePlanner}
 \LinesNumbered 
-\textbf{System setting:} n: maximum number of substructures to precompute\\ 
+\textbf{System setting:} \sigma: space limit for materialized views\\ 
 \KwIn{Q: a set of previous queries}
 \KwOut{S: an queue of selected substructures to precompute\\ }
 $Lattice \leftarrow buildSubstuctureLattice(Q)$\;
@@ -296,7 +297,7 @@ $Lattice \leftarrow buildSubstuctureLattice(Q)$\;
 	}
 	$substructure.score \leftarrow substructure.benefit/substructure.space$\;
 }
-\For{i=1 \emph{\KwTo} n}{
+\While{$System.memoryUsage < \sigma$}{
 	nextBestSubstructre $\gets$ substructure in Lattice with highest substructure.score\;
 	\If{$nextBestSubstructre.score < 0$}{
 		break\;
@@ -417,10 +418,11 @@ And S consists of substructures
 We can get structure of $q$ by joining structures of (1) and (3). Thus (1) and (3) seems to be a possible combination for substructure selection in this case. Actually we may have at least three ways of substructure selection: (1) and (3); (2) and (4);
 (1), (4) and (5). The key question is which selection will result in fastest processing time on $q$? Here are some intuitions to solve this tricky question. First, when we select substructures one by one, we do not select a substructure when it is covered by selected substructures. For example we will not consider (1) if (2) has been selected as (1) is covered by (2). Second, we prefer to minimize total size of selected substructures as we need to at least access each selected view once. We prefer less memory access. Third, we prefer smaller number of selected substructures as intuitively this causes less times of joins. 
 
-We propose a greedy algorithm for substructure selection based on user defined heuristics. Users may define heuristic functions based on intuitions (like the three intuitions mentioned above). The idea of the greedy algorithm is to always pick up next substructure with highest score of user defined heuristic function $h(s)$, which returns heuristic score for a substructure $s$. Some exampling heuristics are \#edges of substructure, score calculated in StructurePlanner (Line 11 in Algorithm StructurePlanner), table size etc. 
+We propose a greedy algorithm for substructure selection based on user defined heuristics. Users may define heuristic functions based on intuitions (like the three intuitions mentioned above). The idea of the greedy algorithm is to always pick up next substructure with highest score of user defined heuristic function $h(s)$, which returns heuristic score for a substructure $s$. Some exampling heuristics are \#edges of substructure, score calculated in StructurePlanner (Line 11 in Algorithm \ref{alg:StructurePlanner}), table size etc. 
 
 \begin{algorithm}[H]
 \caption{SelectSubstrucre}
+\label{alg:SelectSubstrucre}
 \LinesNumbered
 \textbf{System:} S: a collection of materialized substructures\\ h(s): user defined function. It returns the heuristic score of a substructure $s$.\\
 \KwIn{q: a future query\\}

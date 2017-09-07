@@ -1,27 +1,10 @@
 %----------------------------------------------------------------------
 \section{Future Work}
 %----------------------------------------------------------------------
-We summarize future work as follows:
+To conclude, our proposed system was proved to be a feasible solution to achieve efficient OLAP queries processing on large graph datasets. We summarize future work as follows. First, as reflected in experiment results \ref{Results and Discussion}, efficiency performance of our system is affected by system settings, hence study on appriopriate system settings would be a valuable followup for our work. Second, the system we implemented so far supports SPARQL like queries over schema graph, instead of data graph. It is realizable to enable processing SPARQL like queries over data graph within our proposed solution framework. The key issue is take isomorphism into consideration during query decomposition and composition. Last but not least, greedy selection framework is with no doubt not a perfect solution for ``Materialization Selection'' problem. We look forward to better solutions for this hard but interesing problem.
 
-\begin{itemize}
-\item Online adaptive
-
-The system we have implemented is offline. It can be turned into online adaptive one by keeping a sliding window of previous workloads. 
-
-\item Schema graph to data graph
-
-Our system currently supports SPARQL like queries over schema graph instead of data graph. It could be further improved to support queries over data graph without changing the high-level solution framework. The key part that needs to be modified is to label each unique node and take isomorphism into consideration during query decomposition.  
-
-\item Better Cube-Planner and Structure-Planner
-
-We used greedy approach for ranking cuboids and substructures. Although it worked well in our experiment. But greedy approach is not holistic enough. For instance???
-
-\item Multi-Thread implementation
-
-The system can be made multi-thread so that joining work of queries could be done when the system is waiting for graph database’s query execution. 
-\begin{itemize}
 %----------------------------------------------------------------------
-\section{Reflection on Neo4j}
+\section{Reflection on Neo4j ?? Where shall I put this part?}
 %----------------------------------------------------------------------
 %----------------------------------------------------------------------
 \subsection{Aggregation Size Estimation}

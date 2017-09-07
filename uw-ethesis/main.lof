@@ -8,9 +8,18 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {4.1}{\ignorespaces Solution framework.}}{23}{figure.4.1}
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Neo4j's execution plan for query \textit {User-Badge, User-Post, Post-Tag: Tag.TagName}.}}{31}{figure.4.2}
-\contentsline {figure}{\numberline {4.3}{\ignorespaces A substructure lattice with \textit {Badge-User, User-Post, Post-Tag} as its root node.}}{32}{figure.4.3}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Neo4j's execution plan for query \textit {User-Badge, User-Post, Post-Tag: Tag.TagName}.}}{32}{figure.4.2}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces A substructure lattice with \textit {Badge-User, User-Post, Post-Tag} as its root node.}}{33}{figure.4.3}
 \contentsline {figure}{\numberline {4.4}{\ignorespaces ``Border nodes'' of structure \textit {User-Post, Post-Tag}.}}{35}{figure.4.4}
 \addvspace {10\p@ }
+\contentsline {figure}{\numberline {5.1}{\ignorespaces A meta graph of StackOverFlow dataset.}}{46}{figure.5.1}
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Processing time for future workload by our proposed solution v.s. Neo4j.}}{49}{figure.5.2}
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Substructure selected by StructurePlanner.}}{50}{figure.5.3}
+\contentsline {figure}{\numberline {5.4}{\ignorespaces Total processing time under different settings of $\omega $.}}{52}{figure.5.4}
+\contentsline {figure}{\numberline {5.5}{\ignorespaces Efficiency v.s. Space Cost}}{53}{figure.5.5}
+\contentsline {figure}{\numberline {5.6}{\ignorespaces Main memory storage v.s. hard disk storage}}{54}{figure.5.6}
+\contentsline {figure}{\numberline {5.7}{\ignorespaces Total processing time: StructurePlanner v.s. FPM}}{55}{figure.5.7}
+\contentsline {figure}{\numberline {5.8}{\ignorespaces Space cost: StructurePlanner v.s. FPM}}{56}{figure.5.8}
+\contentsline {figure}{\numberline {5.9}{\ignorespaces Processing time for each query: StructurePlanner v.s. FPM}}{57}{figure.5.9}
 \addvspace {10\p@ }
 \addvspace {10\p@ }

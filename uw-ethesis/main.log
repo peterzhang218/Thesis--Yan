@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.7.5)  30 AUG 2017 22:00
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.7.5)  7 SEP 2017 18:12
 entering extended mode
 **./main.tex
 (main.tex
@@ -1274,15 +1274,15 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
 
 
-])
+] [7])
 \tf@toc=\write10
 \openout10 = `main.toc'.
 
- [7] (main.lot)
+ [8] (main.lot)
 \tf@lot=\write11
 \openout11 = `main.lot'.
 
- [8
+ [9
 
 
 
@@ -1297,7 +1297,7 @@ Overfull \hbox (18.14359pt too wide) in paragraph at lines 11--11
 \tf@lof=\write12
 \openout12 = `main.lof'.
 
- [9
+ [10
 
 
 
@@ -1315,7 +1315,7 @@ Missing character: There is no ô in font cmr12!
 
 
 
-] <pic/11.jpg, id=301, 650.43pt x 279.0425pt>
+] <pic/11.jpg, id=404, 650.43pt x 279.0425pt>
 File: pic/11.jpg Graphic file (type jpg)
 
 <use pic/11.jpg>
@@ -1331,13 +1331,13 @@ LaTeX Warning: Reference `fig:3' on page 2 undefined on input line 34.
 
 LaTeX Warning: Reference `fig:2' on page 2 undefined on input line 34.
 
-<pic/12.jpg, id=302, 412.54124pt x 212.795pt>
+<pic/12.jpg, id=405, 412.54124pt x 212.795pt>
 File: pic/12.jpg Graphic file (type jpg)
  <use pic/12.jpg>
 Package pdftex.def Info: pic/12.jpg used on input line 39.
 (pdftex.def)             Requested size: 206.27011pt x 106.39723pt.
 
-<pic/3.png, id=303, 2514.39375pt x 2625.81pt>
+<pic/3.png, id=406, 2514.39375pt x 2625.81pt>
 File: pic/3.png Graphic file (type png)
  <use pic/3.png>
 Package pdftex.def Info: pic/3.png used on input line 45.
@@ -1349,7 +1349,7 @@ Missing character: There is no ô in font cmti12!
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ô in font cmr12!
- [3] <pic/5.png, id=320, 200.75pt x 770.88pt>
+ [3] <pic/5.png, id=424, 200.75pt x 770.88pt>
 File: pic/5.png Graphic file (type png)
  <use pic/5.png>
 Package pdftex.def Info: pic/5.png used on input line 93.
@@ -1417,7 +1417,7 @@ Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ô in font cmr12!
  [10]
-<pic/meta1.png, id=369, 416.55624pt x 218.8175pt>
+<pic/meta1.png, id=471, 416.55624pt x 218.8175pt>
 File: pic/meta1.png Graphic file (type png)
  <use pic/meta1.png>
 Package pdftex.def Info: pic/meta1.png used on input line 147.
@@ -1432,7 +1432,7 @@ Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ô in font cmr12!
 
-<pic/22.png, id=372, 132.495pt x 131.49126pt>
+<pic/22.png, id=474, 132.495pt x 131.49126pt>
 File: pic/22.png Graphic file (type png)
  <use pic/22.png>
 Package pdftex.def Info: pic/22.png used on input line 159.
@@ -1444,14 +1444,14 @@ Missing character: There is no ô in font cmbx12!
 Missing character: There is no ‚ in font cmbx12!
 Missing character: There is no Ä in font cmbx12!
 Missing character: There is no ô in font cmbx12!
- <pic/meta2.jpg, id=378, 419.5675pt x 219.82124pt>
+ <pic/meta2.jpg, id=480, 419.5675pt x 219.82124pt>
 File: pic/meta2.jpg Graphic file (type jpg)
  <use pic/meta2.jpg>
 Package pdftex.def Info: pic/meta2.jpg used on input line 169.
 (pdftex.def)             Requested size: 209.78323pt x 109.91034pt.
 
 [12 <./pic/22.png> <./pic/meta2.jpg>]
-<pic/4.png, id=386, 258.9675pt x 167.62625pt>
+<pic/4.png, id=488, 258.9675pt x 167.62625pt>
 File: pic/4.png Graphic file (type png)
  <use pic/4.png>
 Package pdftex.def Info: pic/4.png used on input line 195.
@@ -1507,7 +1507,7 @@ l.12 \begin{figure*}[T]
                        
 Option `T' ignored and `p' used.
 
-<pic/41.pdf, id=457, 722.7pt x 542.025pt>
+<pic/41.pdf, id=560, 722.7pt x 542.025pt>
 File: pic/41.pdf Graphic file (type pdf)
  <use pic/41.pdf>
 Package pdftex.def Info: pic/41.pdf used on input line 14.
@@ -1558,66 +1558,6 @@ l.63 	$
        C:=materialize(CubePlanner(CInput))$\;
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.63 	$
-       C:=materialize(CubePlanner(CInput))$\;
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Extra }, or forgotten $.
-<recently read> \egroup 
-                        
-l.63 	$
-       C:=materialize(CubePlanner(CInput))$\;
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-! Extra }, or forgotten $.
-<recently read> \egroup 
-                        
-l.63 	$
-       C:=materialize(CubePlanner(CInput))$\;
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.63 	$
-       C:=materialize(CubePlanner(CInput))$\;
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.66 \end{algorithm}
-                    
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.66 \end{algorithm}
-                    
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
 
 ! Missing } inserted.
 <inserted text> 
@@ -1727,7 +1667,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.174 
+l.175 
       
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -1735,7 +1675,7 @@ you left one out. Proceed, with fingers crossed.
 ! Extra }, or forgotten $.
 <recently read> \egroup 
                         
-l.174 
+l.175 
       
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -1746,7 +1686,7 @@ deleted material, e.g., by typing `I$}'.
 ! Extra }, or forgotten $.
 <recently read> \egroup 
                         
-l.174 
+l.175 
       
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -1757,7 +1697,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.174 
+l.175 
       
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -1765,7 +1705,7 @@ you left one out. Proceed, with fingers crossed.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.180 	\end{algorithm}
+l.181 	\end{algorithm}
                       
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1774,14 +1714,14 @@ really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
 
-Underfull \hbox (badness 10000) detected at line 180
+Underfull \hbox (badness 10000) detected at line 181
 [][]
  []
 
 ! Missing } inserted.
 <inserted text> 
                 }
-l.180 	\end{algorithm}
+l.181 	\end{algorithm}
                       
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1792,7 +1732,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.205 		\ForEach
+l.206 		\ForEach
                 {cuboid \in Lattice}{
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -1800,7 +1740,7 @@ you left one out. Proceed, with fingers crossed.
 ! Extra }, or forgotten $.
 <recently read> \egroup 
                         
-l.205 		\ForEach
+l.206 		\ForEach
                 {cuboid \in Lattice}{
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -1811,7 +1751,7 @@ deleted material, e.g., by typing `I$}'.
 ! Extra }, or forgotten $.
 <recently read> \egroup 
                         
-l.205 		\ForEach
+l.206 		\ForEach
                 {cuboid \in Lattice}{
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -1822,7 +1762,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.205 		\ForEach
+l.206 		\ForEach
                 {cuboid \in Lattice}{
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -1830,7 +1770,7 @@ you left one out. Proceed, with fingers crossed.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.213 		\For
+l.214 		\For
             {i=1 \emph{\KwTo} n}{
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -1838,7 +1778,7 @@ you left one out. Proceed, with fingers crossed.
 ! Extra }, or forgotten $.
 <recently read> \egroup 
                         
-l.213 		\For
+l.214 		\For
             {i=1 \emph{\KwTo} n}{
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -1849,7 +1789,7 @@ deleted material, e.g., by typing `I$}'.
 ! Extra }, or forgotten $.
 <recently read> \egroup 
                         
-l.213 		\For
+l.214 		\For
             {i=1 \emph{\KwTo} n}{
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -1860,7 +1800,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.213 		\For
+l.214 		\For
             {i=1 \emph{\KwTo} n}{
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -1868,18 +1808,7 @@ you left one out. Proceed, with fingers crossed.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.225 	\end{algorithm}
-                      
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.225 	\end{algorithm}
+l.226 	\end{algorithm}
                       
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1890,7 +1819,18 @@ my insertion and my current dilemma will both disappear.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.225 	\end{algorithm}
+l.226 	\end{algorithm}
+                      
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.226 	\end{algorithm}
                       
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1899,14 +1839,14 @@ really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
 
-Underfull \hbox (badness 10000) detected at line 225
+Underfull \hbox (badness 10000) detected at line 226
 [][]
  []
 
 ! Missing } inserted.
 <inserted text> 
                 }
-l.225 	\end{algorithm}
+l.226 	\end{algorithm}
                       
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1914,7 +1854,7 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-[28] [29]
+[28] [29] [30]
 
 ! LaTeX Error: Unknown float option `T'.
 
@@ -1922,33 +1862,61 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.235 	\begin {figure}[T]
+l.236 	\begin {figure}[T]
                          
 Option `T' ignored and `p' used.
 
-<pic/61.png, id=595, 444.66125pt x 634.37pt>
+<pic/61.png, id=702, 444.66125pt x 634.37pt>
 File: pic/61.png Graphic file (type png)
  <use pic/61.png>
-Package pdftex.def Info: pic/61.png used on input line 237.
+Package pdftex.def Info: pic/61.png used on input line 238.
 (pdftex.def)             Requested size: 266.7988pt x 380.62492pt.
 
-Underfull \hbox (badness 2012) in paragraph at lines 238--238
+Underfull \hbox (badness 2012) in paragraph at lines 239--239
 []\OT1/cmr/m/n/12 Figure 4.2: []Neo4j's ex-e-cu-tion plan for query \OT1/cmr/m/
 it/12 User-Badge, User-Post, Post-Tag:
  []
 
-[30] [31 <./pic/61.png>]
-<pic/Structurelattice.jpg, id=612, 702.625pt x 409.53pt>
+<pic/Structurelattice.jpg, id=708, 702.625pt x 409.53pt>
 File: pic/Structurelattice.jpg Graphic file (type jpg)
 
 <use pic/Structurelattice.jpg>
-Package pdftex.def Info: pic/Structurelattice.jpg used on input line 271.
+Package pdftex.def Info: pic/Structurelattice.jpg used on input line 272.
 (pdftex.def)             Requested size: 281.04501pt x 163.80908pt.
- [32 <./pic/Structurelattice.jpg>]
+ [31] [32 <./pic/61.png>]
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.291 \ForEach
+l.285 \textbf{System setting:} \sigma
+                                     : space limit for materialized views\\
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.285 ...gma: space limit for materialized views\\
+                                                  
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.285 ...gma: space limit for materialized views\\
+                                                  
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.292 \ForEach
               {substructure \in Lattice}{
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -1956,7 +1924,7 @@ you left one out. Proceed, with fingers crossed.
 ! Extra }, or forgotten $.
 <recently read> \egroup 
                         
-l.291 \ForEach
+l.292 \ForEach
               {substructure \in Lattice}{
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -1967,7 +1935,7 @@ deleted material, e.g., by typing `I$}'.
 ! Extra }, or forgotten $.
 <recently read> \egroup 
                         
-l.291 \ForEach
+l.292 \ForEach
               {substructure \in Lattice}{
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -1978,7 +1946,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.291 \ForEach
+l.292 \ForEach
               {substructure \in Lattice}{
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -1986,16 +1954,16 @@ you left one out. Proceed, with fingers crossed.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.299 \For
-          {i=1 \emph{\KwTo} n}{
+l.300 \While
+            {$System.memoryUsage < \sigma$}{
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 ! Extra }, or forgotten $.
 <recently read> \egroup 
                         
-l.299 \For
-          {i=1 \emph{\KwTo} n}{
+l.300 \While
+            {$System.memoryUsage < \sigma$}{
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
 you forgot something else, as in `\hbox{$x}'. In such cases
@@ -2005,8 +1973,8 @@ deleted material, e.g., by typing `I$}'.
 ! Extra }, or forgotten $.
 <recently read> \egroup 
                         
-l.299 \For
-          {i=1 \emph{\KwTo} n}{
+l.300 \While
+            {$System.memoryUsage < \sigma$}{
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
 you forgot something else, as in `\hbox{$x}'. In such cases
@@ -2016,15 +1984,15 @@ deleted material, e.g., by typing `I$}'.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.299 \For
-          {i=1 \emph{\KwTo} n}{
+l.300 \While
+            {$System.memoryUsage < \sigma$}{
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 ! Missing } inserted.
 <inserted text> 
                 }
-l.310 \end{algorithm}
+l.311 \end{algorithm}
                      
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -2035,7 +2003,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.310 \end{algorithm}
+l.311 \end{algorithm}
                      
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -2046,7 +2014,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.310 \end{algorithm}
+l.311 \end{algorithm}
                      
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -2055,14 +2023,14 @@ really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
 
-Underfull \hbox (badness 10000) detected at line 310
+Underfull \hbox (badness 10000) detected at line 311
 [][]
  []
 
 ! Missing } inserted.
 <inserted text> 
                 }
-l.310 \end{algorithm}
+l.311 \end{algorithm}
                      
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -2070,17 +2038,18 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-[33] <pic/bordernode.jpg, id=649, 424.58624pt x 216.81pt>
+[33 <./pic/Structurelattice.jpg>] [34]
+<pic/bordernode.jpg, id=757, 424.58624pt x 216.81pt>
 File: pic/bordernode.jpg Graphic file (type jpg)
-
-<use pic/bordernode.jpg>
-Package pdftex.def Info: pic/bordernode.jpg used on input line 336.
+ <use pic/bordernode.jpg>
+Package pdftex.def Info: pic/bordernode.jpg used on input line 337.
 (pdftex.def)             Requested size: 212.2926pt x 108.40472pt.
- [34] [35 <./pic/bordernode.jpg>]
+
+[35 <./pic/bordernode.jpg>]
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.392 \end
+l.393 \end
           {algorithm}
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -2088,7 +2057,7 @@ you left one out. Proceed, with fingers crossed.
 ! Extra }, or forgotten $.
 <recently read> \egroup 
                         
-l.392 \end
+l.393 \end
           {algorithm}
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -2099,7 +2068,7 @@ deleted material, e.g., by typing `I$}'.
 ! Extra }, or forgotten $.
 <recently read> \egroup 
                         
-l.392 \end
+l.393 \end
           {algorithm}
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -2110,7 +2079,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.392 \end
+l.393 \end
           {algorithm}
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -2118,7 +2087,7 @@ you left one out. Proceed, with fingers crossed.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.392 \end{algorithm}
+l.393 \end{algorithm}
                      
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -2127,14 +2096,14 @@ really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
 
-Underfull \hbox (badness 10000) detected at line 392
+Underfull \hbox (badness 10000) detected at line 393
 [][]
  []
 
 ! Missing } inserted.
 <inserted text> 
                 }
-l.392 \end{algorithm}
+l.393 \end{algorithm}
                      
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -2142,15 +2111,15 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-[36] [37] [38] [39]
-Overfull \hbox (4.48495pt too wide) in paragraph at lines 500--501
+[36] [37] [38] [39] [40]
+Overfull \hbox (4.48495pt too wide) in paragraph at lines 502--503
 []\OT1/cmr/m/n/12 We ex-plain im-ple-men-ta-tion of func-tion $\OML/cmm/m/it/12
  retrieve[]\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 s; V[]\OT1/cmr/m/n/12 )$. It fetch
 es re-sults from databases
  []
 
-[40]
-Overfull \hbox (36.49889pt too wide) in paragraph at lines 508--509
+[41]
+Overfull \hbox (36.49889pt too wide) in paragraph at lines 510--511
 \OT1/cmr/m/n/12 We have men-tioned two ad-van-tages of $\OML/cmm/m/it/12 retrie
 ve[]\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 s; V[]\OT1/cmr/m/n/12 )$. How-ever a dis-
 ad-van-tage of $\OML/cmm/m/it/12 retrieve[]\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 s;
@@ -2160,7 +2129,7 @@ ad-van-tage of $\OML/cmm/m/it/12 retrieve[]\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 s;
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.528 $
+l.530 $
        r := join\_aggregate(\Sigma, q)$\;
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -2168,7 +2137,7 @@ you left one out. Proceed, with fingers crossed.
 ! Extra }, or forgotten $.
 <recently read> \egroup 
                         
-l.528 $
+l.530 $
        r := join\_aggregate(\Sigma, q)$\;
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -2179,7 +2148,7 @@ deleted material, e.g., by typing `I$}'.
 ! Extra }, or forgotten $.
 <recently read> \egroup 
                         
-l.528 $
+l.530 $
        r := join\_aggregate(\Sigma, q)$\;
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -2190,7 +2159,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.528 $
+l.530 $
        r := join\_aggregate(\Sigma, q)$\;
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -2198,7 +2167,7 @@ you left one out. Proceed, with fingers crossed.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.529 \end{algorithm}
+l.531 \end{algorithm}
                      
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -2207,14 +2176,14 @@ really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
 
-Underfull \hbox (badness 10000) detected at line 529
+Underfull \hbox (badness 10000) detected at line 531
 [][]
  []
 
 ! Missing } inserted.
 <inserted text> 
                 }
-l.529 \end{algorithm}
+l.531 \end{algorithm}
                      
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -2222,8 +2191,8 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-[41]
-Overfull \hbox (33.63408pt too wide) in paragraph at lines 532--533
+[42]
+Overfull \hbox (33.63408pt too wide) in paragraph at lines 534--535
 \OT1/cmr/m/n/12 sizes two re-trieval meth-ods: $\OML/cmm/m/it/12 retrieve[]\OT1
 /cmr/m/n/12 (\OML/cmm/m/it/12 s; V[]\OT1/cmr/m/n/12 )\OML/cmm/m/it/12 :estSize$
  \OT1/cmr/m/n/12 and $\OML/cmm/m/it/12 retrieve\OT1/cmr/m/n/12 (\OML/cmm/m/it/1
@@ -2233,7 +2202,7 @@ Overfull \hbox (33.63408pt too wide) in paragraph at lines 532--533
  []
 
 
-Overfull \hbox (56.66374pt too wide) in paragraph at lines 532--533
+Overfull \hbox (56.66374pt too wide) in paragraph at lines 534--535
 \OT1/cmr/m/n/12 can be re-turned by $\OML/cmm/m/it/12 space\OT1/cmr/m/n/12 (\OM
 L/cmm/m/it/12 substructure\OT1/cmr/m/n/12 )$ in Al-go-rithm [][]5[][]. Now the 
 tricky one is $\OML/cmm/m/it/12 retrieve[]\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 s; 
@@ -2241,221 +2210,437 @@ V[]\OT1/cmr/m/n/12 )\OML/cmm/m/it/12 :estSize$\OT1/cmr/m/n/12 .
  []
 
 
-Overfull \hbox (17.56175pt too wide) in paragraph at lines 540--541
+Overfull \hbox (17.56175pt too wide) in paragraph at lines 542--543
 \OT1/cmr/m/n/12 sult size re-duc-tion against its cost in pass-ing can-di-date 
 IDs by eval-u-at-ing $(\OML/cmm/m/it/12 retrieve\OT1/cmr/m/n/12 (\OML/cmm/m/it/
 12 s\OT1/cmr/m/n/12 )\OML/cmm/m/it/12 :estSize \OMS/cmsy/m/n/12  
  []
 
-[42]) [43]
+[43]) [44]
 Chapter 5.
-(experiment.tex) [44
+(experiment.tex
+
+LaTeX Warning: File `pic/MetaGraphExperiment (1).jpg' not found on input line 1
+8.
+
+<pic/MetaGraphExperiment (1).jpg, id=877, 663.47874pt x 422.57875pt>
+File: pic/MetaGraphExperiment (1).jpg Graphic file (type jpg)
+
+<use pic/MetaGraphExperiment (1).jpg>
+Package pdftex.def Info: pic/MetaGraphExperiment (1).jpg used on input line 18.
+
+(pdftex.def)             Requested size: 331.73856pt x 211.28885pt.
+ [45
 
 
 ]
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.30 \\\textbf
+              {Previous WorkLoad:}
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.38 User-Post: User.CreationDate_
+                                  Year, Post.PostTypeId=1
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.39 
+     
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.40 ... Post-Tag: Tag.TagName, User.CreationDate_
+                                                  Year=2017
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.41 
+     
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.44 Badge-User, User-Post:Badge.Date_
+                                      Year,(AVG)Post.Score
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.45 
+     
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+[46 <./pic/MetaGraphExperiment (1).jpg>]
+Overfull \hbox (31.74176pt too wide) in paragraph at lines 54--55
+[]\OT1/cmr/m/n/12 Post-Comment, Post-PostHistory: PostHis-tory.PostHistoryTypeI
+d=5, (AVG)Comment.Score 
+ []
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.57 \\\textbf
+              {Future WorkLoad:}
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.59 User-Post: User.CreationDate_
+                                  Year=2017, Post.PostTypeId
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.60 
+     
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.65 User-Post: User.CreationDate_
+                                  Year
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.66 
+     
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.69 ...r-Post, Post-Tag: Tag.TagName, Badge.Date_
+                                                  Year
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.70 
+     
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.75 User-Post, Post-Tag:User.CreationDate_
+                                           Year, Tag.TagName
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.76 
+     
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+[47]
+Overfull \hbox (1.40326pt too wide) in paragraph at lines 109--110
+\OT1/cmr/m/n/12 Cube-Plan-ner [][]4.2.3[][] with ``Pa-tial Ma-te-ri-al-iza-tion
+'' al-go-rithm (PMA) pro-posed in Graph
+ []
+
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ú in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ù in font cmr12!
+Package epstopdf Info: Source file: <plot/neo4j.eps>
+(epstopdf)                    date: 2017-09-05 15:42:28
+(epstopdf)                    size: 31085 bytes
+(epstopdf)             Output file: <plot/neo4j-eps-converted-to.pdf>
+(epstopdf)                    date: 2017-09-06 15:56:11
+(epstopdf)                    size: 43434 bytes
+(epstopdf)             Command: <epstopdf --outfile=plot/neo4j-eps-converted-to
+.pdf plot/neo4j.eps>
+(epstopdf)             \includegraphics on input line 141.
+Package epstopdf Info: Output file is already uptodate.
+<plot/neo4j-eps-converted-to.pdf, id=902, 505.89pt x 722.7pt>
+File: plot/neo4j-eps-converted-to.pdf Graphic file (type pdf)
+
+<use plot/neo4j-eps-converted-to.pdf>
+Package pdftex.def Info: plot/neo4j-eps-converted-to.pdf used on input line 141
+.
+(pdftex.def)             Requested size: 252.94437pt x 361.3491pt.
+ [48]
+<"pic/MetaGraphExperiment_Hot (1)".jpg, id=908, 673.51625pt x 422.57875pt>
+File: "pic/MetaGraphExperiment_Hot (1)".jpg Graphic file (type jpg)
+
+<use "pic/MetaGraphExperiment_Hot (1)".jpg>
+Package pdftex.def Info: "pic/MetaGraphExperiment_Hot (1)".jpg used on input li
+ne 150.
+(pdftex.def)             Requested size: 336.7573pt x 211.28885pt.
+ [49 <./plot/neo4j-eps-converted-to.pdf>]
+Overfull \hbox (12.19632pt too wide) in paragraph at lines 155--156
+\OT1/cmr/m/it/12 User-Post: User.CreationDate[]Year, Post.PostTypeId\OT1/cmr/m/
+n/12 ; \OT1/cmr/m/it/12 User-Post: User.UpVotes, Post.Score\OT1/cmr/m/n/12 .
+ []
+
+[50 <./pic/MetaGraphExperiment_Hot (1).jpg>]
+! Missing $ inserted.
+<inserted text> 
+                $
+l.181 ...perties Badge-Class in Q5 and Badge-Date_
+                                                  Year in Q6 did not even ap...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.181 ...will be useless. In addtion, when $\omega
+                                                  $ is set to 2, input for S...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Overfull \hbox (419.9215pt too wide) in paragraph at lines 181--182
+\OT1/cmr/m/n/12 Q5 and Badge-Date$[]\OML/cmm/m/it/12 earinQ\OT1/cmr/m/n/12 6\OM
+L/cmm/m/it/12 didnotevenappearinP\OT1/cmr/m/n/12 5\OML/cmm/m/it/12 andP\OT1/cmr
+/m/n/12 6\OML/cmm/m/it/12 :Thatistosay; inthiscaseanycuboidselectedover[]willbe
+useless:Inaddtion; when$$!$
+ []
+
+[51]
+Package epstopdf Info: Source file: <plot/omega.eps>
+(epstopdf)                    date: 2017-09-06 17:53:43
+(epstopdf)                    size: 23942 bytes
+(epstopdf)             Output file: <plot/omega-eps-converted-to.pdf>
+(epstopdf)                    date: 2017-09-06 18:05:48
+(epstopdf)                    size: 9920 bytes
+(epstopdf)             Command: <epstopdf --outfile=plot/omega-eps-converted-to
+.pdf plot/omega.eps>
+(epstopdf)             \includegraphics on input line 189.
+Package epstopdf Info: Output file is already uptodate.
+ <plot/omega-eps-converted-to.pdf, id=933, 505.89pt x 722.7pt>
+File: plot/omega-eps-converted-to.pdf Graphic file (type pdf)
+
+<use plot/omega-eps-converted-to.pdf>
+Package pdftex.def Info: plot/omega-eps-converted-to.pdf used on input line 189
+.
+(pdftex.def)             Requested size: 252.94437pt x 361.3491pt.
+Package epstopdf Info: Source file: <plot/limit.eps>
+(epstopdf)                    date: 2017-09-06 15:54:56
+(epstopdf)                    size: 27289 bytes
+(epstopdf)             Output file: <plot/limit-eps-converted-to.pdf>
+(epstopdf)                    date: 2017-09-06 15:56:12
+(epstopdf)                    size: 10043 bytes
+(epstopdf)             Command: <epstopdf --outfile=plot/limit-eps-converted-to
+.pdf plot/limit.eps>
+(epstopdf)             \includegraphics on input line 202.
+Package epstopdf Info: Output file is already uptodate.
+
+<plot/limit-eps-converted-to.pdf, id=936, 505.89pt x 722.7pt>
+File: plot/limit-eps-converted-to.pdf Graphic file (type pdf)
+
+<use plot/limit-eps-converted-to.pdf>
+Package pdftex.def Info: plot/limit-eps-converted-to.pdf used on input line 202
+.
+(pdftex.def)             Requested size: 252.94437pt x 361.3491pt.
+ [52 <./plot/omega-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <plot/disk.eps>
+(epstopdf)                    date: 2017-09-06 17:53:43
+(epstopdf)                    size: 24226 bytes
+(epstopdf)             Output file: <plot/disk-eps-converted-to.pdf>
+(epstopdf)                    date: 2017-09-06 18:05:49
+(epstopdf)                    size: 8892 bytes
+(epstopdf)             Command: <epstopdf --outfile=plot/disk-eps-converted-to.
+pdf plot/disk.eps>
+(epstopdf)             \includegraphics on input line 216.
+Package epstopdf Info: Output file is already uptodate.
+
+<plot/disk-eps-converted-to.pdf, id=948, 505.89pt x 722.7pt>
+File: plot/disk-eps-converted-to.pdf Graphic file (type pdf)
+
+<use plot/disk-eps-converted-to.pdf>
+Package pdftex.def Info: plot/disk-eps-converted-to.pdf used on input line 216.
+
+(pdftex.def)             Requested size: 252.94437pt x 361.3491pt.
+ [53 <./plot/limit-eps-converted-to.pdf>]
+
+LaTeX Warning: Reference `' on page 54 undefined on input line 224.
+
+
+LaTeX Warning: Reference `' on page 54 undefined on input line 224.
+
+[54 <./plot/disk-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <plot/fpm.eps>
+(epstopdf)                    date: 2017-09-06 17:53:43
+(epstopdf)                    size: 24279 bytes
+(epstopdf)             Output file: <plot/fpm-eps-converted-to.pdf>
+(epstopdf)                    date: 2017-09-06 18:05:50
+(epstopdf)                    size: 8388 bytes
+(epstopdf)             Command: <epstopdf --outfile=plot/fpm-eps-converted-to.p
+df plot/fpm.eps>
+(epstopdf)             \includegraphics on input line 235.
+Package epstopdf Info: Output file is already uptodate.
+
+<plot/fpm-eps-converted-to.pdf, id=978, 505.89pt x 722.7pt>
+File: plot/fpm-eps-converted-to.pdf Graphic file (type pdf)
+
+<use plot/fpm-eps-converted-to.pdf>
+Package pdftex.def Info: plot/fpm-eps-converted-to.pdf used on input line 235.
+(pdftex.def)             Requested size: 252.94437pt x 361.3491pt.
+Package epstopdf Info: Source file: <plot/fpm_space.eps>
+(epstopdf)                    date: 2017-09-06 17:53:43
+(epstopdf)                    size: 24248 bytes
+(epstopdf)             Output file: <plot/fpm_space-eps-converted-to.pdf>
+(epstopdf)                    date: 2017-09-06 18:43:21
+(epstopdf)                    size: 8743 bytes
+(epstopdf)             Command: <epstopdf --outfile=plot/fpm_space-eps-converte
+d-to.pdf plot/fpm_space.eps>
+(epstopdf)             \includegraphics on input line 242.
+Package epstopdf Info: Output file is already uptodate.
+
+<plot/fpm_space-eps-converted-to.pdf, id=979, 505.89pt x 722.7pt>
+File: plot/fpm_space-eps-converted-to.pdf Graphic file (type pdf)
+
+<use plot/fpm_space-eps-converted-to.pdf>
+Package pdftex.def Info: plot/fpm_space-eps-converted-to.pdf used on input line
+ 242.
+(pdftex.def)             Requested size: 252.94437pt x 361.3491pt.
+ [55 <./plot/fpm-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <plot/qfpm.eps>
+(epstopdf)                    date: 2017-09-06 18:43:11
+(epstopdf)                    size: 30632 bytes
+(epstopdf)             Output file: <plot/qfpm-eps-converted-to.pdf>
+(epstopdf)                    date: 2017-09-06 18:43:21
+(epstopdf)                    size: 42888 bytes
+(epstopdf)             Command: <epstopdf --outfile=plot/qfpm-eps-converted-to.
+pdf plot/qfpm.eps>
+(epstopdf)             \includegraphics on input line 251.
+Package epstopdf Info: Output file is already uptodate.
+ <plot/qfpm-eps-converted-to.pdf, id=991, 505.89pt x 722.7pt>
+File: plot/qfpm-eps-converted-to.pdf Graphic file (type pdf)
+
+<use plot/qfpm-eps-converted-to.pdf>
+Package pdftex.def Info: plot/qfpm-eps-converted-to.pdf used on input line 251.
+
+(pdftex.def)             Requested size: 252.94437pt x 361.3491pt.
+ [56 <./plot/fpm_space-eps-converted-to.pdf>]
+
+LaTeX Warning: Reference `' on page 57 undefined on input line 266.
+
+
+LaTeX Warning: Reference `' on page 57 undefined on input line 266.
+
+
+LaTeX Warning: Reference `' on page 57 undefined on input line 266.
+
+
+LaTeX Warning: Reference `' on page 57 undefined on input line 266.
+
+
+LaTeX Warning: Reference `' on page 57 undefined on input line 266.
+
+[57 <./plot/qfpm-eps-converted-to.pdf>]
+
+LaTeX Warning: Reference `' on page 58 undefined on input line 276.
+
+) [58]
 Chapter 6.
 (conclusion.tex
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ô in font cmr12!
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ô in font cmr12!
-File: pic/61.png Graphic file (type png)
- <use pic/61.png>
-Package pdftex.def Info: pic/61.png used on input line 37.
-(pdftex.def)             Requested size: 266.7988pt x 380.62492pt.
-
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.38 \end{figure}
-                 
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-[45
+ [59
 
 
 ]
 File: pic/61.png Graphic file (type png)
  <use pic/61.png>
-Package pdftex.def Info: pic/61.png used on input line 44.
+Package pdftex.def Info: pic/61.png used on input line 20.
 (pdftex.def)             Requested size: 266.7988pt x 380.62492pt.
-
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.45 \end{figure}
-                 
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-[46]
+File: pic/61.png Graphic file (type png)
+ <use pic/61.png>
+Package pdftex.def Info: pic/61.png used on input line 27.
+(pdftex.def)             Requested size: 266.7988pt x 380.62492pt.
+ [60]
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.50 Cuiboid(att_
+l.33 Cuiboid(att_
                  1, att_2‚Ä¶ att_n)= Product of(|att_i|) * (shrinking factor...
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 )
-! Improper \prevdepth.
-\newpage ...everypar {}\fi \par \ifdim \prevdepth 
-                                                  >\z@ \vskip -\ifdim \prevd...
-l.309 \cleardoublepage
-                       % This is needed if the book class is used, to place ...
-You can refer to \spacefactor only in horizontal mode;
-you can refer to \prevdepth only in vertical mode; and
-neither of these is meaningful inside \write. So
-I'm forgetting what you said and using zero instead.
-
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.309 \cleardoublepage
-                       % This is needed if the book class is used, to place ...
+l.296 
+      
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ¶ in font cmr12!
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.309 \cleardoublepage
-                       % This is needed if the book class is used, to place ...
-
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-[47]
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.309 \cleardoublepage
-                       % This is needed if the book class is used, to place ...
-
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.315 
-      
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.318 
-      
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-(main.bbl
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1 \begin{thebibliography}{10}
-                               
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1 \begin{thebibliography}{10}
-                               
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1 \begin{thebibliography}{10}
-                               
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1 \begin{thebibliography}{10}
-                               
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-[48
+[61] (main.bbl [62
 
 
 
 
-] [49]) [50] [51
+] [63]) [64] [65
 
 
 ]
 Appendix A.
-[52
+[66
 
 
 ]
-Overfull \hbox (20.57835pt too wide) in paragraph at lines 358--358
- []\OT1/cmtt/m/n/12 set(gcf,'Units','inches') % Set figure size units of "curre
-nt figure"[] 
+Overfull \hbox (2.40399pt too wide) in paragraph at lines 358--358
+[]\OT1/cmtt/m/n/12 set(gcf,'Position',[0,0,6,4]) % Set figure width (6 in.) and
+ height (4 in.)[] 
  []
 
-
-Overfull \hbox (57.62837pt too wide) in paragraph at lines 358--358
- []\OT1/cmtt/m/n/12 set(gcf,'Position',[0,0,6,4]) % Set figure width (6 in.) an
-d height (4 in.)[] 
- []
-
-[53
+[67
 runsystem(makeindex -s main.ist -t main.glg -o main.gls main.glo)...executed (a
 llowed).
 
@@ -2469,45 +2654,36 @@ runsystem(makeindex -s main.ist -t main.symbols-glg -o main.symbols-gls main.sy
 mbols-glo)...executed (allowed).
 
 ]
-
-! LaTeX Error: \begin{itemize} on input line 22 ended by \end{document}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.360 \end{document}
-                    
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 360.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 360.
-(main.aux)
+ (main.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 360.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 360.
-Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 18BAF47106C1EF95956120927CFC1006;2774.
 
+
+Package rerunfilecheck Warning: File `main.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `main.out':
+(rerunfilecheck)             Before: BE9D79EB18CCE8BD75D02DAC29CF92E1;3954
+(rerunfilecheck)             After:  BB0D1BFF1B7148B663ADA2C04D9213B2;3986.
 
 LaTeX Warning: There were undefined references.
 
  )
-(\end occurred inside a group at level 3)
+(\end occurred inside a group at level 1)
 
-### semi simple group (level 3) entered at line 22 (\begingroup)
-### semi simple group (level 2) entered at line 6 (\begingroup)
 ### simple group (level 1) entered at line 1061 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 32774 strings out of 493323
- 619411 string characters out of 3138968
- 784349 words of memory out of 3000000
- 35450 multiletter control sequences out of 15000+200000
+ 32902 strings out of 493323
+ 621832 string characters out of 3138968
+ 787246 words of memory out of 3000000
+ 35517 multiletter control sequences out of 15000+200000
  543145 words of font info for 70 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 73i,18n,66p,10491b,22789s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 73i,18n,66p,10491b,22788s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmb
 x10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
 <C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx8.pfb><C:/Progr
@@ -2525,9 +2701,9 @@ X 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files/MiKTeX 2.9/fon
 ts/type1/public/amsfonts/cm/cmti12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1
 /public/amsfonts/cm/cmti8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/a
 msfonts/cm/cmtt12.pfb>
-Output written on main.pdf (62 pages, 657953 bytes).
+Output written on main.pdf (77 pages, 905242 bytes).
 PDF statistics:
- 939 PDF objects out of 1000 (max. 8388607)
- 308 named destinations out of 1000 (max. 500000)
- 401 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1199 PDF objects out of 1200 (max. 8388607)
+ 349 named destinations out of 1000 (max. 500000)
+ 574 words of extra memory for PDF output out of 10000 (max. 10000000)
 
