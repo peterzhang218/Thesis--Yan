@@ -18,8 +18,16 @@
 \contentsline {figure}{\numberline {5.4}{\ignorespaces Total processing time under different settings of $\omega $.}}{52}{figure.5.4}
 \contentsline {figure}{\numberline {5.5}{\ignorespaces Efficiency v.s. Space Cost}}{53}{figure.5.5}
 \contentsline {figure}{\numberline {5.6}{\ignorespaces Main memory storage v.s. hard disk storage}}{54}{figure.5.6}
-\contentsline {figure}{\numberline {5.7}{\ignorespaces Total processing time: StructurePlanner v.s. FPM}}{55}{figure.5.7}
-\contentsline {figure}{\numberline {5.8}{\ignorespaces Space cost: StructurePlanner v.s. FPM}}{56}{figure.5.8}
-\contentsline {figure}{\numberline {5.9}{\ignorespaces Processing time for each query: StructurePlanner v.s. FPM}}{57}{figure.5.9}
+\contentsline {figure}{\numberline {5.7}{\ignorespaces Time: CubePlanner v.s. PMA}}{55}{figure.5.7}
+\contentsline {figure}{\numberline {5.8}{\ignorespaces Space cost: CubePlanner v.s. PMA}}{56}{figure.5.8}
+\contentsline {figure}{\numberline {5.9}{\ignorespaces Total processing time: StructurePlanner v.s. FPM}}{57}{figure.5.9}
+\contentsline {figure}{\numberline {5.10}{\ignorespaces Space cost: StructurePlanner v.s. FPM}}{58}{figure.5.10}
+\contentsline {figure}{\numberline {5.11}{\ignorespaces Processing time for each query: StructurePlanner v.s. FPM}}{59}{figure.5.11}
+\contentsline {figure}{\numberline {5.12}{\ignorespaces Processing time for Q10 - Q12 by three approaches.}}{60}{figure.5.12}
+\contentsline {figure}{\numberline {5.13}{\ignorespaces Joining time in processing Q10 - Q12 by three approaches.}}{61}{figure.5.13}
+\contentsline {figure}{\numberline {5.14}{\ignorespaces Total processing time for Q10 - Q12 by three approaches.}}{62}{figure.5.14}
+\contentsline {figure}{\numberline {5.15}{\ignorespaces Total processing time v.s. ``trial query'' processing time.}}{63}{figure.5.15}
+\contentsline {figure}{\numberline {5.16}{\ignorespaces }}{64}{figure.5.16}
+\contentsline {figure}{\numberline {5.17}{\ignorespaces Execution plan for \textit {User-Post: ID(User), ID(Post)}.}}{65}{figure.5.17}
 \addvspace {10\p@ }
 \addvspace {10\p@ }

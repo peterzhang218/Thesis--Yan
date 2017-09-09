@@ -58,3 +58,12 @@ set xlabel "Freqency Count Threshold" font 'time-roman, 24'
 set yrange [0:20000]
 set xtics ("5" 0, "4" 1, "2" 2)
 plot 'omega.txt' 
+
+#############jiaweispace
+set output "jiaweispace.eps"
+set logscale y
+#set yrange [0:70000]
+set ylabel "Space (MB)" font 'time-roman, 24'
+set xlabel "" font 'time-roman, 24'
+set xtics ("CubePlanner" 0, "PMA" 1)
+plot 'jiaweispace.txt' 
