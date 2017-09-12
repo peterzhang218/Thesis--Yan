@@ -330,31 +330,113 @@ description={Random vector: a location in n-dimensional Cartesian space, where e
 \chapter*{APPENDICES}
 \addcontentsline{toc}{chapter}{APPENDICES}
 %======================================================================
-\chapter[PDF Plots From Matlab]{Matlab Code for Making a PDF Plot}
+\chapter[PDF Plots From Matlab]{Meaning for Each Query in Our Experiments}
 \label{AppendixA}
 % Tip 4: Example of how to get a shorter chapter title for the Table of Contents 
 %======================================================================
-\section{Using the GUI}
-Properties of Matab plots can be adjusted from the plot window via a graphical interface. Under the Desktop menu in the Figure window, select the Property Editor. You may also want to check the Plot Browser and Figure Palette for more tools. To adjust properties of the axes, look under the Edit menu and select Axes Properties.
+\section{Previous Workload}
+\par
+Meaning for each previous query is listed below. 
 
-To set the figure size and to save as PDF or other file formats, click the Export Setup button in the figure Property Editor.
+P1 \hspace{3mm} User-Post: User.UpVotes, Post.Score=9
 
-\section{From the Command Line} 
-All figure properties can also be manipulated from the command line. Here's an example: 
-\begin{verbatim}
-x=[0:0.1:pi];
-hold on % Plot multiple traces on one figure
-plot(x,sin(x))
-plot(x,cos(x),'--r')
-plot(x,tan(x),'.-g')
-title('Some Trig Functions Over 0 to \pi') % Note LaTeX markup!
-legend('{\it sin}(x)','{\it cos}(x)','{\it tan}(x)')
-hold off
-set(gca,'Ylim',[-3 3]) % Adjust Y limits of "current axes"
-set(gcf,'Units','inches') % Set figure size units of "current figure"
-set(gcf,'Position',[0,0,6,4]) % Set figure width (6 in.) and height (4 in.)
-cd n:\thesis\plots % Select where to save
-print -dpdf plot.pdf % Save as PDF
-\end{verbatim}
+To see the distribution of users' upvotes for high score (score=9) posts.
+
+P2 \hspace{3mm} User-Post: User.UpVotes, (AVG)Post.Score
+
+To see average post scores by different upvotes. 
+
+P3 \hspace{3mm} User-Post: User.Age, (SUM)Post.ActiveMonth
+
+To see each age group's contribution to total posts' active time. What is the main stream users` age range in stackoverflow.com?
+
+P4 \hspace{3mm} User-Post: User.CreationDate\_Year, Post.PostTypeId=1
+
+To see numbers of questions (Post.PostTypeId=1) posted by different years when joining the forum. 
+
+P5 \hspace{3mm} Badge-User, User-Post, Post-Tag: Tag.TagName, User.CreationDate\_Year=2017
+
+In 2017, how many badges are ``involved'' in each tag? 
+
+P6 \hspace{3mm} Badge-User, User-Post, Post-Tag: Tag.TagName, Badge.Name
+
+For each tag, what is the distribution of different types of ``involved'' badges?
+
+P7 \hspace{3mm} Badge-User, User-Post:Badge.Date\_Year, (AVG)Post.Score
+
+How average post score varies by years that badges are honored? Has the ``value'' of badges changed by time? 
+
+P8 \hspace{3mm} Badge-User, User-Post:Badge.Class, (AVG)Post.ActiveMonth
+
+Does high class badge indicate long post active month?
+
+P9 \hspace{3mm} User-Post, Post-Tag: (AVG)User.Age, Tag.TagName
+
+Which topics are trendy among youngster users and which ones are popular among middle-aged users?
+
+P10 \hspace{1.3mm} User-Post, Post-Tag: (AVG)User.UpVotes, Tag.TagName=Java
+
+What's the average upvotes (weighted) for users who involve in tag ``Java''. 
+
+P11 \hspace{1.3mm} User-Post, Post-Vote: (AVG)User.UpVotes, Vote.VoteTypeId
+
+For different type of votes, is there a difference in the voters’ average upvotes? 
+
+P12 \hspace{1.3mm} Post-Comment, Post-PostLink: PostLink-LinkTypeId, (AVG)Comment-Score
+
+Is there a connection between post's link type and post's average comment score?
+
+\section{Future Workload}
+
+Intuition for asking each future query is listed as follows. 
+
+Q1 \hspace{3mm} User-Post: User.CreationDate\_Year=2017, Post.PostTypeId
+
+For users who join recently in year 2017, how many posts are posted for each type of posts? How many are questions and answers?
+
+Q2 \hspace{3mm} User-Post: (AVG)User.UpVotes,Post.Score
+
+What is the average users' upvotes for each post score?
+
+Q3 \hspace{3mm} User-Post: Post.ActiveMonth, (AVG)User.Age
+
+For posts of different active timespan, is there a difference in average users' age?
+
+Q4 \hspace{3mm} User-Post: User.CreationDate\_Year
+
+How many posts are posted for users who joined in different years?
+
+Q5 \hspace{3mm} Badge-User, User-Post, Post-Tag: Tag.TagName, Badge.Class
+
+Do users of different classes of badges have different topics of interest?
+
+Q6 \hspace{3mm} Badge-User, User-Post, Post-Tag: Tag.TagName, Badge.Date\_Year
+
+Is there a major shift in topics of interest for users who receive badges in different years?
+
+Q7 \hspace{3mm} Badge-User, User-Post:Badge.Name, Post.PostTypeId
+
+How many posts are posted for different types of posts and badges?
+
+Q8 \hspace{3mm} User-Post, Post-Tag: User.UpVotes, Tag.TagName, Post.PostTypeId=2
+
+What is the distribution of users' upvotes for each topic of answers (Post.PostTypeId=2)?
+
+Q9 \hspace{3mm} User-Post, Post-Tag:User.CreationDate\_Year, Tag.TagName
+
+Do users who join in different years have different topics of interests? 
+
+Q10 \hspace{1.3mm} Badge-User, User-Comment: Badge-Class, (AVG)Comment-Score
+
+Do users of higher classes of badges tend to be more ``picky’’ with comments?
+
+Q11 \hspace{1.3mm} Badge-User, User-Comment: Badge-Name, (AVG)Comment-Score
+
+Do users of different types of badges give different comment scores? For example, do ``masters'' tend to give lower comment scores than ``students''?
+
+Q12 \hspace{1.3mm} Post-PostHistory, Post-Tag: Tag-TagName, PostHistory-PostHistoryTypeId
+
+For different tags, is there a difference in post histories related to the tags? For example, posts of which tags are more often re-edited?
+
 
 \end{document}

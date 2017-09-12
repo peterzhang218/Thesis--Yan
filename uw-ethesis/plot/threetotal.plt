@@ -23,7 +23,7 @@ set style histogram cluster gap 1
 
 #set logscale y
 
-set yrange [0:4000]
+set yrange [0:5000]
 
 set xtics font ", 13"
 

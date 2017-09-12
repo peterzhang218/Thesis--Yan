@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.7.5)  8 SEP 2017 20:22
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.7.5)  12 SEP 2017 12:49
 entering extended mode
 **./main.tex
 (main.tex
@@ -1315,7 +1315,7 @@ Missing character: There is no ô in font cmr12!
 
 
 
-] <pic/11.jpg, id=300, 650.43pt x 279.0425pt>
+] <pic/11.jpg, id=317, 650.43pt x 279.0425pt>
 File: pic/11.jpg Graphic file (type jpg)
 
 <use pic/11.jpg>
@@ -1331,13 +1331,13 @@ LaTeX Warning: Reference `fig:3' on page 2 undefined on input line 34.
 
 LaTeX Warning: Reference `fig:2' on page 2 undefined on input line 34.
 
-<pic/12.jpg, id=301, 412.54124pt x 212.795pt>
+<pic/12.jpg, id=318, 412.54124pt x 212.795pt>
 File: pic/12.jpg Graphic file (type jpg)
  <use pic/12.jpg>
 Package pdftex.def Info: pic/12.jpg used on input line 39.
 (pdftex.def)             Requested size: 206.27011pt x 106.39723pt.
 
-<pic/3.png, id=302, 2514.39375pt x 2625.81pt>
+<pic/3.png, id=319, 2514.39375pt x 2625.81pt>
 File: pic/3.png Graphic file (type png)
  <use pic/3.png>
 Package pdftex.def Info: pic/3.png used on input line 45.
@@ -1349,7 +1349,7 @@ Missing character: There is no ô in font cmti12!
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ô in font cmr12!
- [3] <pic/5.png, id=319, 200.75pt x 770.88pt>
+ [3] <pic/5.png, id=336, 200.75pt x 770.88pt>
 File: pic/5.png Graphic file (type png)
  <use pic/5.png>
 Package pdftex.def Info: pic/5.png used on input line 93.
@@ -1417,7 +1417,7 @@ Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ô in font cmr12!
  [10]
-<pic/meta1.png, id=368, 416.55624pt x 218.8175pt>
+<pic/meta1.png, id=384, 416.55624pt x 218.8175pt>
 File: pic/meta1.png Graphic file (type png)
  <use pic/meta1.png>
 Package pdftex.def Info: pic/meta1.png used on input line 147.
@@ -1432,7 +1432,7 @@ Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ô in font cmr12!
 
-<pic/22.png, id=371, 132.495pt x 131.49126pt>
+<pic/22.png, id=387, 132.495pt x 131.49126pt>
 File: pic/22.png Graphic file (type png)
  <use pic/22.png>
 Package pdftex.def Info: pic/22.png used on input line 159.
@@ -1444,14 +1444,14 @@ Missing character: There is no ô in font cmbx12!
 Missing character: There is no ‚ in font cmbx12!
 Missing character: There is no Ä in font cmbx12!
 Missing character: There is no ô in font cmbx12!
- <pic/meta2.jpg, id=377, 419.5675pt x 219.82124pt>
+ <pic/meta2.jpg, id=393, 419.5675pt x 219.82124pt>
 File: pic/meta2.jpg Graphic file (type jpg)
  <use pic/meta2.jpg>
 Package pdftex.def Info: pic/meta2.jpg used on input line 169.
 (pdftex.def)             Requested size: 209.78323pt x 109.91034pt.
 
 [12 <./pic/22.png> <./pic/meta2.jpg>]
-<pic/4.png, id=385, 258.9675pt x 167.62625pt>
+<pic/4.png, id=401, 258.9675pt x 167.62625pt>
 File: pic/4.png Graphic file (type png)
  <use pic/4.png>
 Package pdftex.def Info: pic/4.png used on input line 195.
@@ -1507,7 +1507,7 @@ l.12 \begin{figure*}[T]
                        
 Option `T' ignored and `p' used.
 
-<pic/41.pdf, id=456, 722.7pt x 542.025pt>
+<pic/41.pdf, id=472, 722.7pt x 542.025pt>
 File: pic/41.pdf Graphic file (type pdf)
  <use pic/41.pdf>
 Package pdftex.def Info: pic/41.pdf used on input line 14.
@@ -1866,7 +1866,7 @@ l.236 	\begin {figure}[T]
                          
 Option `T' ignored and `p' used.
 
-<pic/61.png, id=599, 444.66125pt x 634.37pt>
+<pic/61.png, id=615, 444.66125pt x 634.37pt>
 File: pic/61.png Graphic file (type png)
  <use pic/61.png>
 Package pdftex.def Info: pic/61.png used on input line 238.
@@ -1877,7 +1877,7 @@ Underfull \hbox (badness 2012) in paragraph at lines 239--239
 it/12 User-Badge, User-Post, Post-Tag:
  []
 
-<pic/Structurelattice.jpg, id=605, 702.625pt x 409.53pt>
+<pic/Structurelattice.jpg, id=621, 702.625pt x 409.53pt>
 File: pic/Structurelattice.jpg Graphic file (type jpg)
 
 <use pic/Structurelattice.jpg>
@@ -2039,7 +2039,7 @@ really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
 [33 <./pic/Structurelattice.jpg>] [34]
-<pic/bordernode.jpg, id=654, 424.58624pt x 216.81pt>
+<pic/bordernode.jpg, id=670, 424.58624pt x 216.81pt>
 File: pic/bordernode.jpg Graphic file (type jpg)
  <use pic/bordernode.jpg>
 Package pdftex.def Info: pic/bordernode.jpg used on input line 337.
@@ -2218,167 +2218,33 @@ IDs by eval-u-at-ing $(\OML/cmm/m/it/12 retrieve\OT1/cmr/m/n/12 (\OML/cmm/m/it/
 
 [43]) [44]
 Chapter 5.
-(experiment.tex
-
-LaTeX Warning: File `pic/MetaGraphExperiment (1).jpg' not found on input line 1
-8.
-
-<pic/MetaGraphExperiment (1).jpg, id=774, 663.47874pt x 422.57875pt>
-File: pic/MetaGraphExperiment (1).jpg Graphic file (type jpg)
-
-<use pic/MetaGraphExperiment (1).jpg>
-Package pdftex.def Info: pic/MetaGraphExperiment (1).jpg used on input line 18.
-
-(pdftex.def)             Requested size: 331.73856pt x 211.28885pt.
- [45
+(experiment.tex [45
 
 
-]
+] <pic/MetaExp.jpg, id=796, 673.51625pt x 417.56pt>
+File: pic/MetaExp.jpg Graphic file (type jpg)
 
-! LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.30 \\\textbf
-              {Previous WorkLoad:}
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.38 User-Post: User.CreationDate_
-                                  Year, Post.PostTypeId=1
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.39 
-     
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.40 ... Post-Tag: Tag.TagName, User.CreationDate_
-                                                  Year=2017
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.41 
-     
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.44 Badge-User, User-Post:Badge.Date_
-                                      Year,(AVG)Post.Score
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.45 
-     
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-[46 <./pic/MetaGraphExperiment (1).jpg>]
-Overfull \hbox (31.74176pt too wide) in paragraph at lines 54--55
-[]\OT1/cmr/m/n/12 Post-Comment, Post-PostHistory: PostHis-tory.PostHistoryTypeI
-d=5, (AVG)Comment.Score 
- []
-
-
-! LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.57 \\\textbf
-              {Future WorkLoad:}
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.59 User-Post: User.CreationDate_
-                                  Year=2017, Post.PostTypeId
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.60 
-     
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.65 User-Post: User.CreationDate_
-                                  Year
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.66 
-     
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.69 ...r-Post, Post-Tag: Tag.TagName, Badge.Date_
-                                                  Year
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.70 
-     
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.75 User-Post, Post-Tag:User.CreationDate_
-                                           Year, Tag.TagName
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.76 
-     
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
+<use pic/MetaExp.jpg>
+Package pdftex.def Info: pic/MetaExp.jpg used on input line 21.
+(pdftex.def)             Requested size: 336.7573pt x 208.77948pt.
+ [46 <./pic/MetaExp.jpg>]
+! You can't use `macro parameter character #' in horizontal mode.
+l.97 ...driver (https://neo4j.com/developer/java/#
+                                                  neo4j-java-driver) to inte...
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
 
 [47]
+
+LaTeX Warning: Reference `CubePlannerPMA' on page 48 undefined on input line 11
+1.
+
+
+LaTeX Warning: Reference `StructurePlanner v.s. FPM' on page 48 undefined on in
+put line 111.
+
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ú in font cmr12!
@@ -2386,147 +2252,113 @@ Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ù in font cmr12!
 
+LaTeX Warning: Reference `exp:Substructure Selection' on page 48 undefined on i
+nput line 121.
 
-LaTeX Warning: Reference `Frequency Threshold' on page 48 undefined on input li
-ne 111.
 
+LaTeX Warning: Reference `exp:DecomposeJoin' on page 48 undefined on input line
+ 123.
+
+[48]
 Package epstopdf Info: Source file: <plot/neo4j.eps>
-(epstopdf)                    date: 2017-09-05 15:42:28
-(epstopdf)                    size: 31085 bytes
+(epstopdf)                    date: 2017-09-12 12:25:54
+(epstopdf)                    size: 31232 bytes
 (epstopdf)             Output file: <plot/neo4j-eps-converted-to.pdf>
-(epstopdf)                    date: 2017-09-06 15:56:11
-(epstopdf)                    size: 43434 bytes
+(epstopdf)                    date: 2017-09-12 12:26:16
+(epstopdf)                    size: 43949 bytes
 (epstopdf)             Command: <epstopdf --outfile=plot/neo4j-eps-converted-to
 .pdf plot/neo4j.eps>
-(epstopdf)             \includegraphics on input line 141.
+(epstopdf)             \includegraphics on input line 144.
 Package epstopdf Info: Output file is already uptodate.
-<plot/neo4j-eps-converted-to.pdf, id=798, 505.89pt x 722.7pt>
+ <plot/neo4j-eps-converted-to.pdf, id=824, 505.89pt x 722.7pt>
 File: plot/neo4j-eps-converted-to.pdf Graphic file (type pdf)
 
 <use plot/neo4j-eps-converted-to.pdf>
-Package pdftex.def Info: plot/neo4j-eps-converted-to.pdf used on input line 141
+Package pdftex.def Info: plot/neo4j-eps-converted-to.pdf used on input line 144
 .
 (pdftex.def)             Requested size: 252.94437pt x 361.3491pt.
- [48]
-<"pic/MetaGraphExperiment_Hot (1)".jpg, id=804, 673.51625pt x 422.57875pt>
-File: "pic/MetaGraphExperiment_Hot (1)".jpg Graphic file (type jpg)
 
-<use "pic/MetaGraphExperiment_Hot (1)".jpg>
-Package pdftex.def Info: "pic/MetaGraphExperiment_Hot (1)".jpg used on input li
-ne 150.
-(pdftex.def)             Requested size: 336.7573pt x 211.28885pt.
- [49 <./plot/neo4j-eps-converted-to.pdf>]
-! Extra }, or forgotten \endgroup.
-l.155 ...User.CreationDate\_Year, Post.PostTypeId}
-                                                  , and \{User.UpVotes, Post...
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
+<"pic/MetaSExp".jpg, id=826, 683.55376pt x 417.56pt>
+File: "pic/MetaSExp".jpg Graphic file (type jpg)
+ <use "pic/MetaSExp".jpg>
+Package pdftex.def Info: "pic/MetaSExp".jpg used on input line 153.
+(pdftex.def)             Requested size: 341.77605pt x 208.77948pt.
 
-
-LaTeX Warning: Reference `fig:metagraphexperimenthot' on page 50 undefined on i
-nput line 155.
-
-[50 <./pic/MetaGraphExperiment_Hot (1).jpg>]
-! Missing $ inserted.
-<inserted text> 
-                $
-l.181 ...perties Badge-Class in Q5 and Badge-Date_
-                                                  Year in Q6 did not even ap...
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.181 ...ill be useless. In addition, when $\omega
-                                                  $ is set to 2, input for S...
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-
-Overfull \hbox (423.9299pt too wide) in paragraph at lines 181--182
-\OT1/cmr/m/n/12 Q5 and Badge-Date$[]\OML/cmm/m/it/12 earinQ\OT1/cmr/m/n/12 6\OM
-L/cmm/m/it/12 didnotevenappearinP\OT1/cmr/m/n/12 5\OML/cmm/m/it/12 andP\OT1/cmr
-/m/n/12 6\OML/cmm/m/it/12 :Thatistosay; inthiscaseanycuboidselectedover[]willbe
-useless:Inaddition; when$$!$
- []
-
-
-LaTeX Warning: Reference `fig:omega' on page 51 undefined on input line 185.
-
-[51]
+[49 <./plot/neo4j-eps-converted-to.pdf>] [50 <./pic/MetaSExp.jpg>] [51]
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
 Package epstopdf Info: Source file: <plot/omega.eps>
-(epstopdf)                    date: 2017-09-07 20:15:24
-(epstopdf)                    size: 23942 bytes
+(epstopdf)                    date: 2017-09-12 12:25:52
+(epstopdf)                    size: 24223 bytes
 (epstopdf)             Output file: <plot/omega-eps-converted-to.pdf>
-(epstopdf)                    date: 2017-09-07 20:17:06
-(epstopdf)                    size: 9920 bytes
+(epstopdf)                    date: 2017-09-12 12:26:16
+(epstopdf)                    size: 9956 bytes
 (epstopdf)             Command: <epstopdf --outfile=plot/omega-eps-converted-to
 .pdf plot/omega.eps>
-(epstopdf)             \includegraphics on input line 189.
+(epstopdf)             \includegraphics on input line 192.
 Package epstopdf Info: Output file is already uptodate.
- <plot/omega-eps-converted-to.pdf, id=828, 505.89pt x 722.7pt>
+
+<plot/omega-eps-converted-to.pdf, id=850, 505.89pt x 722.7pt>
 File: plot/omega-eps-converted-to.pdf Graphic file (type pdf)
 
 <use plot/omega-eps-converted-to.pdf>
-Package pdftex.def Info: plot/omega-eps-converted-to.pdf used on input line 189
-.
-(pdftex.def)             Requested size: 252.94437pt x 361.3491pt.
-
-
-LaTeX Warning: Reference `fig:limit' on page 52 undefined on input line 198.
-
-Package epstopdf Info: Source file: <plot/limit.eps>
-(epstopdf)                    date: 2017-09-06 15:54:56
-(epstopdf)                    size: 27289 bytes
-(epstopdf)             Output file: <plot/limit-eps-converted-to.pdf>
-(epstopdf)                    date: 2017-09-06 15:56:12
-(epstopdf)                    size: 10043 bytes
-(epstopdf)             Command: <epstopdf --outfile=plot/limit-eps-converted-to
-.pdf plot/limit.eps>
-(epstopdf)             \includegraphics on input line 202.
-Package epstopdf Info: Output file is already uptodate.
-<plot/limit-eps-converted-to.pdf, id=830, 505.89pt x 722.7pt>
-File: plot/limit-eps-converted-to.pdf Graphic file (type pdf)
-
-<use plot/limit-eps-converted-to.pdf>
-Package pdftex.def Info: plot/limit-eps-converted-to.pdf used on input line 202
+Package pdftex.def Info: plot/omega-eps-converted-to.pdf used on input line 192
 .
 (pdftex.def)             Requested size: 252.94437pt x 361.3491pt.
  [52 <./plot/omega-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <plot/limit.eps>
+(epstopdf)                    date: 2017-09-12 12:25:53
+(epstopdf)                    size: 27052 bytes
+(epstopdf)             Output file: <plot/limit-eps-converted-to.pdf>
+(epstopdf)                    date: 2017-09-12 12:26:18
+(epstopdf)                    size: 10139 bytes
+(epstopdf)             Command: <epstopdf --outfile=plot/limit-eps-converted-to
+.pdf plot/limit.eps>
+(epstopdf)             \includegraphics on input line 206.
+Package epstopdf Info: Output file is already uptodate.
 
-LaTeX Warning: Reference `fig:disk' on page 53 undefined on input line 210.
+<plot/limit-eps-converted-to.pdf, id=864, 505.89pt x 722.7pt>
+File: plot/limit-eps-converted-to.pdf Graphic file (type pdf)
+
+<use plot/limit-eps-converted-to.pdf>
+Package pdftex.def Info: plot/limit-eps-converted-to.pdf used on input line 206
+.
+(pdftex.def)             Requested size: 252.94437pt x 361.3491pt.
+
+
+LaTeX Warning: Reference `fig:disk' on page 53 undefined on input line 215.
 
 Package epstopdf Info: Source file: <plot/disk.eps>
-(epstopdf)                    date: 2017-09-07 20:15:24
-(epstopdf)                    size: 24226 bytes
+(epstopdf)                    date: 2017-09-12 12:25:52
+(epstopdf)                    size: 24238 bytes
 (epstopdf)             Output file: <plot/disk-eps-converted-to.pdf>
-(epstopdf)                    date: 2017-09-07 20:17:07
-(epstopdf)                    size: 8892 bytes
+(epstopdf)                    date: 2017-09-12 12:26:19
+(epstopdf)                    size: 9116 bytes
 (epstopdf)             Command: <epstopdf --outfile=plot/disk-eps-converted-to.
 pdf plot/disk.eps>
-(epstopdf)             \includegraphics on input line 216.
+(epstopdf)             \includegraphics on input line 221.
 Package epstopdf Info: Output file is already uptodate.
-<plot/disk-eps-converted-to.pdf, id=844, 505.89pt x 722.7pt>
+<plot/disk-eps-converted-to.pdf, id=866, 505.89pt x 722.7pt>
 File: plot/disk-eps-converted-to.pdf Graphic file (type pdf)
 
 <use plot/disk-eps-converted-to.pdf>
-Package pdftex.def Info: plot/disk-eps-converted-to.pdf used on input line 216.
+Package pdftex.def Info: plot/disk-eps-converted-to.pdf used on input line 221.
 
 (pdftex.def)             Requested size: 252.94437pt x 361.3491pt.
  [53 <./plot/limit-eps-converted-to.pdf>]
 
-LaTeX Warning: Reference `fig:qjiawei' on page 54 undefined on input line 224.
+LaTeX Warning: Reference `fig:qjiawei' on page 54 undefined on input line 230.
 
 
 LaTeX Warning: Reference `fig:jiaweispace' on page 54 undefined on input line 2
-24.
+30.
 
 ! Extra }, or forgotten \endgroup.
-l.224 ...User.CreationDate\_Year, Post.PostTypeId}
+l.230 ...User.CreationDate\_Year, Post.PostTypeId}
                                                   , and \{User.UpVotes, Post...
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -2535,225 +2367,214 @@ the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
 Package epstopdf Info: Source file: <plot/qjiawei.eps>
-(epstopdf)                    date: 2017-09-08 18:41:06
+(epstopdf)                    date: 2017-09-12 12:25:57
 (epstopdf)                    size: 26007 bytes
 (epstopdf)             Output file: <plot/qjiawei-eps-converted-to.pdf>
-(epstopdf)                    date: 2017-09-08 19:11:47
+(epstopdf)                    date: 2017-09-12 12:27:05
 (epstopdf)                    size: 21371 bytes
 (epstopdf)             Command: <epstopdf --outfile=plot/qjiawei-eps-converted-
 to.pdf plot/qjiawei.eps>
-(epstopdf)             \includegraphics on input line 229.
+(epstopdf)             \includegraphics on input line 235.
 Package epstopdf Info: Output file is already uptodate.
-<plot/qjiawei-eps-converted-to.pdf, id=861, 505.89pt x 722.7pt>
+<plot/qjiawei-eps-converted-to.pdf, id=881, 505.89pt x 722.7pt>
 File: plot/qjiawei-eps-converted-to.pdf Graphic file (type pdf)
 
 <use plot/qjiawei-eps-converted-to.pdf>
 Package pdftex.def Info: plot/qjiawei-eps-converted-to.pdf used on input line 2
-29.
+35.
 (pdftex.def)             Requested size: 252.94437pt x 361.3491pt.
  [54 <./plot/disk-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <plot/jiaweispace.eps>
-(epstopdf)                    date: 2017-09-07 20:15:24
+(epstopdf)                    date: 2017-09-12 12:25:52
 (epstopdf)                    size: 25176 bytes
 (epstopdf)             Output file: <plot/jiaweispace-eps-converted-to.pdf>
-(epstopdf)                    date: 2017-09-07 20:18:05
+(epstopdf)                    date: 2017-09-12 12:27:06
 (epstopdf)                    size: 9529 bytes
 (epstopdf)             Command: <epstopdf --outfile=plot/jiaweispace-eps-conver
 ted-to.pdf plot/jiaweispace.eps>
-(epstopdf)             \includegraphics on input line 236.
+(epstopdf)             \includegraphics on input line 242.
 Package epstopdf Info: Output file is already uptodate.
-<plot/jiaweispace-eps-converted-to.pdf, id=873, 505.89pt x 722.7pt>
+<plot/jiaweispace-eps-converted-to.pdf, id=894, 505.89pt x 722.7pt>
 File: plot/jiaweispace-eps-converted-to.pdf Graphic file (type pdf)
 
 <use plot/jiaweispace-eps-converted-to.pdf>
 Package pdftex.def Info: plot/jiaweispace-eps-converted-to.pdf used on input li
-ne 236.
+ne 242.
 (pdftex.def)             Requested size: 252.94437pt x 361.3491pt.
  [55 <./plot/qjiawei-eps-converted-to.pdf>]
 
-LaTeX Warning: Reference `Frequency Threshold' on page 56 undefined on input li
-ne 246.
+LaTeX Warning: Reference `fig:fpm' on page 56 undefined on input line 253.
 
 
-LaTeX Warning: Reference `fig:fpm' on page 56 undefined on input line 246.
-
-
-LaTeX Warning: Reference `fig:fpmspace' on page 56 undefined on input line 246.
+LaTeX Warning: Reference `fig:fpmspace' on page 56 undefined on input line 253.
 
 
 [56 <./plot/jiaweispace-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <plot/fpm.eps>
-(epstopdf)                    date: 2017-09-07 20:15:24
+(epstopdf)                    date: 2017-09-12 12:25:52
 (epstopdf)                    size: 24279 bytes
 (epstopdf)             Output file: <plot/fpm-eps-converted-to.pdf>
-(epstopdf)                    date: 2017-09-07 20:17:08
-(epstopdf)                    size: 8388 bytes
+(epstopdf)                    date: 2017-09-12 12:27:07
+(epstopdf)                    size: 8125 bytes
 (epstopdf)             Command: <epstopdf --outfile=plot/fpm-eps-converted-to.p
 df plot/fpm.eps>
-(epstopdf)             \includegraphics on input line 250.
-Package epstopdf Info: Output file is already uptodate.
-
-<plot/fpm-eps-converted-to.pdf, id=901, 505.89pt x 722.7pt>
-File: plot/fpm-eps-converted-to.pdf Graphic file (type pdf)
-
-<use plot/fpm-eps-converted-to.pdf>
-Package pdftex.def Info: plot/fpm-eps-converted-to.pdf used on input line 250.
-(pdftex.def)             Requested size: 252.94437pt x 361.3491pt.
-Package epstopdf Info: Source file: <plot/fpm_space.eps>
-(epstopdf)                    date: 2017-09-07 20:15:24
-(epstopdf)                    size: 24248 bytes
-(epstopdf)             Output file: <plot/fpm_space-eps-converted-to.pdf>
-(epstopdf)                    date: 2017-09-07 20:17:09
-(epstopdf)                    size: 8743 bytes
-(epstopdf)             Command: <epstopdf --outfile=plot/fpm_space-eps-converte
-d-to.pdf plot/fpm_space.eps>
 (epstopdf)             \includegraphics on input line 257.
 Package epstopdf Info: Output file is already uptodate.
 
-<plot/fpm_space-eps-converted-to.pdf, id=902, 505.89pt x 722.7pt>
+<plot/fpm-eps-converted-to.pdf, id=923, 505.89pt x 722.7pt>
+File: plot/fpm-eps-converted-to.pdf Graphic file (type pdf)
+
+<use plot/fpm-eps-converted-to.pdf>
+Package pdftex.def Info: plot/fpm-eps-converted-to.pdf used on input line 257.
+(pdftex.def)             Requested size: 252.94437pt x 361.3491pt.
+Package epstopdf Info: Source file: <plot/fpm_space.eps>
+(epstopdf)                    date: 2017-09-12 12:25:52
+(epstopdf)                    size: 24248 bytes
+(epstopdf)             Output file: <plot/fpm_space-eps-converted-to.pdf>
+(epstopdf)                    date: 2017-09-12 12:27:08
+(epstopdf)                    size: 8743 bytes
+(epstopdf)             Command: <epstopdf --outfile=plot/fpm_space-eps-converte
+d-to.pdf plot/fpm_space.eps>
+(epstopdf)             \includegraphics on input line 264.
+Package epstopdf Info: Output file is already uptodate.
+
+<plot/fpm_space-eps-converted-to.pdf, id=924, 505.89pt x 722.7pt>
 File: plot/fpm_space-eps-converted-to.pdf Graphic file (type pdf)
 
 <use plot/fpm_space-eps-converted-to.pdf>
 Package pdftex.def Info: plot/fpm_space-eps-converted-to.pdf used on input line
- 257.
+ 264.
 (pdftex.def)             Requested size: 252.94437pt x 361.3491pt.
  [57 <./plot/fpm-eps-converted-to.pdf>]
 
-LaTeX Warning: Reference `fig:metagraphexperimenthot' on page 58 undefined on i
-nput line 262.
-
-
-LaTeX Warning: Reference `fig:qfpm' on page 58 undefined on input line 262.
+LaTeX Warning: Reference `fig:qfpm' on page 58 undefined on input line 269.
 
 Package epstopdf Info: Source file: <plot/qfpm.eps>
-(epstopdf)                    date: 2017-09-06 18:43:11
-(epstopdf)                    size: 30632 bytes
+(epstopdf)                    date: 2017-09-12 12:25:56
+(epstopdf)                    size: 30509 bytes
 (epstopdf)             Output file: <plot/qfpm-eps-converted-to.pdf>
-(epstopdf)                    date: 2017-09-06 18:43:21
-(epstopdf)                    size: 42888 bytes
+(epstopdf)                    date: 2017-09-12 12:27:09
+(epstopdf)                    size: 42895 bytes
 (epstopdf)             Command: <epstopdf --outfile=plot/qfpm-eps-converted-to.
 pdf plot/qfpm.eps>
-(epstopdf)             \includegraphics on input line 266.
+(epstopdf)             \includegraphics on input line 273.
 Package epstopdf Info: Output file is already uptodate.
-<plot/qfpm-eps-converted-to.pdf, id=913, 505.89pt x 722.7pt>
+<plot/qfpm-eps-converted-to.pdf, id=936, 505.89pt x 722.7pt>
 File: plot/qfpm-eps-converted-to.pdf Graphic file (type pdf)
 
 <use plot/qfpm-eps-converted-to.pdf>
-Package pdftex.def Info: plot/qfpm-eps-converted-to.pdf used on input line 266.
+Package pdftex.def Info: plot/qfpm-eps-converted-to.pdf used on input line 273.
 
 (pdftex.def)             Requested size: 252.94437pt x 361.3491pt.
  [58 <./plot/fpm_space-eps-converted-to.pdf>]
 
-LaTeX Warning: Reference `plot/threeall' on page 59 undefined on input line 281
+LaTeX Warning: Reference `plot/threeall' on page 59 undefined on input line 290
 .
 
 
-LaTeX Warning: Reference `fig:threejoin' on page 59 undefined on input line 281
+LaTeX Warning: Reference `fig:threejoin' on page 59 undefined on input line 290
 .
 
 
-LaTeX Warning: Reference `fig:threetotal' on page 59 undefined on input line 28
-1.
-
-
-LaTeX Warning: Reference `' on page 59 undefined on input line 281.
+LaTeX Warning: Reference `fig:threetotal' on page 59 undefined on input line 29
+0.
 
 
 LaTeX Warning: Reference `fig:threesample' on page 59 undefined on input line 2
-81.
+90.
 
 [59 <./plot/qfpm-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <plot/threeall.eps>
-(epstopdf)                    date: 2017-09-08 18:56:37
+(epstopdf)                    date: 2017-09-12 12:25:58
 (epstopdf)                    size: 25698 bytes
 (epstopdf)             Output file: <plot/threeall-eps-converted-to.pdf>
-(epstopdf)                    date: 2017-09-08 19:11:49
-(epstopdf)                    size: 16143 bytes
+(epstopdf)                    date: 2017-09-12 12:27:10
+(epstopdf)                    size: 17860 bytes
 (epstopdf)             Command: <epstopdf --outfile=plot/threeall-eps-converted
 -to.pdf plot/threeall.eps>
-(epstopdf)             \includegraphics on input line 286.
+(epstopdf)             \includegraphics on input line 295.
 Package epstopdf Info: Output file is already uptodate.
 
-<plot/threeall-eps-converted-to.pdf, id=945, 505.89pt x 722.7pt>
+<plot/threeall-eps-converted-to.pdf, id=968, 505.89pt x 722.7pt>
 File: plot/threeall-eps-converted-to.pdf Graphic file (type pdf)
 
 <use plot/threeall-eps-converted-to.pdf>
 Package pdftex.def Info: plot/threeall-eps-converted-to.pdf used on input line 
-286.
+295.
 (pdftex.def)             Requested size: 252.94437pt x 361.3491pt.
 Package epstopdf Info: Source file: <plot/threejoin.eps>
-(epstopdf)                    date: 2017-09-08 18:57:06
-(epstopdf)                    size: 25376 bytes
+(epstopdf)                    date: 2017-09-12 12:25:58
+(epstopdf)                    size: 25382 bytes
 (epstopdf)             Output file: <plot/threejoin-eps-converted-to.pdf>
-(epstopdf)                    date: 2017-09-08 19:11:51
-(epstopdf)                    size: 14596 bytes
+(epstopdf)                    date: 2017-09-12 12:27:11
+(epstopdf)                    size: 17531 bytes
 (epstopdf)             Command: <epstopdf --outfile=plot/threejoin-eps-converte
 d-to.pdf plot/threejoin.eps>
-(epstopdf)             \includegraphics on input line 294.
+(epstopdf)             \includegraphics on input line 303.
 Package epstopdf Info: Output file is already uptodate.
 
-<plot/threejoin-eps-converted-to.pdf, id=946, 505.89pt x 722.7pt>
+<plot/threejoin-eps-converted-to.pdf, id=969, 505.89pt x 722.7pt>
 File: plot/threejoin-eps-converted-to.pdf Graphic file (type pdf)
 
 <use plot/threejoin-eps-converted-to.pdf>
 Package pdftex.def Info: plot/threejoin-eps-converted-to.pdf used on input line
- 294.
+ 303.
 (pdftex.def)             Requested size: 252.94437pt x 361.3491pt.
 Package epstopdf Info: Source file: <plot/threetotal.eps>
-(epstopdf)                    date: 2017-09-08 19:04:23
-(epstopdf)                    size: 24482 bytes
+(epstopdf)                    date: 2017-09-12 12:31:02
+(epstopdf)                    size: 24047 bytes
 (epstopdf)             Output file: <plot/threetotal-eps-converted-to.pdf>
-(epstopdf)                    date: 2017-09-08 19:11:53
-(epstopdf)                    size: 10302 bytes
+(epstopdf)                    date: 2017-09-12 12:31:22
+(epstopdf)                    size: 10301 bytes
 (epstopdf)             Command: <epstopdf --outfile=plot/threetotal-eps-convert
 ed-to.pdf plot/threetotal.eps>
-(epstopdf)             \includegraphics on input line 300.
+(epstopdf)             \includegraphics on input line 309.
 Package epstopdf Info: Output file is already uptodate.
 
-<plot/threetotal-eps-converted-to.pdf, id=947, 505.89pt x 722.7pt>
+<plot/threetotal-eps-converted-to.pdf, id=970, 505.89pt x 722.7pt>
 File: plot/threetotal-eps-converted-to.pdf Graphic file (type pdf)
 
 <use plot/threetotal-eps-converted-to.pdf>
 Package pdftex.def Info: plot/threetotal-eps-converted-to.pdf used on input lin
-e 300.
+e 309.
 (pdftex.def)             Requested size: 252.94437pt x 361.3491pt.
  [60 <./plot/threeall-eps-converted-to.pdf>] [61 <./plot/threejoin-eps-converte
 d-to.pdf>]
 Package epstopdf Info: Source file: <plot/threesample.eps>
-(epstopdf)                    date: 2017-09-08 19:09:30
-(epstopdf)                    size: 26873 bytes
+(epstopdf)                    date: 2017-09-12 12:25:59
+(epstopdf)                    size: 26870 bytes
 (epstopdf)             Output file: <plot/threesample-eps-converted-to.pdf>
-(epstopdf)                    date: 2017-09-08 19:11:55
-(epstopdf)                    size: 15173 bytes
+(epstopdf)                    date: 2017-09-12 12:27:13
+(epstopdf)                    size: 15143 bytes
 (epstopdf)             Command: <epstopdf --outfile=plot/threesample-eps-conver
 ted-to.pdf plot/threesample.eps>
-(epstopdf)             \includegraphics on input line 307.
+(epstopdf)             \includegraphics on input line 316.
 Package epstopdf Info: Output file is already uptodate.
 
-<plot/threesample-eps-converted-to.pdf, id=974, 505.89pt x 722.7pt>
+<plot/threesample-eps-converted-to.pdf, id=997, 505.89pt x 722.7pt>
 File: plot/threesample-eps-converted-to.pdf Graphic file (type pdf)
 
 <use plot/threesample-eps-converted-to.pdf>
 Package pdftex.def Info: plot/threesample-eps-converted-to.pdf used on input li
-ne 307.
+ne 316.
 (pdftex.def)             Requested size: 252.94437pt x 361.3491pt.
  [62 <./plot/threetotal-eps-converted-to.pdf>]
 
-LaTeX Warning: Reference `fig:wrong1' on page 63 undefined on input line 327.
+LaTeX Warning: Reference `fig:wrong1' on page 63 undefined on input line 336.
 
 
-LaTeX Warning: Reference `fig:wrong2' on page 63 undefined on input line 327.
+LaTeX Warning: Reference `fig:wrong2' on page 63 undefined on input line 336.
 
-<"pic/wrong".png, id=985, 200.75pt x 429.605pt>
+<"pic/wrong".png, id=1008, 200.75pt x 429.605pt>
 File: "pic/wrong".png Graphic file (type png)
  <use "pic/wrong".png>
-Package pdftex.def Info: "pic/wrong".png used on input line 332.
+Package pdftex.def Info: "pic/wrong".png used on input line 341.
 (pdftex.def)             Requested size: 140.52403pt x 300.72144pt.
  [63 <./plot/threesample-eps-converted-to.pdf>]
-<pic/wrong2.png, id=1000, 200.75pt x 429.605pt>
+<pic/wrong2.png, id=1023, 200.75pt x 429.605pt>
 File: pic/wrong2.png Graphic file (type png)
  <use pic/wrong2.png>
-Package pdftex.def Info: pic/wrong2.png used on input line 339.
+Package pdftex.def Info: pic/wrong2.png used on input line 348.
 (pdftex.def)             Requested size: 140.52403pt x 300.72144pt.
 ) [64 <./pic/wrong.png>] [65 <./pic/wrong2.png>]
 Chapter 6.
@@ -2774,12 +2595,22 @@ Appendix A.
 
 
 ]
-Overfull \hbox (2.40399pt too wide) in paragraph at lines 358--358
-[]\OT1/cmtt/m/n/12 set(gcf,'Position',[0,0,6,4]) % Set figure width (6 in.) and
- height (4 in.)[] 
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+ [72]
+Overfull \hbox (5.60588pt too wide) in paragraph at lines 423--424
+[]\OT1/cmr/m/n/12 What is the dis-tri-bu-tion of users' up-votes for each topic
+ of an-swers (Post.PostTypeId=2)? 
  []
 
-[72
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+[73
 runsystem(makeindex -s main.ist -t main.glg -o main.gls main.glo)...executed (a
 llowed).
 
@@ -2793,27 +2624,11 @@ runsystem(makeindex -s main.ist -t main.symbols-glg -o main.symbols-gls main.sy
 mbols-glo)...executed (allowed).
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 360.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 360.
- (main.aux
-! Missing \endcsname inserted.
-<to be read again> 
-                   \protect 
-l.231 ... User.Age}.}{{5.16}{64}{}{figure.5.16}{}}
-                                                  
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-! Extra \endcsname.
-\@newl@bel ...dafter \ifx \csname #1@#2\endcsname 
-                                                  \reserved@a \else \@tempsw...
-l.231 ... User.Age}.}{{5.16}{64}{}{figure.5.16}{}}
-                                                  
-I'm ignoring this, since I wasn't doing a \csname.
-
-)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 360.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 360.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 442.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 442.
+ (main.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 442.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 442.
 
 
 Package rerunfilecheck Warning: File `main.out' has changed.
@@ -2821,8 +2636,8 @@ Package rerunfilecheck Warning: File `main.out' has changed.
 (rerunfilecheck)                or use package `bookmark'.
 
 Package rerunfilecheck Info: Checksums for `main.out':
-(rerunfilecheck)             Before: B3A765587F6A0B69E8AC839F65F54AE6;2790
-(rerunfilecheck)             After:  98744D90F80568679225254B224398FB;3759.
+(rerunfilecheck)             Before: 01CD1DC382F3CF9EA680D7D16107A284;2943
+(rerunfilecheck)             After:  F003DDE2049419D1D76CD89B954C5606;3656.
 
 LaTeX Warning: There were undefined references.
 
@@ -2836,10 +2651,10 @@ LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 ### simple group (level 1) entered at line 1061 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 32944 strings out of 493323
- 623014 string characters out of 3138968
- 786653 words of memory out of 3000000
- 35542 multiletter control sequences out of 15000+200000
+ 32952 strings out of 493323
+ 623020 string characters out of 3138968
+ 787091 words of memory out of 3000000
+ 35550 multiletter control sequences out of 15000+200000
  543145 words of font info for 70 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  73i,18n,66p,10491b,22888s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -2860,9 +2675,9 @@ X 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files/MiKTeX 2.9/fon
 ts/type1/public/amsfonts/cm/cmti12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1
 /public/amsfonts/cm/cmti8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/a
 msfonts/cm/cmtt12.pfb>
-Output written on main.pdf (81 pages, 988071 bytes).
+Output written on main.pdf (82 pages, 1010440 bytes).
 PDF statistics:
- 1190 PDF objects out of 1200 (max. 8388607)
+ 1217 PDF objects out of 1440 (max. 8388607)
  358 named destinations out of 1000 (max. 500000)
- 478 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 494 words of extra memory for PDF output out of 10000 (max. 10000000)
 

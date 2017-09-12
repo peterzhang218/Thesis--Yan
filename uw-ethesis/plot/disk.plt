@@ -25,7 +25,7 @@ set style histogram cluster gap 1
 
 set yrange [0:18000]
 
-set xtics ("Memory" 0, "Disk" 1)
+set xtics ("Memory-based" 0, "Disk-based" 1)
 
 set ylabel "Time (Sec)" font 'time-roman, 24'
 
@@ -56,7 +56,7 @@ set output "omega.eps"
 set ylabel "Time (Sec)" font 'time-roman, 24'
 set xlabel "Freqency Count Threshold" font 'time-roman, 24'
 set yrange [0:20000]
-set xtics ("5" 0, "4" 1, "2" 2)
+set xtics ("5" 0, "4" 1, "3" 2, "2" 3)
 plot 'omega.txt' 
 
 #############jiaweispace
@@ -67,3 +67,5 @@ set ylabel "Space (MB)" font 'time-roman, 24'
 set xlabel "" font 'time-roman, 24'
 set xtics ("CubePlanner" 0, "PMA" 1)
 plot 'jiaweispace.txt' 
+
+ 
