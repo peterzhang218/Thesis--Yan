@@ -20,7 +20,7 @@ OLAP (On-Line Analytical Processing) \cite{DBLP:conf/sigmod/BeyerR99, DBLP:journ
 
  Graph OLAP is first proposed by Graph Cube \cite{DBLP:conf/sigmod/ZhaoLXH11}. It refers to OLAP over graphs. Though no formal definition of the notion ``Graph OLAP'' is given in \cite{DBLP:conf/sigmod/ZhaoLXH11}. Graph Cube \cite{DBLP:conf/sigmod/ZhaoLXH11} views the outcome of Graph OLAP as aggregated graphs (aggregation of data graph). On the contrary, in our work, we consider the outcome of Graph OLAP as result tables of OLAP queries.
 
- Graph Cube \cite{DBLP:conf/sigmod/ZhaoLXH11}  addresses and defines two most important notions in graph OLAP scenarios as \textit{dimension} and \textit{measure}. In our work emphasize \textit{structure} (of meta graph) as a third important notion. Graph Cube \cite{DBLP:conf/sigmod/ZhaoLXH11} focuses more on OLAP senerios over a fixed \textit{structure}, with \textit{dimension} and \textit{measure} varied. %Therefore, there is no need to emphasize and discover the notion of \textit{structure}. 
+ Graph Cube \cite{DBLP:conf/sigmod/ZhaoLXH11}  addresses and defines two most important notions in graph OLAP scenarios as \textit{dimension} and \textit{measure}. In our work emphasize \textit{structure} (of meta graph) as a third important notion. Graph Cube \cite{DBLP:conf/sigmod/ZhaoLXH11} focuses more on OLAP senerios over a fixed \textit{structure}, with \textit{dimension} and \textit{measure} varied. %Therefore, there is no need to emphasize and discover the notion of \textit{structure}.
  In our work, we are able to deal with OLAP workloads over various \textit{structures}.
 
  %The ``graph'' in our work refers to property graphs. As introduced in Section 1.1, property graph is more flexible and powerful than classic attribute graphs.
@@ -123,7 +123,7 @@ Sample query result:
 	C & 2017 & 30.2 \\
 	programmer	& 2012 & 34.2 \\
 	programmer	& 2017 & 31.4 \\
-	software	& 2012 & 31.6 \\ 
+	software	& 2012 & 31.6 \\
 	software	& 2017 & 29.8\\\hline
 	
 \end{tabular}
@@ -144,7 +144,7 @@ Query \#1 is concerns the following structure (colored in blue) on the meta grap
 
 \begin{figure}[H]
 \centering
-\includegraphics[scale=0.5]{pic/meta1.png}
+\includegraphics[scale=0.5]{pic/meta1.eps}
 \caption{\textit{Structure} of Query \#1}
 \label{fig:2:1}
 \end{figure}
@@ -156,7 +156,7 @@ We say that (User)-[User\_owns\_post]-$>$(Post) is the structure of Query \#1. T
 
 \begin{figure}[H]
 \centering
-\includegraphics[scale=1]{pic/22.png}
+\includegraphics[scale=1]{pic/22.eps}
 \caption{Cube of properties \{A,B,C\}.}
 \label{fig:2:2}
 \end{figure}
@@ -166,7 +166,7 @@ We say that (User)-[User\_owns\_post]-$>$(Post) is the structure of Query \#1. T
 Structure:	(User)-[User\_owns\_post]-(Post)-[Post\_hastag\_Tag]-(Tag)
 \begin{figure}[H]
 \centering
-\includegraphics[scale=0.5]{pic/meta2.jpg}
+\includegraphics[scale=0.5]{pic/meta2.eps}
 \caption{\textit{Structure} of Query \#3}
 \label{fig:2:3}
 \end{figure}
@@ -184,7 +184,7 @@ To summarize, graph OLAP allows clients to aggregate different \textit{structure
 %----------------------------------------------------------------------
 \section{Graph Databases and Neo4j}
 %----------------------------------------------------------------------
- Emerging online applications concerning graph processing has motivated the relational database community to support efficient graph management~\cite{}. However, there has been active debate about the efficiency of using traditional RDBMS for graph computing considering the unique query workload against graph data~\cite{}, which is beyond the scope of this thesis. As a matter of fact, relational databases and graph databases both have their own strengths in term of query processing.  It is generally accepted that graph databases perform better at property graph data processing as it conforms more with the actual graph structure. For clear presentation purpose, we highlight some key differences between the RDBMS and graph database. 
+ Emerging online applications concerning graph processing has motivated the relational database community to support efficient graph management~\cite{}. However, there has been active debate about the efficiency of using traditional RDBMS for graph computing considering the unique query workload against graph data~\cite{}, which is beyond the scope of this thesis. As a matter of fact, relational databases and graph databases both have their own strengths in term of query processing.  It is generally accepted that graph databases perform better at property graph data processing as it conforms more with the actual graph structure. For clear presentation purpose, we highlight some key differences between the RDBMS and graph database.
 
 %There are two major types of databases that store and process graph data: traditional relational databases and graph databases.
 
@@ -192,7 +192,7 @@ Relational databases  model graph data as entity and relationship tables. For ex
 
 \begin{figure}[H]
 \centering
-\includegraphics[scale=0.9]{pic/4.png}
+\includegraphics[scale=0.9]{pic/4.eps}
 \caption{A simple property graph.}
 \label{fig:2:4}
 \end{figure}
@@ -234,14 +234,14 @@ Relational databases  model graph data as entity and relationship tables. For ex
 
 There are two drawbacks of storing property graphs in a relational database. First, each node or edge in a property graph could have arbitrary types of properties. However, relational table schema would restrict nodes or edges of the same type to have a uniform set of properties (attributes). Second and more importantly, edges are stored as a separate table in relational databases. Thus, we cannot directly query all the posts of a given user without joining User and Own tables in the above example.
 
-Graph databases solve the above two issues by directly adopting property graph structures to store data. In graph databases, edges are stored not as independent tables but directly attached to related nodes using data structures such as adjacency lists. Many graph database applications have been implemented and commercialized. One of the popular ones is Neo4j, which holds atomicity, consistency, isolation, durability (ACID) as traditional RDBMS does. Database instances in Neo4j are modeled and stored as  property graphs. %Like other graph databases, edges are not stored as physically separate tables, but directly attached to their nodes. 
+Graph databases solve the above two issues by directly adopting property graph structures to store data. In graph databases, edges are stored not as independent tables but directly attached to related nodes using data structures such as adjacency lists. Many graph database applications have been implemented and commercialized. One of the popular ones is Neo4j, which holds atomicity, consistency, isolation, durability (ACID) as traditional RDBMS does. Database instances in Neo4j are modeled and stored as  property graphs. %Like other graph databases, edges are not stored as physically separate tables, but directly attached to their nodes.
 One thing special about Noe4j’s property graph is that its nodes and edges can be labeled with any number of labels (similar to entity and relationship types). For example, a node referring to a student could have various labels such as “student”, “people” etc.
 
 Cypher is Neo4j’s query language, which is expressive and simple. For example, consider the following query: what is the average score group by different user upvotes when PostTypeID is 2? A Cypher query would be written as follows:
 
 \begin{verbatim}
-match (u:User)-[r:User\_owns\_Post]-$>$(p:Post) 
-where p.PostTypeId=`2' 
+match (u:User)-[r:User\_owns\_Post]-$>$(p:Post)
+where p.PostTypeId=`2'
 return u.Upvotes, AVG(p.Score)
 \end{verbatim}
 
@@ -262,15 +262,15 @@ In the above Cypher query, ``User'' and ``Post'' are node labels, PostTypeId and
 \section{Related Work}
 %----------------------------------------------------------------------
 
-There have been a few work discussing efficient graph OLAP queries on attribute graphs or RDF graphs. 
+There have been a few work discussing efficient graph OLAP queries on attribute graphs or RDF graphs.
 
-Cube-based \cite{DBLP:conf/sofsem/JakawatFL16} proposes the concept of  graphs enriched by cubes. Each node and edge of the considered network are described by a cube. It allows the user to quickly analyze the information summarized into cubes. It works well in slowly changing dimension problem in OLAP analysis. 
+Cube-based \cite{DBLP:conf/sofsem/JakawatFL16} proposes the concept of  graphs enriched by cubes. Each node and edge of the considered network are described by a cube. It allows the user to quickly analyze the information summarized into cubes. It works well in slowly changing dimension problem in OLAP analysis.
 
 Gagg \cite{DBLP:conf/esws/MaaliCD15} introduces an RDF graph aggregation operator that is both expressive and flexible. It provides a formal definition of Gagg on top of SPARQL Algebra and defines its operational semantics and describe an algorithm to answer graph aggregation queries. Gagg achieves significant improvements in performance compared to plain-SPARQL graph aggregation.
 
 Pagrol \cite{DBLP:conf/icde/WangFWTAA14} provides an efficient MapReduce-based parallel graph cubing algorithm, MRGraph-Cubing, to compute the graph cube for an attributed graph.
 
-%Graph Cube \cite{DBLP:conf/sigmod/ZhaoLXH11} introduces Graph Cube, a new data warehousing model that supports OLAP queries effectively on large multidimensional networks. It takes account of both attribute aggregation and structure summarization of the networks. In order to deal with “curse of dimensions”, a greedy algorithm framework is introduced for partial materialization of cuboids. 
+%Graph Cube \cite{DBLP:conf/sigmod/ZhaoLXH11} introduces Graph Cube, a new data warehousing model that supports OLAP queries effectively on large multidimensional networks. It takes account of both attribute aggregation and structure summarization of the networks. In order to deal with “curse of dimensions”, a greedy algorithm framework is introduced for partial materialization of cuboids.
 
 Graph OLAP \cite{DBLP:conf/icdm/ChenYZHY08} studies dimensions and measures in the graph OLAP scenario and furthermore develops a conceptual framework for data cubes on graphs. It differentiates different types of measures(distributive and holistic etc) by their properties during aggregation. It looks into different semantics of OLAP operations, and classifies the framework into two major subcases: informational OLAP and topological OLAP. It points out a graph cube can be fully or partially materialized by calculating a special kind of measure called aggregated graph.
 

@@ -1,0 +1,27 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (MiKTeX 2.9 64-bit) (preloaded format=latex 2015.12.10)  12 SEP 2017 13:24
+entering extended mode
+**introduction.tex
+(introduction.tex
+LaTeX2e <2014/05/01>
+Babel <3.9l> and hyphenation patterns for 68 languages loaded.
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.4 B
+     eing a flexible and semantic rich model for graph structured data, the ...
+
+? x
+ 
+Here is how much of TeX's memory you used:
+ 7 strings out of 493699
+ 245 string characters out of 3144428
+ 52146 words of memory out of 3000000
+ 3432 multiletter control sequences out of 15000+200000
+ 3640 words of font info for 14 fonts, out of 3000000 for 9000
+ 1025 hyphenation exceptions out of 8191
+ 6i,0n,4p,1142b,14s stack positions out of 5000i,500n,10000p,200000b,50000s
+No pages of output.
