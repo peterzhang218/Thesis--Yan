@@ -34,13 +34,13 @@ For clear presentation purpose, we shall use a property graph dataset obtained f
 Note that although the property graph model does not enforce any restriction on what properties a node or edge can have, a highlevel abstraction describing the property relations, named the meta graph, is ofen defined in practice. Meta graph demonstrates the information of entities and entity correlations on a schema level, while data graph refers to the actual graph populated from the meta graph. Figure \ref{fig:2} and Figure \ref{fig:3} are the meta graph and a snapshot of the StackExchange graph, respectively. As shown in Figure \ref{fig:2}, there are three types of entities: User (in red), Post (in blue), and Tag (in green). Each user has a property named ``View'', each post has a property named ``Score'', and a property ``Tagname'' associated with each tag. There are two types of edges being  defined: User\_owns\_Post and Post\_hasTag\_Tag.
 
 
-\begin{figure*}[H]
+\begin{figure*}
 \centering
 \includegraphics[scale=0.5]{pic/12.eps}
 \caption{Meta graph containing User, Post and Tag.}
 \end{figure*}
 
-\begin{figure*}[H]
+\begin{figure*}
 \centering
 \includegraphics[scale=0.1]{pic/3.eps}
 \caption{A snapshot of data graph containing User, Post and Tag.}
@@ -88,7 +88,7 @@ Supporting efficient OLAP in traditional RDBMS or warehousing applications is a 
 Our empirical studis show that existing graph databases do not provide efficent support for graph OLAP, especially when the graph size scales to real-word practices, which usually contains over millions of nodes and edges. %Graph databases are databases that specialize in storage and processing of property graphs. However current graph databases are not satisfactory in terms of OLAP processing efficiency over large property graphs(often with more than millions of nodes and edges).
 To elaborate, Neo4j, a state-of-art graph database, processes OLAP queries in a rather straightforward manner: computing everything from scratch for each query without being aware of any history workloads. In an extreme case, even if we executed the same query repeatly with only minor change on value constraints, e.g., change the constraint of user's age from 20 to 22, the execution plan always stays the same and yields no execution time improvement.
 
-\begin{figure*}[H]
+\begin{figure*}
 \centering
 \includegraphics[scale=0.4]{pic/5.eps}
 %\includegraphics[scale=0.4]{pic/5.png}

@@ -9,7 +9,7 @@ In this chapter, we present our complete solution towards efficient OLAP query p
 %----------------------------------------------------------------------
 \label{s:4.1}
 
-\begin{figure*}[T]
+\begin{figure*}
 	\centering
 	\includegraphics[scale=0.8]{pic/41.eps}
 	\caption{Solution framework.}
@@ -53,15 +53,15 @@ We first perform a frequency count of previous queries. If more than $\omega$ qu
 	
 	$CInput \gets \emptyset$\;
 	$SInput \gets \emptyset$\;
-	\ForEach{q \in Q}{
-		\eIf{structureFreq(Q, q) $>$ $\omega$}{
+	\ForEach{q $\in$ Q}{
+		\If{structureFreq(Q, q) $>$ $\omega$}{
 			$CInput \gets CInput \cup \{q\} $\;
 		}{	
 			$SInput \gets SInput \cup \{q\} $\;
 		}
 	}
-	$C:=materialize(CubePlanner(CInput))$\;
-	$S:=materialize(StructurePlanner(SInput))$\;
+	$C$:=\emph{materialize(CubePlanner(CInput))}\;
+	$S$:=\emph{materialize(StructurePlanner(SInput))}\;
 	\label{alg:PartialMaterialization}
 \end{algorithm}
 %\clearpage
@@ -125,7 +125,7 @@ As shown in Algorithm \ref{alg:1}, function $structureFreq(Q, q)$ returns the fr
 		\textbf{System setting:} $\sigma$: space limit\\
 		\KwIn{C: a set of candidates of cuboids or substructures in lattice structure\\ P: A set of previous queries}
 		\KwOut{Q: a queue of selected candidates to materialize\\ }
-		\ForEach{c \in C}{
+		\ForEach{c $\in$ C}{
 			c.space := space(c)\;
 			c.benefit := estimateMarginBenefit(c, P, Q)\;
 			c.score := c.benefit/c.space\;
@@ -169,7 +169,7 @@ As shown in Algorithm \ref{alg:1}, function $structureFreq(Q, q)$ returns the fr
 		\KwIn{Q: a set of previous queries not necessarily with a same structure}
 		\KwOut{C: a queue of selected cuboids to be precomputed\\ }
 		Group:= group(Q)\;
-		\ForEach{group \in Group}{
+		\ForEach{group $\in$ Group}{
 			group.results := SingleCubePlanner(group);
 		}
 		
@@ -200,10 +200,10 @@ As shown in Algorithm \ref{alg:1}, function $structureFreq(Q, q)$ returns the fr
 		\KwIn{P: a set of previous queries with a same structure}
 		\KwOut{C: an queue of selected cuboids to precompute\\ }
 		$Lattice \leftarrow buildLattice(Q)$\;
-		\ForEach{query $Q$ \in P}{
+		\ForEach{query $Q$ $\in$ P}{
 			$q.time \leftarrow time(q)$\;
 		}
-		\ForEach{cuboid \in Lattice}{
+		\ForEach{cuboid $\in$ Lattice}{
 			$cuboid.space \leftarrow space(cuboid) $\;
 			$cuboid.benefit \leftarrow 0$\;
 			\ForEach{query $Q$ $\in$ $P$ and q.properties $\subseteq$ cuboid.properties}{
@@ -233,7 +233,7 @@ As shown in Algorithm \ref{alg:1}, function $structureFreq(Q, q)$ returns the fr
 	%Implementation of functions are listed as follows. Notice that users can implement these functions in their own ways based on their database systems.
 	Function \textbf{$time(query)$} estimates the naive time cost for processing a query in a graph database. Implementation of $time(query)$ is database specific as physical storage and execution plans vary among different databases. Since Neo4j provides APIs to show the execution plan as well as the estimated intermediate result size, we directly use the total size of intermediate results as an estimation of the time cost. For example, Figure \ref{fig:4:2} is an execution plan provided by Neo4j for query \textit{User-Badge, User-Post, Post-Tag: Tag.TagName}. We can see that the number of estimated rows of intermediate results are provided. We use $\displaystyle{\sum ``estimated\_rows''}$ to estimate the total processing time cost.
 	
-	\begin {figure}[T]
+	\begin {figure}[h]
 	\centering
 	\includegraphics[scale=0.6]{pic/61.eps}
 	\caption{Neo4j's execution plan for query \textit{User-Badge, User-Post, Post-Tag: Tag.TagName}.}
@@ -267,7 +267,7 @@ numberOfRows(c):= \displaystyle{\prod_{p\in c.properties}|p|}
 %----------------------------------------------------------------------
 As mentioned above, \emph{StructurePlanner} also adopts the same greedy selection strategy described in Algorithm \ref{alg:1}. We detail the process of \emph{StructurePlanner} in Algorithm \ref{alg:StructurePlanner}. First, we build a lattice over all substructures contained in previous queries $P$, using the classic lattice construction algorithm (similar to the lattice construction algorithms adopted in \emph{CubePlanner}). Figure \ref{fig:4:3} shows a substructure lattice originating from the root node \textit{Badge-User, User-Post, Post-Tag}. Starting from a union of structures of previous queries as the root node, a lattice can be constructed recursively by populating descendants from parent nodes through edge removals.
 
-\begin {figure}[H]
+\begin {figure}[h]
 \centering
 \includegraphics[scale=0.4]{pic/Structurelattice.eps}
 \caption{A substructure lattice with \textit{Badge-User, User-Post, Post-Tag} as its root node.}
@@ -279,17 +279,17 @@ Then, we initializes the covered substructures for each previous query as an emp
 It is updated every time a new substructure is selected. Line 5-12 perform score calculation. For each substructure, Line 6 estimates its space. Line 8-10 iterate over all ``favored'' previous queries (favored by current substructure) and add on the marginal benefit (if any). Here marginal benefit refers to the time saved after adding current substructure to selected substructures (Line 9). Line 13-23 perform the pick-and-update, and line 19-22 updates the covered substructures for previous queries as a result of current round of selection. Such iteration will be terminated when space limit is exceeded (line 13) or when there is no more marginal benefit (line 15).
 
 \begin{algorithm}%[H]
-\label{alg:StructurePlanner}
+\label{alg:5}
 \caption{StructurePlanner}
 \LinesNumbered
-\textbf{System setting:} \sigma: space limit for materialized views\\
+\textbf{System setting:} $\sigma$: space limit for materialized views\\
 \KwIn{Q: a set of previous queries}
 \KwOut{S: an queue of selected substructures to precompute\\ }
 $Lattice \leftarrow buildSubstuctureLattice(Q)$\;
-\ForEach{q \in Q}{
+\ForEach{q $\in$ Q}{
 	$q.coveredSubstructres:= \emptyset $\;
 }
-\ForEach{substructure \in Lattice}{
+\ForEach{substructure $\in$ Lattice}{
 	$substructure.space \leftarrow space(substructure) $\;
 	$substructure.benefit \leftarrow 0$\;
 	\ForEach{q $\in$ $Q$ and q.structure $\subseteq$ substructure.structure}{
@@ -332,7 +332,7 @@ For IDs, we consider the following two policies.
 
 \item Policy \#2 only keeps IDs of ``border nodes'' which are on the border of the substructure's \textit{structure}. Figure \ref{border node} highlights ``border nodes'' of structure \textit{User-Post, Post-Tag}. In this example we only save IDs of User and Tag. We do not keep IDs of Post as node Post is not located on the border of the \textit{structure}. Compared to Policy \#1, this saves space cost but ``overlap join'' with other substructures is not enabled. Policy \#2 only enables joins on border nodes. For example we may join \textit{User-Post, Post-Tag} with \textit{User-Badge} on their common border node User.
 
-\begin{figure}[H]
+\begin{figure}[h]
 	\centering
 	\includegraphics[scale=0.5]{pic/bordernode.eps}
 	\caption{``Border nodes'' of structure \textit{User-Post, Post-Tag}.}
@@ -377,7 +377,7 @@ Query processing aims at processing in-coming queries efficiently using material
 $minspace:= \infty $\;
 mincuboid := NULL\;
 \ForEach{$cuboid \in C$}{
-	\If{cuboid.structure = q.structure and q.dimension \subseteq cuboid.dimension}{
+	\If{cuboid.structure = q.structure and q.dimension $\subseteq$ cuboid.dimension}{
 		\If{$cuboid.space<minspace$}{
 			minspace := cuboid.space\;
 			mincuboid := cuboid\;
@@ -521,7 +521,7 @@ $V^{*}:=join(V)$\;
 $\Sigma \gets \Sigma \cup V $\;
 Splits:=split(uncoveredStruc, uncoveredProp)\;
 \ForEach{s: Splits}{
-	\eIf{decide(s,V^{*})}{
+	\eIf{decide(s,$V^{*}$)}{
 		$\Sigma \gets \Sigma \cup \{retrieve^{*}(s, V^{*})\} $\;
 	}{
 		$\Sigma \gets \Sigma \cup \{retrieve(s)\} $\;
