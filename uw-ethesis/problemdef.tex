@@ -1,19 +1,17 @@
 %!TEX root = main.tex
 
-In this section, we first introduce the terminology and notations adopted in this thesis. Then we formally define the efficient OLAP query processing problem. 
+In this section, we first introduce the terminology and notations used in this thesis. Then we formally define the efficient OLAP query processing problem. 
 
 
 %----------------------------------------------------------------------
-\section{Terminologies}
+\section{Terminology}
 %----------------------------------------------------------------------
 
 We first present terminologies on property graph model and OLAP query. Then we introduce the concepts of ``cuboid'' and ``substructure'', which are two types of materializations we will use in our solution. 
 
 
 \subsection{Definition of Property Graph}
-Given the property graph examples elaborated in Section \ref{s:1}, we formally define the property graph model employed in this thesis. 
-
-
+ 
 A property graph $G$ is defined as $(V, Vid, E, Eid, A, L, f)$. $V$ is the set of nodes. $Vid$ is the set of unique IDs of each node in $V$. $E$ is the set of edges, where $E\subseteq V\times V$. $Eid$ is the set of unique IDs of each edge in $E$. $A$ is a set of predefined properties. $L$ is a set of predefined labels. $f$=$\{f_{VA}, f_{VL}, f_{Vid}, f_{EA}, f_{EL}, f_{Eid}\}$ is a set of mapping functions, such that: 
 \begin{itemize}
 	\item $f_{VA}: v_{i} \rightarrow A_{i}, v_{i}\in V, A_{i} \subseteq A$ , maps each node to its properties;
@@ -48,7 +46,7 @@ A property graph $G$ is defined as $(V, Vid, E, Eid, A, L, f)$. $V$ is the set o
 
 \subsection{OLAP Query}
 
-As discussed in Section \ref{Structure, Dimension, and Measure}, four elements of a graph OLAP query are \textit{Structure}, \textit{Dimension}, \textit{Measure}, and \textit{Slicing Condition}(optional). We now define how we represent these four elements in an OLAP query. We will use Query \#3 in Section \ref{OLAPExamples} as an example.
+As discussed in Section \ref{Structure, Dimension, and Measure}, four elements of a graph OLAP query are \textit{Structure}, \textit{Dimension}, \textit{Measure}, and \textit{Slicing Condition} (optional). We now define how we represent these four elements in an OLAP query. We will use Query \#3 in Section \ref{OLAPExamples} as an example.
 
 \noindent\textbf{\textit{Structure :}} A \textit{structure} consists of \textit{edges}. We write a \textit{structure} by listing all its \textit{edges} separated by comma, where an \textit{edge} is represented by ``\textit{Starting Node Label - Edge Label - Ending Node Label}''. For instance, Query \#3's \textit{structure} as shown in Figure \ref{fig:2:3} is written as \textit{``User-owns-Post, Post-has-Tag''}.
 
@@ -60,7 +58,7 @@ As discussed in Section \ref{Structure, Dimension, and Measure}, four elements o
 \noindent\textbf{\textit{Measure:}} We focus on three most common types of \textit{measure}: \textit{COUNT, SUM and AVG. } Query \#3's \textit{measure} is written as \textit{``AVG(User.Age)''}.
 
 
-\noindent\textbf{\textit{Slicing Conditions:}} A \textit{Slicing Conditions} is written as ``$Property = value$''. Query \#3's \textit{slicing conditions} is written as \textit{``Post.Year=2017''}.
+\noindent\textbf{\textit{Slicing Condition:}} A \textit{Slicing Condition} is written as ``$Property = value$''. Query \#3's \textit{slicing condition} is written as \textit{``Post.Year=2017''}.
 
 \noindent With the four elements defined above, we write an OLAP query in the following format:
 
@@ -82,7 +80,7 @@ As discussed in Section \ref{Structure, Dimension, and Measure}, four elements o
 
 %\textbf{\textit{Features of a query:}} 
 \par
-Now we define some notations adopted in this thesis. Given a OLAP query $q$, we use \textit{``q.properties''} to refer to the set of \textbf{all properties} appeared in \textit{Dimension, Measure, and Slicing Condition} of $q$. We use \textit{``q.structure''} to refer to the structure of $q$. For example, \textit{Query \#3.properties=\{Tag.Tagname, User.Age, Post.Year\}}, and \textit{Query \#3.structure=\{ User-owns-Post, Post-has-Tag\}}.
+We define some notations adopted in this thesis. Given an OLAP query $q$, we use \textit{``q.properties''} to refer to the set of \textbf{all properties} that appear in \textit{Dimension, Measure, and Slicing Condition} of $q$. We use \textit{``q.structure''} to refer to the structure of $q$. For example, \textit{Query \#3.properties=\{Tag.Tagname, User.Age, Post.Year\}}, and \textit{Query \#3.structure=\{ User-owns-Post, Post-has-Tag\}}.
 
 
 
@@ -96,9 +94,9 @@ Now we define some notations adopted in this thesis. Given a OLAP query $q$, we 
 %} to refer to materialization of a $Query$.
 %\intodo{Here you should briefly mention what is materialization}
 
-As previously discussed, a key issue of our work is to find out most useful queries based on previous workload. For fast access to results of these useful queries, we process them and store their results (preferably in main memory) even before starting on future queries. We call such a result of a query a \textit{materialization} of the query. 
+As previously discussed, a key issue of our work is to find out most useful queries based on previous workload. For fast access to results of these useful queries, we store their results (preferably in main memory), and this is known as the \textit{materialization} of the query. 
 
-As defined above, in a property graph, each node or edge has an unique ID, which can be treated as a special property. Whether a materialization keeps unique ID is an important issue. This is because keeping unique ID often increases the space cost. We consider two types of materializations, namely the \emph{cuboid} and the \emph{substructure}, based on whether unique IDs of nodes (or edges) are kept or not. To better elaborate the differences between cuboid and substructure, we consider the following example. Suppose we have following query workload containing two history queries ($Q_1$ and $Q_2$) and two in-coming queries ($Q_3$ and $Q_4$):
+As defined above, in a property graph, each node or edge has an unique ID, which can be treated as a special property. Whether a materialization keeps the unique ID is an important issue. This is because keeping unique ID often increases the space cost. We consider two types of materializations, namely the \emph{cuboid} and the \emph{substructure}, based on whether or not unique IDs of nodes (or edges) are kept. To better elaborate the differences between cuboid and substructure, we consider the following example. Suppose we have the following query workload containing two history queries ($Q_1$ and $Q_2$) and two incoming queries ($Q_3$ and $Q_4$):
 
 \fbox{
 	\parbox{\dimexpr\linewidth-2\fboxsep-2\fboxrule\relax}
@@ -127,10 +125,10 @@ We can tell that users are most interested in  the \textit{User-owns-Post} struc
 	\textit{$M_1$\ \$User-owns-Post: User.Age, Post.Score, COUNT(*)}
 }
 
-\noindent Note that for the rest of this thesis, we use the \$ symbol followed by structures and dimensions to denote a materialization, represented by $M$. Apparently, the above materialized view is useful for $Q_3$. We can process $Q_3$ by aggregation over $M_1$. We call such materialization a \textbf{cuboid}.
+\noindent Note that for the rest of this thesis, we use the \$ symbol followed by structures and dimensions to denote a materialization, represented by $M$. The above materialized view is useful for $Q_3$ since we can process $Q_3$ by aggregation over $M_1$. We call such materialization a \textbf{cuboid}.
 
 
-However, $M_1$ is not useful for $Q_4$ since they have different \textit{structures}. On the contrary, If we add \textit{ID(Post)} into \textit{dimension} and materialize \textit{\$User-owns-Post: User.Age, Post.Score, ID(Post) COUNT(*)}, \textit{Post} is ``activated'' to be able to join with other materializations containing \textit{Post} and produce results for OLAP over more complicated \textit{structures}. For example, $Q_4$ can be processed through the following steps:
+However, $M_1$ is not useful for $Q_4$ since they have different \textit{structures}. On the contrary, if we add \textit{ID(Post)} to \textit{dimension} and materialize \textit{\$User-owns-Post: User.Age, Post.Score, ID(Post) COUNT(*)}, \textit{Post} is ``activated'' to be able to join with other materializations containing \textit{Post} and produce results for OLAP over more complicated \textit{structures}. For example, $Q_4$ can be processed through the following steps:
 
 
 \noindent\emph{Step 1}: joining \textit{\$User-owns-Post: User.Age, Post.Score, ID(Post) COUNT(*)} and \textit{\$Post-has-Tag: ID(Post), Tag.TagName, COUNT(*)} on \emph{ID(Post)};
@@ -164,7 +162,7 @@ Table \ref{Table:3:1} shows a comparison between cuboid and substructure. Note t
 \label{sec:Problem Definition}
 %----------------------------------------------------------------------
 
-Intuitively, our goal is to answer OLAP queries efficiently by taking the advantage of materialized views, which are constructed based on the knowledge of previous workloads. Therefore, our solution needs to take two steps:
+Intuitively, our goal is to answer OLAP queries efficiently by taking advantage of materialized views, which are constructed based on the knowledge of previous workloads. Therefore, our solution needs to take two steps:
 %Our target is to faster process future OLAP workload using materializations computed based on previous workload. We can divide our goal in two steps. 
 
 \begin{itemize}
@@ -172,9 +170,9 @@ Intuitively, our goal is to answer OLAP queries efficiently by taking the advant
 	\item Query processing step: answer future queries as quickly as possible (using materializations). 
 \end{itemize} 
 
-The materialization step is in fact a ``Materialization Selection'' (MS for short) problem, as using materialization is good for query efficiency, but comes with a storage cost. So we want to study the problem of how to best utilize materialization within a space budget limit $\sigma$.   While the query processing step lies in ``Execution Planning'' (EP for short). We formally define these two problems as follows.
+The materialization step is in fact a ``Materialization Selection'' (MS for short) problem, as using materialization is good for query efficiency, but comes with a storage cost. So we want to study the problem of how to best utilize materialization within a space budget $\sigma$.   The query processing step involves ``Execution Planning'' (EP for short). We formally define these two problems as follows.
 
-\noindent\textbf{Materialization Selection Problem:} Given a property graph dataset $G$, a set of previous queries $P$ on $G$, space limit $\sigma$, find cuboids $C$ and substructures $S$, such that: 1) $\displaystyle{\sum_{c_{i}\in C}c_{i}.space} + 
+\noindent\textbf{Materialization Selection Problem:} Given a property graph $G$, a set of previous queries $P$ on $G$, space limit $\sigma$, find cuboids $C$ and substructures $S$, such that: 1) $\displaystyle{\sum_{c_{i}\in C}c_{i}.space} + 
 \displaystyle{\sum_{s_{i}\in S}s_{i}.space} 
 \leq \sigma
 $; and 2) $\displaystyle{\sum_{p_{i}\in P}T(G, p_{i}, C, S)}$  is minimized. 
@@ -185,16 +183,16 @@ Here $T(G, p_{i}, C, S)$ is a function to estimate the  query processing time of
 
 \noindent\textbf{Execution Planning:} Given a property graph dataset $G$, a future query $q$, materialized cuboids $C$ and substructures $S$, find a processing plan $process(G, q, C, S)$, such that the processing time of $q$, denoted by $process(G, q, C, S).time$, is minimized. 
 
-As a matter of fact, the execution planning can be further divided into two sub-problems. 
+As a matter of fact, execution planning can be further divided into two sub-problems. 
 %In order to answer query $q$ using materializations $C$ and $S$ as fast as possible, we need to solve two questions. 
-First, which materialized views in $C$ and $S$ should be used to answer $q$? Second, how to answer $q$ as fast as possible using the view selected from the first question. Thus, we define the first question as the \emph{Decomposition Problem}, which decomposes $q$ into two parts, one part is covered by the views from $C$ and $S$, while the other part is not covered, which is named as the \emph{remaining views}. Note that the remaining views refer to the data that needs to be fetched from database server on the fly. We  define the second question as the \emph{Composition Problem}, which performs basic relational operations such as join, projection and selection over views in order to get the result of $q$. 
+First, which materialized views in $C$ and $S$ should be used to answer $q$? Second, how to answer $q$ as fast as possible using the view selected from the first question. Thus, we define the first question as the \emph{Decomposition Problem}, which decomposes $q$ into two parts, one part is covered by the views from $C$ and $S$, while the other part is not covered, which is named as the \emph{remaining views}. Note that the remaining views refer to the data that needs to be fetched from the database server on the fly. We  define the second question as the \emph{Composition Problem}, which performs basic relational operations such as join, projection and selection over views in order to get the result of $q$. 
 
 \noindent\textbf{Composition Problem}:
-Given a property graph dataset $G$, a future query $q$, materialized cuboids $C'$ and substructures $S'$, and remaining views $R$; find a composition plan $compose(G, q, C', S', R)$, so that estimated composition time $compose(G, q, C', S', R).time$ is minimized. Here $compose(G, q, C', S', R)$ returns result of query $q$ by performing operations (join, selection, projection etc.) over $C'$, $S'$, $R$.
+Given a property graph $G$, a future query $q$, materialized cuboids $C'$ and substructures $S'$, and remaining views $R$, find a composition plan $compose(G, q, C', S', R)$, so that estimated composition time $compose(G, q, C', S', R).time$ is minimized. Here $compose(G, q, C', S', R)$ returns result of query $q$ by performing operations (join, selection, projection etc.) over $C'$, $S'$, $R$.
 
 
 \noindent\textbf{Decomposition Problem}:
-Given a property graph dataset $G$, a future query $q$, materialized cuboids $C$ and substructures $S$, a composition plan $compose(G, q, C, S, R)$; find $C' \subseteq C, $S'$\subseteq S$, and remaining views $R$, so that $compose(G, q, C', S', R).time$ is minimized. 
+Given a property graph $G$, a future query $q$, materialized cuboids $C$ and substructures $S$, a composition plan $compose(G, q, C, S, R)$, find $C' \subseteq C, $S'$\subseteq S$, and remaining views $R$, so that $compose(G, q, C', S', R).time$ is minimized. 
 
 Note that we define ``Composition Problem'' before ``Decomposition Problem''. The reason is that we need to consider a composition plan $compose(G, q, C', S', R)$ when making our selection policy of $C'$, $S'$ and $R$. In other words, these two problems are closely correlated.  
 

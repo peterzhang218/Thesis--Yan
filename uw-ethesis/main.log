@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.12.10)  12 SEP 2017 13:45
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.7.5)  15 SEP 2017 13:22
 entering extended mode
-**main.tex
+**./main.tex
 (main.tex
-LaTeX2e <2014/05/01>
-Babel <3.9l> and hyphenation patterns for 68 languages loaded.
+LaTeX2e <2017-04-15>
+Babel <3.10> and hyphenation patterns for 75 language(s) loaded.
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\book.cls"
 Document Class: book 2014/09/29 v1.4h Standard LaTeX document class
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\bk12.clo"
@@ -31,10 +31,10 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \@floatcapt=\box27
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\tools\tabularx.sty"
-Package: tabularx 2014/10/28 v2.10 `tabularx' package (DPC)
+Package: tabularx 2016/02/03 v2.11 `tabularx' package (DPC)
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\tools\array.sty"
-Package: array 2014/10/28 v2.4c Tabular extension package (FMi)
+Package: array 2016/10/06 v2.4d Tabular extension package (FMi)
 \col@sep=\dimen103
 \extrarowheight=\dimen104
 \NC@list=\toks16
@@ -50,124 +50,108 @@ Package: array 2014/10/28 v2.4c Tabular extension package (FMi)
 \TX@ftn=\toks17
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\svg\svg.sty"
-Package: svg 2012/09/05 v1.0 SVG inclusion and extraction
+Package: svg 2017/05/23 v2.00b (include SVG pictures)
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\xkeyval\xkeyval.sty"
-Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
+("C:\Program Files\MiKTeX 2.9\tex\latex\koma-script\scrbase.sty"
+Package: scrbase 2017/04/13 v3.23 KOMA-Script package (KOMA-Script-independent 
+basics and keyval usage)
 
-("C:\Program Files\MiKTeX 2.9\tex\generic\xkeyval\xkeyval.tex"
-("C:\Program Files\MiKTeX 2.9\tex\generic\xkeyval\xkvutils.tex"
-\XKV@toks=\toks18
-\XKV@tempa@toks=\toks19
-
-("C:\Program Files\MiKTeX 2.9\tex\generic\xkeyval\keyval.tex"))
-\XKV@depth=\count90
-File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
-))
-("C:\Program Files\MiKTeX 2.9\tex\latex\subfig\subfig.sty"
-Package: subfig 2005/06/28 ver: 1.3 subfig package
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\caption\caption.sty"
-Package: caption 2013/05/02 v3.3-89 Customizing captions (AR)
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\caption\caption3.sty"
-Package: caption3 2013/05/02 v1.6-88 caption3 kernel (AR)
-Package caption3 Info: TeX engine: e-TeX on input line 57.
-\captionmargin=\dimen110
-\captionmargin@=\dimen111
-\captionwidth=\dimen112
-\caption@tempdima=\dimen113
-\caption@indent=\dimen114
-\caption@parindent=\dimen115
-\caption@hangindent=\dimen116
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks18
 )
-\c@ContinuedFloat=\count91
-Package caption Info: float package is loaded.
+("C:\Program Files\MiKTeX 2.9\tex\latex\koma-script\scrlfile.sty"
+Package: scrlfile 2017/04/13 v3.23 KOMA-Script package (loading files)
+
+Package scrlfile, 2017/04/13 v3.23 KOMA-Script package (loading files)
+                  Copyright (C) Markus Kohm
+
+)) ("C:\Program Files\MiKTeX 2.9\tex\generic\ifxetex\ifxetex.sty"
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
-\c@KVtest=\count92
-\sf@farskip=\skip45
-\sf@captopadj=\dimen117
-\sf@capskip=\skip46
-\sf@nearskip=\skip47
-\c@subfigure=\count93
-\c@subfigure@save=\count94
-\c@lofdepth=\count95
-\c@subtable=\count96
-\c@subtable@save=\count97
-\c@lotdepth=\count98
-\sf@top=\skip48
-\sf@bottom=\skip49
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifluatex.sty"
+Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\import\import.sty"
-Package: import 2009/03/23  v 5.1
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifpdf.sty"
+Package: ifpdf 2017/03/15 v3.2 Provides the ifpdf switch
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\pdftexcmds.sty"
+Package: pdftexcmds 2017/03/19 v0.25 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty"
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\tools\shellesc.sty"
+Package: shellesc 2016/06/07 v0.02a unified shell escape interface for LaTeX
+Package shellesc Info: Restricted shell escape enabled on input line 69.
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
 Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
-Package: graphics 2014/10/28 v1.0p Standard LaTeX Graphics (DPC,SPQR)
+Package: graphics 2017/04/14 v1.1b Standard LaTeX Graphics (DPC,SPQR)
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\trig.sty"
-Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\graphics.cfg"
-File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics-cfg\graphics.cfg"
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
-Package graphics Info: Driver file: pdftex.def on input line 91.
+Package graphics Info: Driver file: pdftex.def on input line 99.
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\pdftex-def\pdftex.def"
-File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
-
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty"
-Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
-)
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
-Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
-)
-\Gread@gobject=\count99
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics-def\pdftex.def"
+File: pdftex.def 2017/01/12 v0.06k Graphics/color for pdfTeX
+\Gread@gobject=\count90
 ))
-\Gin@req@height=\dimen118
-\Gin@req@width=\dimen119
+\Gin@req@height=\dimen110
+\Gin@req@width=\dimen111
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\transparent.sty"
-Package: transparent 2007/01/08 v1.0 Transparency via pdfTeX's color stack (HO)
-
-
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifpdf.sty"
-Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
-Package ifpdf Info: pdfTeX in PDF mode is detected.
+\c@svg@param@lastpage=\count91
+\c@svg@param@currpage=\count92
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\auxhook.sty"
-Package: auxhook 2011/03/04 v1.3 Hooks for auxiliary files (HO)
-))
 ("C:\Program Files\MiKTeX 2.9\tex\latex\xcolor\xcolor.sty"
-Package: xcolor 2007/01/21 v2.11 LaTeX color extensions (UK)
+Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\color.cfg"
-File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics-cfg\color.cfg"
+File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package xcolor Info: Driver file: pdftex.def on input line 225.
-Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1337.
-Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1341.
-Package xcolor Info: Model `RGB' extended on input line 1353.
-Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1355.
-Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1356.
-Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1357.
-Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1358.
-Package xcolor Info: Model `Gray' substituted by `gray' on input line 1359.
-Package xcolor Info: Model `wave' substituted by `hsb' on input line 1360.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
+Package xcolor Info: Model `RGB' extended on input line 1364.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
 )
-\SVG@out@width=\skip50
-\SVG@out@height=\skip51
-\c@svgfigure=\count100
-)
+("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\transparent.sty"
+Package: transparent 2016/05/16 v1.1 Transparency via pdfTeX's color stack (HO)
+
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\auxhook.sty"
+Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
+))
 ("C:\Program Files\MiKTeX 2.9\tex\latex\algorithm2e\algorithm2e.sty"
 Package: algorithm2e 2013/01/06 v5.00 algorithms environments
-\c@AlgoLine=\count101
+\c@AlgoLine=\count93
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\ifthen.sty"
 Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 )
+\algocf@hangindent=\skip45
+
 ("C:\Program Files\MiKTeX 2.9\tex\latex\tools\xspace.sty"
 Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
 )
@@ -175,61 +159,57 @@ Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
 Package: relsize 2003/07/04 ver 3.1
 )
 ********************************************************
-Package `algorithm2e' Release 5.0 -- january 06 2013 --
+Package `algorithm2e' Release 5.1 -- october 19 2015 --
 - algorithm2e-announce@lirmm.fr mailing list for announcement about releases
 - algorithm2e-discussion@lirmm.fr mailing list for discussion about package
 subscribe by emailing sympa@lirmm.fr with 'subscribe <list> <firstname name>'
-- Author: Christophe Fiorio (cfiorio@um2.fr)
+- Author: Christophe Fiorio (christophe.fiorio@umontpellier.fr)
 ********************************************************
-\skiptotal=\skip52
-\skiplinenumber=\skip53
-\skiprule=\skip54
-\skiphlne=\skip55
-\skiptext=\skip56
-\skiplength=\skip57
-\algomargin=\skip58
-\skipalgocfslide=\skip59
-\algowidth=\dimen120
-\inoutsize=\dimen121
-\inoutindent=\dimen122
-\interspacetitleruled=\dimen123
-\interspacealgoruled=\dimen124
-\interspacetitleboxruled=\dimen125
+\skiptotal=\skip46
+\skiplinenumber=\skip47
+\skiprule=\skip48
+\skiphlne=\skip49
+\skiptext=\skip50
+\skiplength=\skip51
+\algomargin=\skip52
+\skipalgocfslide=\skip53
+\algowidth=\dimen112
+\inoutsize=\dimen113
+\inoutindent=\dimen114
+\interspacetitleruled=\dimen115
+\interspacealgoruled=\dimen116
+\interspacetitleboxruled=\dimen117
+\algocf@ruledwidth=\skip54
 \algocf@inoutbox=\box28
 \algocf@inputbox=\box29
-\AlCapSkip=\skip60
-\AlCapHSkip=\skip61
-\algoskipindent=\skip62
+\AlCapSkip=\skip55
+\AlCapHSkip=\skip56
+\algoskipindent=\skip57
 \algocf@nlbox=\box30
 \algocf@hangingbox=\box31
 \algocf@untilbox=\box32
-\algocf@skipuntil=\skip63
+\algocf@skipuntil=\skip58
 \algocf@capbox=\box33
-\algoheightruledefault=\skip64
-\algoheightrule=\skip65
-\algotitleheightruledefault=\skip66
-\algotitleheightrule=\skip67
-\c@algocfline=\count102
-\c@algocfproc=\count103
-\c@algocf=\count104
+\algoheightruledefault=\skip59
+\algoheightrule=\skip60
+\algotitleheightruledefault=\skip61
+\algotitleheightrule=\skip62
+\c@algocfline=\count94
+\c@algocfproc=\count95
+\c@algocf=\count96
 \algocf@algoframe=\box34
 \algocf@algobox=\box35
 ) ("C:\Program Files\MiKTeX 2.9\tex\latex\mdframed\mdframed.sty"
 Package: mdframed 2013/07/01 1.9b: mdframed
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\kvoptions.sty"
-Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
+Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
 
 ("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\kvsetkeys.sty"
-Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
+Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
 
 ("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\etexcmds.sty"
-Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
-
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifluatex.sty"
-Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
-Package ifluatex Info: LuaTeX not detected.
-)
+Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
 Package etexcmds Info: Could not find \expanded.
 (etexcmds)             That can mean that you are not using pdfTeX 1.50 or
 (etexcmds)             that some package has redefined \expanded.
@@ -237,81 +217,126 @@ Package etexcmds Info: Could not find \expanded.
 )))
 ("C:\Program Files\MiKTeX 2.9\tex\latex\l3packages\xparse\xparse.sty"
 ("C:\Program Files\MiKTeX 2.9\tex\latex\l3kernel\expl3.sty"
-Package: expl3 2015/03/01 v5547 L3 programming layer (loader) 
+Package: expl3 2017/07/19 L3 programming layer (loader) 
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\l3kernel\expl3-code.tex"
-Package: expl3 2015/03/01 v5547 L3 programming layer (code) 
-L3 Module: l3bootstrap 2015/02/28 v5542 L3 Bootstrap code
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\misc\etex.sty"
-Package: etex 2015/03/02 v2.1 eTeX basic definition package (PEB,DPC)
-\et@xins=\count105
-)
-L3 Module: l3names 2015/02/24 v5535 L3 Namespace for primitives
-L3 Module: l3basics 2015/01/27 v5500 L3 Basic definitions
-L3 Module: l3expan 2014/11/27 v5472 L3 Argument expansion
-L3 Module: l3tl 2015/01/27 v5500 L3 Token lists
-L3 Module: l3str 2015/03/01 v5545 L3 Strings
-L3 Module: l3seq 2014/08/23 v5354 L3 Sequences and stacks
-L3 Module: l3int 2015/02/21 v5529 L3 Integers
-\c_max_int=\count106
-\l_tmpa_int=\count107
-\l_tmpb_int=\count108
-\g_tmpa_int=\count109
-\g_tmpb_int=\count110
-L3 Module: l3quark 2014/08/23 v5354 L3 Quarks
-L3 Module: l3prg 2014/08/23 v5354 L3 Control structures
-\g__prg_map_int=\count111
-L3 Module: l3clist 2014/08/23 v5354 L3 Comma separated lists
-L3 Module: l3token 2014/09/15 v5422 L3 Experimental token manipulation
-L3 Module: l3prop 2014/08/23 v5354 L3 Property lists
-L3 Module: l3msg 2015/02/26 v5537 L3 Messages
-L3 Module: l3file 2014/08/24 v5369 L3 File and I/O operations
-\l_iow_line_count_int=\count112
-\l__iow_target_count_int=\count113
-\l__iow_current_line_int=\count114
-\l__iow_current_word_int=\count115
-\l__iow_current_indentation_int=\count116
-L3 Module: l3skip 2014/08/23 v5354 L3 Dimensions and skips
-\c_zero_dim=\dimen126
-\c_max_dim=\dimen127
-\l_tmpa_dim=\dimen128
-\l_tmpb_dim=\dimen129
-\g_tmpa_dim=\dimen130
-\g_tmpb_dim=\dimen131
-\c_zero_skip=\skip68
-\c_max_skip=\skip69
-\l_tmpa_skip=\skip70
-\l_tmpb_skip=\skip71
-\g_tmpa_skip=\skip72
-\g_tmpb_skip=\skip73
+Package: expl3 2017/07/19 L3 programming layer (code)
+\c_max_int=\count97
+\l_tmpa_int=\count98
+\l_tmpb_int=\count99
+\g_tmpa_int=\count100
+\g_tmpb_int=\count101
+\g__intarray_font_int=\count102
+\g__prg_map_int=\count103
+\c_log_iow=\count104
+\l_iow_line_count_int=\count105
+\l__iow_line_target_int=\count106
+\l__iow_one_indent_int=\count107
+\l__iow_indent_int=\count108
+\c_zero_dim=\dimen118
+\c_max_dim=\dimen119
+\l_tmpa_dim=\dimen120
+\l_tmpb_dim=\dimen121
+\g_tmpa_dim=\dimen122
+\g_tmpb_dim=\dimen123
+\c_zero_skip=\skip63
+\c_max_skip=\skip64
+\l_tmpa_skip=\skip65
+\l_tmpb_skip=\skip66
+\g_tmpa_skip=\skip67
+\g_tmpb_skip=\skip68
 \c_zero_muskip=\muskip10
 \c_max_muskip=\muskip11
 \l_tmpa_muskip=\muskip12
 \l_tmpb_muskip=\muskip13
 \g_tmpa_muskip=\muskip14
 \g_tmpb_muskip=\muskip15
-L3 Module: l3keys 2015/01/27 v5500 L3 Key-value interfaces
-\g__keyval_level_int=\count117
-\l_keys_choice_int=\count118
-L3 Module: l3fp 2014/08/22 v5336 L3 Floating points
-\c__fp_leading_shift_int=\count119
-\c__fp_middle_shift_int=\count120
-\c__fp_trailing_shift_int=\count121
-\c__fp_big_leading_shift_int=\count122
-\c__fp_big_middle_shift_int=\count123
-\c__fp_big_trailing_shift_int=\count124
-\c__fp_Bigg_leading_shift_int=\count125
-\c__fp_Bigg_middle_shift_int=\count126
-\c__fp_Bigg_trailing_shift_int=\count127
-L3 Module: l3box 2014/08/23 v5354 L3 Experimental boxes
+\l_keys_choice_int=\count109
+\c__fp_leading_shift_int=\count110
+\c__fp_middle_shift_int=\count111
+\c__fp_trailing_shift_int=\count112
+\c__fp_big_leading_shift_int=\count113
+\c__fp_big_middle_shift_int=\count114
+\c__fp_big_trailing_shift_int=\count115
+\c__fp_Bigg_leading_shift_int=\count116
+\c__fp_Bigg_middle_shift_int=\count117
+\c__fp_Bigg_trailing_shift_int=\count118
+\c__fp_rand_size_int=\count119
+\c__fp_rand_four_int=\count120
+\c__fp_rand_eight_int=\count121
+\l__sort_length_int=\count122
+\l__sort_min_int=\count123
+\l__sort_top_int=\count124
+\l__sort_max_int=\count125
+\l__sort_true_max_int=\count126
+\l__sort_block_int=\count127
+\l__sort_begin_int=\count128
+\l__sort_end_int=\count129
+\l__sort_A_int=\count130
+\l__sort_B_int=\count131
+\l__sort_C_int=\count132
+\l__tl_build_start_index_int=\count133
+\l__tl_build_index_int=\count134
+\l__tl_analysis_normal_int=\count135
+\l__tl_analysis_index_int=\count136
+\l__tl_analysis_nesting_int=\count137
+\l__tl_analysis_type_int=\count138
+\l__regex_internal_a_int=\count139
+\l__regex_internal_b_int=\count140
+\l__regex_internal_c_int=\count141
+\l__regex_balance_int=\count142
+\l__regex_group_level_int=\count143
+\l__regex_mode_int=\count144
+\c__regex_cs_in_class_mode_int=\count145
+\c__regex_cs_mode_int=\count146
+\l__regex_catcodes_int=\count147
+\l__regex_default_catcodes_int=\count148
+\c__regex_catcode_D_int=\count149
+\c__regex_catcode_S_int=\count150
+\c__regex_catcode_L_int=\count151
+\c__regex_catcode_O_int=\count152
+\c__regex_catcode_A_int=\count153
+\c__regex_all_catcodes_int=\count154
+\l__regex_show_lines_int=\count155
+\l__regex_min_state_int=\count156
+\l__regex_max_state_int=\count157
+\l__regex_left_state_int=\count158
+\l__regex_right_state_int=\count159
+\l__regex_capturing_group_int=\count160
+\l__regex_min_pos_int=\count161
+\l__regex_max_pos_int=\count162
+\l__regex_curr_pos_int=\count163
+\l__regex_start_pos_int=\count164
+\l__regex_success_pos_int=\count165
+\l__regex_curr_char_int=\count166
+\l__regex_curr_catcode_int=\count167
+\l__regex_last_char_int=\count168
+\l__regex_case_changed_char_int=\count169
+\l__regex_curr_state_int=\count170
+\l__regex_step_int=\count171
+\l__regex_min_active_int=\count172
+\l__regex_max_active_int=\count173
+\l__regex_replacement_csnames_int=\count174
+\l__regex_match_count_int=\count175
+\l__regex_min_submatch_int=\count176
+\l__regex_submatch_int=\count177
+\l__regex_zeroth_submatch_int=\count178
+\g__debug_trace_regex_int=\count179
 \c_empty_box=\box36
 \l_tmpa_box=\box37
 \l_tmpb_box=\box38
 \g_tmpa_box=\box39
 \g_tmpb_box=\box40
-L3 Module: l3coffins 2014/08/23 v5354 L3 Coffin code layer
-\l__coffin_internal_box=\box41
+\l__box_top_dim=\dimen124
+\l__box_bottom_dim=\dimen125
+\l__box_left_dim=\dimen126
+\l__box_right_dim=\dimen127
+\l__box_top_new_dim=\dimen128
+\l__box_bottom_new_dim=\dimen129
+\l__box_left_new_dim=\dimen130
+\l__box_right_new_dim=\dimen131
+\l__box_internal_box=\box41
+\l__coffin_internal_box=\box42
 \l__coffin_internal_dim=\dimen132
 \l__coffin_offset_x_dim=\dimen133
 \l__coffin_offset_y_dim=\dimen134
@@ -319,162 +344,141 @@ L3 Module: l3coffins 2014/08/23 v5354 L3 Coffin code layer
 \l__coffin_y_dim=\dimen136
 \l__coffin_x_prime_dim=\dimen137
 \l__coffin_y_prime_dim=\dimen138
-\c_empty_coffin=\box42
-\l__coffin_aligned_coffin=\box43
-\l__coffin_aligned_internal_coffin=\box44
-\l_tmpa_coffin=\box45
-\l_tmpb_coffin=\box46
-\l__coffin_display_coffin=\box47
-\l__coffin_display_coord_coffin=\box48
-\l__coffin_display_pole_coffin=\box49
+\c_empty_coffin=\box43
+\l__coffin_aligned_coffin=\box44
+\l__coffin_aligned_internal_coffin=\box45
+\l_tmpa_coffin=\box46
+\l_tmpb_coffin=\box47
+\l__coffin_display_coffin=\box48
+\l__coffin_display_coord_coffin=\box49
+\l__coffin_display_pole_coffin=\box50
 \l__coffin_display_offset_dim=\dimen139
 \l__coffin_display_x_dim=\dimen140
 \l__coffin_display_y_dim=\dimen141
-L3 Module: l3color 2014/08/23 v5354 L3 Experimental color support
-L3 Module: l3candidates 2015/03/01 v5544 L3 Experimental additions to l3kernel
-\l__box_top_dim=\dimen142
-\l__box_bottom_dim=\dimen143
-\l__box_left_dim=\dimen144
-\l__box_right_dim=\dimen145
-\l__box_top_new_dim=\dimen146
-\l__box_bottom_new_dim=\dimen147
-\l__box_left_new_dim=\dimen148
-\l__box_right_new_dim=\dimen149
-\l__box_internal_box=\box50
-\l__coffin_bounding_shift_dim=\dimen150
-\l__coffin_left_corner_dim=\dimen151
-\l__coffin_right_corner_dim=\dimen152
-\l__coffin_bottom_corner_dim=\dimen153
-\l__coffin_top_corner_dim=\dimen154
-\l__coffin_scaled_total_height_dim=\dimen155
-\l__coffin_scaled_width_dim=\dimen156
-)
-("C:\Program Files\MiKTeX 2.9\tex\latex\l3kernel\l3unicode-data.def"
-File: l3unicode-data.def 2015/03/01 v5544 L3 Unicode data
+\l__coffin_bounding_shift_dim=\dimen142
+\l__coffin_left_corner_dim=\dimen143
+\l__coffin_right_corner_dim=\dimen144
+\l__coffin_bottom_corner_dim=\dimen145
+\l__coffin_top_corner_dim=\dimen146
+\l__coffin_scaled_total_height_dim=\dimen147
+\l__coffin_scaled_width_dim=\dimen148
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\l3kernel\l3pdfmode.def"
-File: l3pdfmode.def 2015/03/01 v5544 L3 Experimental driver: PDF mode
-\l__driver_color_stack_int=\count128
+File: l3pdfmode.def 2017/03/18 v L3 Experimental driver: PDF mode
+\l__driver_color_stack_int=\count180
+\l__driver_tmp_box=\box51
 ))
-Package: xparse 2014/11/25 v5471 L3 Experimental document command parser
-\l__xparse_current_arg_int=\count129
-\l__xparse_m_args_int=\count130
-\l__xparse_mandatory_args_int=\count131
-\l__xparse_processor_int=\count132
-\l__xparse_v_nesting_int=\count133
+Package: xparse 2017/07/19 L3 Experimental document command parser
+\l__xparse_current_arg_int=\count181
+\g__xparse_grabber_int=\count182
+\l__xparse_m_args_int=\count183
+\l__xparse_mandatory_args_int=\count184
+\l__xparse_v_nesting_int=\count185
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\etoolbox\etoolbox.sty"
-Package: etoolbox 2015/03/19 v2.1d e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count134
+Package: etoolbox 2017/01/02 v2.4 e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count186
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\zref-abspage.sty"
-Package: zref-abspage 2012/04/04 v2.24 Module abspage for zref (HO)
+Package: zref-abspage 2016/05/21 v2.26 Module abspage for zref (HO)
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\zref-base.sty"
-Package: zref-base 2012/04/04 v2.24 Module base for zref (HO)
+Package: zref-base 2016/05/21 v2.26 Module base for zref (HO)
 
 ("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\kvdefinekeys.sty"
-Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
-)
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\pdftexcmds.sty"
-Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
-)
-Package pdftexcmds Info: LuaTeX not detected.
-Package pdftexcmds Info: \pdf@primitive is available.
-Package pdftexcmds Info: \pdf@ifprimitive is available.
-Package pdftexcmds Info: \pdfdraftmode found.
+Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
 )
 Package zref Info: New property list: main on input line 759.
 Package zref Info: New property: default on input line 760.
 Package zref Info: New property: page on input line 761.
 )
 ("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\atbegshi.sty"
-Package: atbegshi 2011/10/05 v1.16 At begin shipout hook (HO)
+Package: atbegshi 2016/06/09 v1.18 At begin shipout hook (HO)
 )
-\c@abspage=\count135
+\c@abspage=\count187
 Package zref Info: New property: abspage on input line 62.
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\needspace\needspace.sty"
 Package: needspace 2010/09/12 v1.3d reserve vertical space
 )
-\mdf@templength=\skip74
-\c@mdf@globalstyle@cnt=\count136
-\mdf@skipabove@length=\skip75
-\mdf@skipbelow@length=\skip76
-\mdf@leftmargin@length=\skip77
-\mdf@rightmargin@length=\skip78
-\mdf@innerleftmargin@length=\skip79
-\mdf@innerrightmargin@length=\skip80
-\mdf@innertopmargin@length=\skip81
-\mdf@innerbottommargin@length=\skip82
-\mdf@splittopskip@length=\skip83
-\mdf@splitbottomskip@length=\skip84
-\mdf@outermargin@length=\skip85
-\mdf@innermargin@length=\skip86
-\mdf@linewidth@length=\skip87
-\mdf@innerlinewidth@length=\skip88
-\mdf@middlelinewidth@length=\skip89
-\mdf@outerlinewidth@length=\skip90
-\mdf@roundcorner@length=\skip91
-\mdf@footenotedistance@length=\skip92
-\mdf@userdefinedwidth@length=\skip93
-\mdf@needspace@length=\skip94
-\mdf@frametitleaboveskip@length=\skip95
-\mdf@frametitlebelowskip@length=\skip96
-\mdf@frametitlerulewidth@length=\skip97
-\mdf@frametitleleftmargin@length=\skip98
-\mdf@frametitlerightmargin@length=\skip99
-\mdf@shadowsize@length=\skip100
-\mdf@extratopheight@length=\skip101
-\mdf@subtitleabovelinewidth@length=\skip102
-\mdf@subtitlebelowlinewidth@length=\skip103
-\mdf@subtitleaboveskip@length=\skip104
-\mdf@subtitlebelowskip@length=\skip105
-\mdf@subtitleinneraboveskip@length=\skip106
-\mdf@subtitleinnerbelowskip@length=\skip107
-\mdf@subsubtitleabovelinewidth@length=\skip108
-\mdf@subsubtitlebelowlinewidth@length=\skip109
-\mdf@subsubtitleaboveskip@length=\skip110
-\mdf@subsubtitlebelowskip@length=\skip111
-\mdf@subsubtitleinneraboveskip@length=\skip112
-\mdf@subsubtitleinnerbelowskip@length=\skip113
+\mdf@templength=\skip69
+\c@mdf@globalstyle@cnt=\count188
+\mdf@skipabove@length=\skip70
+\mdf@skipbelow@length=\skip71
+\mdf@leftmargin@length=\skip72
+\mdf@rightmargin@length=\skip73
+\mdf@innerleftmargin@length=\skip74
+\mdf@innerrightmargin@length=\skip75
+\mdf@innertopmargin@length=\skip76
+\mdf@innerbottommargin@length=\skip77
+\mdf@splittopskip@length=\skip78
+\mdf@splitbottomskip@length=\skip79
+\mdf@outermargin@length=\skip80
+\mdf@innermargin@length=\skip81
+\mdf@linewidth@length=\skip82
+\mdf@innerlinewidth@length=\skip83
+\mdf@middlelinewidth@length=\skip84
+\mdf@outerlinewidth@length=\skip85
+\mdf@roundcorner@length=\skip86
+\mdf@footenotedistance@length=\skip87
+\mdf@userdefinedwidth@length=\skip88
+\mdf@needspace@length=\skip89
+\mdf@frametitleaboveskip@length=\skip90
+\mdf@frametitlebelowskip@length=\skip91
+\mdf@frametitlerulewidth@length=\skip92
+\mdf@frametitleleftmargin@length=\skip93
+\mdf@frametitlerightmargin@length=\skip94
+\mdf@shadowsize@length=\skip95
+\mdf@extratopheight@length=\skip96
+\mdf@subtitleabovelinewidth@length=\skip97
+\mdf@subtitlebelowlinewidth@length=\skip98
+\mdf@subtitleaboveskip@length=\skip99
+\mdf@subtitlebelowskip@length=\skip100
+\mdf@subtitleinneraboveskip@length=\skip101
+\mdf@subtitleinnerbelowskip@length=\skip102
+\mdf@subsubtitleabovelinewidth@length=\skip103
+\mdf@subsubtitlebelowlinewidth@length=\skip104
+\mdf@subsubtitleaboveskip@length=\skip105
+\mdf@subsubtitlebelowskip@length=\skip106
+\mdf@subsubtitleinneraboveskip@length=\skip107
+\mdf@subsubtitleinnerbelowskip@length=\skip108
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\mdframed\md-frame-0.mdf"
 File: md-frame-0.mdf 2013/07/01\ 1.9b: md-frame-0
 )
-\mdf@frametitlebox=\box51
-\mdf@footnotebox=\box52
-\mdf@splitbox@one=\box53
-\mdf@splitbox@two=\box54
-\mdf@splitbox@save=\box55
-\mdfsplitboxwidth=\skip114
-\mdfsplitboxtotalwidth=\skip115
-\mdfsplitboxheight=\skip116
-\mdfsplitboxdepth=\skip117
-\mdfsplitboxtotalheight=\skip118
-\mdfframetitleboxwidth=\skip119
-\mdfframetitleboxtotalwidth=\skip120
-\mdfframetitleboxheight=\skip121
-\mdfframetitleboxdepth=\skip122
-\mdfframetitleboxtotalheight=\skip123
-\mdffootnoteboxwidth=\skip124
-\mdffootnoteboxtotalwidth=\skip125
-\mdffootnoteboxheight=\skip126
-\mdffootnoteboxdepth=\skip127
-\mdffootnoteboxtotalheight=\skip128
-\mdftotallinewidth=\skip129
-\mdfboundingboxwidth=\skip130
-\mdfboundingboxtotalwidth=\skip131
-\mdfboundingboxheight=\skip132
-\mdfboundingboxdepth=\skip133
-\mdfboundingboxtotalheight=\skip134
-\mdf@freevspace@length=\skip135
-\mdf@horizontalwidthofbox@length=\skip136
-\mdf@verticalmarginwhole@length=\skip137
-\mdf@horizontalspaceofbox=\skip138
-\mdfsubtitleheight=\skip139
-\mdfsubsubtitleheight=\skip140
-\c@mdfcountframes=\count137
+\mdf@frametitlebox=\box52
+\mdf@footnotebox=\box53
+\mdf@splitbox@one=\box54
+\mdf@splitbox@two=\box55
+\mdf@splitbox@save=\box56
+\mdfsplitboxwidth=\skip109
+\mdfsplitboxtotalwidth=\skip110
+\mdfsplitboxheight=\skip111
+\mdfsplitboxdepth=\skip112
+\mdfsplitboxtotalheight=\skip113
+\mdfframetitleboxwidth=\skip114
+\mdfframetitleboxtotalwidth=\skip115
+\mdfframetitleboxheight=\skip116
+\mdfframetitleboxdepth=\skip117
+\mdfframetitleboxtotalheight=\skip118
+\mdffootnoteboxwidth=\skip119
+\mdffootnoteboxtotalwidth=\skip120
+\mdffootnoteboxheight=\skip121
+\mdffootnoteboxdepth=\skip122
+\mdffootnoteboxtotalheight=\skip123
+\mdftotallinewidth=\skip124
+\mdfboundingboxwidth=\skip125
+\mdfboundingboxtotalwidth=\skip126
+\mdfboundingboxheight=\skip127
+\mdfboundingboxdepth=\skip128
+\mdfboundingboxtotalheight=\skip129
+\mdf@freevspace@length=\skip130
+\mdf@horizontalwidthofbox@length=\skip131
+\mdf@verticalmarginwhole@length=\skip132
+\mdf@horizontalspaceofbox=\skip133
+\mdfsubtitleheight=\skip134
+\mdfsubsubtitleheight=\skip135
+\c@mdfcountframes=\count189
 
 ****** mdframed patching \endmdf@trivlist
 
@@ -490,78 +494,90 @@ File: md-frame-0.mdf 2013/07/01\ 1.9b: md-frame-0
 . 
 . Defining command \mdtheorem with sig. ' O{} m o m o ' on line 701.
 .................................................
-\mdf@envdepth=\count138
-\c@mdf@env@i=\count139
-\c@mdf@env@ii=\count140
-\c@mdf@zref@counter=\count141
+\mdf@envdepth=\count190
+\c@mdf@env@i=\count191
+\c@mdf@env@ii=\count192
+\c@mdf@zref@counter=\count193
 Package zref Info: New property: mdf@pagevalue on input line 895.
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\xargs\xargs.sty"
 Package: xargs 2008/03/22 v1.1  extended macro definitions  (mpg)
-\xargs@max=\count142
-\xargs@toksa=\toks20
-\xargs@toksb=\toks21
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\xkeyval\xkeyval.sty"
+Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\xkeyval\xkeyval.tex"
+("C:\Program Files\MiKTeX 2.9\tex\generic\xkeyval\xkvutils.tex"
+\XKV@toks=\toks19
+\XKV@tempa@toks=\toks20
+)
+\XKV@depth=\count194
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+))
+\xargs@max=\count195
+\xargs@toksa=\toks21
+\xargs@toksb=\toks22
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\todonotes\todonotes.sty"
-Package: todonotes 2012/07/25 .dtx Todonotes source and documentation.
+Package: todonotes 2015/07/09 .dtx Todonotes source and documentation.
 Package: todonotes 2012/07/25
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\pgf\frontendlayer\tikz.sty"
 ("C:\Program Files\MiKTeX 2.9\tex\latex\pgf\basiclayer\pgf.sty"
 ("C:\Program Files\MiKTeX 2.9\tex\latex\pgf\utilities\pgfrcs.sty"
 ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\utilities\pgfutil-common.tex"
-\pgfutil@everybye=\toks22
-\pgfutil@tempdima=\dimen157
-\pgfutil@tempdimb=\dimen158
+\pgfutil@everybye=\toks23
+\pgfutil@tempdima=\dimen149
+\pgfutil@tempdimb=\dimen150
 
 ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\utilities\pgfutil-common-lists.te
 x")) ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\utilities\pgfutil-latex.def"
-\pgfutil@abb=\box56
+\pgfutil@abb=\box57
 ("C:\Program Files\MiKTeX 2.9\tex\latex\ms\everyshi.sty"
 Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
 ))
 ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\utilities\pgfrcs.code.tex"
-Package: pgfrcs 2013/12/20 v3.0.0 (rcs-revision 1.28)
+Package: pgfrcs 2015/08/07 v3.0.1a (rcs-revision 1.31)
 ))
-Package: pgf 2013/12/18 v3.0.0 (rcs-revision 1.14)
+Package: pgf 2015/08/07 v3.0.1a (rcs-revision 1.15)
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\pgf\basiclayer\pgfcore.sty"
 ("C:\Program Files\MiKTeX 2.9\tex\latex\pgf\systemlayer\pgfsys.sty"
 ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\systemlayer\pgfsys.code.tex"
-Package: pgfsys 2013/11/30 v3.0.0 (rcs-revision 1.47)
+Package: pgfsys 2014/07/09 v3.0.1a (rcs-revision 1.48)
 
 ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\utilities\pgfkeys.code.tex"
-\pgfkeys@pathtoks=\toks23
-\pgfkeys@temptoks=\toks24
+\pgfkeys@pathtoks=\toks24
+\pgfkeys@temptoks=\toks25
 
 ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\utilities\pgfkeysfiltered.code.te
 x"
-\pgfkeys@tmptoks=\toks25
+\pgfkeys@tmptoks=\toks26
 ))
-\pgf@x=\dimen159
-\pgf@y=\dimen160
-\pgf@xa=\dimen161
-\pgf@ya=\dimen162
-\pgf@xb=\dimen163
-\pgf@yb=\dimen164
-\pgf@xc=\dimen165
-\pgf@yc=\dimen166
+\pgf@x=\dimen151
+\pgf@y=\dimen152
+\pgf@xa=\dimen153
+\pgf@ya=\dimen154
+\pgf@xb=\dimen155
+\pgf@yb=\dimen156
+\pgf@xc=\dimen157
+\pgf@yc=\dimen158
 \w@pgf@writea=\write3
 \r@pgf@reada=\read1
-\c@pgf@counta=\count143
-\c@pgf@countb=\count144
-\c@pgf@countc=\count145
-\c@pgf@countd=\count146
-\t@pgf@toka=\toks26
-\t@pgf@tokb=\toks27
-\t@pgf@tokc=\toks28
+\c@pgf@counta=\count196
+\c@pgf@countb=\count197
+\c@pgf@countc=\count198
+\c@pgf@countd=\count199
+\t@pgf@toka=\toks27
+\t@pgf@tokb=\toks28
+\t@pgf@tokc=\toks29
  ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\systemlayer\pgf.cfg"
 File: pgf.cfg 2008/05/14  (rcs-revision 1.7)
 )
 Driver file for pgf: pgfsys-pdftex.def
 
 ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\systemlayer\pgfsys-pdftex.def"
-File: pgfsys-pdftex.def 2013/07/18  (rcs-revision 1.33)
+File: pgfsys-pdftex.def 2014/10/11  (rcs-revision 1.35)
 
 ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\systemlayer\pgfsys-common-pdf.def
 "
@@ -570,24 +586,24 @@ File: pgfsys-common-pdf.def 2013/10/10  (rcs-revision 1.13)
 ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\systemlayer\pgfsyssoftpath.code.t
 ex"
 File: pgfsyssoftpath.code.tex 2013/09/09  (rcs-revision 1.9)
-\pgfsyssoftpath@smallbuffer@items=\count147
-\pgfsyssoftpath@bigbuffer@items=\count148
+\pgfsyssoftpath@smallbuffer@items=\count266
+\pgfsyssoftpath@bigbuffer@items=\count267
 )
 ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\systemlayer\pgfsysprotocol.code.t
 ex"
 File: pgfsysprotocol.code.tex 2006/10/16  (rcs-revision 1.4)
 )) ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcore.code.tex"
-Package: pgfcore 2010/04/11 v3.0.0 (rcs-revision 1.7)
+Package: pgfcore 2010/04/11 v3.0.1a (rcs-revision 1.7)
  ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\math\pgfmath.code.tex"
 ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\math\pgfmathcalc.code.tex"
 ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\math\pgfmathutil.code.tex")
 ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\math\pgfmathparser.code.tex"
-\pgfmath@dimen=\dimen167
-\pgfmath@count=\count149
-\pgfmath@box=\box57
-\pgfmath@toks=\toks29
-\pgfmath@stack@operand=\toks30
-\pgfmath@stack@operation=\toks31
+\pgfmath@dimen=\dimen159
+\pgfmath@count=\count268
+\pgfmath@box=\box58
+\pgfmath@toks=\toks30
+\pgfmath@stack@operand=\toks31
+\pgfmath@stack@operation=\toks32
 )
 ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.code.tex"
 ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.basic.code.
@@ -607,57 +623,57 @@ ex")
 ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.integerarit
 hmetics.code.tex")))
 ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfloat.code.tex"
-\c@pgfmathroundto@lastzeros=\count150
+\c@pgfmathroundto@lastzeros=\count269
 ))
 ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorepoints.code.tex
 "
 File: pgfcorepoints.code.tex 2013/10/07  (rcs-revision 1.27)
-\pgf@picminx=\dimen168
-\pgf@picmaxx=\dimen169
-\pgf@picminy=\dimen170
-\pgf@picmaxy=\dimen171
-\pgf@pathminx=\dimen172
-\pgf@pathmaxx=\dimen173
-\pgf@pathminy=\dimen174
-\pgf@pathmaxy=\dimen175
-\pgf@xx=\dimen176
-\pgf@xy=\dimen177
-\pgf@yx=\dimen178
-\pgf@yy=\dimen179
-\pgf@zx=\dimen180
-\pgf@zy=\dimen181
+\pgf@picminx=\dimen160
+\pgf@picmaxx=\dimen161
+\pgf@picminy=\dimen162
+\pgf@picmaxy=\dimen163
+\pgf@pathminx=\dimen164
+\pgf@pathmaxx=\dimen165
+\pgf@pathminy=\dimen166
+\pgf@pathmaxy=\dimen167
+\pgf@xx=\dimen168
+\pgf@xy=\dimen169
+\pgf@yx=\dimen170
+\pgf@yy=\dimen171
+\pgf@zx=\dimen172
+\pgf@zy=\dimen173
 )
 ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorepathconstruct.c
 ode.tex"
 File: pgfcorepathconstruct.code.tex 2013/10/07  (rcs-revision 1.29)
-\pgf@path@lastx=\dimen182
-\pgf@path@lasty=\dimen183
+\pgf@path@lastx=\dimen174
+\pgf@path@lasty=\dimen175
 )
 ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorepathusage.code.
 tex"
-File: pgfcorepathusage.code.tex 2013/12/13  (rcs-revision 1.23)
-\pgf@shorten@end@additional=\dimen184
-\pgf@shorten@start@additional=\dimen185
+File: pgfcorepathusage.code.tex 2014/11/02  (rcs-revision 1.24)
+\pgf@shorten@end@additional=\dimen176
+\pgf@shorten@start@additional=\dimen177
 )
 ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorescopes.code.tex
 "
-File: pgfcorescopes.code.tex 2013/10/09  (rcs-revision 1.44)
-\pgfpic=\box58
-\pgf@hbox=\box59
-\pgf@layerbox@main=\box60
-\pgf@picture@serial@count=\count151
+File: pgfcorescopes.code.tex 2015/05/08  (rcs-revision 1.46)
+\pgfpic=\box59
+\pgf@hbox=\box60
+\pgf@layerbox@main=\box61
+\pgf@picture@serial@count=\count270
 )
 ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcoregraphicstate.co
 de.tex"
-File: pgfcoregraphicstate.code.tex 2013/09/19  (rcs-revision 1.11)
-\pgflinewidth=\dimen186
+File: pgfcoregraphicstate.code.tex 2014/11/02  (rcs-revision 1.12)
+\pgflinewidth=\dimen178
 )
 ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcoretransformations
 .code.tex"
-File: pgfcoretransformations.code.tex 2013/10/10  (rcs-revision 1.17)
-\pgf@pt@x=\dimen187
-\pgf@pt@y=\dimen188
-\pgf@pt@temp=\dimen189
+File: pgfcoretransformations.code.tex 2015/08/07  (rcs-revision 1.20)
+\pgf@pt@x=\dimen179
+\pgf@pt@y=\dimen180
+\pgf@pt@temp=\dimen181
 )
 ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorequick.code.tex"
 File: pgfcorequick.code.tex 2008/10/09  (rcs-revision 1.3)
@@ -672,21 +688,21 @@ File: pgfcorepathprocessing.code.tex 2013/09/09  (rcs-revision 1.9)
 )
 ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorearrows.code.tex
 "
-File: pgfcorearrows.code.tex 2013/11/07  (rcs-revision 1.40)
-\pgfarrowsep=\dimen190
+File: pgfcorearrows.code.tex 2015/05/14  (rcs-revision 1.43)
+\pgfarrowsep=\dimen182
 )
 ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcoreshade.code.tex"
 File: pgfcoreshade.code.tex 2013/07/15  (rcs-revision 1.15)
-\pgf@max=\dimen191
-\pgf@sys@shading@range@num=\count152
+\pgf@max=\dimen183
+\pgf@sys@shading@range@num=\count271
 ) ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcoreimage.code.te
 x"
 File: pgfcoreimage.code.tex 2013/07/15  (rcs-revision 1.18)
 
 ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcoreexternal.code.t
 ex"
-File: pgfcoreexternal.code.tex 2013/07/15  (rcs-revision 1.20)
-\pgfexternal@startupbox=\box61
+File: pgfcoreexternal.code.tex 2014/07/09  (rcs-revision 1.21)
+\pgfexternal@startupbox=\box62
 ))
 ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorelayers.code.tex
 "
@@ -701,147 +717,146 @@ ex"
 File: pgfcorepatterns.code.tex 2013/11/07  (rcs-revision 1.5)
 )))
 ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\modules\pgfmoduleshapes.code.tex"
-File: pgfmoduleshapes.code.tex 2013/10/31  (rcs-revision 1.34)
-\pgfnodeparttextbox=\box62
+File: pgfmoduleshapes.code.tex 2014/03/21  (rcs-revision 1.35)
+\pgfnodeparttextbox=\box63
 ) ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\modules\pgfmoduleplot.code.tex"
-File: pgfmoduleplot.code.tex 2013/07/31  (rcs-revision 1.12)
+File: pgfmoduleplot.code.tex 2015/08/03  (rcs-revision 1.13)
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\pgf\compatibility\pgfcomp-version-0-65.
 sty"
-Package: pgfcomp-version-0-65 2007/07/03 v3.0.0 (rcs-revision 1.7)
-\pgf@nodesepstart=\dimen192
-\pgf@nodesepend=\dimen193
+Package: pgfcomp-version-0-65 2007/07/03 v3.0.1a (rcs-revision 1.7)
+\pgf@nodesepstart=\dimen184
+\pgf@nodesepend=\dimen185
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\pgf\compatibility\pgfcomp-version-1-18.
 sty"
-Package: pgfcomp-version-1-18 2007/07/23 v3.0.0 (rcs-revision 1.1)
+Package: pgfcomp-version-1-18 2007/07/23 v3.0.1a (rcs-revision 1.1)
 )) ("C:\Program Files\MiKTeX 2.9\tex\latex\pgf\utilities\pgffor.sty"
 ("C:\Program Files\MiKTeX 2.9\tex\latex\pgf\utilities\pgfkeys.sty"
 ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\utilities\pgfkeys.code.tex"))
 ("C:\Program Files\MiKTeX 2.9\tex\latex\pgf\math\pgfmath.sty"
 ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\math\pgfmath.code.tex"))
 ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\utilities\pgffor.code.tex"
-Package: pgffor 2013/12/13 v3.0.0 (rcs-revision 1.25)
+Package: pgffor 2013/12/13 v3.0.1a (rcs-revision 1.25)
 
 ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\math\pgfmath.code.tex")
-\pgffor@iter=\dimen194
-\pgffor@skip=\dimen195
-\pgffor@stack=\toks32
-\pgffor@toks=\toks33
+\pgffor@iter=\dimen186
+\pgffor@skip=\dimen187
+\pgffor@stack=\toks33
+\pgffor@toks=\toks34
 ))
 ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\frontendlayer\tikz\tikz.code.tex"
-Package: tikz 2013/12/13 v3.0.0 (rcs-revision 1.142)
+Package: tikz 2015/08/07 v3.0.1a (rcs-revision 1.151)
 
 ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\libraries\pgflibraryplothandlers.
 code.tex"
-File: pgflibraryplothandlers.code.tex 2013/08/31 v3.0.0 (rcs-revision 1.20)
-\pgf@plot@mark@count=\count153
-\pgfplotmarksize=\dimen196
+File: pgflibraryplothandlers.code.tex 2013/08/31 v3.0.1a (rcs-revision 1.20)
+\pgf@plot@mark@count=\count272
+\pgfplotmarksize=\dimen188
 )
-\tikz@lastx=\dimen197
-\tikz@lasty=\dimen198
-\tikz@lastxsaved=\dimen199
-\tikz@lastysaved=\dimen200
-\tikzleveldistance=\dimen201
-Normal \dimen register pool exhausted, switching to extended pool.
-\tikzsiblingdistance=\dimen256
-\tikz@figbox=\box63
-\tikz@figbox@bg=\box64
-\tikz@tempbox=\box65
-\tikz@tempbox@bg=\box66
-\tikztreelevel=\count154
-\tikznumberofchildren=\count155
-\tikznumberofcurrentchild=\count156
-\tikz@fig@count=\count157
+\tikz@lastx=\dimen189
+\tikz@lasty=\dimen190
+\tikz@lastxsaved=\dimen191
+\tikz@lastysaved=\dimen192
+\tikzleveldistance=\dimen193
+\tikzsiblingdistance=\dimen194
+\tikz@figbox=\box64
+\tikz@figbox@bg=\box65
+\tikz@tempbox=\box66
+\tikz@tempbox@bg=\box67
+\tikztreelevel=\count273
+\tikznumberofchildren=\count274
+\tikznumberofcurrentchild=\count275
+\tikz@fig@count=\count276
 
 ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\modules\pgfmodulematrix.code.tex"
 File: pgfmodulematrix.code.tex 2013/09/17  (rcs-revision 1.8)
-\pgfmatrixcurrentrow=\count158
-\pgfmatrixcurrentcolumn=\count159
-\pgf@matrix@numberofcolumns=\count160
+\pgfmatrixcurrentrow=\count277
+\pgfmatrixcurrentcolumn=\count278
+\pgf@matrix@numberofcolumns=\count279
 )
-\tikz@expandcount=\count161
+\tikz@expandcount=\count280
 
 ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\frontendlayer\tikz\libraries\tikz
 librarytopaths.code.tex"
-File: tikzlibrarytopaths.code.tex 2008/06/17 v3.0.0 (rcs-revision 1.2)
+File: tikzlibrarytopaths.code.tex 2008/06/17 v3.0.1a (rcs-revision 1.2)
 )))
 ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\frontendlayer\tikz\libraries\tikz
 librarypositioning.code.tex"
-File: tikzlibrarypositioning.code.tex 2008/10/06 v3.0.0 (rcs-revision 1.7)
+File: tikzlibrarypositioning.code.tex 2008/10/06 v3.0.1a (rcs-revision 1.7)
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\tools\calc.sty"
 Package: calc 2014/10/28 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count162
-\calc@Bcount=\count163
-\calc@Adimen=\dimen257
-\calc@Bdimen=\dimen258
-\calc@Askip=\skip141
-\calc@Bskip=\skip142
-LaTeX Info: Redefining \setlength on input line 75.
-LaTeX Info: Redefining \addtolength on input line 76.
-\calc@Ccount=\count164
-\calc@Cskip=\skip143
+\calc@Acount=\count281
+\calc@Bcount=\count282
+\calc@Adimen=\dimen195
+\calc@Bdimen=\dimen196
+\calc@Askip=\skip136
+\calc@Bskip=\skip137
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count283
+\calc@Cskip=\skip138
 )
-\c@@todonotes@numberoftodonotes=\count165
+\c@@todonotes@numberoftodonotes=\count284
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsmath.sty"
-Package: amsmath 2013/01/14 v2.14 AMS math features
-\@mathmargin=\skip144
+Package: amsmath 2016/11/05 v2.16a AMS math features
+\@mathmargin=\skip139
 
 For additional information on amsmath, use the `?' option.
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amstext.sty"
-Package: amstext 2000/06/29 v2.01
+Package: amstext 2000/06/29 v2.01 AMS text
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsgen.sty"
-File: amsgen.sty 1999/11/30 v2.0
-\@emptytoks=\toks34
-\ex@=\dimen259
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks35
+\ex@=\dimen197
 ))
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsbsy.sty"
-Package: amsbsy 1999/11/29 v1.2d
-\pmbraise@=\dimen260
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen198
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsopn.sty"
-Package: amsopn 1999/12/14 v2.01 operator names
+Package: amsopn 2016/03/08 v2.02 operator names
 )
-\inf@bad=\count166
-LaTeX Info: Redefining \frac on input line 210.
-\uproot@=\count167
-\leftroot@=\count168
-LaTeX Info: Redefining \overline on input line 306.
-\classnum@=\count169
-\DOTSCASE@=\count170
-LaTeX Info: Redefining \ldots on input line 378.
-LaTeX Info: Redefining \dots on input line 381.
-LaTeX Info: Redefining \cdots on input line 466.
-\Mathstrutbox@=\box67
-\strutbox@=\box68
-\big@size=\dimen261
-LaTeX Font Info:    Redeclaring font encoding OML on input line 566.
-LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
-\macc@depth=\count171
-\c@MaxMatrixCols=\count172
+\inf@bad=\count285
+LaTeX Info: Redefining \frac on input line 213.
+\uproot@=\count286
+\leftroot@=\count287
+LaTeX Info: Redefining \overline on input line 375.
+\classnum@=\count288
+\DOTSCASE@=\count289
+LaTeX Info: Redefining \ldots on input line 472.
+LaTeX Info: Redefining \dots on input line 475.
+LaTeX Info: Redefining \cdots on input line 596.
+\Mathstrutbox@=\box68
+\strutbox@=\box69
+\big@size=\dimen199
+LaTeX Font Info:    Redeclaring font encoding OML on input line 712.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
+\macc@depth=\count290
+\c@MaxMatrixCols=\count291
 \dotsspace@=\muskip16
-\c@parentequation=\count173
-\dspbrk@lvl=\count174
-\tag@help=\toks35
-\row@=\count175
-\column@=\count176
-\maxfields@=\count177
-\andhelp@=\toks36
-\eqnshift@=\dimen262
-\alignsep@=\dimen263
-\tagshift@=\dimen264
-\tagwidth@=\dimen265
-\totwidth@=\dimen266
-\lineht@=\dimen267
-\@envbody=\toks37
-\multlinegap=\skip145
-\multlinetaggap=\skip146
-\mathdisplay@stack=\toks38
-LaTeX Info: Redefining \[ on input line 2665.
-LaTeX Info: Redefining \] on input line 2666.
+\c@parentequation=\count292
+\dspbrk@lvl=\count293
+\tag@help=\toks36
+\row@=\count294
+\column@=\count295
+\maxfields@=\count296
+\andhelp@=\toks37
+\eqnshift@=\dimen256
+\alignsep@=\dimen257
+\tagshift@=\dimen258
+\tagwidth@=\dimen259
+\totwidth@=\dimen260
+\lineht@=\dimen261
+\@envbody=\toks38
+\multlinegap=\skip140
+\multlinetaggap=\skip141
+\mathdisplay@stack=\toks39
+LaTeX Info: Redefining \[ on input line 2817.
+LaTeX Info: Redefining \] on input line 2818.
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\amssymb.sty"
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
@@ -854,136 +869,1274 @@ LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
 ))
 ("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\hyperref.sty"
-Package: hyperref 2012/11/06 v6.83m Hypertext links for LaTeX
+Package: hyperref 2017/03/14 v6.85a Hypertext links for LaTeX
 
 ("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\hobsub-hyperref.sty"
-Package: hobsub-hyperref 2012/04/25 v1.12 Bundle oberdiek, subset hyperref (HO)
+Package: hobsub-hyperref 2016/05/16 v1.14 Bundle oberdiek, subset hyperref (HO)
 
 
 ("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\hobsub-generic.sty"
-Package: hobsub-generic 2012/04/25 v1.12 Bundle oberdiek, subset generic (HO)
-Package: hobsub 2012/04/25 v1.12 Construct package bundles (HO)
+Package: hobsub-generic 2016/05/16 v1.14 Bundle oberdiek, subset generic (HO)
+Package: hobsub 2016/05/16 v1.14 Construct package bundles (HO)
 Package hobsub Info: Skipping package `infwarerr' (already loaded).
 Package hobsub Info: Skipping package `ltxcmds' (already loaded).
 Package hobsub Info: Skipping package `ifluatex' (already loaded).
-Package: ifvtex 2010/03/01 v1.5 Detect VTeX and its facilities (HO)
+Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
 Package ifvtex Info: VTeX not detected.
-Package: intcalc 2007/09/27 v1.1 Expandable calculations with integers (HO)
+Package: intcalc 2016/05/16 v1.2 Expandable calculations with integers (HO)
 Package hobsub Info: Skipping package `ifpdf' (already loaded).
 Package hobsub Info: Skipping package `etexcmds' (already loaded).
 Package hobsub Info: Skipping package `kvsetkeys' (already loaded).
 Package hobsub Info: Skipping package `kvdefinekeys' (already loaded).
 Package hobsub Info: Skipping package `pdftexcmds' (already loaded).
-Package: pdfescape 2011/11/25 v1.13 Implements pdfTeX's escape features (HO)
-Package: bigintcalc 2012/04/08 v1.3 Expandable calculations on big integers (HO
+Package: pdfescape 2016/05/16 v1.14 Implements pdfTeX's escape features (HO)
+Package: bigintcalc 2016/05/16 v1.4 Expandable calculations on big integers (HO
 )
-Package: bitset 2011/01/30 v1.1 Handle bit-vector datatype (HO)
-Package: uniquecounter 2011/01/30 v1.2 Provide unlimited unique counter (HO)
+Package: bitset 2016/05/16 v1.2 Handle bit-vector datatype (HO)
+Package: uniquecounter 2016/05/16 v1.3 Provide unlimited unique counter (HO)
 )
 Package hobsub Info: Skipping package `hobsub' (already loaded).
-Package: letltxmacro 2010/09/02 v1.4 Let assignment for LaTeX macros (HO)
-Package: hopatch 2011/06/24 v1.1 Wrapper for package hooks (HO)
-Package: xcolor-patch 2011/01/30 xcolor patch
-Package: atveryend 2011/06/30 v1.8 Hooks at the very end of document (HO)
+Package: letltxmacro 2016/05/16 v1.5 Let assignment for LaTeX macros (HO)
+Package: hopatch 2016/05/16 v1.3 Wrapper for package hooks (HO)
+Package: xcolor-patch 2016/05/16 xcolor patch
+Package: atveryend 2016/05/16 v1.9 Hooks at the very end of document (HO)
 Package hobsub Info: Skipping package `atbegshi' (already loaded).
-Package: refcount 2011/10/16 v3.4 Data extraction from label references (HO)
-Package: hycolor 2011/01/30 v1.7 Color options for hyperref/bookmark (HO)
+Package: refcount 2016/05/16 v3.5 Data extraction from label references (HO)
+Package: hycolor 2016/05/16 v1.8 Color options for hyperref/bookmark (HO)
 )
-("C:\Program Files\MiKTeX 2.9\tex\generic\ifxetex\ifxetex.sty"
-Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
-)
-\@linkdim=\dimen268
-\Hy@linkcounter=\count178
-\Hy@pagecounter=\count179
+\@linkdim=\dimen262
+\Hy@linkcounter=\count297
+\Hy@pagecounter=\count298
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\pd1enc.def"
-File: pd1enc.def 2012/11/06 v6.83m Hyperref: PDFDocEncoding definition (HO)
+File: pd1enc.def 2017/03/14 v6.85a Hyperref: PDFDocEncoding definition (HO)
 )
-\Hy@SavedSpaceFactor=\count180
+\Hy@SavedSpaceFactor=\count299
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\hyperref.cfg"
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
 )
-Package hyperref Info: Option `final' set `true' on input line 4319.
-Package hyperref Info: Hyper figures OFF on input line 4443.
-Package hyperref Info: Link nesting OFF on input line 4448.
-Package hyperref Info: Hyper index ON on input line 4451.
-Package hyperref Info: Plain pages OFF on input line 4458.
-Package hyperref Info: Backreferencing OFF on input line 4463.
+Package hyperref Info: Option `final' set `true' on input line 4374.
+Package hyperref Info: Hyper figures OFF on input line 4498.
+Package hyperref Info: Link nesting OFF on input line 4503.
+Package hyperref Info: Hyper index ON on input line 4506.
+Package hyperref Info: Plain pages OFF on input line 4513.
+Package hyperref Info: Backreferencing OFF on input line 4518.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
-Package hyperref Info: Bookmarks ON on input line 4688.
-LaTeX Info: Redefining \href on input line 4952.
-\c@Hy@tempcnt=\count181
+Package hyperref Info: Bookmarks ON on input line 4751.
+LaTeX Info: Redefining \href on input line 5015.
+\c@Hy@tempcnt=\count300
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\url\url.sty"
 \Urlmuskip=\muskip17
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
-LaTeX Info: Redefining \url on input line 5041.
-\XeTeXLinkMargin=\dimen269
-\Fld@menulength=\count182
-\Field@Width=\dimen270
-\Fld@charsize=\dimen271
-Package hyperref Info: Hyper figures OFF on input line 6295.
-Package hyperref Info: Link nesting OFF on input line 6300.
-Package hyperref Info: Hyper index ON on input line 6303.
-Package hyperref Info: backreferencing OFF on input line 6310.
-Package hyperref Info: Link coloring OFF on input line 6315.
-Package hyperref Info: Link coloring with OCG OFF on input line 6320.
-Package hyperref Info: PDF/A mode OFF on input line 6325.
-LaTeX Info: Redefining \ref on input line 6365.
-LaTeX Info: Redefining \pageref on input line 6369.
-\Hy@abspage=\count183
-\c@Item=\count184
-\c@Hfootnote=\count185
+LaTeX Info: Redefining \url on input line 5104.
+\XeTeXLinkMargin=\dimen263
+\Fld@menulength=\count301
+\Field@Width=\dimen264
+\Fld@charsize=\dimen265
+Package hyperref Info: Hyper figures OFF on input line 6358.
+Package hyperref Info: Link nesting OFF on input line 6363.
+Package hyperref Info: Hyper index ON on input line 6366.
+Package hyperref Info: backreferencing OFF on input line 6373.
+Package hyperref Info: Link coloring OFF on input line 6378.
+Package hyperref Info: Link coloring with OCG OFF on input line 6383.
+Package hyperref Info: PDF/A mode OFF on input line 6388.
+LaTeX Info: Redefining \ref on input line 6428.
+LaTeX Info: Redefining \pageref on input line 6432.
+\Hy@abspage=\count302
+\c@Item=\count303
+\c@Hfootnote=\count304
 )
 
 Package hyperref Message: Driver: hpdftex.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\hpdftex.def"
-File: hpdftex.def 2012/11/06 v6.83m Hyperref driver for pdfTeX
-\HyAnn@Count=\count186
-\Fld@listcount=\count187
-\c@bookmark@seq@number=\count188
+File: hpdftex.def 2017/03/14 v6.85a Hyperref driver for pdfTeX
+\HyAnn@Count=\count305
+\Fld@listcount=\count306
+\c@bookmark@seq@number=\count307
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\rerunfilecheck.sty"
-Package: rerunfilecheck 2011/04/15 v1.7 Rerun checks for auxiliary files (HO)
+Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 82.
 )
-\Hy@SectionHShift=\skip147
+\Hy@SectionHShift=\skip142
 )
-Package hyperref Info: Option `plainpages' set `false' on input line 150.
-Package hyperref Info: Option `unicode' set `false' on input line 150.
-Package hyperref Info: Option `pdftoolbar' set `true' on input line 150.
-Package hyperref Info: Option `pdfmenubar' set `true' on input line 150.
-Package hyperref Info: Option `pdffitwindow' set `false' on input line 150.
-Package hyperref Info: Option `pdfnewwindow' set `true' on input line 150.
-Package hyperref Info: Option `colorlinks' set `true' on input line 150.
+Package hyperref Info: Option `plainpages' set `false' on input line 148.
+Package hyperref Info: Option `unicode' set `false' on input line 148.
+Package hyperref Info: Option `pdftoolbar' set `true' on input line 148.
+Package hyperref Info: Option `pdfmenubar' set `true' on input line 148.
+Package hyperref Info: Option `pdffitwindow' set `false' on input line 148.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 148.
+Package hyperref Info: Option `colorlinks' set `true' on input line 148.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\glossaries-extra\glossaries-extra.sty"
+Package: glossaries-extra 2017/06/15 v1.16 (NLCT)
+\@glsxtr@docdefval=\count308
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\glossaries\base\glossaries.sty"
+Package: glossaries 2017/06/11 v4.30 (NLCT)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\mfirstuc\mfirstuc.sty"
+Package: mfirstuc 2016/07/31 v2.04 (NLCT)
+\@glsmfirst=\toks40
+\@glsmrest=\toks41
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\textcase\textcase.sty"
+Package: textcase 2004/10/07 v0.07 Text only upper/lower case changing (DPC)
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\xfor\xfor.sty"
+Package: xfor 2009/02/05 v1.05 (NLCT)
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\datatool\datatool-base.sty"
+Package: datatool-base 2016/07/28 v2.27 (NLCT)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\substr\substr.sty"
+Package: substr 2009/10/20 v1.2 Handle substrings
+\c@su@anzahl=\count309
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\datatool\datatool-fp.sty"
+Package: datatool-fp 2016/07/28 v2.27 (NLCT)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\fp\fp.sty"
+Package: fp 1995/04/02
+
+`Fixed Point Package', Version 0.8, April 2, 1995 (C) Michael Mehlich
+("C:\Program Files\MiKTeX 2.9\tex\latex\fp\defpattern.sty"
+Package: defpattern 1994/10/12
+\actioncount=\count310
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\fp\fp-basic.sty"
+Package: fp-basic 1996/05/13
+\FP@xs=\count311
+\FP@xia=\count312
+\FP@xib=\count313
+\FP@xfa=\count314
+\FP@xfb=\count315
+\FP@rega=\count316
+\FP@regb=\count317
+\FP@regs=\count318
+\FP@times=\count319
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\fp\fp-addons.sty"
+Package: fp-addons 1995/03/15
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\fp\fp-snap.sty"
+Package: fp-snap 1995/04/05
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\fp\fp-exp.sty"
+Package: fp-exp 1995/04/03
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\fp\fp-trigo.sty"
+Package: fp-trigo 1995/04/14
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\fp\fp-pas.sty"
+Package: fp-pas 1994/08/29
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\fp\fp-random.sty"
+Package: fp-random 1995/02/23
+\FPseed=\count320
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\fp\fp-eqn.sty"
+Package: fp-eqn 1995/04/03
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\fp\fp-upn.sty"
+Package: fp-upn 1996/10/21
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\fp\fp-eval.sty"
+Package: fp-eval 1995/04/03
+)))
+\@dtl@toks=\toks42
+\@dtl@tmpcount=\count321
+\dtl@tmplength=\skip143
+\dtl@sortresult=\count322
+\@dtl@numgrpsepcount=\count323
+\@dtl@datatype=\count324
+\dtl@codeA=\count325
+\dtl@codeB=\count326
+\@dtl@foreach@level=\count327
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\glossaries\base\glossaries-compatible-3
+07.sty"
+Package: glossaries-compatible-307 2017/06/11 v4.30 (NLCT)
+)
+\gls@level=\count328
+\@gls@tmpb=\toks43
+\gls@tmplen=\skip144
+\glskeylisttok=\toks44
+\glslabeltok=\toks45
+\glsshorttok=\toks46
+\glslongtok=\toks47
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\glossaries\styles\glossary-hypernav.sty
+"
+Package: glossary-hypernav 2017/06/11 v4.30 (NLCT)
+) ("C:\Program Files\MiKTeX 2.9\tex\latex\glossaries\styles\glossary-list.sty"
+Package: glossary-list 2017/06/11 v4.30 (NLCT)
+\glslistdottedwidth=\skip145
+) ("C:\Program Files\MiKTeX 2.9\tex\latex\glossaries\styles\glossary-long.sty"
+Package: glossary-long 2017/06/11 v4.30 (NLCT)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\tools\longtable.sty"
+Package: longtable 2014/10/28 v4.11 Multi-page Table package (DPC)
+\LTleft=\skip146
+\LTright=\skip147
+\LTpre=\skip148
+\LTpost=\skip149
+\LTchunksize=\count329
+\LTcapwidth=\dimen266
+\LT@head=\box70
+\LT@firsthead=\box71
+\LT@foot=\box72
+\LT@lastfoot=\box73
+\LT@cols=\count330
+\LT@rows=\count331
+\c@LT@tables=\count332
+\c@LT@chunks=\count333
+\LT@p@ftn=\toks48
+)
+\glsdescwidth=\skip150
+\glspagelistwidth=\skip151
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\glossaries\styles\glossary-super.sty"
+Package: glossary-super 2017/06/11 v4.30 (NLCT)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\supertabular\supertabular.sty"
+Package: supertabular 2004/02/20 v4.1e the supertabular environment
+\c@tracingst=\count334
+\ST@wd=\dimen267
+\ST@rightskip=\skip152
+\ST@leftskip=\skip153
+\ST@parfillskip=\skip154
+\ST@pageleft=\dimen268
+\ST@headht=\dimen269
+\ST@tailht=\dimen270
+\ST@pagesofar=\dimen271
+\ST@pboxht=\dimen272
+\ST@lineht=\dimen273
+\ST@stretchht=\dimen274
+\ST@prevht=\dimen275
+\ST@toadd=\dimen276
+\ST@dimen=\dimen277
+\ST@pbox=\box74
+))
+("C:\Program Files\MiKTeX 2.9\tex\latex\glossaries\styles\glossary-tree.sty"
+Package: glossary-tree 2017/06/11 v4.30 (NLCT)
+\glstreeindent=\skip155
+))
+\glsxtrresourcecount=\count335
+\glsshortpltok=\toks49
+\glslongpltok=\toks50
+)
+\glswrite=\write4
+\glo@main@file=\write5
+\openout5 = `main.glo'.
+
+Package glossaries Info: Writing glossary file main.glo on input line 235.
+\glo@abbreviations@file=\write6
+\openout6 = `main.glo-abr'.
+
+Package glossaries Info: Writing glossary file main.glo-abr on input line 235.
+\glo@nomenclature@file=\write7
+\openout7 = `main.nomenclature-glo'.
+
+Package glossaries Info: Writing glossary file main.nomenclature-glo on input l
+ine 235.
+\glo@symbols@file=\write8
+\openout8 = `main.symbols-glo'.
+
+Package glossaries Info: Writing glossary file main.symbols-glo on input line 2
+35.
+(main.aux)
+\openout1 = `main.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 239.
+LaTeX Font Info:    ... okay on input line 239.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 239.
+LaTeX Font Info:    ... okay on input line 239.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 239.
+LaTeX Font Info:    ... okay on input line 239.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 239.
+LaTeX Font Info:    ... okay on input line 239.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 239.
+LaTeX Font Info:    ... okay on input line 239.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 239.
+LaTeX Font Info:    ... okay on input line 239.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 239.
+LaTeX Font Info:    ... okay on input line 239.
+ ("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count336
+\scratchdimen=\dimen278
+\scratchbox=\box75
+\nofMPsegments=\count337
+\nofMParguments=\count338
+\everyMPshowfont=\toks51
+\MPscratchCnt=\count339
+\MPscratchDim=\dimen279
+\MPnumerator=\count340
+\makeMPintoPDFobject=\count341
+\everyMPtoPDFconversion=\toks52
+) ("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\epstopdf-base.sty"
+Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\grfext.sty"
+Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
+)
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+38.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 456.
+)
+\AtBeginShipoutBox=\box76
+
+ABD: EveryShipout initializing macros
+Package hyperref Info: Link coloring ON on input line 239.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
+Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\gettitlestring.sty"
+Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
+)
+\c@section@level=\count342
+)
+LaTeX Info: Redefining \ref on input line 239.
+LaTeX Info: Redefining \pageref on input line 239.
+LaTeX Info: Redefining \nameref on input line 239.
+
+(main.out) (main.out)
+\@outlinefile=\write9
+\openout9 = `main.out'.
+
+ (uw-ethesis-frontpgs.tex
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 45.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\omscmr.fd"
+File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 45.
+ [1
+
+\openout4 = `main.ist'.
 
 
-! LaTeX Error: File `glossaries-extra.sty' not found.
 
-Type X to quit or <RETURN> to proceed,
-or enter new name. (Default extension: sty)
+{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}] [2
 
-Enter file name: x
+
+] [3
+
+
+]
+LaTeX Font Info:    Try loading font information for U+msa on input line 96.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 96.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+) [4
+
+
+] [5
+
+
+] (main.toc
+[6
+
+
+
+
+] [7])
+\tf@toc=\write10
+\openout10 = `main.toc'.
+
+ [8] (main.lot)
+\tf@lot=\write11
+\openout11 = `main.lot'.
+
+ [9
+
+
+
+
+] (main.lof
+Overfull \hbox (18.14359pt too wide) in paragraph at lines 13--13
+ [][] [][][]\OT1/cmr/m/n/12 Neo4j's ex-e-cu-tion plan for query \OT1/cmr/m/it/1
+2 User-Badge, User-Post, Post-Tag: Tag.TagName\OT1/cmr/m/n/12 .[][] [][]  
+ []
+
+[10
+
+
+
+
+])
+\tf@lof=\write12
+\openout12 = `main.lof'.
+
+ [11] (main.gls) (main.gls-abr) (main.nomenclature-gls) (main.symbols-gls))
+Chapter 1.
+(introduction.tex
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+ [1
+
+
+
+
+
+
+]
+Package epstopdf Info: Source file: <pic/11.eps>
+(epstopdf)                    date: 2017-09-12 15:04:51
+(epstopdf)                    size: 362948 bytes
+(epstopdf)             Output file: <pic/11-eps-converted-to.pdf>
+(epstopdf)                    date: 2017-09-12 15:08:37
+(epstopdf)                    size: 24663 bytes
+(epstopdf)             Command: <epstopdf --outfile=pic/11-eps-converted-to.pdf
+ pic/11.eps>
+(epstopdf)             \includegraphics on input line 21.
+Package epstopdf Info: Output file is already uptodate.
+
+<pic/11-eps-converted-to.pdf, id=409, 650.43pt x 279.0425pt>
+File: pic/11-eps-converted-to.pdf Graphic file (type pdf)
+
+<use pic/11-eps-converted-to.pdf>
+Package pdftex.def Info: pic/11-eps-converted-to.pdf used on input line 21.
+(pdftex.def)             Requested size: 260.16739pt x 111.615pt.
+Package epstopdf Info: Source file: <pic/12.eps>
+(epstopdf)                    date: 2017-09-12 15:04:51
+(epstopdf)                    size: 259423 bytes
+(epstopdf)             Output file: <pic/12-eps-converted-to.pdf>
+(epstopdf)                    date: 2017-09-12 15:08:39
+(epstopdf)                    size: 22632 bytes
+(epstopdf)             Command: <epstopdf --outfile=pic/12-eps-converted-to.pdf
+ pic/12.eps>
+(epstopdf)             \includegraphics on input line 39.
+Package epstopdf Info: Output file is already uptodate.
+
+<pic/12-eps-converted-to.pdf, id=413, 412.54124pt x 212.795pt>
+File: pic/12-eps-converted-to.pdf Graphic file (type pdf)
+
+<use pic/12-eps-converted-to.pdf>
+Package pdftex.def Info: pic/12-eps-converted-to.pdf used on input line 39.
+(pdftex.def)             Requested size: 206.27011pt x 106.39723pt.
+Package epstopdf Info: Source file: <pic/3.eps>
+(epstopdf)                    date: 2017-09-12 15:04:52
+(epstopdf)                    size: 2624620 bytes
+(epstopdf)             Output file: <pic/3-eps-converted-to.pdf>
+(epstopdf)                    date: 2017-09-12 15:08:42
+(epstopdf)                    size: 475025 bytes
+(epstopdf)             Command: <epstopdf --outfile=pic/3-eps-converted-to.pdf 
+pic/3.eps>
+(epstopdf)             \includegraphics on input line 46.
+Package epstopdf Info: Output file is already uptodate.
+
+<pic/3-eps-converted-to.pdf, id=414, 2514.39375pt x 2625.81pt>
+File: pic/3-eps-converted-to.pdf Graphic file (type pdf)
+
+<use pic/3-eps-converted-to.pdf>
+Package pdftex.def Info: pic/3-eps-converted-to.pdf used on input line 46.
+(pdftex.def)             Requested size: 251.4541pt x 262.59637pt.
+ [2 <./pic/11-eps-converted-to.pdf>] [3 <./pic/12-eps-converted-to.pdf> <./pic/
+3-eps-converted-to.pdf>]
+Missing character: There is no ‚ in font cmti12!
+Missing character: There is no Ä in font cmti12!
+Missing character: There is no ô in font cmti12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+
+Overfull \hbox (2.4977pt too wide) in paragraph at lines 86--87
+\OT1/cmr/m/n/12 Supporting ef-fi-cient OLAP in tra-di-tional re-la-tional datab
+ase man-age-ment sys-tems (RDBMS
+ []
+
+[4]
+Package epstopdf Info: Source file: <pic/5.eps>
+(epstopdf)                    date: 2017-09-12 15:04:53
+(epstopdf)                    size: 357050 bytes
+(epstopdf)             Output file: <pic/5-eps-converted-to.pdf>
+(epstopdf)                    date: 2017-09-12 15:08:44
+(epstopdf)                    size: 38138 bytes
+(epstopdf)             Command: <epstopdf --outfile=pic/5-eps-converted-to.pdf 
+pic/5.eps>
+(epstopdf)             \includegraphics on input line 95.
+Package epstopdf Info: Output file is already uptodate.
+ <pic/5-eps-converted-to.pdf, id=458, 200.75pt x 770.88pt>
+File: pic/5-eps-converted-to.pdf Graphic file (type pdf)
+
+<use pic/5-eps-converted-to.pdf>
+Package pdftex.def Info: pic/5-eps-converted-to.pdf used on input line 95.
+(pdftex.def)             Requested size: 80.29857pt x 308.34654pt.
+ [5] [6 <./pic/5-eps-converted-to.pdf>]
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ì in font cmr12!
+
+[7]) [8]
+Chapter 2.
+(relatedwork.tex [9
+
+
+]
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+ [10]
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ò in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ò in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+
+Overfull \hbox (868.55391pt too wide) in paragraph at lines 80--81
+[][] 
+ []
+
+[11]
+Package epstopdf Info: Source file: <pic/meta1.eps>
+(epstopdf)                    date: 2017-09-12 15:04:54
+(epstopdf)                    size: 281878 bytes
+(epstopdf)             Output file: <pic/meta1-eps-converted-to.pdf>
+(epstopdf)                    date: 2017-09-12 15:08:46
+(epstopdf)                    size: 22569 bytes
+(epstopdf)             Command: <epstopdf --outfile=pic/meta1-eps-converted-to.
+pdf pic/meta1.eps>
+(epstopdf)             \includegraphics on input line 143.
+Package epstopdf Info: Output file is already uptodate.
+ <pic/meta1-eps-converted-to.pdf, id=507, 416.55624pt x 218.8175pt>
+File: pic/meta1-eps-converted-to.pdf Graphic file (type pdf)
+
+<use pic/meta1-eps-converted-to.pdf>
+Package pdftex.def Info: pic/meta1-eps-converted-to.pdf used on input line 143.
+
+(pdftex.def)             Requested size: 208.2776pt x 109.40848pt.
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+Package epstopdf Info: Source file: <pic/22.eps>
+(epstopdf)                    date: 2017-09-12 15:04:51
+(epstopdf)                    size: 209737 bytes
+(epstopdf)             Output file: <pic/22-eps-converted-to.pdf>
+(epstopdf)                    date: 2017-09-12 15:08:48
+(epstopdf)                    size: 9307 bytes
+(epstopdf)             Command: <epstopdf --outfile=pic/22-eps-converted-to.pdf
+ pic/22.eps>
+(epstopdf)             \includegraphics on input line 155.
+Package epstopdf Info: Output file is already uptodate.
+
+<pic/22-eps-converted-to.pdf, id=510, 132.495pt x 131.49126pt>
+File: pic/22-eps-converted-to.pdf Graphic file (type pdf)
+
+<use pic/22-eps-converted-to.pdf>
+Package pdftex.def Info: pic/22-eps-converted-to.pdf used on input line 155.
+(pdftex.def)             Requested size: 132.49466pt x 131.49092pt.
+ [12 <./pic/meta1-eps-converted-to.pdf>]
+Missing character: There is no ‚ in font cmbx12!
+Missing character: There is no Ä in font cmbx12!
+Missing character: There is no ô in font cmbx12!
+Missing character: There is no ‚ in font cmbx12!
+Missing character: There is no Ä in font cmbx12!
+Missing character: There is no ô in font cmbx12!
+Package epstopdf Info: Source file: <pic/meta2.eps>
+(epstopdf)                    date: 2017-09-12 15:04:54
+(epstopdf)                    size: 289299 bytes
+(epstopdf)             Output file: <pic/meta2-eps-converted-to.pdf>
+(epstopdf)                    date: 2017-09-12 15:08:50
+(epstopdf)                    size: 21556 bytes
+(epstopdf)             Command: <epstopdf --outfile=pic/meta2-eps-converted-to.
+pdf pic/meta2.eps>
+(epstopdf)             \includegraphics on input line 165.
+Package epstopdf Info: Output file is already uptodate.
+
+<pic/meta2-eps-converted-to.pdf, id=520, 419.5675pt x 219.82124pt>
+File: pic/meta2-eps-converted-to.pdf Graphic file (type pdf)
+
+<use pic/meta2-eps-converted-to.pdf>
+Package pdftex.def Info: pic/meta2-eps-converted-to.pdf used on input line 165.
+
+(pdftex.def)             Requested size: 209.78323pt x 109.91034pt.
+ [13 <./pic/22-eps-converted-to.pdf> <./pic/meta2-eps-converted-to.pdf>] [14] [
+15]
+Overfull \hbox (14.72119pt too wide) in paragraph at lines 285--295
+ [] 
+ []
+
+) [16]
+Chapter 3.
+(problemdef.tex [17
+
+
+]
+LaTeX Font Info:    Font shape `OMS/cmr/m/it' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 83.
+ [18]
+Overfull \hbox (25.45807pt too wide) in paragraph at lines 109--110
+[][] 
+ []
+
+[19]
+Overfull \hbox (10.13548pt too wide) in paragraph at lines 175--179
+\OT1/cmr/m/n/12 queries $\OML/cmm/m/it/12 P$ \OT1/cmr/m/n/12 on $\OML/cmm/m/it/
+12 G$\OT1/cmr/m/n/12 , space limit $\OML/cmm/m/it/12 $\OT1/cmr/m/n/12 , find c
+uboids $\OML/cmm/m/it/12 C$ \OT1/cmr/m/n/12 and sub-struc-tures $\OML/cmm/m/it/
+12 S$\OT1/cmr/m/n/12 , such that: 1) $[] +
+ []
+
+[20]
+Overfull \hbox (27.9566pt too wide) in paragraph at lines 190--192
+\OML/cmm/m/it/12 C[]$ \OT1/cmr/m/n/12 and sub-struc-tures $\OML/cmm/m/it/12 S[]
+$\OT1/cmr/m/n/12 , and re-main-ing views $\OML/cmm/m/it/12 R$\OT1/cmr/m/n/12 , 
+find a com-po-si-tion plan $\OML/cmm/m/it/12 compose\OT1/cmr/m/n/12 (\OML/cmm/m
+/it/12 G; q; C[]; S[]; R\OT1/cmr/m/n/12 )$,
+ []
+
+
+Overfull \hbox (87.29475pt too wide) in paragraph at lines 190--192
+\OT1/cmr/m/n/12 so that es-ti-mated com-po-si-tion time $\OML/cmm/m/it/12 compo
+se\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 G; q; C[]; S[]; R\OT1/cmr/m/n/12 )\OML/cmm/
+m/it/12 :time$ \OT1/cmr/m/n/12 is min-i-mized. Here $\OML/cmm/m/it/12 compose\O
+T1/cmr/m/n/12 (\OML/cmm/m/it/12 G; q; C[]; S[]; R\OT1/cmr/m/n/12 )$
+ []
+
+) [21]
+Chapter 4.
+(solution.tex
+Package epstopdf Info: Source file: <pic/41.eps>
+(epstopdf)                    date: 2017-09-12 15:04:52
+(epstopdf)                    size: 582941 bytes
+(epstopdf)             Output file: <pic/41-eps-converted-to.pdf>
+(epstopdf)                    date: 2017-09-12 15:08:55
+(epstopdf)                    size: 100893 bytes
+(epstopdf)             Command: <epstopdf --outfile=pic/41-eps-converted-to.pdf
+ pic/41.eps>
+(epstopdf)             \includegraphics on input line 14.
+Package epstopdf Info: Output file is already uptodate.
+ <pic/41-eps-converted-to.pdf, id=613, 616.3025pt x 256.96pt>
+File: pic/41-eps-converted-to.pdf Graphic file (type pdf)
+
+<use pic/41-eps-converted-to.pdf>
+Package pdftex.def Info: pic/41-eps-converted-to.pdf used on input line 14.
+(pdftex.def)             Requested size: 493.04266pt x 205.56827pt.
+
+Overfull \hbox (32.32143pt too wide) in paragraph at lines 14--15
+ [][] 
+ []
+
+[22
+
+
+] [23 <./pic/41-eps-converted-to.pdf>] [24]
+Underfull \hbox (badness 3199) in paragraph at lines 88--88
+\OT1/cmr/m/n/10.95 #2 User-Comment, Comment-Post: User.UpVotes, Com-ment.Score,
+ (AVG)Post.Score,
+ []
+
+
+Overfull \hbox (21.27481pt too wide) in paragraph at lines 88--89
+[][] 
+ []
+
+[25] [26] [27] [28] [29]
+Package epstopdf Info: Source file: <pic/61.eps>
+(epstopdf)                    date: 2017-09-12 15:04:53
+(epstopdf)                    size: 398384 bytes
+(epstopdf)             Output file: <pic/61-eps-converted-to.pdf>
+(epstopdf)                    date: 2017-09-12 15:08:57
+(epstopdf)                    size: 48287 bytes
+(epstopdf)             Command: <epstopdf --outfile=pic/61-eps-converted-to.pdf
+ pic/61.eps>
+(epstopdf)             \includegraphics on input line 238.
+Package epstopdf Info: Output file is already uptodate.
+
+<pic/61-eps-converted-to.pdf, id=741, 444.66125pt x 634.37pt>
+File: pic/61-eps-converted-to.pdf Graphic file (type pdf)
+
+<use pic/61-eps-converted-to.pdf>
+Package pdftex.def Info: pic/61-eps-converted-to.pdf used on input line 238.
+(pdftex.def)             Requested size: 266.7988pt x 380.62492pt.
+
+Underfull \hbox (badness 2012) in paragraph at lines 239--239
+[]\OT1/cmr/m/n/12 Figure 4.2: []Neo4j's ex-e-cu-tion plan for query \OT1/cmr/m/
+it/12 User-Badge, User-Post, Post-Tag:
+ []
+
+[30 <./pic/61-eps-converted-to.pdf>]
+
+LaTeX Warning: Reference `alg:StructurePlanner' on page 31 undefined on input l
+ine 268.
+
+Package epstopdf Info: Source file: <pic/Structurelattice.eps>
+(epstopdf)                    date: 2017-09-12 15:04:53
+(epstopdf)                    size: 423457 bytes
+(epstopdf)             Output file: <pic/Structurelattice-eps-converted-to.pdf>
+
+(epstopdf)                    date: 2017-09-12 15:08:59
+(epstopdf)                    size: 98234 bytes
+(epstopdf)             Command: <epstopdf --outfile=pic/Structurelattice-eps-co
+nverted-to.pdf pic/Structurelattice.eps>
+(epstopdf)             \includegraphics on input line 272.
+Package epstopdf Info: Output file is already uptodate.
+<pic/Structurelattice-eps-converted-to.pdf, id=757, 702.625pt x 409.53pt>
+File: pic/Structurelattice-eps-converted-to.pdf Graphic file (type pdf)
+
+<use pic/Structurelattice-eps-converted-to.pdf>
+Package pdftex.def Info: pic/Structurelattice-eps-converted-to.pdf used on inpu
+t line 272.
+(pdftex.def)             Requested size: 281.04501pt x 163.80908pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+LaTeX Warning: Reference `alg:StructurePlanner' on page 31 undefined on input l
+ine 314.
+
+[31] [32] [33 <./pic/Structurelattice-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <pic/bordernode.eps>
+(epstopdf)                    date: 2017-09-12 15:04:54
+(epstopdf)                    size: 290717 bytes
+(epstopdf)             Output file: <pic/bordernode-eps-converted-to.pdf>
+(epstopdf)                    date: 2017-09-12 15:09:01
+(epstopdf)                    size: 22206 bytes
+(epstopdf)             Command: <epstopdf --outfile=pic/bordernode-eps-converte
+d-to.pdf pic/bordernode.eps>
+(epstopdf)             \includegraphics on input line 337.
+Package epstopdf Info: Output file is already uptodate.
+
+<pic/bordernode-eps-converted-to.pdf, id=802, 424.58624pt x 216.81pt>
+File: pic/bordernode-eps-converted-to.pdf Graphic file (type pdf)
+
+<use pic/bordernode-eps-converted-to.pdf>
+Package pdftex.def Info: pic/bordernode-eps-converted-to.pdf used on input line
+ 337.
+(pdftex.def)             Requested size: 212.2926pt x 108.40472pt.
+ [34 <./pic/bordernode-eps-converted-to.pdf>] [35] [36]
+
+LaTeX Warning: Reference `alg:StructurePlanner' on page 37 undefined on input l
+ine 421.
+
+[37] [38] [39]
+Overfull \hbox (4.48495pt too wide) in paragraph at lines 502--503
+[]\OT1/cmr/m/n/12 We ex-plain im-ple-men-ta-tion of func-tion $\OML/cmm/m/it/12
+ retrieve[]\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 s; V[]\OT1/cmr/m/n/12 )$. It fetch
+es re-sults from databases
+ []
+
+[40]
+Overfull \hbox (36.49889pt too wide) in paragraph at lines 510--511
+\OT1/cmr/m/n/12 We have men-tioned two ad-van-tages of $\OML/cmm/m/it/12 retrie
+ve[]\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 s; V[]\OT1/cmr/m/n/12 )$. How-ever a dis-
+ad-van-tage of $\OML/cmm/m/it/12 retrieve[]\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 s;
+ V[]\OT1/cmr/m/n/12 )$
+ []
+
+[41]
+
+LaTeX Warning: Reference `alg:StructurePlanner' on page 42 undefined on input l
+ine 534.
+
+
+Overfull \hbox (33.63408pt too wide) in paragraph at lines 534--535
+\OT1/cmr/m/n/12 sizes two re-trieval meth-ods: $\OML/cmm/m/it/12 retrieve[]\OT1
+/cmr/m/n/12 (\OML/cmm/m/it/12 s; V[]\OT1/cmr/m/n/12 )\OML/cmm/m/it/12 :estSize$
+ \OT1/cmr/m/n/12 and $\OML/cmm/m/it/12 retrieve\OT1/cmr/m/n/12 (\OML/cmm/m/it/1
+2 s\OT1/cmr/m/n/12 )\OML/cmm/m/it/12 :estSize$\OT1/cmr/m/n/12 . $\OML/cmm/m/it/
+12 retrieve\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 s\OT1/cmr/m/n/12 )\OML/cmm/m/it/12
+ :estSize$
+ []
+
+
+Overfull \hbox (63.5388pt too wide) in paragraph at lines 534--535
+\OT1/cmr/m/n/12 can be re-turned by $\OML/cmm/m/it/12 space\OT1/cmr/m/n/12 (\OM
+L/cmm/m/it/12 substructure\OT1/cmr/m/n/12 )$ in Al-go-rithm []. Now the tricky 
+one is $\OML/cmm/m/it/12 retrieve[]\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 s; V[]\OT1
+/cmr/m/n/12 )\OML/cmm/m/it/12 :estSize$\OT1/cmr/m/n/12 .
+ []
+
+
+Overfull \hbox (17.56175pt too wide) in paragraph at lines 542--543
+\OT1/cmr/m/n/12 sult size re-duc-tion against its cost in pass-ing can-di-date 
+IDs by eval-u-at-ing $(\OML/cmm/m/it/12 retrieve\OT1/cmr/m/n/12 (\OML/cmm/m/it/
+12 s\OT1/cmr/m/n/12 )\OML/cmm/m/it/12 :estSize \OMS/cmsy/m/n/12  
+ []
+
+[42]) [43]
+Chapter 5.
+(experiment.tex [44
+
+
+] <pic/MetaExp.jpg, id=931, 673.51625pt x 417.56pt>
+File: pic/MetaExp.jpg Graphic file (type jpg)
+
+<use pic/MetaExp.jpg>
+Package pdftex.def Info: pic/MetaExp.jpg used on input line 21.
+(pdftex.def)             Requested size: 336.7573pt x 208.77948pt.
+ [45 <./pic/MetaExp.jpg>] [46]
+
+LaTeX Warning: Citation `DBLP:conf/dmkdttt/DewsnipM01' on page 47 undefined on 
+input line 118.
+
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ú in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ù in font cmr12!
+[47]
+Package epstopdf Info: Source file: <plot/neo4j.eps>
+(epstopdf)                    date: 2017-09-12 12:25:54
+(epstopdf)                    size: 31232 bytes
+(epstopdf)             Output file: <plot/neo4j-eps-converted-to.pdf>
+(epstopdf)                    date: 2017-09-12 12:26:16
+(epstopdf)                    size: 43949 bytes
+(epstopdf)             Command: <epstopdf --outfile=plot/neo4j-eps-converted-to
+.pdf plot/neo4j.eps>
+(epstopdf)             \includegraphics on input line 151.
+Package epstopdf Info: Output file is already uptodate.
+ <plot/neo4j-eps-converted-to.pdf, id=962, 505.89pt x 722.7pt>
+File: plot/neo4j-eps-converted-to.pdf Graphic file (type pdf)
+
+<use plot/neo4j-eps-converted-to.pdf>
+Package pdftex.def Info: plot/neo4j-eps-converted-to.pdf used on input line 151
+.
+(pdftex.def)             Requested size: 252.94437pt x 361.3491pt.
+Package epstopdf Info: Source file: <pic/MetaSExp.eps>
+(epstopdf)                    date: 2017-09-12 15:04:53
+(epstopdf)                    size: 452429 bytes
+(epstopdf)             Output file: <pic/MetaSExp-eps-converted-to.pdf>
+(epstopdf)                    date: 2017-09-12 15:09:05
+(epstopdf)                    size: 67901 bytes
+(epstopdf)             Command: <epstopdf --outfile=pic/MetaSExp-eps-converted-
+to.pdf pic/MetaSExp.eps>
+(epstopdf)             \includegraphics on input line 160.
+Package epstopdf Info: Output file is already uptodate.
+
+<pic/MetaSExp-eps-converted-to.pdf, id=964, 683.55376pt x 417.56pt>
+File: pic/MetaSExp-eps-converted-to.pdf Graphic file (type pdf)
+
+<use pic/MetaSExp-eps-converted-to.pdf>
+Package pdftex.def Info: pic/MetaSExp-eps-converted-to.pdf used on input line 1
+60.
+(pdftex.def)             Requested size: 341.77605pt x 208.77948pt.
+ [48 <./plot/neo4j-eps-converted-to.pdf>]
+Overfull \hbox (44.14561pt too wide) in paragraph at lines 165--166
+\OT1/cmr/m/n/12 Post.ActiveMonth\OMS/cmsy/m/n/12 g\OT1/cmr/m/n/12 , \OMS/cmsy/m
+/n/12 f\OT1/cmr/m/n/12 User.CreationDate[]Year, Post.PostTypeId\OMS/cmsy/m/n/12
+ g\OT1/cmr/m/n/12 , and \OMS/cmsy/m/n/12 f\OT1/cmr/m/n/12 User.UpVotes, Post.Sc
+ore\OMS/cmsy/m/n/12 g\OT1/cmr/m/n/12 .
+ []
+
+[49 <./pic/MetaSExp-eps-converted-to.pdf>] [50]
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+Package epstopdf Info: Source file: <plot/omega.eps>
+(epstopdf)                    date: 2017-09-12 12:25:52
+(epstopdf)                    size: 24223 bytes
+(epstopdf)             Output file: <plot/omega-eps-converted-to.pdf>
+(epstopdf)                    date: 2017-09-12 12:26:16
+(epstopdf)                    size: 9956 bytes
+(epstopdf)             Command: <epstopdf --outfile=plot/omega-eps-converted-to
+.pdf plot/omega.eps>
+(epstopdf)             \includegraphics on input line 199.
+Package epstopdf Info: Output file is already uptodate.
+
+<plot/omega-eps-converted-to.pdf, id=994, 505.89pt x 722.7pt>
+File: plot/omega-eps-converted-to.pdf Graphic file (type pdf)
+
+<use plot/omega-eps-converted-to.pdf>
+Package pdftex.def Info: plot/omega-eps-converted-to.pdf used on input line 199
+.
+(pdftex.def)             Requested size: 252.94437pt x 361.3491pt.
+ [51 <./plot/omega-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <plot/limit.eps>
+(epstopdf)                    date: 2017-09-12 12:25:53
+(epstopdf)                    size: 27052 bytes
+(epstopdf)             Output file: <plot/limit-eps-converted-to.pdf>
+(epstopdf)                    date: 2017-09-12 12:26:18
+(epstopdf)                    size: 10139 bytes
+(epstopdf)             Command: <epstopdf --outfile=plot/limit-eps-converted-to
+.pdf plot/limit.eps>
+(epstopdf)             \includegraphics on input line 213.
+Package epstopdf Info: Output file is already uptodate.
+
+<plot/limit-eps-converted-to.pdf, id=1007, 505.89pt x 722.7pt>
+File: plot/limit-eps-converted-to.pdf Graphic file (type pdf)
+
+<use plot/limit-eps-converted-to.pdf>
+Package pdftex.def Info: plot/limit-eps-converted-to.pdf used on input line 213
+.
+(pdftex.def)             Requested size: 252.94437pt x 361.3491pt.
+Package epstopdf Info: Source file: <plot/disk.eps>
+(epstopdf)                    date: 2017-09-12 12:25:52
+(epstopdf)                    size: 24238 bytes
+(epstopdf)             Output file: <plot/disk-eps-converted-to.pdf>
+(epstopdf)                    date: 2017-09-12 12:26:19
+(epstopdf)                    size: 9116 bytes
+(epstopdf)             Command: <epstopdf --outfile=plot/disk-eps-converted-to.
+pdf plot/disk.eps>
+(epstopdf)             \includegraphics on input line 228.
+Package epstopdf Info: Output file is already uptodate.
+
+<plot/disk-eps-converted-to.pdf, id=1010, 505.89pt x 722.7pt>
+File: plot/disk-eps-converted-to.pdf Graphic file (type pdf)
+
+<use plot/disk-eps-converted-to.pdf>
+Package pdftex.def Info: plot/disk-eps-converted-to.pdf used on input line 228.
+
+(pdftex.def)             Requested size: 252.94437pt x 361.3491pt.
+ [52 <./plot/limit-eps-converted-to.pdf>]
+Overfull \hbox (4.49864pt too wide) in paragraph at lines 237--238
+\OT1/cmr/m/n/12 ciency and space cost. Cuboids se-lected by Cube-Plan-ner are $
+\OMS/cmsy/m/n/12 f$\OT1/cmr/m/n/12 User.Age, Post.ActiveMonth$\OMS/cmsy/m/n/12 
+g$\OT1/cmr/m/n/12 ,
+ []
+
+
+Overfull \hbox (24.7706pt too wide) in paragraph at lines 237--238
+\OT1/cmr/m/n/12 PMA se-lected $\OMS/cmsy/m/n/12 f$\OT1/cmr/m/n/12 User.Age, Use
+r.UpVotes, User.CreationDate[]Year, Post.PostTypeId, Post.Score,
+ []
+
+Package epstopdf Info: Source file: <plot/qjiawei.eps>
+(epstopdf)                    date: 2017-09-12 12:25:57
+(epstopdf)                    size: 26007 bytes
+(epstopdf)             Output file: <plot/qjiawei-eps-converted-to.pdf>
+(epstopdf)                    date: 2017-09-12 12:27:05
+(epstopdf)                    size: 21371 bytes
+(epstopdf)             Command: <epstopdf --outfile=plot/qjiawei-eps-converted-
+to.pdf plot/qjiawei.eps>
+(epstopdf)             \includegraphics on input line 242.
+Package epstopdf Info: Output file is already uptodate.
+<plot/qjiawei-eps-converted-to.pdf, id=1027, 505.89pt x 722.7pt>
+File: plot/qjiawei-eps-converted-to.pdf Graphic file (type pdf)
+
+<use plot/qjiawei-eps-converted-to.pdf>
+Package pdftex.def Info: plot/qjiawei-eps-converted-to.pdf used on input line 2
+42.
+(pdftex.def)             Requested size: 237.76833pt x 339.66904pt.
+ [53 <./plot/disk-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <plot/jiaweispace.eps>
+(epstopdf)                    date: 2017-09-12 12:25:52
+(epstopdf)                    size: 25176 bytes
+(epstopdf)             Output file: <plot/jiaweispace-eps-converted-to.pdf>
+(epstopdf)                    date: 2017-09-12 12:27:06
+(epstopdf)                    size: 9529 bytes
+(epstopdf)             Command: <epstopdf --outfile=plot/jiaweispace-eps-conver
+ted-to.pdf plot/jiaweispace.eps>
+(epstopdf)             \includegraphics on input line 249.
+Package epstopdf Info: Output file is already uptodate.
+<plot/jiaweispace-eps-converted-to.pdf, id=1038, 505.89pt x 722.7pt>
+File: plot/jiaweispace-eps-converted-to.pdf Graphic file (type pdf)
+
+<use plot/jiaweispace-eps-converted-to.pdf>
+Package pdftex.def Info: plot/jiaweispace-eps-converted-to.pdf used on input li
+ne 249.
+(pdftex.def)             Requested size: 237.76833pt x 339.66904pt.
+ [54 <./plot/qjiawei-eps-converted-to.pdf> <./plot/jiaweispace-eps-converted-to
+.pdf>]
+Package epstopdf Info: Source file: <plot/fpm.eps>
+(epstopdf)                    date: 2017-09-12 12:25:52
+(epstopdf)                    size: 24279 bytes
+(epstopdf)             Output file: <plot/fpm-eps-converted-to.pdf>
+(epstopdf)                    date: 2017-09-12 12:27:07
+(epstopdf)                    size: 8125 bytes
+(epstopdf)             Command: <epstopdf --outfile=plot/fpm-eps-converted-to.p
+df plot/fpm.eps>
+(epstopdf)             \includegraphics on input line 264.
+Package epstopdf Info: Output file is already uptodate.
+
+<plot/fpm-eps-converted-to.pdf, id=1062, 505.89pt x 722.7pt>
+File: plot/fpm-eps-converted-to.pdf Graphic file (type pdf)
+
+<use plot/fpm-eps-converted-to.pdf>
+Package pdftex.def Info: plot/fpm-eps-converted-to.pdf used on input line 264.
+(pdftex.def)             Requested size: 237.76833pt x 339.66904pt.
+ [55]
+Package epstopdf Info: Source file: <plot/fpm_space.eps>
+(epstopdf)                    date: 2017-09-12 12:25:52
+(epstopdf)                    size: 24248 bytes
+(epstopdf)             Output file: <plot/fpm_space-eps-converted-to.pdf>
+(epstopdf)                    date: 2017-09-12 12:27:08
+(epstopdf)                    size: 8743 bytes
+(epstopdf)             Command: <epstopdf --outfile=plot/fpm_space-eps-converte
+d-to.pdf plot/fpm_space.eps>
+(epstopdf)             \includegraphics on input line 271.
+Package epstopdf Info: Output file is already uptodate.
+
+<plot/fpm_space-eps-converted-to.pdf, id=1067, 505.89pt x 722.7pt>
+File: plot/fpm_space-eps-converted-to.pdf Graphic file (type pdf)
+
+<use plot/fpm_space-eps-converted-to.pdf>
+Package pdftex.def Info: plot/fpm_space-eps-converted-to.pdf used on input line
+ 271.
+(pdftex.def)             Requested size: 237.76833pt x 339.66904pt.
+ [56 <./plot/fpm-eps-converted-to.pdf> <./plot/fpm_space-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <plot/qfpm.eps>
+(epstopdf)                    date: 2017-09-12 12:25:56
+(epstopdf)                    size: 30509 bytes
+(epstopdf)             Output file: <plot/qfpm-eps-converted-to.pdf>
+(epstopdf)                    date: 2017-09-12 12:27:09
+(epstopdf)                    size: 42895 bytes
+(epstopdf)             Command: <epstopdf --outfile=plot/qfpm-eps-converted-to.
+pdf plot/qfpm.eps>
+(epstopdf)             \includegraphics on input line 280.
+Package epstopdf Info: Output file is already uptodate.
+
+<plot/qfpm-eps-converted-to.pdf, id=1085, 505.89pt x 722.7pt>
+File: plot/qfpm-eps-converted-to.pdf Graphic file (type pdf)
+
+<use plot/qfpm-eps-converted-to.pdf>
+Package pdftex.def Info: plot/qfpm-eps-converted-to.pdf used on input line 280.
+
+(pdftex.def)             Requested size: 252.94437pt x 361.3491pt.
+ [57 <./plot/qfpm-eps-converted-to.pdf>]
+Overfull \hbox (65.14812pt too wide) in paragraph at lines 297--298
+\OT1/cmr/m/n/12 We now present the ex-per-i-ments com-par-ing $\OML/cmm/m/it/12
+ Decompose[]Join$\OT1/cmr/m/n/12 , $\OML/cmm/m/it/12 Decompose[]Join[]$ \OT1/cm
+r/m/n/12 and $\OML/cmm/m/it/12 Decompose[]Join[]$
+ []
+
+Package epstopdf Info: Source file: <plot/threeall.eps>
+(epstopdf)                    date: 2017-09-12 12:25:58
+(epstopdf)                    size: 25698 bytes
+(epstopdf)             Output file: <plot/threeall-eps-converted-to.pdf>
+(epstopdf)                    date: 2017-09-12 12:27:10
+(epstopdf)                    size: 17860 bytes
+(epstopdf)             Command: <epstopdf --outfile=plot/threeall-eps-converted
+-to.pdf plot/threeall.eps>
+(epstopdf)             \includegraphics on input line 302.
+Package epstopdf Info: Output file is already uptodate.
+<plot/threeall-eps-converted-to.pdf, id=1106, 505.89pt x 722.7pt>
+File: plot/threeall-eps-converted-to.pdf Graphic file (type pdf)
+
+<use plot/threeall-eps-converted-to.pdf>
+Package pdftex.def Info: plot/threeall-eps-converted-to.pdf used on input line 
+302.
+(pdftex.def)             Requested size: 237.76833pt x 339.66904pt.
+ [58]
+Package epstopdf Info: Source file: <plot/threejoin.eps>
+(epstopdf)                    date: 2017-09-12 12:25:58
+(epstopdf)                    size: 25382 bytes
+(epstopdf)             Output file: <plot/threejoin-eps-converted-to.pdf>
+(epstopdf)                    date: 2017-09-12 12:27:11
+(epstopdf)                    size: 17531 bytes
+(epstopdf)             Command: <epstopdf --outfile=plot/threejoin-eps-converte
+d-to.pdf plot/threejoin.eps>
+(epstopdf)             \includegraphics on input line 310.
+Package epstopdf Info: Output file is already uptodate.
+
+<plot/threejoin-eps-converted-to.pdf, id=1111, 505.89pt x 722.7pt>
+File: plot/threejoin-eps-converted-to.pdf Graphic file (type pdf)
+
+<use plot/threejoin-eps-converted-to.pdf>
+Package pdftex.def Info: plot/threejoin-eps-converted-to.pdf used on input line
+ 310.
+(pdftex.def)             Requested size: 237.76833pt x 339.66904pt.
+Package epstopdf Info: Source file: <plot/threetotal.eps>
+(epstopdf)                    date: 2017-09-12 12:31:02
+(epstopdf)                    size: 24047 bytes
+(epstopdf)             Output file: <plot/threetotal-eps-converted-to.pdf>
+(epstopdf)                    date: 2017-09-12 12:31:22
+(epstopdf)                    size: 10301 bytes
+(epstopdf)             Command: <epstopdf --outfile=plot/threetotal-eps-convert
+ed-to.pdf plot/threetotal.eps>
+(epstopdf)             \includegraphics on input line 316.
+Package epstopdf Info: Output file is already uptodate.
+
+<plot/threetotal-eps-converted-to.pdf, id=1112, 505.89pt x 722.7pt>
+File: plot/threetotal-eps-converted-to.pdf Graphic file (type pdf)
+
+<use plot/threetotal-eps-converted-to.pdf>
+Package pdftex.def Info: plot/threetotal-eps-converted-to.pdf used on input lin
+e 316.
+(pdftex.def)             Requested size: 237.76833pt x 339.66904pt.
+ [59 <./plot/threeall-eps-converted-to.pdf> <./plot/threejoin-eps-converted-to.
+pdf>]
+Package epstopdf Info: Source file: <plot/threesample.eps>
+(epstopdf)                    date: 2017-09-12 12:25:59
+(epstopdf)                    size: 26870 bytes
+(epstopdf)             Output file: <plot/threesample-eps-converted-to.pdf>
+(epstopdf)                    date: 2017-09-12 12:27:13
+(epstopdf)                    size: 15143 bytes
+(epstopdf)             Command: <epstopdf --outfile=plot/threesample-eps-conver
+ted-to.pdf plot/threesample.eps>
+(epstopdf)             \includegraphics on input line 323.
+Package epstopdf Info: Output file is already uptodate.
+
+<plot/threesample-eps-converted-to.pdf, id=1133, 505.89pt x 722.7pt>
+File: plot/threesample-eps-converted-to.pdf Graphic file (type pdf)
+
+<use plot/threesample-eps-converted-to.pdf>
+Package pdftex.def Info: plot/threesample-eps-converted-to.pdf used on input li
+ne 323.
+(pdftex.def)             Requested size: 237.76833pt x 339.66904pt.
+ [60 <./plot/threetotal-eps-converted-to.pdf> <./plot/threesample-eps-converted
+-to.pdf>]
+Package epstopdf Info: Source file: <pic/wrong.eps>
+(epstopdf)                    date: 2017-09-12 15:04:54
+(epstopdf)                    size: 280661 bytes
+(epstopdf)             Output file: <pic/wrong-eps-converted-to.pdf>
+(epstopdf)                    date: 2017-09-12 15:09:08
+(epstopdf)                    size: 23356 bytes
+(epstopdf)             Command: <epstopdf --outfile=pic/wrong-eps-converted-to.
+pdf pic/wrong.eps>
+(epstopdf)             \includegraphics on input line 348.
+Package epstopdf Info: Output file is already uptodate.
+
+<pic/wrong-eps-converted-to.pdf, id=1153, 200.75pt x 429.605pt>
+File: pic/wrong-eps-converted-to.pdf Graphic file (type pdf)
+
+<use pic/wrong-eps-converted-to.pdf>
+Package pdftex.def Info: pic/wrong-eps-converted-to.pdf used on input line 348.
+
+(pdftex.def)             Requested size: 140.52403pt x 300.72144pt.
+ [61]
+Package epstopdf Info: Source file: <pic/wrong2.eps>
+(epstopdf)                    date: 2017-09-12 15:04:54
+(epstopdf)                    size: 280662 bytes
+(epstopdf)             Output file: <pic/wrong2-eps-converted-to.pdf>
+(epstopdf)                    date: 2017-09-12 15:09:10
+(epstopdf)                    size: 23357 bytes
+(epstopdf)             Command: <epstopdf --outfile=pic/wrong2-eps-converted-to
+.pdf pic/wrong2.eps>
+(epstopdf)             \includegraphics on input line 355.
+Package epstopdf Info: Output file is already uptodate.
+
+<pic/wrong2-eps-converted-to.pdf, id=1158, 200.75pt x 429.605pt>
+File: pic/wrong2-eps-converted-to.pdf Graphic file (type pdf)
+
+<use pic/wrong2-eps-converted-to.pdf>
+Package pdftex.def Info: pic/wrong2-eps-converted-to.pdf used on input line 355
+.
+(pdftex.def)             Requested size: 140.52403pt x 300.72144pt.
+) [62 <./pic/wrong-eps-converted-to.pdf>]
+[63 <./pic/wrong2-eps-converted-to.pdf>]
+Chapter 6.
+(conclusion.tex) [64
+
+
+] (main.bbl [65
+
+
+
+
+] [66] [67]) [68] [69
+
+
+]
+Appendix A.
+[70
+
+
+]
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+ [71]
+Overfull \hbox (5.60588pt too wide) in paragraph at lines 422--423
+[]\OT1/cmr/m/n/12 What is the dis-tri-bu-tion of users' up-votes for each topic
+ of an-swers (Post.PostTypeId=2)? 
+ []
+
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+[72
+runsystem(makeindex -s main.ist -t main.glg -o main.gls main.glo)...executed (a
+llowed).
+
+runsystem(makeindex -s main.ist -t main.glg-abr -o main.gls-abr main.glo-abr)..
+.executed (allowed).
+
+runsystem(makeindex -s main.ist -t main.nomenclature-glg -o main.nomenclature-g
+ls main.nomenclature-glo)...executed (allowed).
+
+runsystem(makeindex -s main.ist -t main.symbols-glg -o main.symbols-gls main.sy
+mbols-glo)...executed (allowed).
+
+]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 441.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 441.
+ (main.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 441.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 441.
+Package rerunfilecheck Info: File `main.out' has not changed.
+(rerunfilecheck)             Checksum: 60FA23104364DA83AA791F434A7AD304;3656.
+
+
+LaTeX Warning: There were undefined references.
 
  )
-(\end occurred when \ifx on line 161 was incomplete)
-(\end occurred when \ifx on line 161 was incomplete) 
-Here is how much of TeX's memory you used:
- 25530 strings out of 493698
- 482144 string characters out of 3144402
- 561181 words of memory out of 3000000
- 28522 multiletter control sequences out of 15000+200000
- 3938 words of font info for 15 fonts, out of 3000000 for 9000
- 1025 hyphenation exceptions out of 8191
- 68i,1n,98p,10489b,267s stack positions out of 5000i,500n,10000p,200000b,50000s
+(\end occurred inside a group at level 1)
 
-No pages of output.
+### simple group (level 1) entered at line 1061 ({)
+### bottom level 
+Here is how much of TeX's memory you used:
+ 32948 strings out of 493323
+ 624246 string characters out of 3138968
+ 788570 words of memory out of 3000000
+ 35560 multiletter control sequences out of 15000+200000
+ 542444 words of font info for 68 fonts, out of 3000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 73i,18n,66p,10491b,22675s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmb
+x10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
+<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx8.pfb><C:/Progr
+am Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbxti10.pfb><C:/Program Fil
+es/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTe
+X 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Files/MiKTeX 2.9/fo
+nts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1
+/public/amsfonts/cm/cmmi8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/a
+msfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/c
+m/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.p
+fb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Pro
+gram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsl12.pfb><C:/Program Fil
+es/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTe
+X 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files/MiKTeX 2.9/fon
+ts/type1/public/amsfonts/cm/cmti12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1
+/public/amsfonts/cm/cmtt12.pfb>
+Output written on main.pdf (83 pages, 1709586 bytes).
 PDF statistics:
- 3 PDF objects out of 1000 (max. 8388607)
- 0 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1350 PDF objects out of 1440 (max. 8388607)
+ 358 named destinations out of 1000 (max. 500000)
+ 577 words of extra memory for PDF output out of 10000 (max. 10000000)
 

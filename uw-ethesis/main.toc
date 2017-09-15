@@ -1,60 +1,60 @@
 \begingroup \renewcommand {\rintodo }[1]{}
-\contentsline {chapter}{List of Tables}{viii}{section*.2}
-\contentsline {chapter}{List of Figures}{ix}{section*.4}
+\contentsline {chapter}{List of Tables}{ix}{section*.2}
+\contentsline {chapter}{List of Figures}{x}{section*.4}
 \contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}
 \contentsline {section}{\numberline {1.1}Property Graph Model}{1}{section.1.1}
-\contentsline {section}{\numberline {1.2}OLAP over Property Graph}{3}{section.1.2}
-\contentsline {section}{\numberline {1.3}Challenges of Graph OLAP}{3}{section.1.3}
-\contentsline {section}{\numberline {1.4}Our Solution and Contributions}{5}{section.1.4}
-\contentsline {chapter}{\numberline {2}Background and Related Work}{7}{chapter.2}
-\contentsline {section}{\numberline {2.1}OLAP over Property Graph Model}{7}{section.2.1}
-\contentsline {subsection}{\numberline {2.1.1}OLAP Examples}{8}{subsection.2.1.1}
-\contentsline {subsection}{\numberline {2.1.2}Structure, Dimension, and Measure}{11}{subsection.2.1.2}
-\contentsline {section}{\numberline {2.2}Graph Databases and Neo4j}{13}{section.2.2}
-\contentsline {section}{\numberline {2.3}Related Work}{14}{section.2.3}
+\contentsline {section}{\numberline {1.2}OLAP over Property Graph}{4}{section.1.2}
+\contentsline {section}{\numberline {1.3}Challenges of Graph OLAP}{5}{section.1.3}
+\contentsline {section}{\numberline {1.4}Our Solution and Contributions}{7}{section.1.4}
+\contentsline {chapter}{\numberline {2}Background and Related Work}{9}{chapter.2}
+\contentsline {section}{\numberline {2.1}OLAP over Property Graph Model}{9}{section.2.1}
+\contentsline {subsection}{\numberline {2.1.1}Graph OLAP Examples}{10}{subsection.2.1.1}
+\contentsline {subsection}{\numberline {2.1.2}Structure, Dimension, and Measure}{12}{subsection.2.1.2}
+\contentsline {section}{\numberline {2.2}Graph Databases and Neo4j}{14}{section.2.2}
+\contentsline {section}{\numberline {2.3}Related Work}{15}{section.2.3}
 \contentsline {chapter}{\numberline {3}Problem Definition}{17}{chapter.3}
-\contentsline {section}{\numberline {3.1}Terminologies}{17}{section.3.1}
+\contentsline {section}{\numberline {3.1}Terminology}{17}{section.3.1}
 \contentsline {subsection}{\numberline {3.1.1}Definition of Property Graph}{17}{subsection.3.1.1}
 \contentsline {subsection}{\numberline {3.1.2}OLAP Query}{18}{subsection.3.1.2}
 \contentsline {subsection}{\numberline {3.1.3}Materialization: Cuboid \& Substructure}{19}{subsection.3.1.3}
 \contentsline {section}{\numberline {3.2}Problem Definition}{20}{section.3.2}
 \contentsline {chapter}{\numberline {4}Solution}{22}{chapter.4}
 \contentsline {section}{\numberline {4.1}Solution Framework Overview}{22}{section.4.1}
-\contentsline {section}{\numberline {4.2}Materialized View Selection}{24}{section.4.2}
+\contentsline {section}{\numberline {4.2}Materialized View Selection}{23}{section.4.2}
 \contentsline {subsection}{\numberline {4.2.1}Overview of Materialized View Selection}{24}{subsection.4.2.1}
-\contentsline {subsection}{\numberline {4.2.2}Greedy Selection Framework}{26}{subsection.4.2.2}
-\contentsline {subsection}{\numberline {4.2.3}CubePlanner}{28}{subsection.4.2.3}
-\contentsline {subsubsection}{CubePlanner}{28}{section*.8}
-\contentsline {subsubsection}{SingleCubePlanner}{29}{section*.9}
+\contentsline {subsection}{\numberline {4.2.2}Greedy Selection Framework}{25}{subsection.4.2.2}
+\contentsline {subsection}{\numberline {4.2.3}CubePlanner}{27}{subsection.4.2.3}
+\contentsline {subsubsection}{CubePlanner}{27}{section*.8}
+\contentsline {subsubsection}{SingleCubePlanner}{28}{section*.9}
 \contentsline {subsection}{\numberline {4.2.4}Structure Planner}{31}{subsection.4.2.4}
-\contentsline {subsection}{\numberline {4.2.5}ID and Property Selection}{35}{subsection.4.2.5}
-\contentsline {subsection}{\numberline {4.2.6}Update on Materialized Views}{36}{subsection.4.2.6}
-\contentsline {section}{\numberline {4.3}Query Processing}{36}{section.4.3}
-\contentsline {subsection}{\numberline {4.3.1}Substructure Selection}{37}{subsection.4.3.1}
-\contentsline {subsection}{\numberline {4.3.2}Decomposition and Join}{39}{subsection.4.3.2}
-\contentsline {subsubsection}{\#1 $Decompose\_Join$}{40}{section*.10}
-\contentsline {subsubsection}{\#2 $Decompose\_Join^{*}$}{41}{section*.11}
-\contentsline {subsubsection}{\#3 $Decompose\_Join^{+}$}{42}{section*.12}
-\contentsline {chapter}{\numberline {5}Experiments}{45}{chapter.5}
-\contentsline {section}{\numberline {5.1}Experiment Setup}{45}{section.5.1}
-\contentsline {subsection}{\numberline {5.1.1}Datasets}{45}{subsection.5.1.1}
-\contentsline {subsection}{\numberline {5.1.2}Query Workloads}{46}{subsection.5.1.2}
-\contentsline {subsection}{\numberline {5.1.3}System Setting}{47}{subsection.5.1.3}
-\contentsline {section}{\numberline {5.2}Aspects of Interest}{48}{section.5.2}
-\contentsline {section}{\numberline {5.3}Results and Discussion}{49}{section.5.3}
-\contentsline {subsection}{\numberline {5.3.1}Our System vs. Neo4j}{49}{subsection.5.3.1}
-\contentsline {subsection}{\numberline {5.3.2}Frequency Threshold}{51}{subsection.5.3.2}
-\contentsline {subsection}{\numberline {5.3.3}Space Cost Limit}{52}{subsection.5.3.3}
-\contentsline {subsection}{\numberline {5.3.4}Storage Level for Materialized Views}{53}{subsection.5.3.4}
-\contentsline {subsection}{\numberline {5.3.5}CubePlanner v.s. PMA}{54}{subsection.5.3.5}
-\contentsline {subsection}{\numberline {5.3.6}StructurePlanner v.s. FPM}{56}{subsection.5.3.6}
-\contentsline {subsection}{\numberline {5.3.7}Substructure Selection}{59}{subsection.5.3.7}
-\contentsline {subsection}{\numberline {5.3.8}Decompose\_Join}{59}{subsection.5.3.8}
-\contentsline {subsection}{\numberline {5.3.9}Reflection on Neo4j}{63}{subsection.5.3.9}
-\contentsline {chapter}{\numberline {6}Conclusion}{66}{chapter.6}
-\contentsline {chapter}{\textbf {References}}{67}{section*.13}
-\contentsline {chapter}{APPENDICES}{70}{appendix*.15}
-\contentsline {chapter}{\numberline {A}PDF Plots From Matlab}{71}{appendix.A}
-\contentsline {section}{\numberline {A.1}Previous Workload}{71}{section.A.1}
-\contentsline {section}{\numberline {A.2}Future Workload}{72}{section.A.2}
+\contentsline {subsection}{\numberline {4.2.5}ID and Property Selection}{33}{subsection.4.2.5}
+\contentsline {subsection}{\numberline {4.2.6}Update on Materialized Views}{35}{subsection.4.2.6}
+\contentsline {section}{\numberline {4.3}Query Processing}{35}{section.4.3}
+\contentsline {subsection}{\numberline {4.3.1}Substructure Selection}{36}{subsection.4.3.1}
+\contentsline {subsection}{\numberline {4.3.2}Decomposition and Join}{38}{subsection.4.3.2}
+\contentsline {subsubsection}{\#1 $Decompose\_Join$}{39}{section*.10}
+\contentsline {subsubsection}{\#2 $Decompose\_Join^{*}$}{40}{section*.11}
+\contentsline {subsubsection}{\#3 $Decompose\_Join^{+}$}{41}{section*.12}
+\contentsline {chapter}{\numberline {5}Evaluation}{44}{chapter.5}
+\contentsline {section}{\numberline {5.1}Experiment Setup}{44}{section.5.1}
+\contentsline {subsection}{\numberline {5.1.1}Datasets}{44}{subsection.5.1.1}
+\contentsline {subsection}{\numberline {5.1.2}Query Workloads}{45}{subsection.5.1.2}
+\contentsline {subsection}{\numberline {5.1.3}System Setting}{46}{subsection.5.1.3}
+\contentsline {section}{\numberline {5.2}Aspects of Interest}{47}{section.5.2}
+\contentsline {section}{\numberline {5.3}Results and Discussion}{48}{section.5.3}
+\contentsline {subsection}{\numberline {5.3.1}Our System vs. Neo4j}{48}{subsection.5.3.1}
+\contentsline {subsection}{\numberline {5.3.2}Frequency Threshold}{50}{subsection.5.3.2}
+\contentsline {subsection}{\numberline {5.3.3}Space Cost Limit}{51}{subsection.5.3.3}
+\contentsline {subsection}{\numberline {5.3.4}Storage Level for Materialized Views}{52}{subsection.5.3.4}
+\contentsline {subsection}{\numberline {5.3.5}CubePlanner vs PMA}{53}{subsection.5.3.5}
+\contentsline {subsection}{\numberline {5.3.6}StructurePlanner vs FPM}{55}{subsection.5.3.6}
+\contentsline {subsection}{\numberline {5.3.7}Substructure Selection}{57}{subsection.5.3.7}
+\contentsline {subsection}{\numberline {5.3.8}Decompose\_Join}{58}{subsection.5.3.8}
+\contentsline {subsection}{\numberline {5.3.9}Reflections on Neo4j}{61}{subsection.5.3.9}
+\contentsline {chapter}{\numberline {6}Conclusion}{64}{chapter.6}
+\contentsline {chapter}{\textbf {References}}{65}{section*.13}
+\contentsline {chapter}{APPENDICES}{69}{appendix*.15}
+\contentsline {chapter}{\numberline {A}PDF Plots From Matlab}{70}{appendix.A}
+\contentsline {section}{\numberline {A.1}Previous Workload}{70}{section.A.1}
+\contentsline {section}{\numberline {A.2}Future Workload}{71}{section.A.2}
 \endgroup 

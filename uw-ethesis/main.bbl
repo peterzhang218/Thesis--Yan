@@ -52,17 +52,19 @@ Shifeng Fang, Li~Da Xu, Yunqiang Zhu, Jiaerheng Ahati, Huan Pei, Jianwu Yan,
   management based on internet of things.
 \newblock {\em {IEEE} Trans. Industrial Informatics}, 10(2):1596--1605, 2014.
 
-\bibitem{goossens.book}
-Michel Goossens, Frank Mittelbach, and Alexander Samarin.
-\newblock {\em The \LaTeX\ Companion}.
-\newblock Addison-Wesley, Reading, Massachusetts, 1994.
-
 \bibitem{DBLP:journals/datamine/GrayCBLRVPP97}
 Jim Gray, Surajit Chaudhuri, Adam Bosworth, Andrew Layman, Don Reichart, Murali
   Venkatrao, Frank Pellow, and Hamid Pirahesh.
 \newblock Data cube: {A} relational aggregation operator generalizing group-by,
   cross-tab, and sub totals.
 \newblock {\em Data Min. Knowl. Discov.}, 1(1):29--53, 1997.
+
+\bibitem{DBLP:conf/edbt/HolschSG17}
+J{\"{u}}rgen H{\"{o}}lsch, Tobias Schmidt, and Michael Grossniklaus.
+\newblock On the performance of analytical and pattern matching graph queries
+  in neo4j and a relational database.
+\newblock In {\em Proceedings of the Workshops of the {EDBT/ICDT} 2017 Joint
+  Conference {(EDBT/ICDT} 2017), Venice, Italy, March 21-24, 2017.}, 2017.
 
 \bibitem{DBLP:conf/sc/HongDMLVC15}
 Sungpack Hong, Siegfried Depner, Thomas Manhardt, Jan Van~Der Lugt, Merijn
@@ -80,21 +82,24 @@ Wararat Jakawat, C{\'{e}}cile Favre, and Sabine Loudcher.
   in Theory and Practice of Computer Science {(SOFSEM} 2016), Harrachov, Czech
   Republic, January 23-28, 2016.}, pages 87--99, 2016.
 
-\bibitem{knuth.book}
-Donald Knuth.
-\newblock {\em The \TeX book}.
-\newblock Addison-Wesley, Reading, Massachusetts, 1986.
+\bibitem{DBLP:conf/bigdataconf/JindalMCH15}
+Alekh Jindal, Samuel Madden, Mal{\'{u}} Castellanos, and Meichun Hsu.
+\newblock Graph analytics using vertica relational database.
+\newblock In {\em 2015 {IEEE} International Conference on Big Data, Big Data
+  2015, Santa Clara, CA, USA, October 29 - November 1, 2015}, pages 1191--1200,
+  2015.
+
+\bibitem{DBLP:journals/corr/JoishiS17}
+Jeevan Joishi and Ashish Sureka.
+\newblock Graph or relational databases: {A} speed comparison for process
+  mining algorithm.
+\newblock {\em CoRR}, abs/1701.00072, 2017.
 
 \bibitem{DBLP:journals/corr/LamSG16}
 Wing{-}Kit~Sunny Lam, Tony~R. Sahama, and Randike Gajanayake.
 \newblock Constructing a traditional chinese medicine data warehouse
   application.
 \newblock {\em CoRR}, abs/1606.02507, 2016.
-
-\bibitem{lamport.book}
-Leslie Lamport.
-\newblock {\em \LaTeX\ --- A Document Preparation System}.
-\newblock Addison-Wesley, Reading, Massachusetts, second edition, 1994.
 
 \bibitem{DBLP:books/igi/Taniar10/LawrenceR10}
 Michael Lawrence and Andrew Rau{-}Chaplin.
@@ -107,6 +112,11 @@ Michael Lawrence and Andrew Rau{-}Chaplin.
 Wen{-}Yang Lin and I{-}Chung Kuo.
 \newblock A genetic selection algorithm for {OLAP} data cubes.
 \newblock {\em Knowl. Inf. Syst.}, 6(1):83--102, 2004.
+
+\bibitem{DBLP:reference/db/2009}
+Ling Liu and M.~Tamer {\"{O}}zsu, editors.
+\newblock {\em Encyclopedia of Database Systems}.
+\newblock Springer {US}, 2009.
 
 \bibitem{DBLP:conf/esws/MaaliCD15}
 Fadi Maali, St{\'{e}}phane Campinas, and Stefan Decker.
@@ -137,6 +147,13 @@ Arun~N. Swami and K.~Bernhard Schiefer.
   Conference on Extending Database Technology, Cambridge, United Kingdom, March
   28-31, 1994, Proceedings}, pages 287--300, 1994.
 
+\bibitem{DBLP:conf/mtsr/Tomaszuk16}
+Dominik Tomaszuk.
+\newblock {RDF} data in property graph model.
+\newblock In {\em Metadata and Semantics Research - 10th International
+  Conference, {MTSR} 2016, G{\"{o}}ttingen, Germany, November 22-25, 2016,
+  Proceedings}, pages 104--115, 2016.
+
 \bibitem{DBLP:conf/icde/WangFWTAA14}
 Zhengkui Wang, Qi~Fan, Huiju Wang, Kian{-}Lee Tan, Divyakant Agrawal, and Amr
   {El Abbadi}.
@@ -151,6 +168,13 @@ Jim Webber.
 \newblock In {\em Conference on Systems, Programming, and Applications:
   Software for Humanity, {SPLASH} '12, Tucson, AZ, USA, October 21-25, 2012},
   pages 217--218, 2012.
+
+\bibitem{DBLP:conf/grades/Xirogiannopoulos17}
+Konstantinos Xirogiannopoulos, Virinchi Srinivas, and Amol Deshpande.
+\newblock Graphgen: Adaptive graph processing using relational databases.
+\newblock In {\em Proceedings of the Fifth International Workshop on Graph
+  Data-management Experiences {\&} Systems, GRADES@SIGMOD/PODS 2017, Chicago,
+  IL, USA, May 14 - 19, 2017}, pages 9:1--9:7, 2017.
 
 \bibitem{DBLP:conf/sigmod/ZhaoLXH11}
 Peixiang Zhao, Xiaolei Li, Dong Xin, and Jiawei Han.

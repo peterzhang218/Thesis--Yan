@@ -1,33 +1,35 @@
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {1.1}{\ignorespaces A simple property graph modeling ``users post posts''(data graph).}}{2}{figure.1.1}
+\contentsline {figure}{\numberline {1.2}{\ignorespaces Meta graph containing User, Post and Tag.}}{3}{figure.1.2}
+\contentsline {figure}{\numberline {1.3}{\ignorespaces A snapshot of data graph containing User, Post and Tag.}}{3}{figure.1.3}
+\contentsline {figure}{\numberline {1.4}{\ignorespaces Execution plans of Query \#3 for first time and fifth time.}}{6}{figure.1.4}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {2.1}{\ignorespaces \textit {Structure} of Query \#1}}{11}{figure.2.1}
-\contentsline {figure}{\numberline {2.2}{\ignorespaces Cube of properties \{A,B,C\}.}}{12}{figure.2.2}
-\contentsline {figure}{\numberline {2.3}{\ignorespaces \textit {Structure} of Query \#3}}{12}{figure.2.3}
-\contentsline {figure}{\numberline {2.4}{\ignorespaces A simple property graph.}}{13}{figure.2.4}
+\contentsline {figure}{\numberline {2.1}{\ignorespaces \textit {Structure} of Query \#1}}{12}{figure.2.1}
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Cube of properties \{A,B,C\}.}}{13}{figure.2.2}
+\contentsline {figure}{\numberline {2.3}{\ignorespaces \textit {Structure} of Query \#3}}{13}{figure.2.3}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {4.1}{\ignorespaces Solution framework.}}{23}{figure.4.1}
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Neo4j's execution plan for query \textit {User-Badge, User-Post, Post-Tag: Tag.TagName}.}}{32}{figure.4.2}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Neo4j's execution plan for query \textit {User-Badge, User-Post, Post-Tag: Tag.TagName}.}}{30}{figure.4.2}
 \contentsline {figure}{\numberline {4.3}{\ignorespaces A substructure lattice with \textit {Badge-User, User-Post, Post-Tag} as its root node.}}{33}{figure.4.3}
-\contentsline {figure}{\numberline {4.4}{\ignorespaces ``Border nodes'' of structure \textit {User-Post, Post-Tag}.}}{35}{figure.4.4}
+\contentsline {figure}{\numberline {4.4}{\ignorespaces ``Border nodes'' of structure \textit {User-Post, Post-Tag}.}}{34}{figure.4.4}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {5.1}{\ignorespaces The meta graph of StackOverFlow used in experiments.}}{46}{figure.5.1}
-\contentsline {figure}{\numberline {5.2}{\ignorespaces Time efficiency on the future workload: our solution v.s. Neo4j.}}{49}{figure.5.2}
-\contentsline {figure}{\numberline {5.3}{\ignorespaces Substructure selected by StructurePlanner.}}{50}{figure.5.3}
-\contentsline {figure}{\numberline {5.4}{\ignorespaces Total processing time under different settings of $\omega $.}}{52}{figure.5.4}
-\contentsline {figure}{\numberline {5.5}{\ignorespaces Efficiency v.s. Space Cost}}{53}{figure.5.5}
-\contentsline {figure}{\numberline {5.6}{\ignorespaces Main memory storage v.s. hard disk storage}}{54}{figure.5.6}
-\contentsline {figure}{\numberline {5.7}{\ignorespaces Time: CubePlanner v.s. PMA}}{55}{figure.5.7}
-\contentsline {figure}{\numberline {5.8}{\ignorespaces Total cuboid space cost: CubePlanner v.s. PMA}}{56}{figure.5.8}
-\contentsline {figure}{\numberline {5.9}{\ignorespaces Total processing time for future workload: StructurePlanner v.s. FPM}}{57}{figure.5.9}
-\contentsline {figure}{\numberline {5.10}{\ignorespaces Space cost: StructurePlanner v.s. FPM}}{58}{figure.5.10}
-\contentsline {figure}{\numberline {5.11}{\ignorespaces Processing time for each query: StructurePlanner v.s. FPM}}{59}{figure.5.11}
-\contentsline {figure}{\numberline {5.12}{\ignorespaces Processing time for Q10 - Q12 by three approaches.}}{60}{figure.5.12}
-\contentsline {figure}{\numberline {5.13}{\ignorespaces Joining time in processing Q10 - Q12 by three approaches.}}{61}{figure.5.13}
-\contentsline {figure}{\numberline {5.14}{\ignorespaces Total processing time for Q10 - Q12 by three approaches.}}{62}{figure.5.14}
-\contentsline {figure}{\numberline {5.15}{\ignorespaces Total processing time v.s. ``trial query'' processing time.}}{63}{figure.5.15}
-\contentsline {figure}{\numberline {5.16}{\ignorespaces Execution plan for \textit {User-Post: User.Age}.}}{64}{figure.5.16}
-\contentsline {figure}{\numberline {5.17}{\ignorespaces Execution plan for \textit {User-Post: ID(User), ID(Post)}.}}{65}{figure.5.17}
+\contentsline {figure}{\numberline {5.1}{\ignorespaces The meta graph of StackOverFlow used in experiments.}}{45}{figure.5.1}
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Time efficiency on the future workload: our solution vs Neo4j.}}{48}{figure.5.2}
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Substructure selected by StructurePlanner.}}{49}{figure.5.3}
+\contentsline {figure}{\numberline {5.4}{\ignorespaces Total processing time under different settings of $\omega $.}}{51}{figure.5.4}
+\contentsline {figure}{\numberline {5.5}{\ignorespaces Efficiency vs Space Cost}}{52}{figure.5.5}
+\contentsline {figure}{\numberline {5.6}{\ignorespaces Main memory storage vs hard disk storage}}{53}{figure.5.6}
+\contentsline {figure}{\numberline {5.7}{\ignorespaces Time: CubePlanner vs PMA}}{54}{figure.5.7}
+\contentsline {figure}{\numberline {5.8}{\ignorespaces Total cuboid space cost: CubePlanner vs PMA}}{54}{figure.5.8}
+\contentsline {figure}{\numberline {5.9}{\ignorespaces Total processing time for future workload: StructurePlanner vs FPM}}{56}{figure.5.9}
+\contentsline {figure}{\numberline {5.10}{\ignorespaces Space cost: StructurePlanner vs FPM}}{56}{figure.5.10}
+\contentsline {figure}{\numberline {5.11}{\ignorespaces Processing time for each query: StructurePlanner vs FPM}}{57}{figure.5.11}
+\contentsline {figure}{\numberline {5.12}{\ignorespaces Processing time for Q10 - Q12 by three approaches.}}{59}{figure.5.12}
+\contentsline {figure}{\numberline {5.13}{\ignorespaces Joining time in processing Q10 - Q12 by three approaches.}}{59}{figure.5.13}
+\contentsline {figure}{\numberline {5.14}{\ignorespaces Total processing time for Q10 - Q12 by three approaches.}}{60}{figure.5.14}
+\contentsline {figure}{\numberline {5.15}{\ignorespaces Total processing time vs ``trial query'' processing time.}}{60}{figure.5.15}
+\contentsline {figure}{\numberline {5.16}{\ignorespaces Execution plan for \textit {User-Post: User.Age}.}}{62}{figure.5.16}
+\contentsline {figure}{\numberline {5.17}{\ignorespaces Execution plan for \textit {User-Post: ID(User), ID(Post)}.}}{63}{figure.5.17}
 \addvspace {10\p@ }
 \addvspace {10\p@ }

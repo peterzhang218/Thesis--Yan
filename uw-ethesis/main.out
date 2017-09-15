@@ -7,12 +7,12 @@
 \BOOKMARK [1][-]{section.1.4}{Our Solution and Contributions}{chapter.1}% 7
 \BOOKMARK [0][-]{chapter.2}{Background and Related Work}{}% 8
 \BOOKMARK [1][-]{section.2.1}{OLAP over Property Graph Model}{chapter.2}% 9
-\BOOKMARK [2][-]{subsection.2.1.1}{OLAP Examples}{section.2.1}% 10
+\BOOKMARK [2][-]{subsection.2.1.1}{Graph OLAP Examples}{section.2.1}% 10
 \BOOKMARK [2][-]{subsection.2.1.2}{Structure, Dimension, and Measure}{section.2.1}% 11
 \BOOKMARK [1][-]{section.2.2}{Graph Databases and Neo4j}{chapter.2}% 12
 \BOOKMARK [1][-]{section.2.3}{Related Work}{chapter.2}% 13
 \BOOKMARK [0][-]{chapter.3}{Problem Definition}{}% 14
-\BOOKMARK [1][-]{section.3.1}{Terminologies}{chapter.3}% 15
+\BOOKMARK [1][-]{section.3.1}{Terminology}{chapter.3}% 15
 \BOOKMARK [2][-]{subsection.3.1.1}{Definition of Property Graph}{section.3.1}% 16
 \BOOKMARK [2][-]{subsection.3.1.2}{OLAP Query}{section.3.1}% 17
 \BOOKMARK [2][-]{subsection.3.1.3}{Materialization: Cuboid \046 Substructure}{section.3.1}% 18
@@ -29,7 +29,7 @@
 \BOOKMARK [1][-]{section.4.3}{Query Processing}{chapter.4}% 29
 \BOOKMARK [2][-]{subsection.4.3.1}{Substructure Selection}{section.4.3}% 30
 \BOOKMARK [2][-]{subsection.4.3.2}{Decomposition and Join}{section.4.3}% 31
-\BOOKMARK [0][-]{chapter.5}{Experiments}{}% 32
+\BOOKMARK [0][-]{chapter.5}{Evaluation}{}% 32
 \BOOKMARK [1][-]{section.5.1}{Experiment Setup}{chapter.5}% 33
 \BOOKMARK [2][-]{subsection.5.1.1}{Datasets}{section.5.1}% 34
 \BOOKMARK [2][-]{subsection.5.1.2}{Query Workloads}{section.5.1}% 35
@@ -40,11 +40,11 @@
 \BOOKMARK [2][-]{subsection.5.3.2}{Frequency Threshold}{section.5.3}% 40
 \BOOKMARK [2][-]{subsection.5.3.3}{Space Cost Limit}{section.5.3}% 41
 \BOOKMARK [2][-]{subsection.5.3.4}{Storage Level for Materialized Views}{section.5.3}% 42
-\BOOKMARK [2][-]{subsection.5.3.5}{CubePlanner v.s. PMA}{section.5.3}% 43
-\BOOKMARK [2][-]{subsection.5.3.6}{StructurePlanner v.s. FPM}{section.5.3}% 44
+\BOOKMARK [2][-]{subsection.5.3.5}{CubePlanner vs PMA}{section.5.3}% 43
+\BOOKMARK [2][-]{subsection.5.3.6}{StructurePlanner vs FPM}{section.5.3}% 44
 \BOOKMARK [2][-]{subsection.5.3.7}{Substructure Selection}{section.5.3}% 45
 \BOOKMARK [2][-]{subsection.5.3.8}{Decompose\137Join}{section.5.3}% 46
-\BOOKMARK [2][-]{subsection.5.3.9}{Reflection on Neo4j}{section.5.3}% 47
+\BOOKMARK [2][-]{subsection.5.3.9}{Reflections on Neo4j}{section.5.3}% 47
 \BOOKMARK [0][-]{chapter.6}{Conclusion}{}% 48
 \BOOKMARK [0][-]{section*.13}{References}{}% 49
 \BOOKMARK [0][-]{appendix*.15}{APPENDICES}{}% 50
