@@ -39,6 +39,12 @@ Alfredo Cuzzocrea and Carson~Kai{-}Sang Leung.
   Symposium, {ISMIS} 2012, Macau, China, December 4-7, 2012. Proceedings},
   pages 455--465, 2012.
 
+\bibitem{DBLP:conf/dmkdttt/DewsnipM01}
+Michael Dewsnip and Malika Mahoui.
+\newblock Efficiently mining maximal frequent patterns: fast-miner.
+\newblock In {\em Data Mining and Knowledge Discovery: Theory, Tools, and
+  Technology III, Orlando, FL, USA, April 16, 2001}, pages 157--162, 2001.
+
 \bibitem{DBLP:journals/kais/DrzadzewskiT16}
 Grzegorz Drzadzewski and Frank~Wm. Tompa.
 \newblock Partial materialization for online analytical processing over

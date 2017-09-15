@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.7.5)  15 SEP 2017 13:22
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.7.5)  15 SEP 2017 17:12
 entering extended mode
 **./main.tex
 (main.tex
@@ -1558,8 +1558,8 @@ Overfull \hbox (32.32143pt too wide) in paragraph at lines 14--15
 
 
 ] [23 <./pic/41-eps-converted-to.pdf>] [24]
-Underfull \hbox (badness 3199) in paragraph at lines 88--88
-\OT1/cmr/m/n/10.95 #2 User-Comment, Comment-Post: User.UpVotes, Com-ment.Score,
+Underfull \hbox (badness 3635) in paragraph at lines 88--88
+\OT1/cmr/m/n/10.95 P2 User-Comment, Comment-Post: User.UpVotes, Com-ment.Score,
  (AVG)Post.Score,
  []
 
@@ -1577,17 +1577,17 @@ Package epstopdf Info: Source file: <pic/61.eps>
 (epstopdf)                    size: 48287 bytes
 (epstopdf)             Command: <epstopdf --outfile=pic/61-eps-converted-to.pdf
  pic/61.eps>
-(epstopdf)             \includegraphics on input line 238.
+(epstopdf)             \includegraphics on input line 239.
 Package epstopdf Info: Output file is already uptodate.
 
 <pic/61-eps-converted-to.pdf, id=741, 444.66125pt x 634.37pt>
 File: pic/61-eps-converted-to.pdf Graphic file (type pdf)
 
 <use pic/61-eps-converted-to.pdf>
-Package pdftex.def Info: pic/61-eps-converted-to.pdf used on input line 238.
+Package pdftex.def Info: pic/61-eps-converted-to.pdf used on input line 239.
 (pdftex.def)             Requested size: 266.7988pt x 380.62492pt.
 
-Underfull \hbox (badness 2012) in paragraph at lines 239--239
+Underfull \hbox (badness 2012) in paragraph at lines 240--240
 []\OT1/cmr/m/n/12 Figure 4.2: []Neo4j's ex-e-cu-tion plan for query \OT1/cmr/m/
 it/12 User-Badge, User-Post, Post-Tag:
  []
@@ -1595,7 +1595,7 @@ it/12 User-Badge, User-Post, Post-Tag:
 [30 <./pic/61-eps-converted-to.pdf>]
 
 LaTeX Warning: Reference `alg:StructurePlanner' on page 31 undefined on input l
-ine 268.
+ine 269.
 
 Package epstopdf Info: Source file: <pic/Structurelattice.eps>
 (epstopdf)                    date: 2017-09-12 15:04:53
@@ -1606,14 +1606,14 @@ Package epstopdf Info: Source file: <pic/Structurelattice.eps>
 (epstopdf)                    size: 98234 bytes
 (epstopdf)             Command: <epstopdf --outfile=pic/Structurelattice-eps-co
 nverted-to.pdf pic/Structurelattice.eps>
-(epstopdf)             \includegraphics on input line 272.
+(epstopdf)             \includegraphics on input line 273.
 Package epstopdf Info: Output file is already uptodate.
-<pic/Structurelattice-eps-converted-to.pdf, id=757, 702.625pt x 409.53pt>
+<pic/Structurelattice-eps-converted-to.pdf, id=755, 702.625pt x 409.53pt>
 File: pic/Structurelattice-eps-converted-to.pdf Graphic file (type pdf)
 
 <use pic/Structurelattice-eps-converted-to.pdf>
 Package pdftex.def Info: pic/Structurelattice-eps-converted-to.pdf used on inpu
-t line 272.
+t line 273.
 (pdftex.def)             Requested size: 281.04501pt x 163.80908pt.
 
 
@@ -1621,7 +1621,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 
 LaTeX Warning: Reference `alg:StructurePlanner' on page 31 undefined on input l
-ine 314.
+ine 315.
 
 [31] [32] [33 <./pic/Structurelattice-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <pic/bordernode.eps>
@@ -1632,7 +1632,7 @@ Package epstopdf Info: Source file: <pic/bordernode.eps>
 (epstopdf)                    size: 22206 bytes
 (epstopdf)             Command: <epstopdf --outfile=pic/bordernode-eps-converte
 d-to.pdf pic/bordernode.eps>
-(epstopdf)             \includegraphics on input line 337.
+(epstopdf)             \includegraphics on input line 338.
 Package epstopdf Info: Output file is already uptodate.
 
 <pic/bordernode-eps-converted-to.pdf, id=802, 424.58624pt x 216.81pt>
@@ -1640,81 +1640,315 @@ File: pic/bordernode-eps-converted-to.pdf Graphic file (type pdf)
 
 <use pic/bordernode-eps-converted-to.pdf>
 Package pdftex.def Info: pic/bordernode-eps-converted-to.pdf used on input line
- 337.
+ 338.
 (pdftex.def)             Requested size: 212.2926pt x 108.40472pt.
- [34 <./pic/bordernode-eps-converted-to.pdf>] [35] [36]
+ [34 <./pic/bordernode-eps-converted-to.pdf>]
+! Missing $ inserted.
+<inserted text> 
+                $
+l.379 mincuboid \leftarrow
+                           NULL\;
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.394 \end
+          {algorithm}
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.394 \end
+          {algorithm}
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Extra }, or forgotten $.
+\algocf@Vsline ...}\vtop {\algocf@addskiptotal #1}
+                                                  }}\algocf@pop {\skiprule }...
+l.394 \end
+          {algorithm}
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Extra }, or forgotten $.
+\algocf@Vsline ...\vtop {\algocf@addskiptotal #1}}
+                                                  }\algocf@pop {\skiprule }\...
+l.394 \end
+          {algorithm}
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Extra }, or forgotten $.
+\algocf@Vsline ...vtop {\algocf@addskiptotal #1}}}
+                                                  \algocf@pop {\skiprule }\a...
+l.394 \end
+          {algorithm}
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.394 \end
+          {algorithm}
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.394 \end{algorithm}
+                     
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.394 \end{algorithm}
+                     
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+Underfull \hbox (badness 10000) detected at line 394
+[][]
+ []
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.394 \end{algorithm}
+                     
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+[35] [36]
 
 LaTeX Warning: Reference `alg:StructurePlanner' on page 37 undefined on input l
-ine 421.
+ine 422.
 
-[37] [38] [39]
-Overfull \hbox (4.48495pt too wide) in paragraph at lines 502--503
-[]\OT1/cmr/m/n/12 We ex-plain im-ple-men-ta-tion of func-tion $\OML/cmm/m/it/12
- retrieve[]\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 s; V[]\OT1/cmr/m/n/12 )$. It fetch
-es re-sults from databases
+! Missing $ inserted.
+<inserted text> 
+                $
+l.431 uncoveredStruc \leftarrow
+                                q.structure\;
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.433 $coveredStruc\leftarrow
+                              \emptyset$\;
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.443 \end
+          {algorithm}
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Extra }, or forgotten $.
+\algocf@Vsline ...}\vtop {\algocf@addskiptotal #1}
+                                                  }}\algocf@pop {\skiprule }...
+l.443 \end
+          {algorithm}
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Extra }, or forgotten $.
+\algocf@Vsline ...\vtop {\algocf@addskiptotal #1}}
+                                                  }\algocf@pop {\skiprule }\...
+l.443 \end
+          {algorithm}
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Extra }, or forgotten $.
+\algocf@Vsline ...vtop {\algocf@addskiptotal #1}}}
+                                                  \algocf@pop {\skiprule }\a...
+l.443 \end
+          {algorithm}
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.443 \end
+          {algorithm}
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.443 \end{algorithm}
+                     
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.443 \end{algorithm}
+                     
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+Underfull \hbox (badness 10000) detected at line 443
+[][]
  []
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.443 \end{algorithm}
+                     
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+[37] [38]
+! Undefined control sequence.
+l.468 $Splits\leftarrowsplit
+                            (uncoveredStruc, uncoveredProp)$\;
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+[39]
+! Undefined control sequence.
+l.492 $V^{*}\leftarrowjoin
+                          (V)$\;
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.494 $Splits\leftarrowsplit
+                            (uncoveredStruc, uncoveredProp)$\;
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
 
 [40]
-Overfull \hbox (36.49889pt too wide) in paragraph at lines 510--511
-\OT1/cmr/m/n/12 We have men-tioned two ad-van-tages of $\OML/cmm/m/it/12 retrie
-ve[]\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 s; V[]\OT1/cmr/m/n/12 )$. How-ever a dis-
-ad-van-tage of $\OML/cmm/m/it/12 retrieve[]\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 s;
- V[]\OT1/cmr/m/n/12 )$
+Overfull \hbox (10.71443pt too wide) in paragraph at lines 511--512
+\OT1/cmr/m/n/12 We men-tioned two ad-van-tages of $\OML/cmm/m/it/12 retrieve[]\
+OT1/cmr/m/n/12 (\OML/cmm/m/it/12 s; V[]\OT1/cmr/m/n/12 )$. How-ever a dis-ad-va
+n-tage of $\OML/cmm/m/it/12 retrieve[]\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 s; V[]\
+OT1/cmr/m/n/12 )$
  []
+
+! Undefined control sequence.
+l.521 $V^{*}\leftarrowjoin
+                          (V)$\;
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.523 Splits\leftarrowsplit
+                           (uncoveredStruc, uncoveredProp)\;
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
 
 [41]
 
 LaTeX Warning: Reference `alg:StructurePlanner' on page 42 undefined on input l
-ine 534.
+ine 535.
 
 
-Overfull \hbox (33.63408pt too wide) in paragraph at lines 534--535
-\OT1/cmr/m/n/12 sizes two re-trieval meth-ods: $\OML/cmm/m/it/12 retrieve[]\OT1
-/cmr/m/n/12 (\OML/cmm/m/it/12 s; V[]\OT1/cmr/m/n/12 )\OML/cmm/m/it/12 :estSize$
- \OT1/cmr/m/n/12 and $\OML/cmm/m/it/12 retrieve\OT1/cmr/m/n/12 (\OML/cmm/m/it/1
-2 s\OT1/cmr/m/n/12 )\OML/cmm/m/it/12 :estSize$\OT1/cmr/m/n/12 . $\OML/cmm/m/it/
-12 retrieve\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 s\OT1/cmr/m/n/12 )\OML/cmm/m/it/12
- :estSize$
+Overfull \hbox (18.79538pt too wide) in paragraph at lines 544--545
+\OT1/cmr/m/n/12 date IDs by eval-u-at-ing $(\OML/cmm/m/it/12 retrieve\OT1/cmr/m
+/n/12 (\OML/cmm/m/it/12 s\OT1/cmr/m/n/12 )\OML/cmm/m/it/12 :estSize \OMS/cmsy/m
+/n/12   \OML/cmm/m/it/12 retrieve[]\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 s; V[]\OT1
+/cmr/m/n/12 )\OML/cmm/m/it/12 :estSize\OT1/cmr/m/n/12 )\OML/cmm/m/it/12 =sizeOf
+\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 candidateIDs\OT1/cmr/m/n/12 )$
  []
 
-
-Overfull \hbox (63.5388pt too wide) in paragraph at lines 534--535
-\OT1/cmr/m/n/12 can be re-turned by $\OML/cmm/m/it/12 space\OT1/cmr/m/n/12 (\OM
-L/cmm/m/it/12 substructure\OT1/cmr/m/n/12 )$ in Al-go-rithm []. Now the tricky 
-one is $\OML/cmm/m/it/12 retrieve[]\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 s; V[]\OT1
-/cmr/m/n/12 )\OML/cmm/m/it/12 :estSize$\OT1/cmr/m/n/12 .
+[42]
+Overfull \hbox (40.68834pt too wide) in paragraph at lines 546--547
+\OT1/cmr/m/n/12 per-forms two rounds of joins like $\OML/cmm/m/it/12 Decompose[
+]Join[]$\OT1/cmr/m/n/12 . The ma-jor dif-fer-ence is that $\OML/cmm/m/it/12 Dec
+ompose[]Join[]$
  []
 
-
-Overfull \hbox (17.56175pt too wide) in paragraph at lines 542--543
-\OT1/cmr/m/n/12 sult size re-duc-tion against its cost in pass-ing can-di-date 
-IDs by eval-u-at-ing $(\OML/cmm/m/it/12 retrieve\OT1/cmr/m/n/12 (\OML/cmm/m/it/
-12 s\OT1/cmr/m/n/12 )\OML/cmm/m/it/12 :estSize \OMS/cmsy/m/n/12  
- []
-
-[42]) [43]
+) [43]
 Chapter 5.
 (experiment.tex [44
 
 
-] <pic/MetaExp.jpg, id=931, 673.51625pt x 417.56pt>
+] <pic/MetaExp.jpg, id=929, 673.51625pt x 417.56pt>
 File: pic/MetaExp.jpg Graphic file (type jpg)
 
 <use pic/MetaExp.jpg>
 Package pdftex.def Info: pic/MetaExp.jpg used on input line 21.
 (pdftex.def)             Requested size: 336.7573pt x 208.77948pt.
  [45 <./pic/MetaExp.jpg>] [46]
-
-LaTeX Warning: Citation `DBLP:conf/dmkdttt/DewsnipM01' on page 47 undefined on 
-input line 118.
-
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ú in font cmr12!
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ù in font cmr12!
-[47]
+ [47]
 Package epstopdf Info: Source file: <plot/neo4j.eps>
 (epstopdf)                    date: 2017-09-12 12:25:54
 (epstopdf)                    size: 31232 bytes
@@ -1725,7 +1959,8 @@ Package epstopdf Info: Source file: <plot/neo4j.eps>
 .pdf plot/neo4j.eps>
 (epstopdf)             \includegraphics on input line 151.
 Package epstopdf Info: Output file is already uptodate.
- <plot/neo4j-eps-converted-to.pdf, id=962, 505.89pt x 722.7pt>
+
+<plot/neo4j-eps-converted-to.pdf, id=962, 505.89pt x 722.7pt>
 File: plot/neo4j-eps-converted-to.pdf Graphic file (type pdf)
 
 <use plot/neo4j-eps-converted-to.pdf>
@@ -2051,24 +2286,24 @@ Chapter 6.
 (conclusion.tex) [64
 
 
-] (main.bbl [65
+] [65] (main.bbl [66
 
 
 
 
-] [66] [67]) [68] [69
+] [67] [68]) [69] [70
 
 
 ]
 Appendix A.
-[70
+[71
 
 
 ]
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ô in font cmr12!
- [71]
+ [72]
 Overfull \hbox (5.60588pt too wide) in paragraph at lines 422--423
 []\OT1/cmr/m/n/12 What is the dis-tri-bu-tion of users' up-votes for each topic
  of an-swers (Post.PostTypeId=2)? 
@@ -2080,7 +2315,7 @@ Missing character: There is no ô in font cmr12!
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ô in font cmr12!
-[72
+[73
 runsystem(makeindex -s main.ist -t main.glg -o main.gls main.glo)...executed (a
 llowed).
 
@@ -2111,13 +2346,13 @@ LaTeX Warning: There were undefined references.
 ### simple group (level 1) entered at line 1061 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 32948 strings out of 493323
- 624246 string characters out of 3138968
- 788570 words of memory out of 3000000
- 35560 multiletter control sequences out of 15000+200000
- 542444 words of font info for 68 fonts, out of 3000000 for 9000
+ 32952 strings out of 493323
+ 624277 string characters out of 3138968
+ 788621 words of memory out of 3000000
+ 35562 multiletter control sequences out of 15000+200000
+ 543145 words of font info for 70 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 73i,18n,66p,10491b,22675s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 73i,20n,66p,10491b,22674s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmb
 x10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
 <C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx8.pfb><C:/Progr
@@ -2134,9 +2369,9 @@ es/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTe
 X 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files/MiKTeX 2.9/fon
 ts/type1/public/amsfonts/cm/cmti12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1
 /public/amsfonts/cm/cmtt12.pfb>
-Output written on main.pdf (83 pages, 1709586 bytes).
+Output written on main.pdf (84 pages, 1710200 bytes).
 PDF statistics:
- 1350 PDF objects out of 1440 (max. 8388607)
+ 1354 PDF objects out of 1440 (max. 8388607)
  358 named destinations out of 1000 (max. 500000)
  577 words of extra memory for PDF output out of 10000 (max. 10000000)
 
