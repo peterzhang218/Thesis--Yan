@@ -9,16 +9,16 @@ Being a flexible and semantic rich model for graph structured data, the property
 \label{s:1}
 %----------------------------------------------------------------------
 
-We are living in an age with exponential growth of data, and a world that is more and more connected.  With the fast development of Web2.0 and Internet of Things (IoT) \cite{DBLP:journals/cacm/X17f}, numerous connections of various kinds are being created every second, producing massive amount of graph structure data in the meanwhile. For example, the moment a user creates a new post on an online forum, not only a post is created,  a ``\emph{creates}'' connection between the user and the post is established as well; when a user tags a post, a ``\emph{hasTag}'' connection is created between certain tag string and the post; or in a banking scenario, when a transfer happens, a ``\emph{transfers}'' connection between two accounts is created.
+We are living in an age with exponential growth of data, and a world that is more and more connected.  With the fast development of Web2.0 and Internet of Things (IoT) \cite{DBLP:journals/cacm/X17f}, numerous connections of various kinds are being created every second, producing massive amount of graph structure data in the meanwhile. For example, the moment a user creates a new post on an online forum, not only a post is created,  a ``\emph{creates}'' connection between the user and the post is established as well; when a user tags a post, a ``\emph{has\_tag}'' connection is created between certain tag string and the post; or in a banking scenario, when a transfer happens, a ``\emph{transfers}'' connection between two accounts is created.
 
-To capture the rich semantics of connected real-world entities, property graph model \cite{DBLP:conf/mtsr/Tomaszuk16} is becoming more and more popular due to its flexibility for semi-structured graph data. A property graph consists of nodes, edges, and properties. Like general graph data models, nodes represent entities and edges represent relationships. Graph nodes and edges can have any number of properties, or attributes, of any type. For example, Figure \ref{fig:1} shows a simple property graph of an online Q\&A forum named www.StackExchange.com. It shows the connections among users (represented by red nodes) and posts (represented by blue nodes). Each arc pointing from a user node  to a post node represents a ``User\_onws\_Post'' connection. From the graph, we can clearly see that  there is one user who has created one post while the other user has created 2 posts. In addition, as shown in the example, a User node can have properties like the user’s Age, Views, UpVotes and etc. (listed at the end of the picture).
+To capture the rich semantics of connected real-world entities, property graph model \cite{DBLP:conf/mtsr/Tomaszuk16} is becoming more and more popular due to its flexibility for semi-structured graph data. A property graph consists of nodes, edges, and properties. Like general graph data models, nodes represent entities and edges represent relationships. Graph nodes and edges can have any number of properties, or attributes, of any type. For example, Figure \ref{fig:1} shows a simple property graph of an online Q\&A forum. It shows the connections among users (represented by red nodes) and posts (represented by blue nodes). Each arc pointing from a user node  to a post node represents a ``creates'' connection. From the graph, we can clearly see that  there is one user who has created one post while the other user has created 2 posts. In addition, a User node can have properties like the user’s Age, Views, UpVotes and etc. 
 %Notice that there is no restriction on what properties a User node can have.
-For clear presentation purpose, we shall use a property graph dataset obtained from \url{www.StackExchange.com} through this thesis. We name this graph ``StackExchange graph''.
+For clear presentation purpose, we shall use a property graph which contains information of an online Q\&A forum \url{www.stackoverflow.com} through this thesis. We name this graph ``StackOverFlow graph''.
 
 
 \begin{figure*}
 	\centering
-	\includegraphics[scale=0.4]{pic/11.eps}
+	\includegraphics[scale=0.4]{pic/11.pdf}
 	\caption{A simple property graph modeling ``users post posts''(data graph).}
 	\label{fig:1}
 \end{figure*}
@@ -31,19 +31,20 @@ For clear presentation purpose, we shall use a property graph dataset obtained f
 
 %Property graph is an informative model as it contains not only nodes and edges, but properties of each individual node and edge as well.
 
-Note that although the property graph model does not enforce any restriction on what properties a node or edge can have, a high-level abstraction describing the property relations, named the ``meta graph'', is often defined in practice. Meta graph demonstrates the information of entities and entity correlations on a schema level, while data graph refers to the actual graph populated from the meta graph. Figure \ref{fig:2} and Figure \ref{fig:3} are the meta graph and a snapshot of the StackExchange graph, respectively. As shown in Figure \ref{fig:2}, there are three types of entities: User (in red), Post (in blue), and Tag (in green). Each user has a property named ``View'', each post has a property named ``Score'', and a property ``TagName'' associated with each tag. There are two types of edges being  defined: User\_owns\_Post and Post\_hasTag\_Tag.
+Note that although the property graph model does not enforce any restriction on what properties a node or edge can have, a high-level abstraction describing the property relations, named the ``meta graph'', is often defined in practice. Meta graph demonstrates the information of entities and entity correlations on a schema level, while data graph refers to the actual graph populated from the meta graph. Figures \ref{fig:2} and \ref{fig:3} are the meta graph and a snapshot of the data graph of the StackOverFlow graph, respectively. As shown in Figure \ref{fig:2}, there are three types of entities: User (red nodes in the data graph), Post (blue nodes in the data graph), and Tag (green nodes in the data graph). Each user has a property named ``Age'', each post has a property named ``Score'', and a property ``TagName'' associated with each tag. There are two types of edges being  defined: ``creates'' and ``has\_tag''. Note that figure \ref{fig:3} is a snapshot of the StackOverFlow data graph. The actual data graph contains millions of nodes and edges. 
 
 
 \begin{figure*}
 	\centering
-	\includegraphics[scale=0.5]{pic/12.eps}
+	\includegraphics[scale=0.5]{pic/12.pdf}
 	\caption{Meta graph containing User, Post and Tag.}
 	\label{fig:2}
 \end{figure*}
 
+%match (u:User)-[User_owns_Post]-(p:Post)-[]-(t:Tag) where id(p)%500=0   return *  limit 50
 \begin{figure*}
 	\centering
-	\includegraphics[scale=0.1]{pic/3.eps}
+	\includegraphics[scale=0.5]{pic/3.pdf}
 	\caption{A snapshot of data graph containing User, Post and Tag.}
 	\label{fig:3}
 \end{figure*}
@@ -56,7 +57,7 @@ Note that although the property graph model does not enforce any restriction on 
 
 In traditional databases and data ware-housing, OLAP queries enable users to interactively perform aggregations on underlying data from different perspectives (combinations  of dimensions). There are three typical operations in OLAP. Roll-up operation allows users to view data in more detail, while drill-down operation does the opposite. Slicing enables filtering on data. For example, we can perform OLAP to analyze earning performance of an international company by different branches. We can perform drill-down operation by adding season as a dimension besides branch to take a closer look at profit performance of different branches in different seasons. Then we can proceed and perform a roll-up operation by discarding the branch dimension and only look into profit performance by seasons. Finally, we can perform a slicing operation by adding a condition, say summer, on season dimension. By this we only forcus on profits in the summer season. In this case, OLAP serves as a tool for managers to better understand earning performance.
 
-Supporting efficient OLAP processing on property graphs grants users the power to perform insightful analysis over structured graph data. For example, on the StackExchange graph, users can study the correlation between the number of UpVotes and a post's score by using the following query:
+Supporting efficient OLAP processing on property graphs grants users the power to perform insightful analysis over structured graph data. For example, on the StackOverFlow graph, users can study the correlation between the number of UpVotes and a post's score by using the following query:
 
 \fbox{\emph{Get the average post score grouped by user’s upvotes.} }
 
@@ -88,18 +89,19 @@ Supporting efficient OLAP in traditional relational database management systems 
 %From an academic point of view, most of OLAP studies reside in traditional relational data models, whereas studies on efficient graph OLAP are not enough. What's worse, current graph OLAP researches either
 
 Our empirical study shows that existing graph databases do not provide efficient support for graph OLAP, especially when the graph size scales to real-word graph sizes, which usually contains over millions of nodes and edges. %Graph databases are databases that specialize in storage and processing of property graphs. However current graph databases are not satisfactory in terms of OLAP processing efficiency over large property graphs(often with more than millions of nodes and edges).
-To elaborate, Neo4j, a state-of-art graph database, processes OLAP queries in a rather straightforward manner: computing everything from scratch for each query without being aware of any history workloads. In an extreme case, even if we executed the same query repeatedly with only minor change on value constraints, e.g., change the constraint of user's age from 20 to 22, the execution plan always stays the same and yields no execution time improvement.
+To elaborate, Neo4j, a state-of-art graph database, processes OLAP queries in a rather straightforward manner: computing everything from scratch for each query without being aware of any history workloads. Figure \ref{fig:1:4} reveals that even if we repeatedly executed the same query using Neo4j, the execution plan always stays the same and yields no execution time improvement.
 
 \begin{figure*}
 	\centering
-	\includegraphics[scale=0.4]{pic/5.eps}
-	%\includegraphics[scale=0.4]{pic/5.png}
-	\caption{Execution plans of Query \#3 for first time and fifth time.}
+	\includegraphics[scale=1.5]{pic/plan.pdf}
+	\includegraphics[scale=1.5]{pic/plan2.pdf}
+	\caption{Neo4j's execution plans for executing ``getting the average post score grouped by user’s upvotes'' for the first time and fifth time.}
+	\label{fig:1:4}
 	
 \end{figure*}
 
 %This naive feature of always executing queries regardless of previous queries misses valuable information contained in previous workloads.
-Valuable information extracted from history workload can be helpful to accelerate in-coming query processing. For example, the above exampling OLAP query on StackExchange graph dataset (of roughly 45GB in size) takes Neo4j more than 2 hours to process. It is frustrating for users to wait that long for the result of one single OLAP query, as it undermines interactivity which is one of the most distinctive features of real-time analytics. %Therefore we want to accelerate OLAP processing over large property graphs
+Valuable information extracted from history workload can be helpful to accelerate in-coming query processing. For example, the above exampling OLAP query on StackOverFlow graph dataset (of roughly 45GB in size) takes Neo4j more than 2 hours to process. It is frustrating for users to wait that long for the result of one single OLAP query, as it undermines interactivity which is one of the most distinctive features of real-time analytics. %Therefore we want to accelerate OLAP processing over large property graphs
 %\intodo{Now you should explain what you can learn from previous workloads, and how these knowledge can help you with future workloads.}
 
 As a matter of fact, workload histories provide useful information for future workloads. This is because in real case users do not generally generate OLAP queries randomly. Instead users often tend to be interested in some specific ``hot'' structures on a meta graph level and some ``hot'' properties. Such interest is contained in workload history and can serve as an insightful hint on future workloads. Our claim is that by sacrificing some memory space and materialize ``hot'' structures and properties even before future queries arrive, future queries can be faster processed.

@@ -25,12 +25,13 @@ set style histogram cluster gap 1
 
 set yrange [0:5000]
 
-set xtics font ", 13"
 
-set xtics ("Decompose\\\_Join" 0, "Decompose\\\_Join^{*}" 1, "Decompose\\\_Join^{+}" 2)
+set xtics ("Decompose\\\_\nJoin" 0, "Decompose\\\_\nJoin^{*}" 1, "Decompose\\\_\nJoin^{+}" 2)
 
-set ylabel "Time (Sec)" font 'time-roman, 24'
+set ylabel "Time (Sec)" font 'Helvetica, 22'
 
-#set xlabel "Queries" font 'time-roman, 24'
+#set xlabel "Queries" font 'Helvetica, 22'
 
-plot 'threetotal.txt' t "{/Times=22 }"
+set xtics font "Helvetica, 22"
+set ytics font "Helvetica, 22" 
+plot 'threetotal.txt' t "{/Helvetica=22 }"

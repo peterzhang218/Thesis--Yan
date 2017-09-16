@@ -24,7 +24,10 @@ set xtics ("Q1" 0, "Q2" 1, "Q3" 2, "Q4" 3, "Q5" 4, "Q6" 5, "Q7" 6, "Q8" 7, "Q9" 
 set ylabel "Time (Sec)" font 'time-roman, 24'
 
 set xlabel "Queries" font 'time-roman, 24'
-
-plot 'qfpm.txt' using 1 t "{/Times=22 GSF}", '' using 2 t "{/Times=22 FPM}"
+set xtics font "Helvetica, 22"
+set ytics font "Helvetica, 22" 
+set ylabel font "Helvetica, 22" 
+set xlabel font "Helvetica, 22" 
+plot 'qfpm.txt' using 1 t "{/Helvetica=22 GSF}", '' using 2 t "{/Helvetica=22 FPM}"
 
 

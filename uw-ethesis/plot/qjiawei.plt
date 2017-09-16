@@ -25,6 +25,10 @@ set ylabel "Time (ms)" font 'time-roman, 24'
 
 set xlabel "Queries" font 'time-roman, 24'
 
-plot 'qjiawei.txt' using 1 t "{/Times=22 CubePlanner}", '' using 2 t "{/Times=22 PMA}"
+set xtics font "Helvetica, 22"
+set ytics font "Helvetica, 22" 
+set ylabel font "Helvetica, 22" 
+set xlabel font "Helvetica, 22" 
+plot 'qjiawei.txt' using 1 t "{/Helvetica=22 CubePlanner}", '' using 2 t "{/Helvetica=22 PMA}"
 
 

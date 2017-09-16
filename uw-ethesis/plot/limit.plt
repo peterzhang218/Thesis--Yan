@@ -28,7 +28,10 @@ set grid ytics
 set ylabel "Time (Sec)" font 'time-roman, 24'
 
 set xlabel "Memory (GB)" font 'time-roman, 24'
-
-plot 'limit.dat' t "{/Times=22 Efficiency v.s. Space Cost}"
+set xtics font "Helvetica, 22"
+set ytics font "Helvetica, 22" 
+set ylabel font "Helvetica, 22" 
+set xlabel font "Helvetica, 22" 
+plot 'limit.dat' t "{/Helvetica=22 Efficiency v.s. Space Cost}"
 
 

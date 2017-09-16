@@ -27,6 +27,11 @@ set ylabel "Time (Sec)" font 'time-roman, 24'
 
 set xlabel "Queries" font 'time-roman, 24'
 
-plot 'threejoin.txt' using 1 t "{/Times=22 Decompose\\\_Join}", '' using 2 t "{/Times=22 Decompose\\\_Join^{*}}"
+set xtics font "Helvetica, 22"
+set ytics font "Helvetica, 22" 
+set ylabel font "Helvetica, 22" 
+set xlabel font "Helvetica, 22" 
+
+plot 'threejoin.txt' using 1 t "{/Helvetica=22 Decompose\\\_Join}", '' using 2 t "{/Helvetica=22 Decompose\\\_Join^{*}}"
 
 

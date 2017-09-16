@@ -19,12 +19,16 @@ set style histogram cluster gap 1
 
 set logscale y
 
+
 set xtics ("Q1" 0, "Q2" 1, "Q3" 2, "Q4" 3, "Q5" 4, "Q6" 5, "Q7" 6, "Q8" 7, "Q9" 8, "Q10" 9, "Q11" 10, "Q12" 11)
 
-set ylabel "Time (Sec)" font 'time-roman, 24'
+set ylabel "Time (Sec)" font 'Helvetica, 22'
 
-set xlabel "Queries" font 'time-roman, 24'
+set xlabel "Queries" font 'Helvetica, 22'
 
-plot 'neo4j.dat' using 1 t "{/Times=22 Neo4j}", '' using 2 t "{/Times=22 Materialized}"
+set xtics font "Helvetica, 22"
+set ytics font "Helvetica, 22" 
+
+plot 'neo4j.dat' using 1 t "{/Helvetica=22 Neo4j}", '' using 2 t "{/Helvetica=22 Materialized}"
 
 

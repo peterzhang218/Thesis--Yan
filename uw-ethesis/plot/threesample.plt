@@ -27,6 +27,11 @@ set ylabel "Time (Sec)" font 'time-roman, 24'
 
 set xlabel "Queries" font 'time-roman, 24'
 
-plot 'threesample.txt' using 1 t "{/Times=22 Query}", '' using 2 t "{/Times=22 Trial Query}"
+set xtics font "Helvetica, 22"
+set ytics font "Helvetica, 22" 
+set ylabel font "Helvetica, 22" 
+set xlabel font "Helvetica, 22" 
+
+plot 'threesample.txt' using 1 t "{/Helvetica=22 Query}", '' using 2 t "{/Helvetica=22 Trial Query}"
 
 

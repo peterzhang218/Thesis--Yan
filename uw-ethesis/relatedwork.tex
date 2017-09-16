@@ -140,29 +140,29 @@ Query \#1 concerns the structure (colored in blue) shown in Figure \ref{fig:2:1}
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[scale=0.5]{pic/meta1.eps}
+	\includegraphics[scale=0.5]{pic/meta1.pdf}
 	\caption{\textit{Structure} of Query \#1}
 	\label{fig:2:1}
 \end{figure}
 
 
 
-We say that (User)-[User\_owns\_post]-$>$(Post) is the structure of Query \#1. The query is first aggregated on users' upvotes. We say that {User.Upvotes} is the dimension of Query \#1, and the output of the query is an aggregation function on post’s score.  We say that {AVG(Post.Score)} is the measure of Query \#1. Similarly, consider Example 2, which shares the same structure as shown in Figure \ref{fig:2:1}. The dimensions of Query \#2 is {User.Upvotes, Post.PostTypeId}, and the measure is {AVG(Post.Score)}. Note that Query \#2 adds Post.PostTypeId to Query \#1’s dimensions. In other words, Query \#2 asks for a more detailed partitions over dimensions. We call Query \#2 a drill-down from Query \#1, and  Query \#1 is a roll-up from Query \#2. Note that possible property combinations can be modeled as a lattice-structured cube. Figure \ref{fig:2:2} shows what a cube is like for properties \{A,B,C\}. We can see that roll-up and drill-down operations allow us to navigate up and down on a cube.
+We say that (User)-[creates]-$>$(Post) is the structure of Query \#1. The query is first aggregated on users' upvotes. We say that {User.Upvotes} is the dimension of Query \#1, and the output of the query is an aggregation function on post’s score.  We say that {AVG(Post.Score)} is the measure of Query \#1. Similarly, consider Example 2, which shares the same structure as shown in Figure \ref{fig:2:1}. The dimensions of Query \#2 is {User.Upvotes, Post.PostTypeId}, and the measure is {AVG(Post.Score)}. Note that Query \#2 adds Post.PostTypeId to Query \#1’s dimensions. In other words, Query \#2 asks for a more detailed partitions over dimensions. We call Query \#2 a drill-down from Query \#1, and  Query \#1 is a roll-up from Query \#2. Note that possible property combinations can be modeled as a lattice-structured cube. Figure \ref{fig:2:2} shows what a cube is like for properties \{A,B,C\}. We can see that roll-up and drill-down operations allow us to navigate up and down on a cube.
 
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[scale=1]{pic/22.eps}
-	\caption{Cube of properties \{A,B,C\}.}
+	\includegraphics[scale=1.4]{pic/22.pdf}
+	\caption{Cube of properties \{A,B,C,D\}.}
 	\label{fig:2:2}
 \end{figure}
 
 \textbf{Query \#3: 		Get average user age grouped by users’ 2017 posts’ tags.}
 
-Structure:	(User)-[User\_owns\_post]-(Post)-[Post\_hastag\_Tag]-(Tag)
+Structure:	(User)-[creates]-(Post)-[has\_tag]-(Tag)
 \begin{figure}[H]
 	\centering
-	\includegraphics[scale=0.5]{pic/meta2.eps}
+	\includegraphics[scale=0.5]{pic/meta2.pdf}
 	\caption{\textit{Structure} of Query \#3}
 	\label{fig:2:3}
 \end{figure}
