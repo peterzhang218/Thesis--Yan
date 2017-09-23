@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.7.5)  16 SEP 2017 16:42
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.7.5)  23 SEP 2017 17:32
 entering extended mode
 **./main.tex
 (main.tex
@@ -1297,34 +1297,64 @@ Overfull \hbox (18.14359pt too wide) in paragraph at lines 13--13
  [11] (main.gls) (main.gls-abr) (main.nomenclature-gls) (main.symbols-gls))
 Chapter 1.
 (introduction.tex
+
+LaTeX Warning: Citation `DBLP:conf/oopsla/Webber12' on page 1 undefined on inpu
+t line 4.
+
+
+LaTeX Warning: Citation `DBLP:conf/sc/HongDMLVC15' on page 1 undefined on input
+ line 4.
+
+
+LaTeX Warning: Citation `Petermann:2014:GDI:2733004.2733034' on page 1 undefine
+d on input line 4.
+
+
+LaTeX Warning: Citation `DBLP:conf/iccsa/ZazaBGFSC17' on page 1 undefined on in
+put line 4.
+
+
+LaTeX Warning: Citation `DBLP:journals/tii/FangXZAPYL14' on page 1 undefined on
+ input line 4.
+
+
+LaTeX Warning: Citation `DBLP:journals/ijcomsys/XiaYWV12' on page 1 undefined o
+n input line 12.
+
+
+LaTeX Warning: Citation `DBLP:conf/mtsr/Tomaszuk16' on page 1 undefined on inpu
+t line 14.
+
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ô in font cmr12!
- [1
+[1
 
 
 
 
 
 
-] <pic/11.pdf, id=408, 650.43pt x 280.04625pt>
+] <pic/11.pdf, id=393, 643.40375pt x 273.02pt>
 File: pic/11.pdf Graphic file (type pdf)
-
-<use pic/11.pdf>
+ <use pic/11.pdf>
 Package pdftex.def Info: pic/11.pdf used on input line 21.
-(pdftex.def)             Requested size: 260.16739pt x 112.0165pt.
- <pic/12.pdf, id=413, 502.87875pt x 378.41376pt>
+(pdftex.def)             Requested size: 244.49596pt x 103.74867pt.
+
+<pic/12.pdf, id=398, 502.87875pt x 378.41376pt>
 File: pic/12.pdf Graphic file (type pdf)
-
-<use pic/12.pdf>
+ <use pic/12.pdf>
 Package pdftex.def Info: pic/12.pdf used on input line 39.
-(pdftex.def)             Requested size: 251.43875pt x 189.2064pt.
- <pic/3.pdf, id=414, 596.17628pt x 508.59613pt>
-File: pic/3.pdf Graphic file (type pdf)
+(pdftex.def)             Requested size: 176.0102pt x 132.4468pt.
 
-<use pic/3.pdf>
+
+pdfTeX warning: pdflatex.exe (file ./pic/3.pdf): PDF inclusion: found PDF versi
+on <1.6>, but at most version <1.5> allowed
+<pic/3.pdf, id=399, 534.79799pt x 529.37778pt>
+File: pic/3.pdf Graphic file (type pdf)
+ <use pic/3.pdf>
 Package pdftex.def Info: pic/3.pdf used on input line 47.
-(pdftex.def)             Requested size: 298.0874pt x 254.29744pt.
+(pdftex.def)             Requested size: 267.39833pt x 264.68823pt.
  [2 <./pic/11.pdf>] [3 <./pic/12.pdf> <./pic/3.pdf>]
 Missing character: There is no ‚ in font cmti12!
 Missing character: There is no Ä in font cmti12!
@@ -1333,18 +1363,42 @@ Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ô in font cmr12!
 
+
+LaTeX Warning: Citation `LingOzsu09' on page 4 undefined on input line 87.
+
+
+LaTeX Warning: Citation `DBLP:conf/ismis/CuzzocreaL12' on page 4 undefined on i
+nput line 87.
+
+
+LaTeX Warning: Citation `DBLP:conf/dawak/LawrenceR06' on page 4 undefined on in
+put line 87.
+
+
+LaTeX Warning: Citation `DBLP:journals/kais/DrzadzewskiT16' on page 4 undefined
+ on input line 87.
+
+
+LaTeX Warning: Citation `sigmod11_ZhaoLXH11' on page 4 undefined on input line 
+87.
+
+
+LaTeX Warning: Citation `iswc15_Maali:2015aa' on page 4 undefined on input line
+ 87.
+
+
 Overfull \hbox (2.4977pt too wide) in paragraph at lines 87--88
 \OT1/cmr/m/n/12 Supporting ef-fi-cient OLAP in tra-di-tional re-la-tional datab
 ase man-age-ment sys-tems (RDBMS
  []
 
-[4] <pic/plan.pdf, id=470, 124.51117pt x 227.9185pt>
+[4] <pic/plan.pdf, id=440, 124.51117pt x 227.9185pt>
 File: pic/plan.pdf Graphic file (type pdf)
  <use pic/plan.pdf>
 Package pdftex.def Info: pic/plan.pdf used on input line 96.
 (pdftex.def)             Requested size: 186.76627pt x 341.87688pt.
 
-<pic/plan2.pdf, id=471, 124.51117pt x 227.9185pt>
+<pic/plan2.pdf, id=441, 124.51117pt x 227.9185pt>
 File: pic/plan2.pdf Graphic file (type pdf)
  <use pic/plan2.pdf>
 Package pdftex.def Info: pic/plan2.pdf used on input line 97.
@@ -1362,10 +1416,26 @@ Missing character: There is no Ä in font cmr12!
 Missing character: There is no ì in font cmr12!
  [7]) [8]
 Chapter 2.
-(relatedwork.tex [9
+(relatedwork.tex
+
+LaTeX Warning: Citation `icde08_4497567' on page 9 undefined on input line 19.
+
+
+LaTeX Warning: Citation `vldb11_LiYZXL11' on page 9 undefined on input line 19.
+
+
+
+LaTeX Warning: Citation `sigmod11_AgarwalC11' on page 9 undefined on input line
+ 19.
+
+[9
 
 
 ]
+
+LaTeX Warning: Citation `sigmod11_ZhaoLXH11' on page 10 undefined on input line
+ 26.
+
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ô in font cmr12!
@@ -1378,7 +1448,7 @@ Missing character: There is no ô in font cmr12!
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ô in font cmr12!
- [10]
+[10]
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ò in font cmr12!
@@ -1391,33 +1461,21 @@ Missing character: There is no ò in font cmr12!
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ô in font cmr12!
-
-Overfull \hbox (868.55391pt too wide) in paragraph at lines 80--81
-[][] 
- []
-
-[11] <pic/meta1.pdf, id=537, 454.69875pt x 216.81pt>
+ [11] <pic/meta1.pdf, id=494, 454.69875pt x 215.80624pt>
 File: pic/meta1.pdf Graphic file (type pdf)
- <use pic/meta1.pdf>
-Package pdftex.def Info: pic/meta1.pdf used on input line 143.
-(pdftex.def)             Requested size: 227.34882pt x 108.40472pt.
+
+<use pic/meta1.pdf>
+Package pdftex.def Info: pic/meta1.pdf used on input line 146.
+(pdftex.def)             Requested size: 159.14694pt x 75.53331pt.
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ô in font cmr12!
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ô in font cmr12!
-
-Overfull \hbox (38.5565pt too wide) in paragraph at lines 150--151
-\OT1/cmr/m/n/12 Post.PostTypeId, and the mea-sure is AVG(Post.Score). Note that
- Query #2 adds Post.PostTypeId
- []
-
-<pic/22.pdf, id=540, 165.93996pt x 138.28363pt>
+ <pic/22.pdf, id=497, 165.93996pt x 138.28363pt>
 File: pic/22.pdf Graphic file (type pdf)
- <use pic/22.pdf>
-Package pdftex.def Info: pic/22.pdf used on input line 155.
-(pdftex.def)             Requested size: 232.31432pt x 193.59573pt.
+
+<use pic/22.pdf>
+Package pdftex.def Info: pic/22.pdf used on input line 158.
+(pdftex.def)             Requested size: 165.93953pt x 138.28328pt.
  [12 <./pic/meta1.pdf>]
 Missing character: There is no ‚ in font cmbx12!
 Missing character: There is no Ä in font cmbx12!
@@ -1425,16 +1483,100 @@ Missing character: There is no ô in font cmbx12!
 Missing character: There is no ‚ in font cmbx12!
 Missing character: There is no Ä in font cmbx12!
 Missing character: There is no ô in font cmbx12!
- <pic/meta2.pdf, id=548, 457.71pt x 217.81375pt>
+
+<pic/meta2.pdf, id=513, 455.7025pt x 215.80624pt>
 File: pic/meta2.pdf Graphic file (type pdf)
  <use pic/meta2.pdf>
-Package pdftex.def Info: pic/meta2.pdf used on input line 165.
-(pdftex.def)             Requested size: 228.85445pt x 108.9066pt.
+Package pdftex.def Info: pic/meta2.pdf used on input line 168.
+(pdftex.def)             Requested size: 159.49826pt x 75.53331pt.
 
-[13 <./pic/22.pdf> <./pic/meta2.pdf>] [14] [15]
-Overfull \hbox (14.72119pt too wide) in paragraph at lines 285--295
+
+LaTeX Warning: Citation `DBLP:conf/grades/Xirogiannopoulos17' on page 13 undefi
+ned on input line 186.
+
+
+LaTeX Warning: Citation `DBLP:conf/bigdataconf/JindalMCH15' on page 13 undefine
+d on input line 186.
+
+
+LaTeX Warning: Citation `DBLP:conf/semweb/HernandezHRRZ16' on page 13 undefined
+ on input line 186.
+
+
+LaTeX Warning: Citation `DBLP:journals/corr/JoishiS17' on page 13 undefined on 
+input line 186.
+
+[13 <./pic/22.pdf> <./pic/meta2.pdf>]
+
+LaTeX Warning: Citation `DBLP:conf/sofsem/JakawatFL16' on page 14 undefined on 
+input line 267.
+
+[14]
+
+LaTeX Warning: Citation `iswc15_Maali:2015aa' on page 15 undefined on input lin
+e 269.
+
+
+LaTeX Warning: Citation `icde14_Wang:2014aa' on page 15 undefined on input line
+ 271.
+
+
+LaTeX Warning: Citation `sigmod11_ZhaoLXH11' on page 15 undefined on input line
+ 273.
+
+
+LaTeX Warning: Citation `sigmod11_ZhaoLXH11' on page 15 undefined on input line
+ 273.
+
+
+LaTeX Warning: Citation `icdm08_Chen:2008aa' on page 15 undefined on input line
+ 275.
+
+
+LaTeX Warning: Citation `sigmod11_ZhaoLXH11' on page 15 undefined on input line
+ 277.
+
+
+LaTeX Warning: Citation `icdm08_Chen:2008aa' on page 15 undefined on input line
+ 280.
+
+[15]
+
+LaTeX Warning: Citation `sigmod11_ZhaoLXH11' on page 16 undefined on input line
+ 283.
+
+
+LaTeX Warning: Citation `DBLP:conf/sofsem/JakawatFL16' on page 16 undefined on 
+input line 291.
+
+
+LaTeX Warning: Citation `iswc15_Maali:2015aa' on page 16 undefined on input lin
+e 292.
+
+
+LaTeX Warning: Citation `icde14_Wang:2014aa' on page 16 undefined on input line
+ 293.
+
+
+LaTeX Warning: Citation `sigmod11_ZhaoLXH11' on page 16 undefined on input line
+ 294.
+
+
+LaTeX Warning: Citation `icdm08_Chen:2008aa' on page 16 undefined on input line
+ 295.
+
+
+Overfull \hbox (15.1517pt too wide) in paragraph at lines 288--298
  [] 
  []
+
+
+LaTeX Warning: Citation `sigmod11_ZhaoLXH11' on page 16 undefined on input line
+ 303.
+
+
+LaTeX Warning: Citation `iswc15_Maali:2015aa' on page 16 undefined on input lin
+e 303.
 
 ) [16]
 Chapter 3.
@@ -1442,15 +1584,32 @@ Chapter 3.
 
 
 ]
+Overfull \hbox (18.59169pt too wide) in paragraph at lines 74--75
+[][] 
+ []
+
 LaTeX Font Info:    Font shape `OMS/cmr/m/it' in size <12> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 83.
- [18]
+[18]
 Overfull \hbox (25.45807pt too wide) in paragraph at lines 109--110
 [][] 
  []
 
+
+Overfull \hbox (0.84874pt too wide) in paragraph at lines 119--120
+[]\OT1/cmr/m/n/12 We can tell that users are most in-ter-ested in the \OT1/cmr/
+m/it/12 User-creates-Post \OT1/cmr/m/n/12 struc-ture. \OMS/cmsy/m/n/12 f\OT1/cm
+r/m/it/12 User.Age,
+ []
+
 [19]
-Overfull \hbox (10.13548pt too wide) in paragraph at lines 175--179
+Overfull \hbox (15.98228pt too wide) in paragraph at lines 141--142
+[]\OT1/cmr/m/n/12 In this case, we only need to fetch \OT1/cmr/m/sl/12 $\OT1/cm
+r/m/it/12 Post-has[]tag-Tag: ID(Post), Tag.TagName, COUNT(*)
+ []
+
+
+Overfull \hbox (10.13548pt too wide) in paragraph at lines 178--182
 \OT1/cmr/m/n/12 queries $\OML/cmm/m/it/12 P$ \OT1/cmr/m/n/12 on $\OML/cmm/m/it/
 12 G$\OT1/cmr/m/n/12 , space limit $\OML/cmm/m/it/12 $\OT1/cmr/m/n/12 , find c
 uboids $\OML/cmm/m/it/12 C$ \OT1/cmr/m/n/12 and sub-struc-tures $\OML/cmm/m/it/
@@ -1458,7 +1617,7 @@ uboids $\OML/cmm/m/it/12 C$ \OT1/cmr/m/n/12 and sub-struc-tures $\OML/cmm/m/it/
  []
 
 [20]
-Overfull \hbox (27.9566pt too wide) in paragraph at lines 190--192
+Overfull \hbox (27.9566pt too wide) in paragraph at lines 193--195
 \OML/cmm/m/it/12 C[]$ \OT1/cmr/m/n/12 and sub-struc-tures $\OML/cmm/m/it/12 S[]
 $\OT1/cmr/m/n/12 , and re-main-ing views $\OML/cmm/m/it/12 R$\OT1/cmr/m/n/12 , 
 find a com-po-si-tion plan $\OML/cmm/m/it/12 compose\OT1/cmr/m/n/12 (\OML/cmm/m
@@ -1466,7 +1625,7 @@ find a com-po-si-tion plan $\OML/cmm/m/it/12 compose\OT1/cmr/m/n/12 (\OML/cmm/m
  []
 
 
-Overfull \hbox (87.29475pt too wide) in paragraph at lines 190--192
+Overfull \hbox (87.29475pt too wide) in paragraph at lines 193--195
 \OT1/cmr/m/n/12 so that es-ti-mated com-po-si-tion time $\OML/cmm/m/it/12 compo
 se\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 G; q; C[]; S[]; R\OT1/cmr/m/n/12 )\OML/cmm/
 m/it/12 :time$ \OT1/cmr/m/n/12 is min-i-mized. Here $\OML/cmm/m/it/12 compose\O
@@ -1475,18 +1634,13 @@ T1/cmr/m/n/12 (\OML/cmm/m/it/12 G; q; C[]; S[]; R\OT1/cmr/m/n/12 )$
 
 ) [21]
 Chapter 4.
-(solution.tex <pic/frame.pdf, id=676, 667.49374pt x 417.56pt>
+(solution.tex <pic/frame.pdf, id=627, 667.49374pt x 417.56pt>
 File: pic/frame.pdf Graphic file (type pdf)
 
 <use pic/frame.pdf>
 Package pdftex.def Info: pic/frame.pdf used on input line 14.
-(pdftex.def)             Requested size: 467.24245pt x 292.29pt.
-
-Overfull \hbox (6.52121pt too wide) in paragraph at lines 14--15
- [][] 
- []
-
-[22
+(pdftex.def)             Requested size: 333.74606pt x 208.77948pt.
+ [22
 
 
 ] [23 <./pic/frame.pdf>] [24]
@@ -1500,10 +1654,19 @@ Overfull \hbox (21.27481pt too wide) in paragraph at lines 88--89
 [][] 
  []
 
-[25] [26] [27] [28] [29] <pic/eplan.pdf, id=813, 259.57378pt x 388.30571pt>
-File: pic/eplan.pdf Graphic file (type pdf)
+[25]
 
-<use pic/eplan.pdf>
+LaTeX Warning: Citation `DBLP:journals/kais/LinK04' on page 26 undefined on inp
+ut line 116.
+
+[26] [27] [28]
+
+LaTeX Warning: Citation `DBLP:journals/ipl/NourineR99' on page 29 undefined on 
+input line 231.
+
+[29] <pic/eplan.pdf, id=759, 259.57378pt x 388.30571pt>
+File: pic/eplan.pdf Graphic file (type pdf)
+ <use pic/eplan.pdf>
 Package pdftex.def Info: pic/eplan.pdf used on input line 241.
 (pdftex.def)             Requested size: 337.44586pt x 504.79736pt.
 
@@ -1512,29 +1675,25 @@ Underfull \hbox (badness 2012) in paragraph at lines 242--242
 it/12 User-Badge, User-Post, Post-Tag:
  []
 
-[30] [31 <./pic/eplan.pdf>]
+[30]
+
+LaTeX Warning: Citation `DBLP:conf/pods/Chaudhuri98' on page 31 undefined on in
+put line 246.
+
+
+LaTeX Warning: Citation `DBLP:conf/edbt/SwamiS94' on page 31 undefined on input
+ line 246.
+
+[31 <./pic/eplan.pdf>]
 
 LaTeX Warning: Reference `alg:StructurePlanner' on page 32 undefined on input l
 ine 271.
 
-Package epstopdf Info: Source file: <pic/Structurelattice.eps>
-(epstopdf)                    date: 2017-09-12 15:04:53
-(epstopdf)                    size: 423457 bytes
-(epstopdf)             Output file: <pic/Structurelattice-eps-converted-to.pdf>
-
-(epstopdf)                    date: 2017-09-12 15:08:59
-(epstopdf)                    size: 98234 bytes
-(epstopdf)             Command: <epstopdf --outfile=pic/Structurelattice-eps-co
-nverted-to.pdf pic/Structurelattice.eps>
-(epstopdf)             \includegraphics on input line 275.
-Package epstopdf Info: Output file is already uptodate.
-<pic/Structurelattice-eps-converted-to.pdf, id=837, 702.625pt x 409.53pt>
-File: pic/Structurelattice-eps-converted-to.pdf Graphic file (type pdf)
-
-<use pic/Structurelattice-eps-converted-to.pdf>
-Package pdftex.def Info: pic/Structurelattice-eps-converted-to.pdf used on inpu
-t line 275.
-(pdftex.def)             Requested size: 351.31163pt x 204.7645pt.
+<pic/slattice.pdf, id=781, 703.62875pt x 401.5pt>
+File: pic/slattice.pdf Graphic file (type pdf)
+ <use pic/slattice.pdf>
+Package pdftex.def Info: pic/slattice.pdf used on input line 275.
+(pdftex.def)             Requested size: 316.63pt x 180.67332pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
@@ -1544,14 +1703,14 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 LaTeX Warning: Reference `alg:StructurePlanner' on page 33 undefined on input l
 ine 317.
 
-[33 <./pic/Structurelattice-eps-converted-to.pdf>] [34]
-<pic/bordernode.pdf, id=884, 459.7175pt x 216.81pt>
+[33 <./pic/slattice.pdf>] [34]
+<pic/bordernode.pdf, id=824, 456.70625pt x 214.8025pt>
 File: pic/bordernode.pdf Graphic file (type pdf)
- <use pic/bordernode.pdf>
-Package pdftex.def Info: pic/bordernode.pdf used on input line 340.
-(pdftex.def)             Requested size: 229.85818pt x 108.40472pt.
 
-[35 <./pic/bordernode.pdf>]
+<use pic/bordernode.pdf>
+Package pdftex.def Info: pic/bordernode.pdf used on input line 340.
+(pdftex.def)             Requested size: 159.84958pt x 75.18199pt.
+ [35 <./pic/bordernode.pdf>]
 ! Missing $ inserted.
 <inserted text> 
                 $
@@ -1774,6 +1933,10 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 [40]
+
+LaTeX Warning: Citation `DBLP:journals/dr/Ozsoyoglu99' on page 41 undefined on 
+input line 484.
+
 ! Undefined control sequence.
 l.494 $V^{*}\leftarrowjoin
                           (V)$\;
@@ -1844,32 +2007,39 @@ Chapter 5.
 (experiment.tex [45
 
 
-] <pic/expmeta.pdf, id=1017, 679.53876pt x 415.5525pt>
+] <pic/expmeta.pdf, id=955, 679.53876pt x 415.5525pt>
 File: pic/expmeta.pdf Graphic file (type pdf)
 
 <use pic/expmeta.pdf>
 Package pdftex.def Info: pic/expmeta.pdf used on input line 21.
-(pdftex.def)             Requested size: 407.72641pt x 249.33342pt.
+(pdftex.def)             Requested size: 251.4254pt x 153.75201pt.
  [46 <./pic/expmeta.pdf>] [47]
+
+LaTeX Warning: Citation `sigmod11_ZhaoLXH11' on page 48 undefined on input line
+ 118.
+
+
+LaTeX Warning: Citation `DBLP:conf/icdm/GoudaZ01' on page 48 undefined on input
+ line 118.
+
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ú in font cmr12!
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ù in font cmr12!
- [48]
+[48]
 Package epstopdf Info: Source file: <plot/neo4j.eps>
-(epstopdf)                    date: 2017-09-16 16:23:44
+(epstopdf)                    date: 2017-09-17 12:32:59
 (epstopdf)                    size: 31225 bytes
 (epstopdf)             Output file: <plot/neo4j-eps-converted-to.pdf>
-(epstopdf)                    date: 2017-09-16 16:23:56
-(epstopdf)                    size: 37965 bytes
+(epstopdf)                    date: 2017-09-17 12:36:52
+(epstopdf)                    size: 38229 bytes
 (epstopdf)             Command: <epstopdf --outfile=plot/neo4j-eps-converted-to
 .pdf plot/neo4j.eps>
 (epstopdf)             \includegraphics on input line 151.
 Package epstopdf Info: Output file is already uptodate.
-
-<plot/neo4j-eps-converted-to.pdf, id=1053, 505.89pt x 722.7pt>
+ <plot/neo4j-eps-converted-to.pdf, id=988, 505.89pt x 722.7pt>
 File: plot/neo4j-eps-converted-to.pdf Graphic file (type pdf)
 
 <use plot/neo4j-eps-converted-to.pdf>
@@ -1877,11 +2047,11 @@ Package pdftex.def Info: plot/neo4j-eps-converted-to.pdf used on input line 151
 .
 (pdftex.def)             Requested size: 252.94437pt x 361.3491pt.
 
-<pic/expmetaS.pdf, id=1055, 683.55376pt x 415.5525pt>
+<pic/expmetaS.pdf, id=990, 683.55376pt x 415.5525pt>
 File: pic/expmetaS.pdf Graphic file (type pdf)
  <use pic/expmetaS.pdf>
 Package pdftex.def Info: pic/expmetaS.pdf used on input line 160.
-(pdftex.def)             Requested size: 410.13542pt x 249.33342pt.
+(pdftex.def)             Requested size: 252.91093pt x 153.75201pt.
 
 [49 <./plot/neo4j-eps-converted-to.pdf>]
 Overfull \hbox (44.14561pt too wide) in paragraph at lines 165--166
@@ -1891,7 +2061,7 @@ Overfull \hbox (44.14561pt too wide) in paragraph at lines 165--166
 ore\OMS/cmsy/m/n/12 g\OT1/cmr/m/n/12 .
  []
 
-[50 <./pic/expmetaS.pdf>] [51]
+[50 <./pic/expmetaS.pdf>]
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ô in font cmr12!
@@ -1909,14 +2079,14 @@ Package epstopdf Info: Source file: <plot/omega.eps>
 (epstopdf)             \includegraphics on input line 199.
 Package epstopdf Info: Output file is already uptodate.
 
-<plot/omega-eps-converted-to.pdf, id=1078, 505.89pt x 722.7pt>
+<plot/omega-eps-converted-to.pdf, id=1009, 505.89pt x 722.7pt>
 File: plot/omega-eps-converted-to.pdf Graphic file (type pdf)
 
 <use plot/omega-eps-converted-to.pdf>
 Package pdftex.def Info: plot/omega-eps-converted-to.pdf used on input line 199
 .
 (pdftex.def)             Requested size: 252.94437pt x 361.3491pt.
- [52 <./plot/omega-eps-converted-to.pdf>]
+ [51]
 Package epstopdf Info: Source file: <plot/limit.eps>
 (epstopdf)                    date: 2017-09-16 16:23:43
 (epstopdf)                    size: 27043 bytes
@@ -1928,13 +2098,14 @@ Package epstopdf Info: Source file: <plot/limit.eps>
 (epstopdf)             \includegraphics on input line 213.
 Package epstopdf Info: Output file is already uptodate.
 
-<plot/limit-eps-converted-to.pdf, id=1089, 505.89pt x 722.7pt>
+<plot/limit-eps-converted-to.pdf, id=1017, 505.89pt x 722.7pt>
 File: plot/limit-eps-converted-to.pdf Graphic file (type pdf)
 
 <use plot/limit-eps-converted-to.pdf>
 Package pdftex.def Info: plot/limit-eps-converted-to.pdf used on input line 213
 .
 (pdftex.def)             Requested size: 252.94437pt x 361.3491pt.
+ [52 <./plot/omega-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <plot/disk.eps>
 (epstopdf)                    date: 2017-09-16 16:23:43
 (epstopdf)                    size: 24265 bytes
@@ -1946,7 +2117,7 @@ pdf plot/disk.eps>
 (epstopdf)             \includegraphics on input line 228.
 Package epstopdf Info: Output file is already uptodate.
 
-<plot/disk-eps-converted-to.pdf, id=1092, 505.89pt x 722.7pt>
+<plot/disk-eps-converted-to.pdf, id=1027, 505.89pt x 722.7pt>
 File: plot/disk-eps-converted-to.pdf Graphic file (type pdf)
 
 <use plot/disk-eps-converted-to.pdf>
@@ -1954,6 +2125,11 @@ Package pdftex.def Info: plot/disk-eps-converted-to.pdf used on input line 228.
 
 (pdftex.def)             Requested size: 252.94437pt x 361.3491pt.
  [53 <./plot/limit-eps-converted-to.pdf>]
+
+LaTeX Warning: Citation `sigmod11_ZhaoLXH11' on page 54 undefined on input line
+ 237.
+
+
 Overfull \hbox (4.49864pt too wide) in paragraph at lines 237--238
 \OT1/cmr/m/n/12 ciency and space cost. Cuboids se-lected by Cube-Plan-ner are $
 \OMS/cmsy/m/n/12 f$\OT1/cmr/m/n/12 User.Age, Post.ActiveMonth$\OMS/cmsy/m/n/12 
@@ -1976,7 +2152,7 @@ Package epstopdf Info: Source file: <plot/qjiawei.eps>
 to.pdf plot/qjiawei.eps>
 (epstopdf)             \includegraphics on input line 242.
 Package epstopdf Info: Output file is already uptodate.
-<plot/qjiawei-eps-converted-to.pdf, id=1104, 505.89pt x 722.7pt>
+<plot/qjiawei-eps-converted-to.pdf, id=1038, 505.89pt x 722.7pt>
 File: plot/qjiawei-eps-converted-to.pdf Graphic file (type pdf)
 
 <use plot/qjiawei-eps-converted-to.pdf>
@@ -1994,7 +2170,7 @@ Package epstopdf Info: Source file: <plot/jiaweispace.eps>
 ted-to.pdf plot/jiaweispace.eps>
 (epstopdf)             \includegraphics on input line 249.
 Package epstopdf Info: Output file is already uptodate.
-<plot/jiaweispace-eps-converted-to.pdf, id=1113, 505.89pt x 722.7pt>
+<plot/jiaweispace-eps-converted-to.pdf, id=1047, 505.89pt x 722.7pt>
 File: plot/jiaweispace-eps-converted-to.pdf Graphic file (type pdf)
 
 <use plot/jiaweispace-eps-converted-to.pdf>
@@ -2014,7 +2190,7 @@ df plot/fpm.eps>
 (epstopdf)             \includegraphics on input line 264.
 Package epstopdf Info: Output file is already uptodate.
 
-<plot/fpm-eps-converted-to.pdf, id=1130, 505.89pt x 722.7pt>
+<plot/fpm-eps-converted-to.pdf, id=1064, 505.89pt x 722.7pt>
 File: plot/fpm-eps-converted-to.pdf Graphic file (type pdf)
 
 <use plot/fpm-eps-converted-to.pdf>
@@ -2031,7 +2207,7 @@ d-to.pdf plot/fpm_space.eps>
 (epstopdf)             \includegraphics on input line 271.
 Package epstopdf Info: Output file is already uptodate.
 
-<plot/fpm_space-eps-converted-to.pdf, id=1131, 505.89pt x 722.7pt>
+<plot/fpm_space-eps-converted-to.pdf, id=1065, 505.89pt x 722.7pt>
 File: plot/fpm_space-eps-converted-to.pdf Graphic file (type pdf)
 
 <use plot/fpm_space-eps-converted-to.pdf>
@@ -2049,7 +2225,7 @@ Package epstopdf Info: Source file: <plot/qfpm.eps>
 pdf plot/qfpm.eps>
 (epstopdf)             \includegraphics on input line 280.
 Package epstopdf Info: Output file is already uptodate.
- <plot/qfpm-eps-converted-to.pdf, id=1142, 505.89pt x 722.7pt>
+ <plot/qfpm-eps-converted-to.pdf, id=1076, 505.89pt x 722.7pt>
 File: plot/qfpm-eps-converted-to.pdf Graphic file (type pdf)
 
 <use plot/qfpm-eps-converted-to.pdf>
@@ -2075,7 +2251,7 @@ Package epstopdf Info: Source file: <plot/threeall.eps>
 (epstopdf)             \includegraphics on input line 302.
 Package epstopdf Info: Output file is already uptodate.
 
-<plot/threeall-eps-converted-to.pdf, id=1165, 505.89pt x 722.7pt>
+<plot/threeall-eps-converted-to.pdf, id=1099, 505.89pt x 722.7pt>
 File: plot/threeall-eps-converted-to.pdf Graphic file (type pdf)
 
 <use plot/threeall-eps-converted-to.pdf>
@@ -2093,7 +2269,7 @@ d-to.pdf plot/threejoin.eps>
 (epstopdf)             \includegraphics on input line 310.
 Package epstopdf Info: Output file is already uptodate.
 
-<plot/threejoin-eps-converted-to.pdf, id=1166, 505.89pt x 722.7pt>
+<plot/threejoin-eps-converted-to.pdf, id=1100, 505.89pt x 722.7pt>
 File: plot/threejoin-eps-converted-to.pdf Graphic file (type pdf)
 
 <use plot/threejoin-eps-converted-to.pdf>
@@ -2101,7 +2277,7 @@ Package pdftex.def Info: plot/threejoin-eps-converted-to.pdf used on input line
  310.
 (pdftex.def)             Requested size: 217.52844pt x 310.75494pt.
 
-<plot/threetotal.pdf, id=1167, 794.97pt x 614.295pt>
+<plot/threetotal.pdf, id=1101, 794.97pt x 614.295pt>
 File: plot/threetotal.pdf Graphic file (type pdf)
  <use plot/threetotal.pdf>
 Package pdftex.def Info: plot/threetotal.pdf used on input line 316.
@@ -2119,7 +2295,7 @@ ted-to.pdf plot/threesample.eps>
 (epstopdf)             \includegraphics on input line 323.
 Package epstopdf Info: Output file is already uptodate.
 
-<plot/threesample-eps-converted-to.pdf, id=1175, 505.89pt x 722.7pt>
+<plot/threesample-eps-converted-to.pdf, id=1109, 505.89pt x 722.7pt>
 File: plot/threesample-eps-converted-to.pdf Graphic file (type pdf)
 
 <use plot/threesample-eps-converted-to.pdf>
@@ -2132,13 +2308,13 @@ Overfull \hbox (9.30667pt too wide) in paragraph at lines 343--344
 tion plans for queries \OT1/cmr/m/it/12 User-Post: User.Age
  []
 
-<pic/wrong.pdf, id=1204, 123.45624pt x 265.90541pt>
+<pic/wrong.pdf, id=1138, 123.45624pt x 265.90541pt>
 File: pic/wrong.pdf Graphic file (type pdf)
  <use pic/wrong.pdf>
 Package pdftex.def Info: pic/wrong.pdf used on input line 349.
 (pdftex.def)             Requested size: 185.1839pt x 398.85713pt.
 
-<pic/wrong2.pdf, id=1205, 123.45624pt x 265.90541pt>
+<pic/wrong2.pdf, id=1139, 123.45624pt x 265.90541pt>
 File: pic/wrong2.pdf Graphic file (type pdf)
  <use pic/wrong2.pdf>
 Package pdftex.def Info: pic/wrong2.pdf used on input line 350.
@@ -2147,28 +2323,30 @@ Package pdftex.def Info: pic/wrong2.pdf used on input line 350.
 [61 <./plot/threesample-eps-converted-to.pdf>]) [62 <./pic/wrong.pdf> <./pic/wr
 ong2.pdf>]
 Chapter 6.
-(conclusion.tex) [63
+(conclusion.tex
+
+LaTeX Warning: Citation `sigmod11_ZhaoLXH11' on page 63 undefined on input line
+ 1.
+
+[63
 
 
-] [64] (main.bbl [65
+]) [64] (main.bbl) [65
 
 
-
-
-] [66] [67]) [68] [69
 
 
 ]
 Appendix A.
-[70
+[66
 
 
 ]
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ô in font cmr12!
- [71]
-Overfull \hbox (5.60588pt too wide) in paragraph at lines 422--423
+ [67]
+Overfull \hbox (5.60588pt too wide) in paragraph at lines 424--425
 []\OT1/cmr/m/n/12 What is the dis-tri-bu-tion of users' up-votes for each topic
  of an-swers (Post.PostTypeId=2)? 
  []
@@ -2179,7 +2357,7 @@ Missing character: There is no ô in font cmr12!
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ô in font cmr12!
-[72
+[68
 runsystem(makeindex -s main.ist -t main.glg -o main.gls main.glo)...executed (a
 llowed).
 
@@ -2193,13 +2371,13 @@ runsystem(makeindex -s main.ist -t main.symbols-glg -o main.symbols-gls main.sy
 mbols-glo)...executed (allowed).
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 441.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 441.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 443.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 443.
  (main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 441.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 441.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 443.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 443.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 60FA23104364DA83AA791F434A7AD304;3656.
+(rerunfilecheck)             Checksum: 354E2520656332B6FC97441F552E5613;3656.
 
 
 LaTeX Warning: There were undefined references.
@@ -2210,11 +2388,11 @@ LaTeX Warning: There were undefined references.
 ### simple group (level 1) entered at line 1061 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 32953 strings out of 493323
- 623420 string characters out of 3138968
- 786741 words of memory out of 3000000
- 35566 multiletter control sequences out of 15000+200000
- 543145 words of font info for 70 fonts, out of 3000000 for 9000
+ 32913 strings out of 493323
+ 622168 string characters out of 3138968
+ 785222 words of memory out of 3000000
+ 35561 multiletter control sequences out of 15000+200000
+ 543453 words of font info for 71 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  73i,20n,66p,10491b,22674s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmb
@@ -2233,9 +2411,9 @@ es/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTe
 X 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files/MiKTeX 2.9/fon
 ts/type1/public/amsfonts/cm/cmti12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1
 /public/amsfonts/cm/cmtt12.pfb>
-Output written on main.pdf (83 pages, 2111991 bytes).
+Output written on main.pdf (79 pages, 2180087 bytes).
 PDF statistics:
- 1416 PDF objects out of 1440 (max. 8388607)
- 356 named destinations out of 1000 (max. 500000)
+ 1325 PDF objects out of 1440 (max. 8388607)
+ 321 named destinations out of 1000 (max. 500000)
  582 words of extra memory for PDF output out of 10000 (max. 10000000)
 

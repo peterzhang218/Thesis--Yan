@@ -11,7 +11,7 @@ In this chapter, we present our complete solution towards efficient OLAP query p
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[scale=0.7]{pic/frame.pdf}
+	\includegraphics[scale=0.5]{pic/frame.pdf}
 	\caption{Solution framework.}
 	\label{Solution framework}
 \end{figure}
@@ -48,8 +48,8 @@ We first perform a frequency count of previous queries. If more than $\omega$ qu
 	\caption{Materialization Overview}
 	\LinesNumbered
 	\textbf{System setting:} $\omega$: frequency threshold for hot structures\\
-	\KwIn{Q: a set of previous queries\\}
-	\KwOut{C: a set of materialized cuboids\\ S: a set of materialized substructures}
+	\KwIn{$Q$: a set of previous queries\\}
+	\KwOut{$C$: a set of materialized cuboids\\ $S$: a set of materialized substructures}
 	
 	$CInput \gets \emptyset$\;
 	$SInput \gets \emptyset$\;
@@ -123,8 +123,8 @@ As shown in Algorithm \ref{alg:1}, function $structureFreq(Q, q)$ returns the fr
 		\caption{Greedy Selection}
 		\LinesNumbered
 		\textbf{System setting:} $\sigma$: space limit\\
-		\KwIn{C: a set of candidates of cuboids or substructures in lattice structure\\ P: A set of previous queries}
-		\KwOut{R: a list of selected candidates to materialize\\ }
+		\KwIn{$C$: a set of candidates of cuboids or substructures in lattice structure\\ $P$: A set of previous queries}
+		\KwOut{$R$: a list of selected candidates to materialize\\ }
 		\ForEach{c $\in$ C}{
 			c.space $\leftarrow$ space(c)\;
 			c.benefit $\leftarrow$ estimateMarginBenefit(c, P, Q)\;
@@ -166,9 +166,9 @@ As shown in Algorithm \ref{alg:1}, function $structureFreq(Q, q)$ returns the fr
 		\caption{CubePlanner}
 		\LinesNumbered
 		\textbf{System setting:}
-		: maximum number of cuboids to be precomputed\\
-		\KwIn{Q: a set of previous queries not necessarily with the same structure}
-		\KwOut{C: a queue of selected cuboids to be precomputed\\ }
+		$n$: maximum number of cuboids to be precomputed\\
+		\KwIn{$Q$: a set of previous queries not necessarily with the same structure}
+		\KwOut{$C$: a queue of selected cuboids to be precomputed\\ }
 		Group$\leftarrow$ group(Q)\;
 		\ForEach{group $\in$ Group}{
 			group.results $\leftarrow$ SingleCubePlanner(group);
@@ -197,9 +197,9 @@ As shown in Algorithm \ref{alg:1}, function $structureFreq(Q, q)$ returns the fr
 		\label{alg:SingleCubePlanner}
 		\caption{SingleCubePlanner}
 		\LinesNumbered
-		\textbf{System setting:} n: as in ``top-$n$''\\
-		\KwIn{P: a set of previous queries with a same structure}
-		\KwOut{C: a queue of selected cuboids to precompute\\ }
+		\textbf{System setting:} $n$: as in ``top-$n$''\\
+		\KwIn{$P$: a set of previous queries with a same structure}
+		\KwOut{$C$: a queue of selected cuboids to precompute\\ }
 		$Lattice \leftarrow buildLattice(Q)$\;
 		\ForEach{query $Q$ $\in$ P}{
 			$q.time \leftarrow time(q)$\;
@@ -272,7 +272,7 @@ As mentioned above, \emph{StructurePlanner} also adopts the same greedy selectio
 
 \begin {figure}[h]
 \centering
-\includegraphics[scale=0.5]{pic/Structurelattice.eps}
+\includegraphics[scale=0.45]{pic/slattice.pdf}
 \caption{A substructure lattice with \textit{Badge-User, User-Post, Post-Tag} as its root node.}
 \label{fig:4:3}
 \end{figure}
@@ -286,8 +286,8 @@ It is updated every time a new substructure is selected. Lines 5-12 perform scor
 \caption{StructurePlanner}
 \LinesNumbered
 \textbf{System setting:} $\sigma$: space limit for materialized views\\
-\KwIn{Q: a set of previous queries}
-\KwOut{S: an queue of selected substructures to precompute\\ }
+\KwIn{$Q$: a set of previous queries}
+\KwOut{$S$: an queue of selected substructures to precompute\\ }
 $Lattice \leftarrow buildSubstuctureLattice(Q)$\;
 \ForEach{q $\in$ Q}{
 	$q.coveredSubstructres\leftarrow \emptyset $\;
@@ -337,7 +337,7 @@ For IDs, we consider the following two policies.
 
 \begin{figure}[h]
 	\centering
-	\includegraphics[scale=0.5]{pic/bordernode.pdf}
+	\includegraphics[scale=0.35]{pic/bordernode.pdf}
 	\caption{``Border nodes'' of structure \textit{User-Post, Post-Tag}.}
 	\label{border node}
 \end{figure}
@@ -373,9 +373,9 @@ Query processing aims at processing incoming queries efficiently using materiali
 \label{alg:Query Processing}
 \caption{Query Processing}
 \LinesNumbered
-\textbf{System:} C: a set of materialized cuboids\\ S: a set of materialized substructures\\
-\KwIn{q: a query\\}
-\KwOut{r: result of q}
+\textbf{System:} $C$: a set of materialized cuboids\\ $S$: a set of materialized substructures\\
+\KwIn{$q$: a query\\}
+\KwOut{$r$: result of $q$}
 
 $minspace\leftarrow \infty $\;
 mincuboid \leftarrow NULL\;
@@ -427,9 +427,9 @@ We propose a greedy algorithm for substructure selection based on user defined h
 \caption{SelectSubstrucre}
 \label{alg:SelectSubstrucre}
 \LinesNumbered
-\textbf{System:} S: a collection of materialized substructures\\ h(s): user defined function. It returns the heuristic score of a substructure $s$.\\
-\KwIn{q: a future query\\}
-\KwOut{V : selected views for future joining\\ uncoveredStruc: structure not covered by selected views\\uncoveredProp: properties not covered by selected views\\}
+\textbf{System:} $S$: a collection of materialized substructures\\ $h(s)$: user defined function. It returns the heuristic score of a substructure $s$.\\
+\KwIn{$q$: a future query\\}
+\KwOut{$V$ : selected views for future joining\\ $uncoveredStruc$: structure not covered by selected views\\$uncoveredProp$: properties not covered by selected views\\}
 uncoveredStruc \leftarrow q.structure\;
 uncoveredProp\leftarrow q.properties\;
 $coveredStruc\leftarrow \emptyset$\;
@@ -461,9 +461,9 @@ Given a query $q$, we use the previously discussed algorithm ``SelectSubstrucre'
 \begin{algorithm}[H]
 \caption{Decompose\_Join}
 \LinesNumbered
-\textbf{System:} S: a collection of materialized substructures\\
-\KwIn{q: a future query\\}
-\KwOut{r: result of q}
+\textbf{System:} $S$: a collection of materialized substructures\\
+\KwIn{$q$: a future query\\}
+\KwOut{$r$: result of $q$}
 $\Sigma \gets \emptyset $\;
 $V, uncoveredStruc, uncoveredProp \gets SelectSubstrucre(q) $\;
 $\Sigma \gets \Sigma \cup V $\;
@@ -486,9 +486,9 @@ $Decompose\_Join$ retrieve ``complementary components'' from the database in a n
 \begin{algorithm}[H]
 \caption{$Decompose\_Join^{*}$}
 \LinesNumbered
-\textbf{System:} S: a collection of materialized substructures\\
-\KwIn{q: a future query\\}
-\KwOut{r: result of q}
+\textbf{System:} $S$: a collection of materialized substructures\\
+\KwIn{$q$: a future query\\}
+\KwOut{$r$: result of $q$}
 $\Sigma \gets \emptyset $\;
 $V, uncoveredStruc, uncoveredProp \gets SelectSubstrucre(q) $\;
 $V^{*}\leftarrowjoin(V)$\;
@@ -515,9 +515,9 @@ We mentioned two advantages of $retrieve^{*}(s, V^{*})$. However a disadvantage 
 \begin{algorithm}[H]
 \caption{$Decompose\_Join^{+}$}
 \LinesNumbered
-\textbf{System:} S: a collection of materialized substructures\\
-\KwIn{q: a future query\\}
-\KwOut{r: result of q}
+\textbf{System:} $S$: a collection of materialized substructures\\
+\KwIn{$q$: a future query\\}
+\KwOut{$r$: result of $q$}
 $\Sigma \gets \emptyset $\;
 $V, uncoveredStruc, uncoveredProp \gets SelectSubstrucre(q) $\;
 $V^{*}\leftarrowjoin(V)$\;

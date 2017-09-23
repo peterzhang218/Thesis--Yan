@@ -46,19 +46,19 @@ A property graph $G$ is defined as $(V, Vid, E, Eid, A, L, f)$. $V$ is the set o
 
 \subsection{OLAP Query}
 
-As discussed in Section \ref{Structure, Dimension, and Measure}, four elements of a graph OLAP query are \textit{Structure}, \textit{Dimension}, \textit{Measure}, and \textit{Slicing Condition} (optional). We now define how we represent these four elements in an OLAP query. We will use Query \#3 in Section \ref{OLAPExamples} as an example.
+As discussed in Section \ref{Structure, Dimension, and Measure}, four elements of a graph OLAP query are \textit{Structure}, \textit{Dimension}, \textit{Measure}, and \textit{Slicing Condition} (optional). We now define how we represent these four elements in an OLAP query. We will use Q3 in Section \ref{OLAPExamples} as an example.
 
-\noindent\textbf{\textit{Structure :}} A \textit{structure} consists of \textit{edges}. We write a \textit{structure} by listing all its \textit{edges} separated by comma, where an \textit{edge} is represented by ``\textit{Starting Node Label - Edge Label - Ending Node Label}''. For instance, Query \#3's \textit{structure} as shown in Figure \ref{fig:2:3} is written as \textit{``User-owns-Post, Post-has-Tag''}.
+\noindent\textbf{\textit{Structure :}} A \textit{structure} consists of \textit{edges}. We write a \textit{structure} by listing all its \textit{edges} separated by comma, where an \textit{edge} is represented by ``\textit{Starting Node Label - Edge Label - Ending Node Label}''. For instance, Q3's \textit{structure} as shown in Figure \ref{fig:2:3} is written as \textit{``User-creates-Post, Post-has\_tag-Tag''}.
 
 
 
 \noindent\textbf{\textit{Dimension:}} A
-\textit{Dimension} is written by listing all properties that act as dimensions in an OLAP query. For example, Query \#3's \textit{dimension} is written as \textit{``Tag.Tagname''}.
+\textit{Dimension} is written by listing all properties that act as dimensions in an OLAP query. For example, Q3's \textit{dimension} is written as \textit{``Tag.Tagname''}.
 
-\noindent\textbf{\textit{Measure:}} We focus on three most common types of \textit{measure}: \textit{COUNT, SUM and AVG. } Query \#3's \textit{measure} is written as \textit{``AVG(User.Age)''}.
+\noindent\textbf{\textit{Measure:}} We focus on three most common types of \textit{measure}: \textit{COUNT, SUM and AVG. } Q3's \textit{measure} is written as \textit{``AVG(User.Age)''}.
 
 
-\noindent\textbf{\textit{Slicing Condition:}} A \textit{Slicing Condition} is written as ``$Property = value$''. Query \#3's \textit{slicing condition} is written as \textit{``Post.Year=2017''}.
+\noindent\textbf{\textit{Slicing Condition:}} A \textit{Slicing Condition} is written as ``$Property = value$''. Q3's \textit{slicing condition} is written as \textit{``Post.Year=2017''}.
 
 \noindent With the four elements defined above, we write an OLAP query in the following format:
 
@@ -66,21 +66,21 @@ As discussed in Section \ref{Structure, Dimension, and Measure}, four elements o
 	\textbf{\textit{Structure : Dimension, Measure, Slicing Condition}}
 }
 
-\noindent Recall that Query \#3 is written as 
+\noindent Recall that Q3 is written as 
 
 \fbox{
-	\textit{User-owns-Post, Post-has-Tag: Tag.Tagname, AVG(User.Age), Post.Year=2017
+	\textit{User-creates-Post, Post-has\_tag-Tag: Tag.Tagname, AVG(User.Age), Post.Year=2017
 	}
 }
 
-\noindent where \textit{User-owns-Post, Post-has-Tag} refers to  \textit{structure}; \textit{Tag.Tagname} refers to \textit{dimension},\textit{ AVG(User.Age) } refers to \textit{measure}; and {Post.Year=2017} refers to \textit{slicing condition}. 
+\noindent where \textit{User-creates-Post, Post-has\_tag-Tag} refers to  \textit{structure}; \textit{Tag.Tagname} refers to \textit{dimension},\textit{ AVG(User.Age) } refers to \textit{measure}; and {Post.Year=2017} refers to \textit{slicing condition}. 
 
 %Note that since \textit{dimension}, \textit{measure} and \textit{slicing condition} are written in different forms, it is easy to distinguish them even if they are all listed together.
 
 
 %\textbf{\textit{Features of a query:}} 
 \par
-We define some notations adopted in this thesis. Given an OLAP query $q$, we use \textit{``q.properties''} to refer to the set of \textbf{all properties} that appear in \textit{Dimension, Measure, and Slicing Condition} of $q$. We use \textit{``q.structure''} to refer to the structure of $q$. For example, \textit{Query \#3.properties=\{Tag.Tagname, User.Age, Post.Year\}}, and \textit{Query \#3.structure=\{ User-owns-Post, Post-has-Tag\}}.
+We define some notations adopted in this thesis. Given an OLAP query $q$, we use \textit{``q.properties''} to refer to the set of \textbf{all properties} that appear in \textit{Dimension, Measure, and Slicing Condition} of $q$. We use \textit{``q.structure''} to refer to the structure of $q$. For example, \textit{Q3.properties=\{Tag.Tagname, User.Age, Post.Year\}}, and \textit{Q3.structure=\{ User-creates-Post, Post-has\_tag-Tag\}}.
 
 
 
@@ -94,17 +94,17 @@ We define some notations adopted in this thesis. Given an OLAP query $q$, we use
 %} to refer to materialization of a $Query$.
 %\intodo{Here you should briefly mention what is materialization}
 
-As previously discussed, a key issue of our work is to find out most useful queries based on previous workload. For fast access to results of these useful queries, we store their results (preferably in main memory), and this is known as the \textit{materialization} of the query. 
+As previously discussed, a key issue of our work is to to find the most useful common substructures and properties from the previous queries, which are assumed to appear in the future workload frequently. For fast access to results of these useful queries, we store their results (preferably in main memory), and this is known as the \textit{materialization} of the query. 
 
-As defined above, in a property graph, each node or edge has an unique ID, which can be treated as a special property. Whether a materialization keeps the unique ID is an important issue. This is because keeping unique ID often increases the space cost. We consider two types of materializations, namely the \emph{cuboid} and the \emph{substructure}, based on whether or not unique IDs of nodes (or edges) are kept. To better elaborate the differences between cuboid and substructure, we consider the following example. Suppose we have the following query workload containing two history queries ($Q_1$ and $Q_2$) and two incoming queries ($Q_3$ and $Q_4$):
+As defined above, in a property graph, each node or edge has an unique ID, which can be treated as a special property. Whether a materialization keeps the unique ID is an important issue. This is because keeping unique ID often increases the space cost. We consider two types of materializations, namely the \emph{cuboid} and the \emph{substructure}, based on whether or not unique IDs of nodes (or edges) are kept. To better elaborate the differences between cuboid and substructure, we consider the following example. Suppose we have the following query workload containing two history queries (P1 and P2) and two incoming queries (Q1 and Q2):
 
 \fbox{
 	\parbox{\dimexpr\linewidth-2\fboxsep-2\fboxrule\relax}
 	{ 
-		$Q_1$ User-owns-Post: User.Age\\
-		$Q_2$ User-owns-Post: User.Age, (AVG)Post.Score\\
-		$Q_3$ User-owns-Post: (AVG)User.Age, Post.Score	\\
-		$Q_4$ User-owns-Post, Post-has-Tag: User.Age, Tag.TagName
+		P1 User-creates-Post: User.Age\\
+		P2 User-creates-Post: User.Age, (AVG)Post.Score\\
+		Q1 User-creates-Post: (AVG)User.Age, Post.Score	\\
+		Q2 User-creates-Post, Post-has\_tag-Tag: User.Age, Tag.TagName
 	}
 }
 
@@ -113,29 +113,32 @@ As defined above, in a property graph, each node or edge has an unique ID, which
 
 
 
-%User-owns-Post: User.Age
-%
-%User-owns-Post: User.Age, (AVG)Post.Score
-%
-%User-owns-Post, Post-has-Tag: User.Age, Tag.TagName
+%User-creates-Post: User.Age
 
-We can tell that users are most interested in  the \textit{User-owns-Post} structure. \{\emph{User.Age, Post.Score}\} is the set of properties being involved in queries over \textit{User-owns-Post}. Thus, we can build a cuboid lattice of all combinations of  \{\emph{User.Age, Post.Score}\}. Materialization of the base cuboid of the lattice is
+
+We can tell that users are most interested in  the \textit{User-creates-Post} structure. \{\emph{User.Age, Post.Score}\} is the set of properties being involved in queries over \textit{User-creates-Post}. Thus, we can build a cuboid lattice of all combinations of  \{\emph{User.Age, Post.Score}\}. Materialization of the base cuboid of the lattice is
 
 \fbox{
-	\textit{$M_1$\ \$User-owns-Post: User.Age, Post.Score, COUNT(*)}
+	\textit{$M_1$: \$User-creates-Post: User.Age, Post.Score, COUNT(*)}
 }
 
-\noindent Note that for the rest of this thesis, we use the \$ symbol followed by structures and dimensions to denote a materialization, represented by $M$. The above materialized view is useful for $Q_3$ since we can process $Q_3$ by aggregation over $M_1$. We call such materialization a \textbf{cuboid}.
+\noindent Note that for the rest of this thesis, we use the \$ symbol followed by structures and dimensions to denote a materialization, represented by $M$. The above materialized view is useful for Q1 since we can process Q1 by aggregation over $M_1$. We call such materialization a \textbf{cuboid}.
 
 
-However, $M_1$ is not useful for $Q_4$ since they have different \textit{structures}. On the contrary, if we add \textit{ID(Post)} to \textit{dimension} and materialize \textit{\$User-owns-Post: User.Age, Post.Score, ID(Post) COUNT(*)}, \textit{Post} is ``activated'' to be able to join with other materializations containing \textit{Post} and produce results for OLAP over more complicated \textit{structures}. For example, $Q_4$ can be processed through the following steps:
+However, $M_1$ is not useful for Q2 since they have different \textit{structures}. On the contrary, if we add \textit{ID(Post)} to \textit{dimension} and materialize
+
+\fbox{
+	\textit{$M_2$: \$User-creates-Post: User.Age, Post.Score, ID(Post), COUNT(*)}
+}
+
+ \noindent so that \textit{Post} is ``activated'' to be able to join with other materializations containing \textit{Post} and produce results for OLAP over more complicated \textit{structures}. For example, Q2 can be processed through the following steps:
 
 
-\noindent\emph{Step 1}: joining \textit{\$User-owns-Post: User.Age, Post.Score, ID(Post) COUNT(*)} and \textit{\$Post-has-Tag: ID(Post), Tag.TagName, COUNT(*)} on \emph{ID(Post)};
+\noindent\emph{Step 1}: joining \textit{\$User-creates-Post: User.Age, Post.Score, ID(Post) COUNT(*)} and \textit{\$Post-has\_tag-Tag: ID(Post), Tag.TagName, COUNT(*)} on \emph{ID(Post)};
 
 \noindent\emph{Step 2}: perform aggregation on \{\emph{User.Age, Tag.TagName}\}. 
 
-In this case, we only need to fetch \textit{\$Post-has-Tag: ID(Post), Tag.TagName, COUNT(*)} from database to produce result for future workload \#2. We call such materialization with ID(s) in \textit{dimension} as \textbf{substructure}. 
+In this case, we only need to fetch \textit{\$Post-has\_tag-Tag: ID(Post), Tag.TagName, COUNT(*)} from database to produce result for Q2. We call such materialization with ID(s) in \textit{dimension} as \textbf{substructure}. 
 
 Table \ref{Table:3:1} shows a comparison between cuboid and substructure. Note that cuboids can only be used in queries with exactly the same structure. They are good for roll-up and slicing operations but not useful for queries with different structures. Substructures can be used to join with other materializations to help with future queries of various types of structures. The drawback is that structures are generally more space-costly than cuboids, as IDs are unique keys. The trade-off between cuboids and substructures is the trade-off between space cost against the potential saving of join processing.
 

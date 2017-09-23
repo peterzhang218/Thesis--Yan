@@ -82,7 +82,7 @@ Surprisingly, current graph databases do not efficiently support OLAP aggregatio
 
 Materialization and view maintenance techniques developed in traditional RDBMS have proved to be efficient and critical for processing OLAP workloads. Following the generic materialization methodology, in this thesis we develop a structure-aware cuboid caching solution to efficiently support OLAP aggregation queries over property graphs. The essential idea is to precompute and materialize some views wisely based on history workload, such that future workload processing can be accelerated. %We implement a prototype system upon Neo4j that greatly improves efficiency of OLAP over large property graphs.   
 
-We implemented a prototype system on top of Neo4j. Empirical studies over real-world property graph in different size scales show that, with a reasonable space cost constraint, our solution usually achieves 10-30x speedup over native Neo4j in time efficiency.
+We implemented a prototype system on top of Neo4j. Empirical studies over real-world property graph in different size scales show that, with a reasonable space cost constraint, our solution usually achieves 15-30x speedup over native Neo4j in time efficiency.
 
 
 
