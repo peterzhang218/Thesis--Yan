@@ -113,7 +113,7 @@ As we mentioned, there are two purposes of our experiments. In addition to the e
 \textbf{Materialization}
 \begin{itemize}
 	
-	\item  Space cost limit ($\sigma$ in Algorithm \ref{alg:5} in Section \ref{Structure Planner}) is set to 6GB by default. Results and discussion are presented in Section \ref{Space Cost Limit}.
+	\item  Space cost limit ($\sigma$ in Algorithm \ref{alg:StructurePlanner} in Section \ref{Structure Planner}) is set to 6GB by default. Results and discussion are presented in Section \ref{Space Cost Limit}.
 	
 	\item  Algorithms in materialized view selection described in Section \ref{Materialization Part}. For cuboid selection, we compare CubePlanner (in Section \ref{sec:CubePlanner}) with the ``Partial Materialization'' algorithm (PMA) proposed in Graph Cube \cite{sigmod11_ZhaoLXH11}. For substructure selection we will compare StructurePlanner (in Section \ref{Structure Planner}) with the well-known maximal frequent pattern mining algorithm (FPM) \cite{DBLP:conf/icdm/GoudaZ01}. In other tests, CubePlanner and StructurePlanner are used by default. Results are discussed in Sections \ref{CubePlannerPMA} and \ref{StructurePlanner vs FPM}, respectively.
 	
@@ -125,7 +125,7 @@ As we mentioned, there are two purposes of our experiments. In addition to the e
 
 \textbf{Future Query Processing}
 \begin{itemize}
-	\item  Choice of score functions in ranking substructures during the  ``Substructure Selection'' ($h(s)$ in Algorithm \ref{alg:SelectSubstrucre} discussed in Section \ref{Substructure Selection}). By default, $h(s)$ returns the score of $s$ calculated in StructurePlanner (as result of line 11 in Algorithm \ref{alg:5}). Results and explanations can be found in Section \ref{exp:Substructure Selection}.
+	\item  Choice of score functions in ranking substructures during the  ``Substructure Selection'' ($h(s)$ in Algorithm \ref{alg:SelectSubstrucre} discussed in Section \ref{Substructure Selection}). By default, $h(s)$ returns the score of $s$ calculated in StructurePlanner (as result of line 11 in Algorithm \ref{alg:StructurePlanner}). Results and explanations can be found in Section \ref{exp:Substructure Selection}.
 	
 	\item  Choice among using $Decompose\_Join$, $Decompose\_Join^{*}$ and $Decompose\_Join^{+}$ in ``Decomposition and Join'' in Section \ref{Query Decomposition}. We use $Decompose\_Join$ as the default method. Detailed discussion is in Section \ref{exp:DecomposeJoin}.
 	
@@ -257,7 +257,7 @@ Both two approaches are considered as implementations of the Greedy Selection Fr
 \subsection{StructurePlanner vs FPM}
 \label{StructurePlanner vs FPM}
 %----------------------------------------------------------------------
-We compare our Algorithm \ref{alg:5} in StructurePlanner with FPM. In FPM we set the minimum support to 2 considering the frequency count as listed in the table in Section \ref{Frequency Threshold}. These two ways provide different substructure selections which lead to different processing efficiency. Figures \ref{fig:fpmtotal} and \ref{fig:fpmspace} show that our StructurePlanner outperforms FPM in both efficiency and space cost.
+We compare our Algorithm \ref{alg:StructurePlanner} in StructurePlanner with FPM. In FPM we set the minimum support to 2 considering the frequency count as listed in the table in Section \ref{Frequency Threshold}. These two ways provide different substructure selections which lead to different processing efficiency. Figures \ref{fig:fpmtotal} and \ref{fig:fpmspace} show that our StructurePlanner outperforms FPM in both efficiency and space cost.
 
 \begin{figure}[H]
 	\centering

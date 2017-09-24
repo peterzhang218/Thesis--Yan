@@ -31,4 +31,3 @@
 \contentsline {figure}{\numberline {5.15}{\ignorespaces Total processing time vs ``trial query'' processing time.}}{61}{figure.5.15}
 \contentsline {figure}{\numberline {5.16}{\ignorespaces Execution plans for \textit {User-Post: User.Age} and \textit {User-Post: ID(User), ID(Post)}.}}{62}{figure.5.16}
 \addvspace {10\p@ }
-\addvspace {10\p@ }

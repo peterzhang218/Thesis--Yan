@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.7.5)  23 SEP 2017 20:46
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.7.5)  24 SEP 2017 15:54
 entering extended mode
 **./main.tex
 (main.tex
@@ -1307,13 +1307,13 @@ Missing character: There is no ô in font cmr12!
 
 
 
-] <pic/11.pdf, id=406, 643.40375pt x 273.02pt>
+] <pic/11.pdf, id=401, 643.40375pt x 273.02pt>
 File: pic/11.pdf Graphic file (type pdf)
 
 <use pic/11.pdf>
 Package pdftex.def Info: pic/11.pdf used on input line 21.
 (pdftex.def)             Requested size: 244.49596pt x 103.74867pt.
- <pic/12.pdf, id=411, 502.87875pt x 378.41376pt>
+ <pic/12.pdf, id=406, 502.87875pt x 378.41376pt>
 File: pic/12.pdf Graphic file (type pdf)
 
 <use pic/12.pdf>
@@ -1323,7 +1323,7 @@ Package pdftex.def Info: pic/12.pdf used on input line 39.
 
 pdfTeX warning: pdflatex.exe (file ./pic/3.pdf): PDF inclusion: found PDF versi
 on <1.6>, but at most version <1.5> allowed
-<pic/3.pdf, id=412, 534.79799pt x 529.37778pt>
+<pic/3.pdf, id=407, 534.79799pt x 529.37778pt>
 File: pic/3.pdf Graphic file (type pdf)
  <use pic/3.pdf>
 Package pdftex.def Info: pic/3.pdf used on input line 47.
@@ -1336,30 +1336,18 @@ Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ô in font cmr12!
 
-
-LaTeX Warning: Citation `LingOzsu09' on page 4 undefined on input line 87.
-
-
-LaTeX Warning: Citation `sigmod11_ZhaoLXH11' on page 4 undefined on input line 
-87.
-
-
-LaTeX Warning: Citation `iswc15_Maali:2015aa' on page 4 undefined on input line
- 87.
-
-
 Overfull \hbox (2.4977pt too wide) in paragraph at lines 87--88
 \OT1/cmr/m/n/12 Supporting ef-fi-cient OLAP in tra-di-tional re-la-tional datab
 ase man-age-ment sys-tems (RDBMS
  []
 
-[4] <pic/plan.pdf, id=457, 124.51117pt x 227.9185pt>
+[4] <pic/plan.pdf, id=455, 124.51117pt x 227.9185pt>
 File: pic/plan.pdf Graphic file (type pdf)
  <use pic/plan.pdf>
 Package pdftex.def Info: pic/plan.pdf used on input line 96.
 (pdftex.def)             Requested size: 186.76627pt x 341.87688pt.
 
-<pic/plan2.pdf, id=458, 124.51117pt x 227.9185pt>
+<pic/plan2.pdf, id=456, 124.51117pt x 227.9185pt>
 File: pic/plan2.pdf Graphic file (type pdf)
  <use pic/plan2.pdf>
 Package pdftex.def Info: pic/plan2.pdf used on input line 97.
@@ -1377,26 +1365,10 @@ Missing character: There is no Ä in font cmr12!
 Missing character: There is no ì in font cmr12!
  [7]) [8]
 Chapter 2.
-(relatedwork.tex
-
-LaTeX Warning: Citation `icde08_4497567' on page 9 undefined on input line 19.
-
-
-LaTeX Warning: Citation `vldb11_LiYZXL11' on page 9 undefined on input line 19.
-
-
-
-LaTeX Warning: Citation `sigmod11_AgarwalC11' on page 9 undefined on input line
- 19.
-
-[9
+(relatedwork.tex [9
 
 
 ]
-
-LaTeX Warning: Citation `sigmod11_ZhaoLXH11' on page 10 undefined on input line
- 26.
-
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ô in font cmr12!
@@ -1409,7 +1381,7 @@ Missing character: There is no ô in font cmr12!
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ô in font cmr12!
-[10]
+ [10]
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ò in font cmr12!
@@ -1422,19 +1394,19 @@ Missing character: There is no ò in font cmr12!
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ô in font cmr12!
- [11] <pic/meta1.pdf, id=514, 454.69875pt x 215.80624pt>
+ [11]
+<pic/meta1.pdf, id=522, 454.69875pt x 215.80624pt>
 File: pic/meta1.pdf Graphic file (type pdf)
-
-<use pic/meta1.pdf>
+ <use pic/meta1.pdf>
 Package pdftex.def Info: pic/meta1.pdf used on input line 146.
 (pdftex.def)             Requested size: 159.14694pt x 75.53331pt.
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ô in font cmr12!
- <pic/22.pdf, id=517, 165.93996pt x 138.28363pt>
-File: pic/22.pdf Graphic file (type pdf)
 
-<use pic/22.pdf>
+<pic/22.pdf, id=525, 165.93996pt x 138.28363pt>
+File: pic/22.pdf Graphic file (type pdf)
+ <use pic/22.pdf>
 Package pdftex.def Info: pic/22.pdf used on input line 158.
 (pdftex.def)             Requested size: 165.93953pt x 138.28328pt.
  [12 <./pic/meta1.pdf>]
@@ -1444,79 +1416,16 @@ Missing character: There is no ô in font cmbx12!
 Missing character: There is no ‚ in font cmbx12!
 Missing character: There is no Ä in font cmbx12!
 Missing character: There is no ô in font cmbx12!
-
-<pic/meta2.pdf, id=533, 455.7025pt x 215.80624pt>
+ <pic/meta2.pdf, id=541, 455.7025pt x 215.80624pt>
 File: pic/meta2.pdf Graphic file (type pdf)
  <use pic/meta2.pdf>
 Package pdftex.def Info: pic/meta2.pdf used on input line 168.
 (pdftex.def)             Requested size: 159.49826pt x 75.53331pt.
 
-
-LaTeX Warning: Citation `DBLP:journals/corr/JoishiS17' on page 13 undefined on 
-input line 186.
-
-[13 <./pic/22.pdf> <./pic/meta2.pdf>] [14]
-
-LaTeX Warning: Citation `iswc15_Maali:2015aa' on page 15 undefined on input lin
-e 269.
-
-
-LaTeX Warning: Citation `icde14_Wang:2014aa' on page 15 undefined on input line
- 271.
-
-
-LaTeX Warning: Citation `sigmod11_ZhaoLXH11' on page 15 undefined on input line
- 273.
-
-
-LaTeX Warning: Citation `sigmod11_ZhaoLXH11' on page 15 undefined on input line
- 273.
-
-
-LaTeX Warning: Citation `icdm08_Chen:2008aa' on page 15 undefined on input line
- 275.
-
-
-LaTeX Warning: Citation `sigmod11_ZhaoLXH11' on page 15 undefined on input line
- 277.
-
-
-LaTeX Warning: Citation `icdm08_Chen:2008aa' on page 15 undefined on input line
- 280.
-
-[15]
-
-LaTeX Warning: Citation `sigmod11_ZhaoLXH11' on page 16 undefined on input line
- 283.
-
-
-LaTeX Warning: Citation `iswc15_Maali:2015aa' on page 16 undefined on input lin
-e 292.
-
-
-LaTeX Warning: Citation `icde14_Wang:2014aa' on page 16 undefined on input line
- 293.
-
-
-LaTeX Warning: Citation `sigmod11_ZhaoLXH11' on page 16 undefined on input line
- 294.
-
-
-LaTeX Warning: Citation `icdm08_Chen:2008aa' on page 16 undefined on input line
- 295.
-
-
-Overfull \hbox (15.1517pt too wide) in paragraph at lines 288--298
+[13 <./pic/22.pdf> <./pic/meta2.pdf>] [14] [15]
+Overfull \hbox (14.72119pt too wide) in paragraph at lines 288--298
  [] 
  []
-
-
-LaTeX Warning: Citation `sigmod11_ZhaoLXH11' on page 16 undefined on input line
- 303.
-
-
-LaTeX Warning: Citation `iswc15_Maali:2015aa' on page 16 undefined on input lin
-e 303.
 
 ) [16]
 Chapter 3.
@@ -1574,7 +1483,7 @@ T1/cmr/m/n/12 (\OML/cmm/m/it/12 G; q; C[]; S[]; R\OT1/cmr/m/n/12 )$
 
 ) [21]
 Chapter 4.
-(solution.tex <pic/frame.pdf, id=656, 667.49374pt x 417.56pt>
+(solution.tex <pic/frame.pdf, id=681, 667.49374pt x 417.56pt>
 File: pic/frame.pdf Graphic file (type pdf)
 
 <use pic/frame.pdf>
@@ -1594,7 +1503,7 @@ Overfull \hbox (21.27481pt too wide) in paragraph at lines 88--89
 [][] 
  []
 
-[25] [26] [27] [28] [29] <pic/eplan.pdf, id=792, 259.57378pt x 388.30571pt>
+[25] [26] [27] [28] [29] <pic/eplan.pdf, id=818, 259.57378pt x 388.30571pt>
 File: pic/eplan.pdf Graphic file (type pdf)
 
 <use pic/eplan.pdf>
@@ -1606,27 +1515,18 @@ Underfull \hbox (badness 2012) in paragraph at lines 242--242
 it/12 User-Badge, User-Post, Post-Tag:
  []
 
-[30] [31 <./pic/eplan.pdf>]
-
-LaTeX Warning: Reference `alg:StructurePlanner' on page 32 undefined on input l
-ine 271.
-
-<pic/slattice.pdf, id=816, 703.62875pt x 401.5pt>
+[30] [31 <./pic/eplan.pdf>] <pic/slattice.pdf, id=843, 703.62875pt x 401.5pt>
 File: pic/slattice.pdf Graphic file (type pdf)
- <use pic/slattice.pdf>
+
+<use pic/slattice.pdf>
 Package pdftex.def Info: pic/slattice.pdf used on input line 275.
 (pdftex.def)             Requested size: 316.63pt x 180.67332pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[32]
-
-LaTeX Warning: Reference `alg:StructurePlanner' on page 33 undefined on input l
-ine 317.
-
-[33 <./pic/slattice.pdf>] [34]
-<pic/bordernode.pdf, id=861, 456.70625pt x 214.8025pt>
+[32] [33 <./pic/slattice.pdf>] [34]
+<pic/bordernode.pdf, id=889, 456.70625pt x 214.8025pt>
 File: pic/bordernode.pdf Graphic file (type pdf)
 
 <use pic/bordernode.pdf>
@@ -1737,10 +1637,6 @@ really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
 [36] [37]
-
-LaTeX Warning: Reference `alg:StructurePlanner' on page 38 undefined on input l
-ine 424.
-
 ! Missing $ inserted.
 <inserted text> 
                 $
@@ -1900,11 +1796,6 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 [42]
-
-LaTeX Warning: Reference `alg:StructurePlanner' on page 43 undefined on input l
-ine 537.
-
-
 Overfull \hbox (18.79538pt too wide) in paragraph at lines 546--547
 \OT1/cmr/m/n/12 date IDs by eval-u-at-ing $(\OML/cmm/m/it/12 retrieve\OT1/cmr/m
 /n/12 (\OML/cmm/m/it/12 s\OT1/cmr/m/n/12 )\OML/cmm/m/it/12 :estSize \OMS/cmsy/m
@@ -1925,24 +1816,20 @@ Chapter 5.
 (experiment.tex [45
 
 
-] <pic/expmeta.pdf, id=994, 679.53876pt x 415.5525pt>
+] <pic/expmeta.pdf, id=1024, 679.53876pt x 415.5525pt>
 File: pic/expmeta.pdf Graphic file (type pdf)
 
 <use pic/expmeta.pdf>
 Package pdftex.def Info: pic/expmeta.pdf used on input line 21.
 (pdftex.def)             Requested size: 251.4254pt x 153.75201pt.
  [46 <./pic/expmeta.pdf>] [47]
-
-LaTeX Warning: Citation `sigmod11_ZhaoLXH11' on page 48 undefined on input line
- 118.
-
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ú in font cmr12!
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ù in font cmr12!
-[48]
+ [48]
 Package epstopdf Info: Source file: <plot/neo4j.eps>
 (epstopdf)                    date: 2017-09-17 12:32:59
 (epstopdf)                    size: 31225 bytes
@@ -1953,7 +1840,8 @@ Package epstopdf Info: Source file: <plot/neo4j.eps>
 .pdf plot/neo4j.eps>
 (epstopdf)             \includegraphics on input line 151.
 Package epstopdf Info: Output file is already uptodate.
- <plot/neo4j-eps-converted-to.pdf, id=1029, 505.89pt x 722.7pt>
+
+<plot/neo4j-eps-converted-to.pdf, id=1060, 505.89pt x 722.7pt>
 File: plot/neo4j-eps-converted-to.pdf Graphic file (type pdf)
 
 <use plot/neo4j-eps-converted-to.pdf>
@@ -1961,7 +1849,7 @@ Package pdftex.def Info: plot/neo4j-eps-converted-to.pdf used on input line 151
 .
 (pdftex.def)             Requested size: 252.94437pt x 361.3491pt.
 
-<pic/expmetaS.pdf, id=1031, 683.55376pt x 415.5525pt>
+<pic/expmetaS.pdf, id=1062, 683.55376pt x 415.5525pt>
 File: pic/expmetaS.pdf Graphic file (type pdf)
  <use pic/expmetaS.pdf>
 Package pdftex.def Info: pic/expmetaS.pdf used on input line 160.
@@ -1993,7 +1881,7 @@ Package epstopdf Info: Source file: <plot/omega.eps>
 (epstopdf)             \includegraphics on input line 199.
 Package epstopdf Info: Output file is already uptodate.
 
-<plot/omega-eps-converted-to.pdf, id=1050, 505.89pt x 722.7pt>
+<plot/omega-eps-converted-to.pdf, id=1081, 505.89pt x 722.7pt>
 File: plot/omega-eps-converted-to.pdf Graphic file (type pdf)
 
 <use plot/omega-eps-converted-to.pdf>
@@ -2012,7 +1900,7 @@ Package epstopdf Info: Source file: <plot/limit.eps>
 (epstopdf)             \includegraphics on input line 213.
 Package epstopdf Info: Output file is already uptodate.
 
-<plot/limit-eps-converted-to.pdf, id=1058, 505.89pt x 722.7pt>
+<plot/limit-eps-converted-to.pdf, id=1089, 505.89pt x 722.7pt>
 File: plot/limit-eps-converted-to.pdf Graphic file (type pdf)
 
 <use plot/limit-eps-converted-to.pdf>
@@ -2031,7 +1919,7 @@ pdf plot/disk.eps>
 (epstopdf)             \includegraphics on input line 228.
 Package epstopdf Info: Output file is already uptodate.
 
-<plot/disk-eps-converted-to.pdf, id=1068, 505.89pt x 722.7pt>
+<plot/disk-eps-converted-to.pdf, id=1099, 505.89pt x 722.7pt>
 File: plot/disk-eps-converted-to.pdf Graphic file (type pdf)
 
 <use plot/disk-eps-converted-to.pdf>
@@ -2039,11 +1927,6 @@ Package pdftex.def Info: plot/disk-eps-converted-to.pdf used on input line 228.
 
 (pdftex.def)             Requested size: 252.94437pt x 361.3491pt.
  [53 <./plot/limit-eps-converted-to.pdf>]
-
-LaTeX Warning: Citation `sigmod11_ZhaoLXH11' on page 54 undefined on input line
- 237.
-
-
 Overfull \hbox (4.49864pt too wide) in paragraph at lines 237--238
 \OT1/cmr/m/n/12 ciency and space cost. Cuboids se-lected by Cube-Plan-ner are $
 \OMS/cmsy/m/n/12 f$\OT1/cmr/m/n/12 User.Age, Post.ActiveMonth$\OMS/cmsy/m/n/12 
@@ -2066,7 +1949,7 @@ Package epstopdf Info: Source file: <plot/qjiawei.eps>
 to.pdf plot/qjiawei.eps>
 (epstopdf)             \includegraphics on input line 242.
 Package epstopdf Info: Output file is already uptodate.
-<plot/qjiawei-eps-converted-to.pdf, id=1079, 505.89pt x 722.7pt>
+<plot/qjiawei-eps-converted-to.pdf, id=1111, 505.89pt x 722.7pt>
 File: plot/qjiawei-eps-converted-to.pdf Graphic file (type pdf)
 
 <use plot/qjiawei-eps-converted-to.pdf>
@@ -2084,7 +1967,7 @@ Package epstopdf Info: Source file: <plot/jiaweispace.eps>
 ted-to.pdf plot/jiaweispace.eps>
 (epstopdf)             \includegraphics on input line 249.
 Package epstopdf Info: Output file is already uptodate.
-<plot/jiaweispace-eps-converted-to.pdf, id=1088, 505.89pt x 722.7pt>
+<plot/jiaweispace-eps-converted-to.pdf, id=1120, 505.89pt x 722.7pt>
 File: plot/jiaweispace-eps-converted-to.pdf Graphic file (type pdf)
 
 <use plot/jiaweispace-eps-converted-to.pdf>
@@ -2104,7 +1987,7 @@ df plot/fpm.eps>
 (epstopdf)             \includegraphics on input line 264.
 Package epstopdf Info: Output file is already uptodate.
 
-<plot/fpm-eps-converted-to.pdf, id=1105, 505.89pt x 722.7pt>
+<plot/fpm-eps-converted-to.pdf, id=1137, 505.89pt x 722.7pt>
 File: plot/fpm-eps-converted-to.pdf Graphic file (type pdf)
 
 <use plot/fpm-eps-converted-to.pdf>
@@ -2121,7 +2004,7 @@ d-to.pdf plot/fpm_space.eps>
 (epstopdf)             \includegraphics on input line 271.
 Package epstopdf Info: Output file is already uptodate.
 
-<plot/fpm_space-eps-converted-to.pdf, id=1106, 505.89pt x 722.7pt>
+<plot/fpm_space-eps-converted-to.pdf, id=1138, 505.89pt x 722.7pt>
 File: plot/fpm_space-eps-converted-to.pdf Graphic file (type pdf)
 
 <use plot/fpm_space-eps-converted-to.pdf>
@@ -2139,7 +2022,7 @@ Package epstopdf Info: Source file: <plot/qfpm.eps>
 pdf plot/qfpm.eps>
 (epstopdf)             \includegraphics on input line 280.
 Package epstopdf Info: Output file is already uptodate.
- <plot/qfpm-eps-converted-to.pdf, id=1117, 505.89pt x 722.7pt>
+ <plot/qfpm-eps-converted-to.pdf, id=1149, 505.89pt x 722.7pt>
 File: plot/qfpm-eps-converted-to.pdf Graphic file (type pdf)
 
 <use plot/qfpm-eps-converted-to.pdf>
@@ -2165,7 +2048,7 @@ Package epstopdf Info: Source file: <plot/threeall.eps>
 (epstopdf)             \includegraphics on input line 302.
 Package epstopdf Info: Output file is already uptodate.
 
-<plot/threeall-eps-converted-to.pdf, id=1140, 505.89pt x 722.7pt>
+<plot/threeall-eps-converted-to.pdf, id=1172, 505.89pt x 722.7pt>
 File: plot/threeall-eps-converted-to.pdf Graphic file (type pdf)
 
 <use plot/threeall-eps-converted-to.pdf>
@@ -2183,7 +2066,7 @@ d-to.pdf plot/threejoin.eps>
 (epstopdf)             \includegraphics on input line 310.
 Package epstopdf Info: Output file is already uptodate.
 
-<plot/threejoin-eps-converted-to.pdf, id=1141, 505.89pt x 722.7pt>
+<plot/threejoin-eps-converted-to.pdf, id=1173, 505.89pt x 722.7pt>
 File: plot/threejoin-eps-converted-to.pdf Graphic file (type pdf)
 
 <use plot/threejoin-eps-converted-to.pdf>
@@ -2191,7 +2074,7 @@ Package pdftex.def Info: plot/threejoin-eps-converted-to.pdf used on input line
  310.
 (pdftex.def)             Requested size: 217.52844pt x 310.75494pt.
 
-<plot/threetotal.pdf, id=1142, 794.97pt x 614.295pt>
+<plot/threetotal.pdf, id=1174, 794.97pt x 614.295pt>
 File: plot/threetotal.pdf Graphic file (type pdf)
  <use plot/threetotal.pdf>
 Package pdftex.def Info: plot/threetotal.pdf used on input line 316.
@@ -2209,7 +2092,7 @@ ted-to.pdf plot/threesample.eps>
 (epstopdf)             \includegraphics on input line 323.
 Package epstopdf Info: Output file is already uptodate.
 
-<plot/threesample-eps-converted-to.pdf, id=1150, 505.89pt x 722.7pt>
+<plot/threesample-eps-converted-to.pdf, id=1182, 505.89pt x 722.7pt>
 File: plot/threesample-eps-converted-to.pdf Graphic file (type pdf)
 
 <use plot/threesample-eps-converted-to.pdf>
@@ -2222,13 +2105,13 @@ Overfull \hbox (9.30667pt too wide) in paragraph at lines 343--344
 tion plans for queries \OT1/cmr/m/it/12 User-Post: User.Age
  []
 
-<pic/wrong.pdf, id=1179, 123.45624pt x 265.90541pt>
+<pic/wrong.pdf, id=1211, 123.45624pt x 265.90541pt>
 File: pic/wrong.pdf Graphic file (type pdf)
  <use pic/wrong.pdf>
 Package pdftex.def Info: pic/wrong.pdf used on input line 349.
 (pdftex.def)             Requested size: 185.1839pt x 398.85713pt.
 
-<pic/wrong2.pdf, id=1180, 123.45624pt x 265.90541pt>
+<pic/wrong2.pdf, id=1212, 123.45624pt x 265.90541pt>
 File: pic/wrong2.pdf Graphic file (type pdf)
  <use pic/wrong2.pdf>
 Package pdftex.def Info: pic/wrong2.pdf used on input line 350.
@@ -2237,12 +2120,7 @@ Package pdftex.def Info: pic/wrong2.pdf used on input line 350.
 [61 <./plot/threesample-eps-converted-to.pdf>]) [62 <./pic/wrong.pdf> <./pic/wr
 ong2.pdf>]
 Chapter 6.
-(conclusion.tex
-
-LaTeX Warning: Citation `sigmod11_ZhaoLXH11' on page 63 undefined on input line
- 1.
-
-[63
+(conclusion.tex [63
 
 
 ]) [64] (main.bbl [65
@@ -2250,31 +2128,27 @@ LaTeX Warning: Citation `sigmod11_ZhaoLXH11' on page 63 undefined on input line
 
 
 
-]) [66] [67
-
-
-]
-Appendix A.
-[68
+] [66]) [67] [68
 
 
 ]
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ô in font cmr12!
- [69]
+
 Overfull \hbox (5.60588pt too wide) in paragraph at lines 424--425
 []\OT1/cmr/m/n/12 What is the dis-tri-bu-tion of users' up-votes for each topic
  of an-swers (Post.PostTypeId=2)? 
  []
 
+[69]
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ô in font cmr12!
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ô in font cmr12!
-[70
+ [70
 runsystem(makeindex -s main.ist -t main.glg -o main.gls main.glo)...executed (a
 llowed).
 
@@ -2294,24 +2168,20 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 443.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 443.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 443.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 60FA23104364DA83AA791F434A7AD304;3656.
-
-
-LaTeX Warning: There were undefined references.
-
+(rerunfilecheck)             Checksum: 17D48AA61E02D7A590875C2BD21DB72C;3609.
  )
 (\end occurred inside a group at level 1)
 
 ### simple group (level 1) entered at line 1061 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 32942 strings out of 493323
- 622906 string characters out of 3138968
- 786238 words of memory out of 3000000
- 35567 multiletter control sequences out of 15000+200000
- 543453 words of font info for 71 fonts, out of 3000000 for 9000
+ 32947 strings out of 493323
+ 623073 string characters out of 3138968
+ 786555 words of memory out of 3000000
+ 35564 multiletter control sequences out of 15000+200000
+ 543145 words of font info for 70 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 73i,20n,66p,10491b,22674s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 73i,20n,66p,10491b,22673s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmb
 x10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
 <C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx8.pfb><C:/Progr
@@ -2328,9 +2198,9 @@ es/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTe
 X 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files/MiKTeX 2.9/fon
 ts/type1/public/amsfonts/cm/cmti12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1
 /public/amsfonts/cm/cmtt12.pfb>
-Output written on main.pdf (81 pages, 2194681 bytes).
+Output written on main.pdf (81 pages, 2202578 bytes).
 PDF statistics:
- 1380 PDF objects out of 1440 (max. 8388607)
- 344 named destinations out of 1000 (max. 500000)
- 582 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1414 PDF objects out of 1440 (max. 8388607)
+ 352 named destinations out of 1000 (max. 500000)
+ 574 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -3,21 +3,3 @@ The style file: plain.bst
 Database file #1: publications.bib
 Database file #2: publishers.bib
 Database file #3: addbib.bib
-A bad cross reference---entry "DBLP:conf/iccsa/ZazaBGFSC17"
-refers to entry "DBLP:conf/iccsa/2017-2", which doesn't exist
-A bad cross reference---entry "DBLP:conf/dawak/LawrenceR06"
-refers to entry "DBLP:conf/dawak/2006", which doesn't exist
-A bad cross reference---entry "DBLP:conf/semweb/HernandezHRRZ16"
-refers to entry "DBLP:conf/semweb/2016-2", which doesn't exist
-A bad cross reference---entry "DBLP:conf/icdm/GoudaZ01"
-refers to entry "DBLP:conf/icdm/2001", which doesn't exist
-Warning--I didn't find a database entry for "LingOzsu09"
-Warning--I didn't find a database entry for "sigmod11_ZhaoLXH11"
-Warning--I didn't find a database entry for "iswc15_Maali:2015aa"
-Warning--I didn't find a database entry for "icde08_4497567"
-Warning--I didn't find a database entry for "vldb11_LiYZXL11"
-Warning--I didn't find a database entry for "sigmod11_AgarwalC11"
-Warning--I didn't find a database entry for "DBLP:journals/corr/JoishiS17"
-Warning--I didn't find a database entry for "icde14_Wang:2014aa"
-Warning--I didn't find a database entry for "icdm08_Chen:2008aa"
-(There were 4 error messages)

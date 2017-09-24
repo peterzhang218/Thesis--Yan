@@ -94,9 +94,9 @@ We define some notations adopted in this thesis. Given an OLAP query $q$, we use
 %} to refer to materialization of a $Query$.
 %\intodo{Here you should briefly mention what is materialization}
 
-As previously discussed, a key issue of our work is to to find the most useful common substructures and properties from the previous queries, which are assumed to appear in the future workload frequently. For fast access to results of these useful queries, we store their results (preferably in main memory), and this is known as the \textit{materialization} of the query. 
+As previously discussed, a key issue of our work is to find the most useful common substructures and properties from the previous queries, which are assumed to appear in the future workload frequently. For fast access to results of these useful queries, we store their results (preferably in main memory), and this is known as the \textit{materialization} of the query. 
 
-As defined above, in a property graph, each node or edge has an unique ID, which can be treated as a special property. Whether a materialization keeps the unique ID is an important issue. This is because keeping unique ID often increases the space cost. We consider two types of materializations, namely the \emph{cuboid} and the \emph{substructure}, based on whether or not unique IDs of nodes (or edges) are kept. To better elaborate the differences between cuboid and substructure, we consider the following example. Suppose we have the following query workload containing two history queries (P1 and P2) and two incoming queries (Q1 and Q2):
+As defined above, in a property graph, each node or edge has a unique ID, which can be treated as a special property. Whether a materialization keeps the unique ID is an important issue. This is because keeping unique ID often increases the space cost. We consider two types of materializations, namely the \emph{cuboid} and the \emph{substructure}, based on whether or not unique IDs of nodes (or edges) are kept. To better elaborate the differences between cuboid and substructure, we consider the following example. Suppose we have the following query workload containing two history queries (P1 and P2) and two incoming queries (Q1 and Q2):
 
 \fbox{
 	\parbox{\dimexpr\linewidth-2\fboxsep-2\fboxrule\relax}

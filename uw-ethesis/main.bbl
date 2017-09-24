@@ -1,9 +1,28 @@
 \begin{thebibliography}{10}
 
+\bibitem{sigmod11_AgarwalC11}
+Deepak Agarwal and Bee-Chung Chen.
+\newblock Latent {OLAP}: data cubes over latent variables.
+\newblock In {\em Proc. ACM SIGMOD Int. Conf. on Management of Data}, pages
+  877--888, 2011.
+
+\bibitem{icde08_4497567}
+S.~Antony, Ping Wu, D.~Agrawal, and A.~El~Abbadi.
+\newblock Moolap: Towards multi-objective olap.
+\newblock In {\em Proc. 24th Int. Conf. on Data Engineering}, pages 1394
+  --1396, 2008.
+
 \bibitem{DBLP:conf/pods/Chaudhuri98}
 Surajit Chaudhuri.
 \newblock An overview of query optimization in relational systems.
-\newblock In {\em PODS98}, pages 34--43, 1998.
+\newblock In {\em Proc. 17th ACM SIGACT-SIGMOD-SIGART Symp. on Principles of
+  Database Systems}, pages 34--43, 1998.
+
+\bibitem{icdm08_Chen:2008aa}
+Chen Chen, Xifeng Yan, Feida Zhu, Jiawei Han, and Philip~S. Yu.
+\newblock Graph {OLAP}: Towards online analytical processing on graphs.
+\newblock In {\em Proc. 8th IEEE Int. Conf. on Data Mining}, pages 103--112,
+  2008.
 
 \bibitem{DBLP:conf/ismis/CuzzocreaL12}
 Alfredo Cuzzocrea and Carson~Kai{-}Sang Leung.
@@ -28,39 +47,67 @@ Shifeng Fang, Li~Da Xu, Yunqiang Zhu, Jiaerheng Ahati, Huan Pei, Jianwu Yan,
 \bibitem{DBLP:conf/icdm/GoudaZ01}
 Karam Gouda and Mohammed~Javeed Zaki.
 \newblock Efficiently mining maximal frequent itemsets.
-\newblock In {\em ICDM01}, pages 163--170, 2001.
+\newblock In {\em Proc. 1st IEEE Int. Conf. on Data Mining}, pages 163--170,
+  2001.
 
 \bibitem{DBLP:conf/semweb/HernandezHRRZ16}
 Daniel Hern{\'{a}}ndez, Aidan Hogan, Cristian Riveros, Carlos Rojas, and Enzo
   Zerega.
 \newblock Querying wikidata: Comparing sparql, relational and graph databases.
-\newblock In {\em ISWC16}, pages 88--103, 2016.
+\newblock In {\em Proc. 15th Int. Semantic Web Conf.}, pages 88--103, 2016.
+
+\bibitem{DBLP:conf/edbt/HolschSG17}
+J{\"{u}}rgen H{\"{o}}lsch, Tobias Schmidt, and Michael Grossniklaus.
+\newblock On the performance of analytical and pattern matching graph queries
+  in neo4j and a relational database.
+\newblock In {\em Proc. 2017 Workshops of the EDBT/ICDT Joint Conf.}, 2017.
 
 \bibitem{DBLP:conf/sc/HongDMLVC15}
 Sungpack Hong, Siegfried Depner, Thomas Manhardt, Jan Van~Der Lugt, Merijn
   Verstraaten, and Hassan Chafi.
 \newblock {PGX.D:} a fast distributed graph processing engine.
-\newblock In {\em SC15}, pages 58:1--58:12, 2015.
+\newblock In {\em Proc. 2015 ACM/IEEE Conf. on High Performance Computing,
+  Networking, Storage and Analysis}, pages 58:1--58:12, 2015.
 
 \bibitem{DBLP:conf/sofsem/JakawatFL16}
 Wararat Jakawat, C{\'{e}}cile Favre, and Sabine Loudcher.
 \newblock {OLAP} cube-based graph approach for bibliographic data.
-\newblock In {\em SOFSEM16}, pages 87--99, 2016.
+\newblock In {\em Proc. of Student Research Forum Papers and Posters at 2016
+  co-located with 42nd Int. Conf. on Current Trends in Theory and Practice of
+  Computer Science}, pages 87--99, 2016.
 
 \bibitem{DBLP:conf/bigdataconf/JindalMCH15}
 Alekh Jindal, Samuel Madden, Mal{\'{u}} Castellanos, and Meichun Hsu.
 \newblock Graph analytics using vertica relational database.
-\newblock In {\em BIGDATA15}, pages 1191--1200, 2015.
+\newblock In {\em Proc. 2015 IEEE International Conference on Big Data}, pages
+  1191--1200, 2015.
 
 \bibitem{DBLP:conf/dawak/LawrenceR06}
 Michael Lawrence and Andrew Rau{-}Chaplin.
 \newblock Dynamic view selection for {OLAP}.
-\newblock In {\em DaWak06}, pages 33--44, 2006.
+\newblock In {\em Proc. 8th Int. Conf. Data Warehousing and Knowledge
+  Discovery}, pages 33--44, 2006.
+
+\bibitem{vldb11_LiYZXL11}
+Chuan Li, Philip~S. Yu, Lei Zhao, Yan Xie, and Wangqun Lin.
+\newblock {InfoNetOLAPer}: Integrating {InfoNetWarehouse} and {InfoNetCube}
+  with {InfoNetOLAP}.
+\newblock {\em Proc. VLDB Endowment}, 4(12):1422--1425, 2011.
 
 \bibitem{DBLP:journals/kais/LinK04}
 Wen{-}Yang Lin and I{-}Chung Kuo.
 \newblock A genetic selection algorithm for {OLAP} data cubes.
 \newblock {\em Knowl. Inf. Syst.}, 6(1):83--102, 2004.
+
+\bibitem{LingOzsu09}
+Ling Liu and M.~Tamer {\"O}zsu, editors.
+\newblock {\em Encyclopedia of Database Systems}.
+\newblock {Springer}, 2009.
+
+\bibitem{iswc15_Maali:2015aa}
+Fadi Maali, St{\'e}phane Campinas, and Stefan Decker.
+\newblock Gagg: A graph aggregation operator.
+\newblock In {\em Proc. 14th Int. Semantic Web Conf.}, pages 491--504, 2015.
 
 \bibitem{DBLP:journals/ipl/NourineR99}
 Lhouari Nourine and Olivier Raynaud.
@@ -80,17 +127,27 @@ Andr{\'e} Petermann, Martin Junghanns, Robert M\"{u}ller, and Erhard Rahm.
 \bibitem{DBLP:conf/edbt/SwamiS94}
 Arun~N. Swami and K.~Bernhard Schiefer.
 \newblock On the estimation of join result sizes.
-\newblock In {\em EDBT94}, pages 287--300, 1994.
+\newblock In {\em Advances in Database Technology, Proc. 4th Int. Conf. on
+  Extending Database Technology}, pages 287--300, 1994.
 
 \bibitem{DBLP:conf/mtsr/Tomaszuk16}
 Dominik Tomaszuk.
 \newblock {RDF} data in property graph model.
-\newblock In {\em MTSR16}, pages 104--115, 2016.
+\newblock In {\em Proc. Metadata and Semantics Research - 10th Int. Conf.},
+  pages 104--115, 2016.
+
+\bibitem{icde14_Wang:2014aa}
+Zhengkui Wang, Qi~Fan, Huiju Wang, Kian-Lee Tan, Divyakant Agrawal, and Amr
+  El-Abbadi.
+\newblock Pagrol: {PA}rallel {GR}aph {OL}ap over lege-scale attributed graphs.
+\newblock In {\em Proc. 30th Int. Conf. on Data Engineering}, pages 496--507,
+  2014.
 
 \bibitem{DBLP:conf/oopsla/Webber12}
 Jim Webber.
 \newblock A programmatic introduction to neo4j.
-\newblock In {\em SPLASH12}, pages 217--218, 2012.
+\newblock In {\em Proc. 2012 Conf. on Systems, Programming, and Applications:
+  Software for Humanity}, pages 217--218, 2012.
 
 \bibitem{DBLP:journals/ijcomsys/XiaYWV12}
 Feng Xia, Laurence~T. Yang, Lizhe Wang, and Alexey~V. Vinel.
@@ -100,13 +157,21 @@ Feng Xia, Laurence~T. Yang, Lizhe Wang, and Alexey~V. Vinel.
 \bibitem{DBLP:conf/grades/Xirogiannopoulos17}
 Konstantinos Xirogiannopoulos, Virinchi Srinivas, and Amol Deshpande.
 \newblock Graphgen: Adaptive graph processing using relational databases.
-\newblock In {\em GRADES17}, pages 9:1--9:7, 2017.
+\newblock In {\em Proc. 5th Int. Workshop on Graph Data Management Experiences
+  and Systems}, pages 9:1--9:7, 2017.
 
 \bibitem{DBLP:conf/iccsa/ZazaBGFSC17}
 Claudio Zaza, Sandro Bimonte, Crescenzio Gallo, Nicola Faccilongo,
   Piermichele~La Sala, and Francesco Cont{\`{o}}.
 \newblock {OLAP} analysis of integrated pest management's defense rules:
   Application to olive crop in apulia region.
-\newblock In {\em ICCSA}, pages 31--44, 2017.
+\newblock In {\em Proc. Int. Conf. on Computational Science and Its
+  Applications}, pages 31--44, 2017.
+
+\bibitem{sigmod11_ZhaoLXH11}
+Peixiang Zhao, Xiaolei Li, Dong Xin, and Jiawei Han.
+\newblock Graph cube: on warehousing and {OLAP} multidimensional networks.
+\newblock In {\em Proc. ACM International Conference on Management of Data},
+  pages 853--864, 2011.
 
 \end{thebibliography}
