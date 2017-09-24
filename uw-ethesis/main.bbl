@@ -1,0 +1,112 @@
+\begin{thebibliography}{10}
+
+\bibitem{DBLP:conf/pods/Chaudhuri98}
+Surajit Chaudhuri.
+\newblock An overview of query optimization in relational systems.
+\newblock In {\em PODS98}, pages 34--43, 1998.
+
+\bibitem{DBLP:conf/ismis/CuzzocreaL12}
+Alfredo Cuzzocrea and Carson~Kai{-}Sang Leung.
+\newblock Efficiently compressing {OLAP} data cubes via r-tree based recursive
+  partitions.
+\newblock In {\em Proc. Foundations of Intelligent Systems 20th Int.
+  Symposium}, pages 455--465, 2012.
+
+\bibitem{DBLP:journals/kais/DrzadzewskiT16}
+Grzegorz Drzadzewski and Frank~Wm. Tompa.
+\newblock Partial materialization for online analytical processing over
+  multi-tagged document collections.
+\newblock {\em Knowl. Inf. Syst.}, 47(3):697--732, 2016.
+
+\bibitem{DBLP:journals/tii/FangXZAPYL14}
+Shifeng Fang, Li~Da Xu, Yunqiang Zhu, Jiaerheng Ahati, Huan Pei, Jianwu Yan,
+  and Zhihui Liu.
+\newblock An integrated system for regional environmental monitoring and
+  management based on internet of things.
+\newblock {\em {IEEE} Trans. Industrial Informatics}, 10(2):1596--1605, 2014.
+
+\bibitem{DBLP:conf/icdm/GoudaZ01}
+Karam Gouda and Mohammed~Javeed Zaki.
+\newblock Efficiently mining maximal frequent itemsets.
+\newblock In {\em ICDM01}, pages 163--170, 2001.
+
+\bibitem{DBLP:conf/semweb/HernandezHRRZ16}
+Daniel Hern{\'{a}}ndez, Aidan Hogan, Cristian Riveros, Carlos Rojas, and Enzo
+  Zerega.
+\newblock Querying wikidata: Comparing sparql, relational and graph databases.
+\newblock In {\em ISWC16}, pages 88--103, 2016.
+
+\bibitem{DBLP:conf/sc/HongDMLVC15}
+Sungpack Hong, Siegfried Depner, Thomas Manhardt, Jan Van~Der Lugt, Merijn
+  Verstraaten, and Hassan Chafi.
+\newblock {PGX.D:} a fast distributed graph processing engine.
+\newblock In {\em SC15}, pages 58:1--58:12, 2015.
+
+\bibitem{DBLP:conf/sofsem/JakawatFL16}
+Wararat Jakawat, C{\'{e}}cile Favre, and Sabine Loudcher.
+\newblock {OLAP} cube-based graph approach for bibliographic data.
+\newblock In {\em SOFSEM16}, pages 87--99, 2016.
+
+\bibitem{DBLP:conf/bigdataconf/JindalMCH15}
+Alekh Jindal, Samuel Madden, Mal{\'{u}} Castellanos, and Meichun Hsu.
+\newblock Graph analytics using vertica relational database.
+\newblock In {\em BIGDATA15}, pages 1191--1200, 2015.
+
+\bibitem{DBLP:conf/dawak/LawrenceR06}
+Michael Lawrence and Andrew Rau{-}Chaplin.
+\newblock Dynamic view selection for {OLAP}.
+\newblock In {\em DaWak06}, pages 33--44, 2006.
+
+\bibitem{DBLP:journals/kais/LinK04}
+Wen{-}Yang Lin and I{-}Chung Kuo.
+\newblock A genetic selection algorithm for {OLAP} data cubes.
+\newblock {\em Knowl. Inf. Syst.}, 6(1):83--102, 2004.
+
+\bibitem{DBLP:journals/ipl/NourineR99}
+Lhouari Nourine and Olivier Raynaud.
+\newblock A fast algorithm for building lattices.
+\newblock {\em Inf. Process. Lett.}, 71(5-6):199--204, 1999.
+
+\bibitem{DBLP:journals/dr/Ozsoyoglu99}
+Z.~Meral {\"{O}}zsoyoglu.
+\newblock Review - using semi-joins to solve relational queries.
+\newblock {\em {ACM} {SIGMOD} Digital Review}, 1, 1999.
+
+\bibitem{Petermann:2014:GDI:2733004.2733034}
+Andr{\'e} Petermann, Martin Junghanns, Robert M\"{u}ller, and Erhard Rahm.
+\newblock Graph-based data integration and business intelligence with biiig.
+\newblock {\em PVLDB}, 7(13):1577--1580, August 2014.
+
+\bibitem{DBLP:conf/edbt/SwamiS94}
+Arun~N. Swami and K.~Bernhard Schiefer.
+\newblock On the estimation of join result sizes.
+\newblock In {\em EDBT94}, pages 287--300, 1994.
+
+\bibitem{DBLP:conf/mtsr/Tomaszuk16}
+Dominik Tomaszuk.
+\newblock {RDF} data in property graph model.
+\newblock In {\em MTSR16}, pages 104--115, 2016.
+
+\bibitem{DBLP:conf/oopsla/Webber12}
+Jim Webber.
+\newblock A programmatic introduction to neo4j.
+\newblock In {\em SPLASH12}, pages 217--218, 2012.
+
+\bibitem{DBLP:journals/ijcomsys/XiaYWV12}
+Feng Xia, Laurence~T. Yang, Lizhe Wang, and Alexey~V. Vinel.
+\newblock Internet of things.
+\newblock {\em Int. J. Communication Systems}, 25(9):1101--1102, 2012.
+
+\bibitem{DBLP:conf/grades/Xirogiannopoulos17}
+Konstantinos Xirogiannopoulos, Virinchi Srinivas, and Amol Deshpande.
+\newblock Graphgen: Adaptive graph processing using relational databases.
+\newblock In {\em GRADES17}, pages 9:1--9:7, 2017.
+
+\bibitem{DBLP:conf/iccsa/ZazaBGFSC17}
+Claudio Zaza, Sandro Bimonte, Crescenzio Gallo, Nicola Faccilongo,
+  Piermichele~La Sala, and Francesco Cont{\`{o}}.
+\newblock {OLAP} analysis of integrated pest management's defense rules:
+  Application to olive crop in apulia region.
+\newblock In {\em ICCSA}, pages 31--44, 2017.
+
+\end{thebibliography}
