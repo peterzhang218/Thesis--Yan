@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.7.5)  23 SEP 2017 17:32
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.7.5)  23 SEP 2017 20:37
 entering extended mode
 **./main.tex
 (main.tex
@@ -2331,21 +2331,28 @@ LaTeX Warning: Citation `sigmod11_ZhaoLXH11' on page 63 undefined on input line
 [63
 
 
-]) [64] (main.bbl) [65
+]) [64] (main.bbl
+
+LaTeX Warning: Empty `thebibliography' environment on input line 3.
+
+) [65
 
 
+
+
+] [66
 
 
 ]
 Appendix A.
-[66
+[67
 
 
 ]
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no ™ in font cmr12!
- [67]
+ [68]
 Overfull \hbox (5.60588pt too wide) in paragraph at lines 424--425
 []\OT1/cmr/m/n/12 What is the dis-tri-bu-tion of users' up-votes for each topic
  of an-swers (Post.PostTypeId=2)? 
@@ -2357,7 +2364,7 @@ Missing character: There is no ™ in font cmr12!
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no ™ in font cmr12!
-[68
+[69
 runsystem(makeindex -s main.ist -t main.glg -o main.gls main.glo)...executed (a
 llowed).
 
@@ -2377,7 +2384,7 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 443.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 443.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 443.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 354E2520656332B6FC97441F552E5613;3656.
+(rerunfilecheck)             Checksum: 60FA23104364DA83AA791F434A7AD304;3656.
 
 
 LaTeX Warning: There were undefined references.
@@ -2388,8 +2395,8 @@ LaTeX Warning: There were undefined references.
 ### simple group (level 1) entered at line 1061 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 32913 strings out of 493323
- 622168 string characters out of 3138968
+ 32915 strings out of 493323
+ 622186 string characters out of 3138968
  785222 words of memory out of 3000000
  35561 multiletter control sequences out of 15000+200000
  543453 words of font info for 71 fonts, out of 3000000 for 9000
@@ -2411,9 +2418,9 @@ es/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTe
 X 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files/MiKTeX 2.9/fon
 ts/type1/public/amsfonts/cm/cmti12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1
 /public/amsfonts/cm/cmtt12.pfb>
-Output written on main.pdf (79 pages, 2180087 bytes).
+Output written on main.pdf (80 pages, 2180826 bytes).
 PDF statistics:
- 1325 PDF objects out of 1440 (max. 8388607)
- 321 named destinations out of 1000 (max. 500000)
+ 1330 PDF objects out of 1440 (max. 8388607)
+ 323 named destinations out of 1000 (max. 500000)
  582 words of extra memory for PDF output out of 10000 (max. 10000000)
 
